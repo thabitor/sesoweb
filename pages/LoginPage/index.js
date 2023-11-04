@@ -104,17 +104,17 @@ const LoginPage = (props) => {
                                     control={<Checkbox checked={value.remember} onChange={rememberHandler}/>}
                                     label="Remember Me"
                                 />
-                                <Link href="/ForgotPassword">Forgot Password?</Link>
+                                <Link to="/ForgotPassword">Forgot Password?</Link>
                             </Grid>
                             <Grid className="formFooter">
-                                <Link href="/"><a className="cBtnTheme">Login</a></Link>
+                                <Link to="/"><a className="cBtnTheme">Login</a></Link>
                             </Grid>
                             <Grid className="loginWithSocial">
                                 <Button className="facebook"><i className="fa fa-facebook"></i></Button>
                                 <Button className="twitter"><i className="fa fa-twitter"></i></Button>
                                 <Button className="linkedin"><i className="fa fa-linkedin"></i></Button>
                             </Grid>
-                            <p className="noteHelp">Don't have an account? <Link href="/SignUpPage">Create free account</Link>
+                            <p className="noteHelp">Don't have an account? <Link to="/SignUpPage">Create free account</Link>
                             </p>
                         </Grid>
                     </Grid>

@@ -18,7 +18,7 @@ const HomePage =() => {
     return(
         <Fragment>
             <Head>
-                <title>SESO WEB</title>
+                <title>SESO</title>
             </Head>
             <ToastContainer/>
             <Header/>

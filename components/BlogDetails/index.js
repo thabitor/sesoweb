@@ -19,9 +19,9 @@ const BlogSingle = () => {
                                     <img src='images/blog/img-4.jpg' alt=""/>
                                 </div>
                                 <ul className="entry-meta">
-                                    <li><Link href="/BlogDetails"><a><img src='images/blog/admin.jpg' alt=""/>  By Admin</a></Link></li>
-                                    <li><Link href="/BlogDetails"><a><i className="ti-calendar"></i> Jan 25,2021</a></Link></li>
-                                    <li><Link href="/BlogDetails"><a><i className="ti-heart"></i> 35</a></Link></li>
+                                    <li><Link to="/BlogDetails"><img src='images/blog/admin.jpg' alt=""/>  By Admin</Link></li>
+                                    <li><Link to="/BlogDetails"><i className="ti-calendar"/> Jan 25,2021</Link></li>
+                                    <li><Link to="/BlogDetails"><i className="ti-heart"/> 35</Link></li>
                                 </ul>
                                 <h2>Help the helpless who need you.</h2>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
@@ -33,39 +33,39 @@ const BlogSingle = () => {
                             <div className="tag-share clearfix">
                                 <div className="tag">
                                     <ul>
-                                        <li><Link href="/BlogDetails"><a>Business</a></Link></li>
-                                        <li><Link href="/BlogDetails"><a>Marketing</a></Link></li>
-                                        <li><Link href="/BlogDetails"><a>SEO</a></Link></li>
+                                        <li><Link to="/BlogDetails">Business</Link></li>
+                                        <li><Link to="/BlogDetails">Marketing</Link></li>
+                                        <li><Link to="/BlogDetails">SEO</Link></li>
                                     </ul>
                                 </div>
                                 <div className="share">
                                     <ul>
-                                        <li><Link href="/BlogDetails"><a><i className="ti-facebook"></i></a></Link></li>
-                                        <li><Link href="/BlogDetails"><a><i className="ti-twitter-alt"></i></a></Link></li>
-                                        <li><Link href="/BlogDetails"><a><i className="ti-instagram"></i></a></Link></li>
+                                        <li><Link to="/BlogDetails"><i className="ti-facebook"/></Link></li>
+                                        <li><Link to="/BlogDetails"><i className="ti-twitter-alt"/></Link></li>
+                                        <li><Link to="/BlogDetails"><i className="ti-instagram"/></Link></li>
                                     </ul>
                                 </div>
                             </div> 
                             <div className="author-box">
                                 <div className="author-avatar">
-                                    <Link href="/BlogDetails" target="_blank"><a><img src='images/blog-details/author.jpg' alt=""/></a></Link>
+                                    <Link to="/BlogDetails" target="_blank"><img src='images/blog-details/author.jpg' alt=""/></Link>
                                 </div>
                                 <div className="author-content">
-                                    <Link href="/BlogDetails" ><a className="author-name">Henry Joyes</a></Link>
+                                    <Link to="/BlogDetails" ><div className="author-name">Henry Joyes</div></Link>
                                     <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
                                     <div className="author-btn">
-                                        <Link href="/BlogDetails"><a>All Post From Author</a></Link>
+                                        <Link to="/BlogDetails">All Post From Author</Link>
                                     </div>
                                 </div>
                             </div> 
                             <div className="more-posts clearfix">
                                 <div className="previous-post">
-                                    <Link href="/BlogDetails">
+                                    <Link to="/BlogDetails">
                                         <span className="post-control-link">Previous</span>
                                     </Link>
                                 </div>
                                 <div className="next-post">
-                                    <Link href="/BlogDetails">
+                                    <Link to="/BlogDetails">
                                         <span className="post-control-link">Next post</span>
                                     </Link>
                                 </div>
@@ -88,7 +88,7 @@ const BlogSingle = () => {
                                                     <div className="comment-area">
                                                         <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                         <div className="comments-reply">
-                                                            <Link  href="/BlogDetails"><a className="comment-reply-link"><i className="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></Link>
+                                                            <Link  href="/BlogDetails"><div className="comment-reply-link"><i className="fa fa-reply" aria-hidden="true"/><span>Reply</span></div></Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -108,7 +108,7 @@ const BlogSingle = () => {
                                                             <div className="comment-area">
                                                                 <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                                 <div className="comments-reply">
-                                                                    <Link href="/BlogDetails"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
+                                                                    <Link to="/BlogDetails"><div className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"/> Reply</span></div></Link>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -128,7 +128,7 @@ const BlogSingle = () => {
                                                                     <div className="comment-area">
                                                                         <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                                         <div className="comments-reply">
-                                                                            <Link  href="/BlogDetails"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
+                                                                            <Link  to="/BlogDetails"><div className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"/> Reply</span></div></Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>

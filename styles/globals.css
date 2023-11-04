@@ -131,7 +131,7 @@ img {
 .contact-validation-active #loader i {
   font-size: 30px;
   font-size: 1.875rem;
-  color: #08cc7f;
+  color: #d82d33;
   display: inline-block;
   -webkit-animation: rotating linear 2s infinite;
   animation: rotating linear 2s infinite;
@@ -247,7 +247,7 @@ img {
 .wpo-section-title span {
   font-size: 18px;
   font-weight: 400;
-  color: #08cc7f;
+  color: #d82d33;
   display: block;
   margin-bottom: 10px;
   font-family: 'Rubik', sans-serif;
@@ -280,7 +280,7 @@ img {
 .theme-btn-s2,
 .theme-btn-s4,
 .theme-btn-s3 {
-  background-color: #08cc7f;
+  background-color: #d82d33;
   color: #fff;
   font-weight: 700;
   padding: 13px 38px;
@@ -315,7 +315,7 @@ img {
 .theme-btn-s2:active,
 .theme-btn-s4:active,
 .theme-btn-s3:active {
-  background-color: #08cc7f;
+  background-color: #d82d33;
   color: #fff;
 }
 
@@ -392,7 +392,7 @@ img {
 }
 
 .social-links li a:hover {
-  background-color: #08cc7f;
+  background-color: #d82d33;
 }
 
 
@@ -402,7 +402,7 @@ img {
   right: -20px;
   width: 35px;
   height: 35px;
-  background: #08cc7f;
+  background: #d82d33;
   border-radius: 50%;
 }
 
@@ -417,5 +417,5 @@ img {
 }
 
 .cBtnTheme {
-  background: #08cc7f;
+  background: #d82d33;
 }

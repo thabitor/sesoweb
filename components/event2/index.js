@@ -30,7 +30,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Newyork City</li>
                                 </ul>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <Link href="/EventPageSingle">Learn More...</Link>
+                                <Link to="/EventPageSingle">Learn More...</Link>
                             </div>
                         </div>
                     </div>

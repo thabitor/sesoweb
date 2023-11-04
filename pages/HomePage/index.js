@@ -1,39 +1,35 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import Hero from '../../components/hero'
+import Hero3 from '../../components/hero3'
 import Mission from '../../components/mission'
 import About from '../../components/about'
 import CaseSlide from '../../components/case'
 import CounterSection from '../../components/counter'
 import TeamSection from '../../components/team'
-import EventSection from '../../components/event'
-import CtaSection from '../../components/cta'
 import WorldSection from '../../components/world'
 import BlogSection from '../../components/BlogSection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const HomePage =() => {
+const HomePage3 =() => {
     return(
         <Fragment>
              <Head>
                 <title>SESO WEB</title>
             </Head>
             <Header/>
-            <Hero/>
-            <Mission/>
+            <Hero3/>
+            <Mission subclass={'section-padding'}/>
             <About/>
             <CaseSlide/>
-            <CounterSection/>
+            <CounterSection countclass={'wpo-counter-style-2'}/>
             <TeamSection/>
-            <WorldSection/>
-            <EventSection/>
-            <CtaSection/>
+            <WorldSection worldclass={'wpo-world-area-2'}/>
             <BlogSection/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default HomePage;
+export default HomePage3;

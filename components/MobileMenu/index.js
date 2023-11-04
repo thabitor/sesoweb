@@ -178,7 +178,7 @@ export default class MobileMenu extends Component {
                                     {item.submenu ? <p onClick={this.setIsOpen(item.id)}>
                                         {item.title}
                                         {item.submenu ? <i className="fa fa-angle-right" aria-hidden="true"></i> : ''}
-                                    </p> : <Link href={item.link}>{item.title}</Link>}
+                                    </p> : <Link to={item.link}>{item.title}</Link>}
                                     {item.submenu ?
                                     <Collapse isOpen={item.id === isOpen}>
                                         <Card>

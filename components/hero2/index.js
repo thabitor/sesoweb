@@ -18,7 +18,7 @@ const Hero2 = (props) => {
                                     <p>You Can Satisfied Yourself By Helping.</p>
                                 </div>
                                 <div className="btns">
-                                    <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
+                                    <Link to="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
                                     <ul>
                                         <li className="video-holder">
                                             <VideoModal/>

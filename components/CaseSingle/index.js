@@ -208,7 +208,7 @@ const CaseSingle = (props) => {
                                                                     <div className="comment-area">
                                                                         <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                                         <div className="comments-reply">
-                                                                            <Link href="/CaseSinglePage"><a className="comment-reply-link"><i className="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></Link>
+                                                                            <Link to="/CaseSinglePage"><a className="comment-reply-link"><i className="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -228,7 +228,7 @@ const CaseSingle = (props) => {
                                                                             <div className="comment-area">
                                                                                 <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                                                 <div className="comments-reply">
-                                                                                    <Link href="/CaseSinglePage"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
+                                                                                    <Link to="/CaseSinglePage"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -248,7 +248,7 @@ const CaseSingle = (props) => {
                                                                                     <div className="comment-area">
                                                                                         <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                                                         <div className="comments-reply">
-                                                                                            <Link href="/CaseSinglePage"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
+                                                                                            <Link to="/CaseSinglePage"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>

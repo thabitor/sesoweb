@@ -16,57 +16,57 @@ const Header = () => {
             <div className="row">
                 <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                     <div className="logo">
-                        <Link href="/" title="">
-                           <a><img src='images/logo.png' alt=""/></a>
+                        <Link to="/" title="">
+                           <img src='images/logo.png' alt=""/>
                         </Link>
                     </div>
                 </div>
                 <div className="col-lg-8 d-lg-block d-none">
                     <nav>
                         <ul>
-                            <li><Link className="active" href="/" title="">Home</Link>
+                            <li><Link className="active" href="/" title="">SESO WEB</Link>
                                 <ul>
                                     <li><Link className="active" href="/">Home style 1</Link></li>
-                                    <li><Link href="/HomePage2">Home style 2</Link></li>
-                                    <li><Link href="/HomePage3">Home style 3</Link></li>
+                                    <li><Link to="/HomePage2">Home style 2</Link></li>
+                                    <li><Link to="/HomePage3">SESO</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/AboutPage" title="">About</Link></li>
-                            <li><Link href="/CasePage" title="">Causes</Link>
+                            <li><Link to="/AboutPage" title="">About</Link></li>
+                            <li><Link to="/CasePage" title="">Causes</Link>
                                 <ul>
-                                    <li><Link href="/CasePage" title="">Causes</Link></li>
-                                    <li><Link href="/CaseSinglePage" title="">Causes Single</Link></li>
+                                    <li><Link to="/CasePage" title="">Causes</Link></li>
+                                    <li><Link to="/CaseSinglePage" title="">Causes Single</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/EventPage" title="">Event</Link>
+                            <li><Link to="/EventPage" title="">Event</Link>
                                 <ul>
-                                    <li><Link href="/EventPage" title="">Event</Link></li>
-                                    <li><Link href="/EventPageSingle" title="">Event Single</Link></li>
+                                    <li><Link to="/EventPage" title="">Event</Link></li>
+                                    <li><Link to="/EventPageSingle" title="">Event Single</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/" title="">Pages</Link>
+                            <li><Link to="/" title="">Pages</Link>
                                 <ul>
-                                    <li><Link href="/AboutPage" title="">About</Link></li>
-                                    <li><Link href="/DonatePage" title="">Donate</Link></li>
-                                    <li><Link href="/volunteerPage" title="">Volunteer</Link></li>
-                                    <li><Link href="/ErrorPage" title="">Error 404</Link></li>
+                                    <li><Link to="/AboutPage" title="">About</Link></li>
+                                    <li><Link to="/DonatePage" title="">Donate</Link></li>
+                                    <li><Link to="/volunteerPage" title="">Volunteer</Link></li>
+                                    <li><Link to="/ErrorPage" title="">Error 404</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/BlogPage">Blog</Link>
+                            <li><Link to="/BlogPage">Blog</Link>
                                 <ul>
-                                    <li><Link href="/BlogPage">Blog</Link></li>
-                                    <li><Link href="/BlogPageLeft">Blog Left sidebar</Link></li>
-                                    <li><Link href="/BlogPageFullwidth">Blog full width</Link></li>
-                                    <li><i className="fa fa-angle-right"></i><Link href="/BlogDetails" title="">Blog Details</Link>
+                                    <li><Link to="/BlogPage">Blog</Link></li>
+                                    <li><Link to="/BlogPageLeft">Blog Left sidebar</Link></li>
+                                    <li><Link to="/BlogPageFullwidth">Blog full width</Link></li>
+                                    <li><i className="fa fa-angle-right"></i><Link to="/BlogDetails" title="">Blog Details</Link>
                                         <ul>
-                                            <li><Link href="/BlogDetails" title="">Blog single</Link></li>
-                                            <li><Link href="/BlogDetailsLeftSiide" title="">Blog single Left sidebar</Link></li>
-                                            <li><Link href="/BlogDetailsFull" title="">Blog single full width</Link></li>
+                                            <li><Link to="/BlogDetails" title="">Blog single</Link></li>
+                                            <li><Link to="/BlogDetailsLeftSiide" title="">Blog single Left sidebar</Link></li>
+                                            <li><Link to="/BlogDetailsFull" title="">Blog single full width</Link></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li><Link href="/ContactPage" title="">Contact</Link></li>
+                            <li><Link to="/ContactPage" title="">Contact</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -90,20 +90,20 @@ const Header = () => {
                                     <div className="mini-cart-items">
                                         <div className="mini-cart-item clearfix">
                                             <div className="mini-cart-item-image">
-                                                <Link href="/"><img src='images/shop/mini-cart/img-1.jpg' alt=""/></Link>
+                                                <Link to="/"><img src='images/shop/mini-cart/img-1.jpg' alt=""/></Link>
                                             </div>
                                             <div className="mini-cart-item-des">
-                                                <Link href="/">Hoodi with zipper</Link>
+                                                <Link to="/">Hoodi with zipper</Link>
                                                 <span className="mini-cart-item-price">$20.15</span>
                                                 <span className="mini-cart-item-quantity">x 1</span>
                                             </div>
                                         </div>
                                         <div className="mini-cart-item clearfix">
                                             <div className="mini-cart-item-image">
-                                                <Link href="/"><img src='images/shop/mini-cart/img-2.jpg' alt=""/></Link>
+                                                <Link to="/"><img src='images/shop/mini-cart/img-2.jpg' alt=""/></Link>
                                             </div>
                                             <div className="mini-cart-item-des">
-                                                <Link href="/">Ninja T-shirt</Link>
+                                                <Link to="/">Ninja T-shirt</Link>
                                                 <span className="mini-cart-item-price">$13.25</span>
                                                 <span className="mini-cart-item-quantity">x 2</span>
                                             </div>
@@ -111,7 +111,7 @@ const Header = () => {
                                     </div>
                                     <div className="mini-cart-action clearfix">
                                         <span className="mini-checkout-price">$215.14</span>
-                                        <Link href="/"><a className="view-cart-btn theme-btn"> View Cart</a></Link>
+                                        <Link to="/"><a className="view-cart-btn theme-btn"> View Cart</a></Link>
                                     </div>
                                 </div>
                             </div>

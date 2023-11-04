@@ -21,11 +21,11 @@ const BlogSidebar = () => {
                 <div className="widget category-widget">
                     <h3>Categories</h3>
                     <ul>
-                        <li><Link href="/BlogDetails">Helping Poor</Link></li>
-                        <li><Link href="/BlogDetails">Water Problem</Link></li>
-                        <li><Link href="/BlogDetails">Charity</Link></li>
-                        <li><Link href="/BlogDetails">Medical Campain</Link></li>
-                        <li><Link href="/BlogDetails">Free Food</Link></li>
+                        <li><Link to="/BlogDetails">Helping Poor</Link></li>
+                        <li><Link to="/BlogDetails">Water Problem</Link></li>
+                        <li><Link to="/BlogDetails">Charity</Link></li>
+                        <li><Link to="/BlogDetails">Medical Campain</Link></li>
+                        <li><Link to="/BlogDetails">Free Food</Link></li>
                     </ul>
                 </div>
                 <div className="widget recent-post-widget">
@@ -36,7 +36,7 @@ const BlogSidebar = () => {
                                 <img src='images/recent-posts/img-1.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/BlogDetails">Many Children are suffering a lot for food.</Link></h4>
+                                <h4><Link to="/BlogDetails">Many Children are suffering a lot for food.</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const BlogSidebar = () => {
                                 <img src='images/recent-posts/img-2.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/BlogDetails">Be kind for the poor people and the kids.</Link></h4>
+                                <h4><Link to="/BlogDetails">Be kind for the poor people and the kids.</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const BlogSidebar = () => {
                                 <img src='images/recent-posts/img-3.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/BlogDetails">Be soft and kind for the poor people.</Link></h4>
+                                <h4><Link to="/BlogDetails">Be soft and kind for the poor people.</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
                         </div>
@@ -63,13 +63,13 @@ const BlogSidebar = () => {
                 <div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
-                        <li><Link href="/BlogDetails">Donations</Link></li>
-                        <li><Link href="/BlogDetails">Charity</Link></li>
-                        <li><Link href="/BlogDetails">Help</Link></li>
-                        <li><Link href="/BlogDetails">Non Profit</Link></li>
-                        <li><Link href="/BlogDetails">Poor People</Link></li>
-                        <li><Link href="/BlogDetails">Helping Hand</Link></li>
-                        <li><Link href="/BlogDetails">Video</Link></li>
+                        <li><Link to="/BlogDetails">Donations</Link></li>
+                        <li><Link to="/BlogDetails">Charity</Link></li>
+                        <li><Link to="/BlogDetails">Help</Link></li>
+                        <li><Link to="/BlogDetails">Non Profit</Link></li>
+                        <li><Link to="/BlogDetails">Poor People</Link></li>
+                        <li><Link to="/BlogDetails">Helping Hand</Link></li>
+                        <li><Link to="/BlogDetails">Video</Link></li>
                     </ul>
                 </div>
             </div>

@@ -129,7 +129,7 @@ const SignUpPage = (props) => {
                                 <Button className="twitter"><i className="fa fa-twitter"></i></Button>
                                 <Button className="linkedin"><i className="fa fa-linkedin"></i></Button>
                             </Grid>
-                            <p className="noteHelp">Already have an account? <Link href="/LoginPage">Return to Sign In</Link>
+                            <p className="noteHelp">Already have an account? <Link to="/LoginPage">Return to Sign In</Link>
                             </p>
                         </Grid>
                     </Grid>

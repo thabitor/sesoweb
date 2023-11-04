@@ -9,7 +9,7 @@ const PageTitle = (props) => {
                         <div className="wpo-breadcumb-wrap">
                             <h2>{props.pageTitle}</h2>
                             <ul>
-                                <li><Link href="/"><a>Home</a></Link></li>
+                                <li><Link to="/"><a>Home</a></Link></li>
                                 <li><span>{props.pagesub}</span></li>
                             </ul>
                         </div>

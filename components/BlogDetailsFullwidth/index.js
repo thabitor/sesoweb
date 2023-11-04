@@ -18,9 +18,9 @@ const BlogDetailsFullwidth = () => {
                                 <img src='images/blog/img-4.jpg' alt=""/>
                             </div>
                             <ul className="entry-meta">
-                                <li><Link href="/BlogDetails"><a><img src='images/blog/admin.jpg' alt=""/>  By Admin</a></Link></li>
-                                <li><Link href="/BlogDetails"><a><i className="ti-calendar"></i> Jan 25,2021</a></Link></li>
-                                <li><Link href="/BlogDetails"><a><i className="ti-heart"></i> 35</a></Link></li>
+                                <li><Link to="/BlogDetails"><a><img src='images/blog/admin.jpg' alt=""/>  By Admin</a></Link></li>
+                                <li><Link to="/BlogDetails"><a><i className="ti-calendar"></i> Jan 25,2021</a></Link></li>
+                                <li><Link to="/BlogDetails"><a><i className="ti-heart"></i> 35</a></Link></li>
                             </ul>
                             <h2>Help the helpless who need you.</h2>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
@@ -32,39 +32,39 @@ const BlogDetailsFullwidth = () => {
                         <div className="tag-share clearfix">
                             <div className="tag">
                                 <ul>
-                                    <li><Link href="/BlogDetails"><a>Business</a></Link></li>
-                                    <li><Link href="/BlogDetails"><a>Marketing</a></Link></li>
-                                    <li><Link href="/BlogDetails"><a>SEO</a></Link></li>
+                                    <li><Link to="/BlogDetails"><a>Business</a></Link></li>
+                                    <li><Link to="/BlogDetails"><a>Marketing</a></Link></li>
+                                    <li><Link to="/BlogDetails"><a>SEO</a></Link></li>
                                 </ul>
                             </div>
                             <div className="share">
                                 <ul>
-                                    <li><Link href="/BlogDetails"><a><i className="ti-facebook"></i></a></Link></li>
-                                    <li><Link href="/BlogDetails"><a><i className="ti-twitter-alt"></i></a></Link></li>
-                                    <li><Link href="/BlogDetails"><a><i className="ti-instagram"></i></a></Link></li>
+                                    <li><Link to="/BlogDetails"><a><i className="ti-facebook"></i></a></Link></li>
+                                    <li><Link to="/BlogDetails"><a><i className="ti-twitter-alt"></i></a></Link></li>
+                                    <li><Link to="/BlogDetails"><a><i className="ti-instagram"></i></a></Link></li>
                                 </ul>
                             </div>
                         </div> 
                         <div className="author-box">
                             <div className="author-avatar">
-                                <Link href="/BlogDetails" target="_blank"><a><img src='images/blog-details/author.jpg' alt=""/></a></Link>
+                                <Link to="/BlogDetails" target="_blank"><a><img src='images/blog-details/author.jpg' alt=""/></a></Link>
                             </div>
                             <div className="author-content">
-                                <Link href="/BlogDetails" ><a className="author-name">Henry Joyes</a></Link>
+                                <Link to="/BlogDetails" ><a className="author-name">Henry Joyes</a></Link>
                                 <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
                                 <div className="author-btn">
-                                    <Link href="/BlogDetails"><a>All Post From Author</a></Link>
+                                    <Link to="/BlogDetails"><a>All Post From Author</a></Link>
                                 </div>
                             </div>
                         </div> 
                         <div className="more-posts clearfix">
                             <div className="previous-post">
-                                <Link href="/BlogDetails">
+                                <Link to="/BlogDetails">
                                     <span className="post-control-link">Previous</span>
                                 </Link>
                             </div>
                             <div className="next-post">
-                                <Link href="/BlogDetails">
+                                <Link to="/BlogDetails">
                                     <span className="post-control-link">Next post</span>
                                 </Link>
                             </div>
@@ -107,7 +107,7 @@ const BlogDetailsFullwidth = () => {
                                                         <div className="comment-area">
                                                             <p>I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, </p>
                                                             <div className="comments-reply">
-                                                                <Link href="/BlogDetails"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
+                                                                <Link to="/BlogDetails"><a className="comment-reply-link"><span><i className="fa fa-reply" aria-hidden="true"></i> Reply</span></a></Link>
                                                             </div>
                                                         </div>
                                                     </div>

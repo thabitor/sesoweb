@@ -18,8 +18,8 @@ const About = (props) => {
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there.</p>
                             <p>Thing embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, </p>
                             <div className="btns">
-                                <Link href="/DonatePage">
-                                        <a  className="theme-btn" onClick={ClickHandler}>Donate Now</a>
+                                <Link to="/DonatePage">
+                                        <div  className="theme-btn" onClick={ClickHandler}>Donate Now</div>
                                 </Link>
                                 <ul>
                                     <li className="video-holder">

@@ -24,7 +24,7 @@ const BlogSection = (props) => {
                                 <div className="tag"> Medical</div>
                             </div>
                             <div className="entry-details">
-                                <h3><Link href="/BlogDetails">Many Children are suffering a lot for food.</Link></h3>
+                                <h3><Link to="/BlogDetails">Many Children are suffering a lot for food.</Link></h3>
                                 <ul>
                                     <li>
                                         <i className="ti-user"></i>
@@ -42,7 +42,7 @@ const BlogSection = (props) => {
                                 <div className="tag"> Poor People</div>
                             </div>
                             <div className="entry-details">
-                                <h3><Link href="/BlogDetails">Be soft and kind for the poor people.</Link></h3>
+                                <h3><Link to="/BlogDetails">Be soft and kind for the poor people.</Link></h3>
                                 <ul>
                                     <li>
                                         <i className="ti-user"></i>
@@ -60,7 +60,7 @@ const BlogSection = (props) => {
                                 <div className="tag">Help</div>
                             </div>
                             <div className="entry-details">
-                                <h3><Link href="/BlogDetails">Be kind for the poor people and the kids.</Link></h3>
+                                <h3><Link to="/BlogDetails">Be kind for the poor people and the kids.</Link></h3>
                                 <ul>
                                     <li>
                                         <i className="ti-user"></i>
