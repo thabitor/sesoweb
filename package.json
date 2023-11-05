@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start / 0.0.0.0 $PORT"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
