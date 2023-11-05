@@ -34,6 +34,10 @@ p {
   font-weight: 400;
 }
 
+p b {
+  color: #062265;
+}
+
 h1,
 h2,
 h3,

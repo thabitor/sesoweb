@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Header from '../Header'
 import Hero from '../Hero'
 import MissionSection from '../MissionSection'
-import About from '../AboutSection'
+import AboutSection from '../AboutSection'
 import CaseSlide from '../CaseSlide'
 import CounterSection from '../CounterSection'
 import TeamSection from '../Team'
@@ -20,7 +20,7 @@ function Homepage() {
             
             <Hero />
             <MissionSection subclass={'section-padding'} />
-            <About />
+            <AboutSection />
             <CaseSlide />
             <CounterSection countclass={'wpo-counter-style-2'} />
             <TeamSection />

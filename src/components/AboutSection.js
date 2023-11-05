@@ -1,7 +1,7 @@
 import VideoModal from '../components/ModalVideo'
 import { Link } from 'react-router-dom'
 
-const About = (props) => {
+function AboutSection(props) {
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
      }
@@ -12,21 +12,34 @@ const About = (props) => {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
-                                <span>What We Do?</span>
-                                <h2>We Are In A Mission To Help The Helpless</h2>
+                                <span>Qui sommes-nous ?</span>
+                                <h2>Contre les inégalités sociales et les discriminations.</h2>
                             </div>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there.</p>
-                            <p>Thing embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, </p>
+                            <p>
+                            Le SESO est une organisation belge qui lutte contre les inégalités sociales et les discriminations. Nous sommes convaincus que chacun a le droit de vivre dans une société juste et équitable, et nous travaillons pour rendre cela possible.
+                            </p>
+                            <p>Nous nous concentrons sur trois domaines principaux :</p>
+                            <ul>
+                            <li><p><b>Lutter contre les violences conjugales et intrafamiliales.</b> Nous soutenons les victimes, sensibilisons le public et travaillons à la prévention de ces violences.</p></li>
+                            <li><p><b>Promouvoir l'inclusion des personnes migrantes et réfugiées.</b> Nous luttons contre les préjugés et les discriminations, et nous travaillons à favoriser l'intégration des personnes migrantes et réfugiées dans la société belge.</p></li>
+                            <li><p><b>Promouvoir la participation citoyenne.</b> Nous encourageons les citoyens à s'impliquer dans la vie démocratique et à faire entendre leur voix.</p></li>
+                            </ul>
+                         
+                        <p>Le SESO est une organisation pluraliste et indépendante. Nous sommes financés par des fonds publics et privés, et nous comptons plus de 200 membres associatifs.
+                            
+                            Notre équipe est composée de professionnels qualifiés et passionnés. Nous travaillons en étroite collaboration avec les pouvoirs publics, les associations et les citoyens pour construire une société plus juste et plus équitable.
+                            
+                            Ensemble, nous pouvons faire la différence !</p>
                             <div className="btns">
                                 <Link to="/DonatePage">
-                                        <div  className="theme-btn" onClick={ClickHandler}>Donate Now</div>
+                                        <div  className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                 </Link>
                                 <ul>
                                     <li className="video-holder">
                                         <VideoModal/>
                                     </li>
                                     <li className="video-text">
-                                        Watch Our Video
+                                        Regardez notre video
                                     </li>
                                 </ul>
                             </div>
@@ -34,7 +47,7 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src='images/about3.png' alt=""/>
+                            <img src='images/gallery/student-refugee-sm.jpg' alt="Photo by Oluwakemi Solaja on Unsplash"/>
                         </div>
                     </div>
                 </div>
@@ -43,4 +56,4 @@ const About = (props) => {
     )
 }
 
-export default About;
+export default AboutSection;

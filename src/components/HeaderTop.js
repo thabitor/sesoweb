@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
 
-const HeaderTopbar = () => {
+
+function HeaderTop () {
     return(	
         <div className="topbar">
             <div className="container">
@@ -15,7 +15,7 @@ const HeaderTopbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col col-md-6 col-sm-12 col-12">
+                    {/* <div className="col col-md-6 col-sm-12 col-12">
                         <div className="contact-info">
                             <ul>
                                 <li><Link to="/LoginPage">Login</Link></li>
@@ -23,11 +23,11 @@ const HeaderTopbar = () => {
                                 <li><Link to="/DonatePage"><div className="theme-btn">Donate Now</div></Link></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
     )
 }
 
-export default HeaderTopbar;
+export default HeaderTop;
