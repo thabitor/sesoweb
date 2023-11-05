@@ -1879,7 +1879,8 @@ hero-style3
  #0.3 wpo-mission-section
  =========================================================*/
 
- .services-item-box:hover {
+ .services-item-box:hover,
+ .partners-item-box:hover {
   transform: scale(1.03);
   transition: 0.3s;
  }
@@ -2347,8 +2348,9 @@ hero-style3
 
   .wpo-counter-area,
 .wpo-counter-style-2 {
-    padding: 100px 0;
-    background: url('../../public/images/counter/img-1.png') no-repeat center center / cover;
+  display: flex;
+    padding: 40px 0;
+    /* background: url('../../public/images/counter/img-1.png') no-repeat center center / cover; */
     position: relative;
 }
 
@@ -2360,29 +2362,31 @@ hero-style3
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(6, 34, 101, .85);
+    /* background: rgba(6, 34, 101, .85); */
 }
 
 .wpo-counter-area .wpo-counter-grids .grid,
 .wpo-counter-style-2 .wpo-counter-grids .grid {
-    width: 24%;
+  
+  width: 40%;
     float: left;
-    margin-right: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 10px;
     text-align: center;
     position: relative;
 }
 
-.wpo-counter-area .wpo-counter-grids .grid:before,
+/* .wpo-counter-area .wpo-counter-grids .grid:before,
 .wpo-counter-style-2 .wpo-counter-grids .grid:before {
     content: "";
     position: absolute;
     top: 15px;
-    right: 0;
+    right: 0px;
     width: 1px;
     height: 70px;
-    background: #636363;
-}
+    background: #636363; 
+} */
 
 .wpo-counter-area .wpo-counter-grids .grid:last-child:before,
 .wpo-counter-style-2 .wpo-counter-grids .grid:last-child:before {
