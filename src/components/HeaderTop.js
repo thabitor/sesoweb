@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-function HeaderTop () {
-    return(	
+function HeaderTop() {
+    return (
         <div className="topbar">
             <div className="container">
                 <div className="row">
@@ -15,15 +15,19 @@ function HeaderTop () {
                             </ul>
                         </div>
                     </div>
-                    {/* <div className="col col-md-6 col-sm-12 col-12">
-                        <div className="contact-info">
-                            <ul>
-                                <li><Link to="/LoginPage">Login</Link></li>
-                                <li><Link to="/SignUpPage">Sign Up</Link></li>
-                                <li><Link to="/DonatePage"><div className="theme-btn">Donate Now</div></Link></li>
-                            </ul>
+                    <div className="col col-md-6 col-sm-12 col-12">
+                        <div className="select-lang">
+                            <div class="dropdown-container">
+                                <select class="language-menu">
+                                    <option value="fr">fr</option>
+                                    <option value="nl">nl</option>
+                                    <option value="en">en</option>
+                                    <option value="es">es</option>
+                                </select>
+                            </div>
                         </div>
-                    </div> */}
+
+                    </div>
                 </div>
             </div>
         </div>

@@ -283,14 +283,85 @@ URL:            http://themeforest.net/user/wpoceans
 .middle-header {
     box-shadow: 0px 5px 14.25px 0.75px rgba(12, 105, 184, 0.1);
 }
+
+.select-lang {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Adjust the width as needed */
+  border:none;
+}
+
+/* Style the select element to make it hidden */
+.language-menu {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  border:none;
+}
+
+/* Style the select arrow */
+.language-menu::after {
+  content: '\25BC'; /* Unicode arrow character */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+/* Style the dropdown options */
+.language-menu option {
+  padding: 10px;
+  background-color: #fff;
+  
+}
+
+/* Hover effect for options */
+.language-menu option:hover {
+  background-color: #f2f2f2;
+  border: solid red;
+  border-radius: 2%;
+}
+
+/* Style the dropdown when it's focused */
+/* Change the border color to indicate focus */
+
+.language-menu:focus {
+  /* border: 2px solid #007BFF;  */
+  border:none;
+  
+}
+
+ .select-this .nice-select {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  color: #687693;
+ }
+
 /* Navigation */
 
-.submenu {
+/* .submenu {
 
   border-top: 5px solid #d82d33;
   border-radius: 3px;
 
-}
+} */
 
 nav ul {
 	margin-top: -4px;
@@ -347,29 +418,35 @@ nav ul li a.active {
 }
 
 nav ul ul {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 215px;
-	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-ms-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	-o-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	box-shadow: 0 0 20px rgba(0,0,0,0.08);
-	opacity: 0;
-	visibility: hidden;
-	z-index: 99;
-	text-align: left;
+
+  position: absolute;
+  width: 170px;
+  background: rgba(0, 12, 32, 0.6);
+  left: 0;
+  top: 100%;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+  padding: 6px 0;
+  border-top: 5px solid #d82d33;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
 }
+
 nav ul ul li {
-	padding: 10px 15px;
-	background-color: rgba(6, 6, 6, 0.538);
-	margin-top: 20px;
+
+	padding: 5px 10px;
+  text-align: left;
+	margin-top: -5px;
 	position: relative;
 	transition: all .5s;
-	/* position: relative; */
- 
+	
 }
+
 nav ul ul li i{
 	position: absolute;
 	right: 10px;
@@ -1802,7 +1879,10 @@ hero-style3
  #0.3 wpo-mission-section
  =========================================================*/
 
- 
+ .services-item-box:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+ }
 
 .wpo-mission-area {
     background: #f7fbfe;
@@ -6931,3 +7011,8 @@ case-style-2
 }
 
 /*============================== end ===============================*/
+
+
+/*---------*/
+
+
