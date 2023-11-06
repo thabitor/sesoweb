@@ -20,7 +20,7 @@ URL:            http://themeforest.net/user/wpoceans
 #1.0  wpo-cta-section 
 #1.1  wpo-event-section
 #1.2  wpo-blog-section
-#1.3  wpo-newslatter
+#1.3  wpo-newsletter
 #1.4  wpo-site-footer
 
 --------------------------------------------------------------
@@ -3182,7 +3182,7 @@ hero-style3
   color: #d82d33;
 }
 /*===============================================
- #1.3 wpo-newslatter 
+ #1.3 wpo-newsletter 
  ===================================================*/
  .wpo-news-letter-section,
 .wpo-news-letter-section-2 {
@@ -3319,7 +3319,7 @@ hero-style3
 }
 
 .wpo-site-footer-2 {
-    background: #fcfcfc;
+    background: #062265;
 }
 
 .wpo-site-footer ul,

@@ -4,7 +4,7 @@ import Hero from '../Hero'
 import MissionSection from '../MissionSection'
 import AboutSection from '../AboutSection'
 // import CaseSlide from '../CaseSlide'
-import CounterSection from '../CounterSection'
+// import PartnersSection from '../PartnersSection'
 import TeamSection from '../Team'
 import WorldSection from '../World'
 import BlogSection from '../BlogSection'
@@ -17,18 +17,12 @@ import PartnersSection from '../PartnersSection';
 function Homepage() {
     return (
         <Fragment>
-            
-            
             <Hero />
             <MissionSection subclass={'section-padding'} />
             <AboutSection />
             <PartnersSection />
-            <TeamSection />
-            <WorldSection worldclass={'wpo-world-area-2'} />
-            <BlogSection />
             <Footer />
             <Scrollbar />
-        
         </Fragment>
     )
 };

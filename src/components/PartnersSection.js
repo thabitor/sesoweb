@@ -18,11 +18,11 @@ function PartnersSection() {
                     </div>
                 </div>
             </div>
-            <div className='wpo-counter-area'>
+            <div className='wpo-partners-area'>
             <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
-                            <div className="wpo-counter-grids">
+                            <div className="wpo-partners-grids">
                                 <div className='grid partners-item-box'>
                                     <Link to='/'>
                                         <img src='images/partners/logo_cire_rvb3.svg' />
