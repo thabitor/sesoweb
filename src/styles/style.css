@@ -2013,6 +2013,13 @@ hero-style3
     top: -10px;
 }
 
+.wpo-service-img {
+  width: 120%;
+  position: relative;
+  right: 25px;
+  top: 120px;
+}
+
 @media(max-width: 1200px) {
 
     .wpo-about-img,
@@ -3721,7 +3728,7 @@ page-title
 =============================================*/
 
 .wpo-breadcumb-area {
-    background: url('../../public/images/breadcumb/img-1.jpg') no-repeat center top / cover;
+    background: url('../../public/images/gallery/dons-syrie.jpg') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;

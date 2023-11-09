@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const PageTitle = (props) => {
+function PageTitle (props) {
     return(
         <div className="wpo-breadcumb-area">
             <div className="container">
@@ -8,10 +8,10 @@ const PageTitle = (props) => {
                     <div className="col-12">
                         <div className="wpo-breadcumb-wrap">
                             <h2>{props.pageTitle}</h2>
-                            <ul>
+                            {/* <ul>
                                 <li><Link to="/HomePage">Home</Link></li>
                                 <li><span>{props.pagesub}</span></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

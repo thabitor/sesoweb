@@ -10,6 +10,7 @@ import './styles/globals.css'
 import './styles/style.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './components/pages/Homepage';
+import Services from './components/pages/Services';
 import Header from './components/Header';
 // import HeaderTop from './components/HeaderTop';
 
@@ -19,7 +20,8 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<Homepage />}></Route>
+        <Route path="/Homepage" element={<Homepage />}></Route>
+        <Route path="/services" element={<Services />}></Route>
       </Routes>
     </Router>
   </> 
