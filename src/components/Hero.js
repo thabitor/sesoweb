@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
-const Hero3 = (props) => {
+function Hero(props) {
 
     return(
         <section className="hero hero-style-3">
@@ -10,7 +10,7 @@ const Hero3 = (props) => {
                         <div className="row">
                             <div className="col col-lg-12 slide-caption">
                                 <div className="slide-title">
-                                    <h2> Solidaires pour un Avenir Meilleur</h2>
+                                    <h2>Solidaires pour un Avenir Meilleur</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>...la tolérance, le respect des droits fondamentaux,</p>
@@ -30,4 +30,4 @@ const Hero3 = (props) => {
     )
 }
 
-export default Hero3;
+export default Hero;

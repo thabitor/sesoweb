@@ -5,12 +5,10 @@ import MissionSection from '../MissionSection'
 import AboutSection from '../AboutSection'
 // import CaseSlide from '../CaseSlide'
 // import PartnersSection from '../PartnersSection'
-import TeamSection from '../Team'
-import WorldSection from '../World'
-import BlogSection from '../BlogSection'
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
 import PartnersSection from '../PartnersSection';
+import BlogSection from '../BlogSection';
 // import Head from 'next/head'
 // import { BrowserRouter } from 'react-router-dom'
 

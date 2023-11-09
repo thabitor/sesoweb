@@ -2,9 +2,11 @@ import VideoModal from '../components/ModalVideo'
 import { Link } from 'react-router-dom'
 
 function AboutSection(props) {
+
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
      }
+     
     return(
         <div className="wpo-about-area section-padding">
             <div className="container">

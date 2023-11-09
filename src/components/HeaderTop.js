@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 
 function HeaderTop() {
@@ -11,7 +10,7 @@ function HeaderTop() {
                         <div className="contact-intro">
                             <ul>
                                 <li><i className="fi flaticon-call"></i>02 533 39 84</li>
-                                <li><i className="fi flaticon-envelope"></i> info@seso.be</li>
+                                <li><i className="fi flaticon-envelope"></i>info@seso.be</li>
                             </ul>
                         </div>
                     </div>

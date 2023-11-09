@@ -376,7 +376,7 @@ nav ul li a {
 	display: inline-block;
 	color: #062265;
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 400;
 	position: relative;
 	padding: 40px 25px;
 }
@@ -3684,14 +3684,14 @@ hero-style3
 
 /* scroolbar */
 
-ul.smothscroll {
+ul.smoothscroll {
     position: fixed;
     bottom: 25px;
     right:30px;
     list-style: none;
     z-index: 99;
 }
-ul.smothscroll a {
+ul.smoothscroll a {
     background-color: rgb(8, 204, 127,.7);
     width: 45px;
     height: 45px;
@@ -3703,12 +3703,12 @@ ul.smothscroll a {
     color: #fff;
     border-radius: 50%;
 }
-ul.smothscroll a:hover {
+ul.smoothscroll a:hover {
     background-color: #d82d33;
 }
 
 @media(max-width:767px){
-    ul.smothscroll a {
+    ul.smoothscroll a {
         width: 30px;
         height: 30px;
         line-height: 25px;

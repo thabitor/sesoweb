@@ -1,7 +1,7 @@
 
-import React, { Component } from 'react'
-import Slider from "react-slick";
+
 import { Link } from 'react-router-dom'
+
 
 function PartnersSection() {
 
@@ -11,7 +11,7 @@ function PartnersSection() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="wpo-section-title">
+                        <div className="wpo-section-title"> 
                             <span>Nos partenaires</span>
                             <h2>Dans l'aide aux réfugiés</h2>
                         </div>
@@ -25,12 +25,12 @@ function PartnersSection() {
                             <div className="wpo-partners-grids">
                                 <div className='grid partners-item-box'>
                                     <Link to='/'>
-                                        <img src='images/partners/logo_cire_rvb3.svg' />
-                                    </Link>
+                                        <img src='images/partners/logo_cire_rvb3.svg' alt=''/>
+                                    </Link> 
                                 </div>
                                 <div className='grid partners-item-box'>
                                 <Link to='/'>
-                                        <img src='images/partners/logo_vlctwerk2.svg' />
+                                        <img src='images/partners/logo_vlctwerk2.svg' alt=''/>
                                 </Link>
                                 </div>
                             </div>
@@ -46,4 +46,3 @@ function PartnersSection() {
 
 
 export default PartnersSection;
-

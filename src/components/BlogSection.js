@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 
-const BlogSection = (props) => {
+function BlogSection(props) {
     
-    const ClickHandler = () =>{
+    const ClickHandler = () => {
         window.scrollTo(10, 0);
      }
+
     return(
         <div className="wpo-blog-area section-padding">
             <div className="container">
