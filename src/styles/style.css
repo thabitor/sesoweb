@@ -3367,7 +3367,7 @@ hero-style3
 
 .wpo-site-footer .wpo-upper-footer,
 .wpo-site-footer-2 .wpo-upper-footer {
-    padding: 0 0 90px;
+    padding: 90px 0 40px;
 }
 
 @media (max-width: 991px) {
