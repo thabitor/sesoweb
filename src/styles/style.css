@@ -1114,17 +1114,23 @@ header.fixed .header-content {
     padding: 5px 0px;
 }
 
+.wpo-servicepage-area {
+  padding-bottom: 60px;
+}
+
 .wpo-about-text .btns {
   margin-top: 35px;
 }
 
 .slide-caption .btns ul,
 .wpo-about-text .btns ul {
-    list-style: none;
+    list-style-type:none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .slide-caption .btns .video-holder a:before,
 .wpo-about-text .btns .video-holder a:before {
@@ -1890,6 +1896,15 @@ hero-style3
     padding-bottom: 100px;
 }
 
+.white-bg{
+  background: #ffffff;
+  
+}
+
+.grey-bg{
+  background: #f7fbfe;
+}
+
 .wpo-mission-wrap {
     margin-top: 10px;
 }
@@ -2016,7 +2031,8 @@ hero-style3
 .wpo-service-img {
   width: 120%;
   position: relative;
-  right: 25px;
+  right: auto;
+  left: auto;
   top: 120px;
 }
 
@@ -3193,7 +3209,7 @@ hero-style3
  ===================================================*/
  .wpo-news-letter-section,
 .wpo-news-letter-section-2 {
-    background: #062265;
+    background: #F7F2ED;
     text-align: center;
     padding: 100px 0;
 }
@@ -3217,8 +3233,8 @@ hero-style3
     font-weight: bold;
     margin: 0 0 1.5em;
     line-height: 1.2em;
-    color: #fff;
-    font-family: 'Rubik', sans-serif;
+    color: #062265;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 @media(max-width: 1024px) {
@@ -3315,18 +3331,18 @@ hero-style3
  ==============================================*/
  .wpo-site-footer,
 .wpo-site-footer {
-    background: #062265;
+    background: #F7F2ED;
     position: relative;
     font-size: 15px;
     overflow: hidden;
 }
 
 .wpo-ne-footer {
-    background: #062265;
+    background: #ffffff;
 }
 
 .wpo-site-footer-2 {
-    background: #062265;
+    background: #ffffff;
 }
 
 .wpo-site-footer ul,
@@ -3336,7 +3352,7 @@ hero-style3
 
 .wpo-site-footer p,
 .wpo-site-footer li {
-    color: #fff;
+    color: #777777;
 }
 
 .wpo-site-footer-2 p,
@@ -3405,7 +3421,7 @@ hero-style3
 .wpo-site-footer-2 .widget-title h3 {
     font-size: 23px;
     font-weight: bold;
-    color: #fff;
+    color: #062265;
     margin: 0;
     text-transform: capitalize;
     position: relative;
@@ -3457,7 +3473,7 @@ hero-style3
 }
 
 .wpo-site-footer .about-widget ul a {
-    color: #fff;
+    color: #6C7A8C;
 }
 
 .wpo-site-footer-2 .about-widget ul a {
@@ -3519,7 +3535,7 @@ hero-style3
 
 .wpo-site-footer .link-widget ul a,
 .wpo-site-footer-2 .link-widget ul a {
-    color: #fff;
+    color: #6C7A8C;
 }
 
 .wpo-site-footer-2 .link-widget ul a {
@@ -3531,6 +3547,7 @@ hero-style3
 .wpo-site-footer .link-widget ul li:hover:before,
 .wpo-site-footer-2 .link-widget ul li:hover:before {
     text-decoration: underline;
+    color: #d82d33;
 }
 
 .wpo-site-footer .link-widget ul>li+li,
@@ -3566,7 +3583,7 @@ hero-style3
 .wpo-site-footer-2 .wpo-lower-footer {
     text-align: center;
     position: relative;
-    background: #011b58;
+    background: #F7F2ED;
 }
 
 .wpo-site-footer .wpo-lower-footer .row,
@@ -3600,18 +3617,18 @@ hero-style3
 }
 
 .wpo-site-footer .news-text h3 {
-    color: #fff;
+    color: #062265;
     font-size: 16px;
     font-weight: 600;
     line-height: 25px;
     margin-bottom: 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 .wpo-site-footer .news-text h3 a{
-	color: #fff;
+	color: #062265;
 }
 .wpo-site-footer .news-text span {
-    color: #ccc;
+    color: #062265;
     font-size: 12px;
 }
 
@@ -3699,11 +3716,11 @@ ul.smoothscroll {
     z-index: 99;
 }
 ul.smoothscroll a {
-    background-color: rgb(8, 204, 127,.7);
+    background-color: F7F2ED;
     width: 45px;
     height: 45px;
     line-height: 40px;
-    border: 2px solid #d82d33;
+    border: 2px solid #7284a5;
     border-radius: 0;
     display: block;
     text-align: center;
@@ -7024,6 +7041,11 @@ case-style-2
 /*============================== end ===============================*/
 
 
-/*---------*/
+/*----custom css-----*/
+
+.customlist-1 {
+  list-style-type: circle;
+
+}
 
 

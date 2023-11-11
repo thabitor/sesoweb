@@ -11,7 +11,6 @@ function Services() {
         <Fragment>
             <PageTitle pageTitle={'Nos services'}/> 
             <ServicePieces />
-            <CaseSection/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
