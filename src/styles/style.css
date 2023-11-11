@@ -1885,6 +1885,18 @@ hero-style3
  #0.3 wpo-mission-section
  =========================================================*/
 
+ .partners-item-box {
+  display: flex;
+ }
+
+ .center {
+  margin:auto;
+ }
+
+ .partner-item {
+  margin:auto;
+ }
+
  .services-item-box:hover,
  .partners-item-box:hover {
   transform: scale(1.03);
