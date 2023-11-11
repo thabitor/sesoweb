@@ -11,35 +11,35 @@ function PartnersSection() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="wpo-section-title"> 
+                        <div className="wpo-section-title">
                             <span>Nos partenaires</span>
                             <h2>Dans l'aide aux réfugiés</h2>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='wpo-partners-area'>
             <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12">
-                            <div className="wpo-partners-grids">
-                                <div className='grid partners-item-box'>
-                                    <Link to='/'>
-                                        <img src='images/partners/logo_cire_rvb3.svg' alt=''/>
-                                    </Link> 
-                                </div>
-                                <div className='grid partners-item-box'>
-                                <Link to='/'>
-                                        <img src='images/partners/logo_vlctwerk2.svg' alt=''/>
+                <div className="row">
+                    <div className="col-lg-6 col-md-12 col-sm-12">
+                        <div className='partners-item-box'>
+                            <Link to='/' className='partner-item'>
+                                <img src='images/partners/logo_cire_rvb3.svg' alt='' />
+                            </Link>
+                        </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className='partners-item-box'>
+                                <Link to='/' className='partner-item'>
+                                    <img src='images/partners/logo_vlctwerk2.svg' alt='' />
                                 </Link>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-                
-            
+           
+        
+
+
         </div>
     );
 }

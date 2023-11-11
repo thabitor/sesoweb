@@ -17,7 +17,7 @@ function Header() {
                     <div className="row">
                         <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                             <div className="logo">
-                                <Link to="/HomePage" title="">
+                                <Link to="/Homepage" title="">
                                     <img src='images/logo/logo-seso18-9-19.jpg' alt="" />
                                 </Link>
                             </div>
@@ -32,7 +32,7 @@ function Header() {
                                             <li><Link to="/CasePage" title="">Philosophie</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/CasePage" title="">Nos services</Link>
+                                    <li><Link to="/services" title="">Nos services</Link>
                                     <ul className='submenu'>
                                             <li><Link to="/CasePage" title="">Service Social Général</Link></li>
                                             <li><Link to="/CaseSinglePage" title="">Accueil DPI (convention Ciré-

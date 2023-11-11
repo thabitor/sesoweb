@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #062265;
   font-weight: 600!important;
 }
@@ -102,16 +102,28 @@ img {
   padding: 120px 0;
 }
 
+.service-padding {
+  padding: 60px 0;
+}
+
 @media (max-width: 991px) {
   .section-padding {
       padding: 90px 0;
   }
+
+  .service-padding {
+    padding: 40px 0;
+}
 }
 
 @media (max-width: 767px) {
   .section-padding {
       padding: 80px 0;
   }
+
+  .service-padding {
+    padding: 30px 0;
+}
 }
 
 /*** contact form error handling ***/
@@ -268,11 +280,26 @@ img {
   line-height: 60px;
 }
 
+.wpo-service-title h2 {
+  font-size: 45px;
+  font-weight: 650;
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+}
+
 @media (max-width: 991px) {
   .wpo-section-title h2 {
       font-size: 45px;
       font-size: 2.8125rem;
   }
+
+  .wpo-service-title h2 {
+    font-size: 35px;
+    font-size: 1.8125rem;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -280,6 +307,11 @@ img {
       font-size: 25px;
       line-height: 35px;
   }
+
+  .wpo-service-title h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
 }
 
 .theme-btn,
