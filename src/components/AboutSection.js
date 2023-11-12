@@ -1,4 +1,4 @@
-import VideoModal from '../components/ModalVideo'
+
 import { Link } from 'react-router-dom'
 
 function AboutSection(props) {
@@ -34,7 +34,7 @@ function AboutSection(props) {
                     </div>
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src='images/gallery/student-refugee-sm.jpg' alt="Photo by Oluwakemi Solaja on Unsplash"/>
+                            <img src='images/gallery/student-refugee-sm.jpg'/>
                         </div>
                     </div>
                 </div>
