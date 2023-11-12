@@ -15,23 +15,16 @@ function AboutSection(props) {
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
                                 <span>Qui sommes-nous ?</span>
-                                <h2>Contre les inégalités sociales et les discriminations.</h2>
+                                <h2>Au Service des Réfugiés : Solidarité sans Frontières</h2>
                             </div>
                             <p>
-                            Le SESO est une organisation belge qui lutte contre les inégalités sociales et les discriminations. Nous sommes convaincus que chacun a le droit de vivre dans une société juste et équitable, et nous travaillons pour rendre cela possible.
+                            Notre Service Social des Solidarités, héritier de la solidarité des brigades internationales de retour en Belgique après la guerre civile espagnole, tire ses racines d'une histoire riche, dédiée à l'aide aux réfugiés. Depuis la mise en place de camps pour les familles espagnoles fuyant leur pays jusqu'à son évolution en un système de soutien complet, notre parcours s'étend à travers des moments clés : de l'accueil des réfugiés hongrois, tchécoslovaques, chiliens, vietnamiens et d'autres.                            </p>
+                            <p>
+                                Aujourd'hui, notre portée s'étend à une diversité de nationalités, reflétant les dynamiques changeantes des demandeurs d'asile en Belgique. Avec une hausse de la demande en provenance de régions en conflit comme l'Irak, la Syrie et l'Afghanistan, nos services se sont adaptés pour accueillir ces nouvelles populations. Bien que notre focalisation demeure sur les demandeurs d'asile, notre action s'étend au-delà, venant en aide à des individus venant de l'Équateur, du Tibet, du Maroc et au-delà, reflétant une mosaïque mondiale d'assistance.
                             </p>
-                            <p>Nous nous concentrons sur trois domaines principaux :</p>
-                            <ul>
-                            <li><p><b>Lutter contre les violences conjugales et intrafamiliales.</b> Nous soutenons les victimes, sensibilisons le public et travaillons à la prévention de ces violences.</p></li>
-                            <li><p><b>Promouvoir l'inclusion des personnes migrantes et réfugiées.</b> Nous luttons contre les préjugés et les discriminations, et nous travaillons à favoriser l'intégration des personnes migrantes et réfugiées dans la société belge.</p></li>
-                            <li><p><b>Promouvoir la participation citoyenne.</b> Nous encourageons les citoyens à s'impliquer dans la vie démocratique et à faire entendre leur voix.</p></li>
-                            </ul>
-                         
-                        <p>Le SESO est une organisation pluraliste et indépendante. Nous sommes financés par des fonds publics et privés, et nous comptons plus de 200 membres associatifs.
-                            
-                            Notre équipe est composée de professionnels qualifiés et passionnés. Nous travaillons en étroite collaboration avec les pouvoirs publics, les associations et les citoyens pour construire une société plus juste et plus équitable.
-                            
-                            Ensemble, nous pouvons faire la différence !</p>
+                            <p>
+                            Au cœur de notre mission se trouvent des valeurs inébranlables : la tolérance, le respect des droits fondamentaux, la justice sociale et l'émancipation. Notre philosophie promeut l'autonomie, les droits fondamentaux, les échanges interculturels et une aide individualisée, favorisant un environnement bienveillant qui respecte les besoins et les antécédents diversifiés de ceux que nous aidons."
+                            </p>
                             <div className="btns">
                                 <Link to="/DonatePage">
                                         <div  className="theme-btn" onClick={ClickHandler}>En savoir plus</div>

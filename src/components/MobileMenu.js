@@ -16,12 +16,12 @@ const menus = [
             {
                 id: 12,
                 title: 'Home style 2',
-                link: '/homepage2'
+                link: '/2'
             },
             {
                 id: 13,
                 title: 'Home style 3',
-                link: '/homepage3'
+                link: '/3'
             },
         ]
     },

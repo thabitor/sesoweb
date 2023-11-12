@@ -9,16 +9,18 @@ import PartnersSection from '../PartnersSection'
 import TeamSection from '../Team'
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
+import Timeline from '../Timeline';
+import AboutPublic from '../AboutPublic';
 
 function AboutUs() {
     return(
         <Fragment>
             <PageTitle pageTitle={'Qui sommes-nous?'} pagesub={'About'}/> 
-            <VedioCta/>
-            <MissionSection subclass={'section-padding'}/>
             <About/>
-            <PartnersSection/>
+            <AboutPublic/>
+            <Timeline/>
             <TeamSection/>
+            
             <Footer/>
             <Scrollbar/>
         </Fragment>

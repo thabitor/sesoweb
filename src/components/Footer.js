@@ -21,10 +21,10 @@ function Footer (props) {
                             </div>
                             {/* <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p> */}
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/homepage"><i className="ti-facebook"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/homepage"><i className="ti-twitter-alt"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/homepage"><i className="ti-instagram"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/homepage"><i className="ti-google"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter-alt"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-instagram"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-google"/></Link></li>
                             </ul>
                         </div>
                     </div>
