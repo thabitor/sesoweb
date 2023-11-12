@@ -17,7 +17,7 @@ function AboutUs() {
     return(
         <Fragment>
             <PageTitle pageTitle={'Qui sommes-nous?'} pagesub={'About'}/> 
-            <AboutSection buttonClass={'hidden'}/>
+            <AboutSection buttonClass={'hidden'} subclass={'grey-bg'}/>
             <Timeline />
             <AboutPublic />
             <Footer/>

@@ -8,7 +8,7 @@ function AboutSection(props) {
      }
      
     return(
-        <div className="wpo-about-area section-padding">
+        <div className={`wpo-about-area ${props.subclass} section-padding`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 colsm-12">

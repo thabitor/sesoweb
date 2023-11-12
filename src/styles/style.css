@@ -1910,7 +1910,8 @@ hero-style3
  }
 
  .services-item-box:hover,
- .partners-item-box:hover {
+ .partners-item-box:hover,
+ .containerTimeline:hover {
   transform: scale(1.03);
   transition: 0.3s;
  }
