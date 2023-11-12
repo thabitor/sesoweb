@@ -25,18 +25,10 @@ function AboutSection(props) {
                             <p>
                             Au cœur de notre mission se trouvent des valeurs inébranlables : la tolérance, le respect des droits fondamentaux, la justice sociale et l'émancipation. Notre philosophie promeut l'autonomie, les droits fondamentaux, les échanges interculturels et une aide individualisée, favorisant un environnement bienveillant qui respecte les besoins et les antécédents diversifiés de ceux que nous aidons."
                             </p>
-                            <div className="btns">
-                                <Link to="/DonatePage">
+                            <div className={props.buttonClass}>
+                                <Link to="/aboutus">
                                         <div  className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                 </Link>
-                                <ul>
-                                    <li className="video-holder">
-                                        <VideoModal/>
-                                    </li>
-                                    <li className="video-text">
-                                        Regardez notre video
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>

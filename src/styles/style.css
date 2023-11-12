@@ -367,6 +367,7 @@ nav ul {
 	margin-top: -4px;
 	text-align: right;
 }
+
 nav > ul > li {
 	display: inline-block;
 	margin-right: -1px;
@@ -378,7 +379,7 @@ nav ul li a {
 	font-size: 15px;
 	font-weight: 400;
 	position: relative;
-	padding: 40px 25px;
+	padding: 40px 20px;
 }
 nav ul li a:before {
 	content: "";
@@ -1107,6 +1108,12 @@ header.fixed .header-content {
     margin-right: 30px;
 }
 
+.wpo-about-text {
+
+text-align: justify;
+
+}
+
 .slide-caption .btns,
 .wpo-about-text .btns {
     margin-top: 30px;
@@ -1120,6 +1127,11 @@ header.fixed .header-content {
 
 .wpo-about-text .btns {
   margin-top: 35px;
+}
+
+.hidden {
+  display:none;
+  visibility:hidden;
 }
 
 .slide-caption .btns ul,
@@ -3246,7 +3258,7 @@ hero-style3
     margin: 0 0 1.5em;
     line-height: 1.2em;
     color: #062265;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media(max-width: 1024px) {
@@ -3634,7 +3646,7 @@ hero-style3
     font-weight: 600;
     line-height: 25px;
     margin-bottom: 0px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .wpo-site-footer .news-text h3 a{
 	color: #062265;
@@ -7131,9 +7143,9 @@ case-style-2
 .containerTimeline .date {
   position: absolute;
   display: inline-block;
-  top: calc(50% - 8px);
+  top: calc(50% - 15px);
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   color: #062265;
   text-transform: uppercase;
@@ -7177,24 +7189,24 @@ case-style-2
   padding: 30px 90px 30px 30px;
   background: #d82d33;
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 0 0 0 0;
 }
 
 .containerTimeline.right .content {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 0 0 0 0;
 }
 
 .containerTimeline .content h2 {
   margin: 0 0 10px 0;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   color: white;
 }
 
 .containerTimeline .content p {
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 22px;
   color: white;
 }

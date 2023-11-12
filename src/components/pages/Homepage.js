@@ -18,7 +18,7 @@ function Homepage() {
         <Fragment>
             <Hero />
             <MissionSection subclass={'section-padding'} />
-            <AboutSection />
+            <AboutSection buttonClass='btns'/>
             <PartnersSection />
             <Footer />
             <Scrollbar />

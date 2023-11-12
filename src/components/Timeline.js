@@ -3,7 +3,7 @@ import React from "react";
 function Timeline() {
     return (
 
-        <div className='wpo-mission-area section-padding'>
+        <div className='wpo-mission-area section-padding white-bg' id="historique">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

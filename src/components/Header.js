@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import HeaderTop from '../components/HeaderTop'
 import MobileMenu from '../components/MobileMenu'
 
@@ -27,8 +28,8 @@ function Header() {
                                 <ul>
                                     <li><Link to="/aboutus" title="">Qui sommes-nous ?</Link>
                                         <ul className='submenu'>
-                                            <li><Link to="/CasePage" title="">Public</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">Historique</Link></li>
+                                            <li><HashLink to="/aboutus#public" title="">Public</HashLink></li>
+                                            <li><HashLink to="/aboutus#historique" title="">Historique</HashLink></li>
                                             <li><Link to="/CasePage" title="">Philosophie</Link></li>
                                         </ul>
                                     </li>
