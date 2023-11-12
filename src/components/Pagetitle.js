@@ -9,7 +9,7 @@ function PageTitle (props) {
                         <div className="wpo-breadcumb-wrap">
                             <h2>{props.pageTitle}</h2>
                             {/* <ul>
-                                <li><Link to="/HomePage">Home</Link></li>
+                                <li><Link to="/homepage">Home</Link></li>
                                 <li><span>{props.pagesub}</span></li>
                             </ul> */}
                         </div>

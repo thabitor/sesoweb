@@ -17,7 +17,7 @@ function Header() {
                     <div className="row">
                         <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                             <div className="logo">
-                                <Link to="/Homepage" title="">
+                                <Link to="/homepage" title="">
                                     <img src='images/logo/logo-seso18-9-19.jpg' alt="" />
                                 </Link>
                             </div>
@@ -25,7 +25,7 @@ function Header() {
                         <div className="col-lg-8 d-lg-block d-none">
                             <nav>
                                 <ul>
-                                    <li><Link to="/AboutPage" title="">Qui sommes-nous ?</Link>
+                                    <li><Link to="/aboutus" title="">Qui sommes-nous ?</Link>
                                         <ul className='submenu'>
                                             <li><Link to="/CasePage" title="">Missions</Link></li>
                                             <li><Link to="/CaseSinglePage" title="">Historique</Link></li>
@@ -48,7 +48,7 @@ function Header() {
                                             <li><Link to="/EventPageSingle" title="">Communautaire</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/HomePage" title="">Nos partenaires</Link></li>
+                                    <li><Link to="/homepage" title="">Nos partenaires</Link></li>
                                     <li><Link to="/BlogPage">Actualités</Link>
                                     <ul className='submenu'>
                                             <li><Link to="/BlogPage">Blog</Link></li>
