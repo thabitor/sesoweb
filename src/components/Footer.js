@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Newsletter from './Newsletter'
+
 
 function Footer (props) {
 
@@ -21,10 +21,10 @@ function Footer (props) {
                             </div>
                             {/* <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p> */}
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/HomePage"><i className="ti-facebook"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/HomePage"><i className="ti-twitter-alt"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/HomePage"><i className="ti-instagram"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/HomePage"><i className="ti-google"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter-alt"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-instagram"/></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i className="ti-google"/></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function Footer (props) {
                                 <h3>Liens utils</h3>
                             </div>
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/AboutPage">Qui sommes-nous?</Link></li>
+                                <li><Link onClick={ClickHandler} to="/aboutus">Qui sommes-nous?</Link></li>
                                 <li><Link onClick={ClickHandler} to="/CasePage">Nos services</Link></li>
                                 <li><Link onClick={ClickHandler} to="/CasePage">Nos projets</Link></li>
                                 <li><Link onClick={ClickHandler} to="/ContactPage">Nos partenaires</Link></li>

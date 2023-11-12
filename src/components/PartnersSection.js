@@ -1,5 +1,3 @@
-
-
 import { Link } from 'react-router-dom'
 
 
@@ -36,10 +34,6 @@ function PartnersSection() {
                         </div>
                     </div>
                 </div>
-           
-        
-
-
         </div>
     );
 }

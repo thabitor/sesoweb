@@ -16,12 +16,12 @@ const menus = [
             {
                 id: 12,
                 title: 'Home style 2',
-                link: '/HomePage2'
+                link: '/2'
             },
             {
                 id: 13,
                 title: 'Home style 3',
-                link: '/HomePage3'
+                link: '/3'
             },
         ]
     },
@@ -29,7 +29,7 @@ const menus = [
     {
         id: 2,
         title: 'About',
-        link: '/AboutPage',
+        link: '/aboutus',
     },
 
 {
@@ -74,7 +74,7 @@ const menus = [
             {
                 id: 71,
                 title: 'About',
-                link: '/AboutPage'
+                link: '/aboutus'
             },
             {
                 id: 75,

@@ -1,4 +1,4 @@
-import VideoModal from '../../components/ModalVideo'
+import VideoModal from '../components/ModalVideo'
 
 const VedioCta = (props) => {
     return(

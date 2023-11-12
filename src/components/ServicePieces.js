@@ -1,4 +1,4 @@
-import VideoModal from './ModalVideo'
+
 import { Link } from 'react-router-dom'
 
 function ServicePieces(props) {
