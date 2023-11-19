@@ -12,13 +12,18 @@ import Header from './components/Header';
 import Homepage from './components/pages/Homepage';
 import Services from './components/pages/Services';
 import AboutUs from './components/pages/AboutUs';
+import { Suspense, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 
 function App() {
+
+  const { i18n } = useTranslation();
+
   return (
     <>
-    <Router>
-      <Header/>
+    <Router >
+      <Header Lang={i18n.language}/>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
@@ -29,4 +34,10 @@ function App() {
   )
 }
 
-export default App;
+export default function WrappedApp() {
+  return (
+    <Suspense fallback="...loading">
+      <App />
+    </Suspense>
+  );
+}

@@ -1,0 +1,22 @@
+{
+    "main":{
+        "header":{
+            "navItems": {
+                "AboutUs":"About Us",
+                "OurServices": "Our Services",
+                "OurProjects":"Our Projects",
+                "OurPartners": "Our Partners",
+                "News":"News",
+                "Contact": "Contact"
+            }
+        }
+    },
+
+    "AboutUsText" : {
+        "smallTitle": "About us",
+        "bigTitle":"At the Service of Refugees : Solidarity Without Borders",
+        "p1" : "Our Social Solidarity Service, heir to the solidarity of the international brigades returning to Belgium after the Spanish Civil War, draws its roots from a rich history, dedicated to helping refugees. From setting up camps for Spanish families fleeing their country to evolving into a comprehensive support system, our journey spans key moments: from welcoming Hungarian, Czechoslovakian, Chilean, Vietnamese refugees and others.",
+        "p2" : "Today, our reach extends to a diversity of nationalities, reflecting the changing dynamics of asylum seekers in Belgium. With an increase in demand from conflict regions such as Iraq, Syria and Afghanistan, our services have adapted to accommodate these new populations. While our focus remains on asylum seekers, our work extends beyond, assisting individuals from Ecuador, Tibet, Morocco and beyond, reflecting a global mosaic of assistance.",
+        "p3" : "At the heart of our mission are unwavering values: tolerance, respect for fundamental rights, social justice and emancipation. Our philosophy promotes autonomy, fundamental rights, cross-cultural exchange and individualized help, fostering a caring environment that respects the diverse needs and backgrounds of those we help."
+    }
+}

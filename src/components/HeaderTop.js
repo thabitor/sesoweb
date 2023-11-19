@@ -1,36 +1,57 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
+import i18n from "../i18n";
 
+const locales = {
+  en: "en",
+  fr: "fr",
+  nl: "nl",
+  es: "es",
+};
 
-function HeaderTop() {
-    return (
-        <div className="topbar">
-            <div className="container">
-                <div className="row">
-                    <div className="col col-md-6 col-sm-12 col-12">
-                        <div className="contact-intro">
-                            <ul>
-                                <li><i className="fi flaticon-call"></i>02 533 39 84</li>
-                                <li><i className="fi flaticon-envelope"></i>info@seso.be</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col col-md-6 col-sm-12 col-12">
-                        <div className="select-lang">
-                            <div class="dropdown-container">
-                                <select class="language-menu">
-                                    <option value="fr">fr</option>
-                                    <option value="nl">nl</option>
-                                    <option value="en">en</option>
-                                    <option value="es">es</option>
-                                </select>
-                            </div>
-                        </div>
+function HeaderTop(props) {
+  const [Lang, setLang] = useState(props.Lang);
 
-                    </div>
-                </div>
+  console.log(Lang);
+
+  function onChange(e) {
+    setLang(i18n.changeLanguage(e.target.value));
+    console.log(Lang);
+  }
+
+  return (
+    <div className="topbar">
+      <div className="container">
+        <div className="row">
+          <div className="col col-md-6 col-sm-12 col-12">
+            <div className="contact-intro">
+              <ul>
+                <li>
+                  <i className="fi flaticon-call"></i>02 533 39 84
+                </li>
+                <li>
+                  <i className="fi flaticon-envelope"></i>info@seso.be
+                </li>
+              </ul>
             </div>
+          </div>
+          <div className="col col-md-6 col-sm-12 col-12">
+            <div className="select-lang">
+              <div class="dropdown-container">
+                <select class="language-menu" onChange={onChange}>
+                  {Object.keys(locales).map((locale) => (
+                    <option key={locale} value={locale}>
+                      {locales[locale]}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
 export default HeaderTop;
