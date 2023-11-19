@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import TeamMember from './TeamMember';
 import { useState } from 'react';
 import team from '../data/team';
@@ -6,7 +5,7 @@ import team from '../data/team';
 function TeamSection (props) {
 
     
-    const [teamMembers, setTeamMembers] = useState(team)
+    const [teamMembers] = useState(team)
     return (
         <div className={`wpo-team-area ${props.subclass} section-padding`}>
             <div className="container">
