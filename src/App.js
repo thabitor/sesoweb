@@ -1,4 +1,3 @@
-// import 'react-toastify/dist/ReactToastify.css';
 import './styles/font-awesome.min.css';
 import './styles/themify-icons.css';
 import './styles/flaticon.css';
@@ -13,7 +12,7 @@ import Header from './components/Header';
 import Homepage from './components/pages/Homepage';
 import Services from './components/pages/Services';
 import AboutUs from './components/pages/AboutUs';
-// import HeaderTop from './components/HeaderTop';
+
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
-        <Route path="/services" element={<Services />}></Route>
+        <Route path="/services" element={<Services />}></Route> 
       </Routes>
     </Router>
   </> 

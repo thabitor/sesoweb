@@ -1289,8 +1289,8 @@ hero-style-1
     background: url('../../public/images/slider/banner-bg.jpg') no-repeat center center / cover;
 }
 .hero-style-3 {
-    background: url('../../public/images/slider/banner-bg.jpg') no-repeat center center / cover;
-    background-position: center;
+    background: url('../../public/images/slider/banner-bg.jpg') no-repeat center 70% / cover;
+    /* background-position: center; */
 
 
 }
@@ -2049,8 +2049,8 @@ hero-style3
 .wpo-about-img-3 {
     width: 165%;
     position: relative;
-    right: -34px;
-    top: -10px;
+    right: -100px;
+    top: 0;
 }
 
 .wpo-service-img {
@@ -2565,6 +2565,7 @@ hero-style3
 .wpo-team-wrap {
     position: relative;
     transition: all .3s;
+    margin-bottom: 70px;
 }
 
 .wpo-team-content {
@@ -3259,7 +3260,7 @@ hero-style3
     margin: 0 0 1.5em;
     line-height: 1.2em;
     color: #062265;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 @media(max-width: 1024px) {
@@ -3647,7 +3648,7 @@ hero-style3
     font-weight: 600;
     line-height: 25px;
     margin-bottom: 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Dosis", sans-serif;
 }
 .wpo-site-footer .news-text h3 a{
 	color: #062265;
@@ -3770,9 +3771,9 @@ page-title
 =============================================*/
 
 .wpo-breadcumb-area {
-    background: url('../../public/images/gallery/dons-syrie.jpg') no-repeat center top / cover;
+    background: url('../../public/images/allteam.jpg') no-repeat 10% 9% / cover;
     min-height: 350px;
-    position: relative;
+ position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -7188,28 +7189,31 @@ case-style-2
 
 .containerTimeline .content {
   padding: 30px 90px 30px 30px;
-  background: #d82d33;
+  background: #e67666;
   position: relative;
-  border-radius: 0 0 0 0;
+  border-radius: 400px 400px 400px 400px;
 }
 
 .containerTimeline.right .content {
   padding: 30px 30px 30px 90px;
-  border-radius: 0 0 0 0;
+  border-radius: 400px 400px 400px 400px;
+  
 }
 
 .containerTimeline .content h2 {
   margin: 0 0 10px 0;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: normal;
   color: white;
+  padding: 0 10px 0 10px;
 }
 
 .containerTimeline .content p {
   margin: 0;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 22px;
   color: white;
+  padding: 0 10px 0 10px;
 }
 
 @media (max-width: 767.98px) {
