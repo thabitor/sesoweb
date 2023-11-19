@@ -4,7 +4,7 @@ import AboutSection from '../AboutSection'
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
 import Timeline from '../Timeline';
-import AboutPublic from '../AboutPublic';
+import Team from '../Team';
 
 function AboutUs() {
     return(
@@ -12,7 +12,7 @@ function AboutUs() {
             <PageTitle pageTitle={'Qui sommes-nous?'} pagesub={'About'}/> 
             <AboutSection buttonClass={'hidden'} subclass={'grey-bg'}/>
             <Timeline />
-            <AboutPublic />
+            <Team subclass={'grey-bg'} />
             <Footer/>
             <Scrollbar/>
         </Fragment>
