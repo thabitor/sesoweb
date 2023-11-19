@@ -12,7 +12,7 @@ import Header from './components/Header';
 import Homepage from './components/pages/Homepage';
 import Services from './components/pages/Services';
 import AboutUs from './components/pages/AboutUs';
-import { Suspense, useState } from 'react';
+import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 
 
