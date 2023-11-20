@@ -10,13 +10,17 @@ const locales = {
 };
 
 function HeaderTop(props) {
-  const [Lang, setLang] = useState(props.Lang);
+  const getLang = i18n.language
+
+  console.log(getLang)
+
+  const [Lang, setLang] = useState(getLang);
 
   console.log(Lang);
 
   function onChange(e) {
     setLang(i18n.changeLanguage(e.target.value));
-    console.log(Lang);
+    
   }
 
   return (

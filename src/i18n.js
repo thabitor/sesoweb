@@ -9,7 +9,10 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    whitelist: ['fr', 'en'],
     returnEmptyString: false,
+    nonExplicitWhitelist: true,
+  load: 'languageOnly',
     debug: true,
     fallbackLng: 'fr',
   });

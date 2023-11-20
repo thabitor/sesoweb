@@ -9,6 +9,11 @@
                 "News":"Actualités",
                 "Contact": "Contact"
             }
+        },
+
+        "elements": {
+            "seeMore":"En savoir plus",
+            "heroSlogan":"Solidaires pour un Avenir Meilleur"
         }
     },
     "AboutUsText" : {

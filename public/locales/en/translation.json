@@ -9,6 +9,11 @@
                 "News":"News",
                 "Contact": "Contact"
             }
+        },
+
+        "elements": {
+            "seeMore":"More about it",
+            "heroSlogan":"Solidarity for a Better Future"
         }
     },
 

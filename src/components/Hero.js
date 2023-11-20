@@ -1,6 +1,10 @@
 // import { Link } from 'react-router-dom'
+import { useTranslation } from "react-i18next";
+
 
 function Hero(props) {
+
+    const {t} = useTranslation();
 
     return(
         <section className="hero hero-style-3">
@@ -10,7 +14,7 @@ function Hero(props) {
                         <div className="row">
                             <div className="col col-lg-12 slide-caption">
                                 <div className="slide-title">
-                                    <h2>Solidaires pour un Avenir Meilleur</h2>
+                                    <h2>{t('main.elements.heroSlogan')}</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     <p>...la tolérance, le respect des droits fondamentaux,</p>
