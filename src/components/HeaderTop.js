@@ -1,27 +1,33 @@
 import React from "react";
-import { useState } from "react";
-import i18n from "../i18n";
+import { useTranslation } from "react-i18next";
+import classNames from 'classnames'
+// import cookies from 'js-cookie'
 
-const locales = {
-  en: "en",
-  fr: "fr",
-  nl: "nl",
-  es: "es",
-};
+const locales = [
+  {
+    code: 'fr',
+    name: 'Français'
+  },
+  {
+    code: 'nl',
+    name: 'Nederlands'
+  },
+  {
+    code: 'en',
+    name: 'English'
+  },
+  {
+    code: 'es',
+    name: 'Español'
+  }
+];
 
 function HeaderTop(props) {
-  const getLang = i18n.language
+ 
 
-  console.log(getLang)
-
-  const [Lang, setLang] = useState(getLang);
-
-  console.log(Lang);
-
-  function onChange(e) {
-    setLang(i18n.changeLanguage(e.target.value));
-    
-  }
+  const { i18n } = useTranslation();
+  const currentLanguageCode = localStorage.i18nextLng || 'fr'
+  const currentLanguageName = locales.find((l) => l.code === currentLanguageCode).name
 
   return (
     <div className="topbar">
@@ -40,15 +46,34 @@ function HeaderTop(props) {
             </div>
           </div>
           <div className="col col-md-6 col-sm-12 col-12">
-            <div className="select-lang">
-              <div class="dropdown-container">
-                <select class="language-menu" onChange={onChange}>
-                  {Object.keys(locales).map((locale) => (
-                    <option key={locale} value={locale}>
-                      {locales[locale]}
-                    </option>
-                  ))}
-                </select>
+          <div className="select-lang">
+              <div className="dropdown">
+                <button
+                  className="btn dropdown-toggle"
+                  type="button"
+                 
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  {currentLanguageName}
+                </button>
+                <ul className="dropdown-menu" >
+              {locales.map(({ code, name }) => (
+                <li key={code}>
+                  <button
+                    
+                    className={classNames('dropdown-item', {
+                      disabled: currentLanguageCode === code,
+                    })}
+                    onClick={() => {
+                      i18n.changeLanguage(code)
+                    }}
+                  >
+                    {name}
+                  </button>
+                </li>
+              ))}
+            </ul>
               </div>
             </div>
           </div>

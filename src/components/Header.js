@@ -33,7 +33,12 @@ function Header(props) {
                                         <ul className='submenu'>
                                             <li><HashLink to="/aboutus#public" title="">Public</HashLink></li>
                                             <li><HashLink to="/aboutus#historique" title="">Historique</HashLink></li>
-                                            <li><Link to="/CasePage" title="">Philosophie</Link></li>
+                                            <li><Link to="/CasePage" title="">Notre equipe</Link>
+                                            <ul>
+                                                    <li><Link to="/BlogDetails" title="">Conseil d’administration</Link></li>
+                                                    <li><Link to="/BlogDetailsLeftSiide" title="">Direction</Link></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li><Link to="/services" title="">{t('main.header.navItems.OurServices')}</Link>
