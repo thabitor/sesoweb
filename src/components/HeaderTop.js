@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import classNames from 'classnames'
+import classNames from 'classnames';
 // import cookies from 'js-cookie'
 
 const locales = [

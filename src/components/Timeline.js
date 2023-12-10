@@ -1,6 +1,9 @@
 import React from "react";
+import { UseTranslation, useTranslation } from "react-i18next";
 
 function Timeline() {
+
+    const {t} = useTranslation();
     return (
 
         <div className='wpo-mission-area section-padding white-bg' id="historique">
@@ -8,8 +11,8 @@ function Timeline() {
                 <div className="row">
                     <div className="col-12">
                     <div className="wpo-section-title">
-                        <span>Notre</span>
-                    <h2>historique</h2>
+                        <span></span>
+                    <h2>{t('main.header.navItems.OurHistory')}</h2>
                     </div>
                     </div>
                     <div className="timeline">

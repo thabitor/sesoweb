@@ -17,15 +17,15 @@ function AboutSection(props) {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
-                                <span>{t('AboutUsText.smallTitle')}</span>
-                                <h2>{t('AboutUsText.bigTitle')}</h2>
+                                <span>{t('AboutUs.maintext.smallTitle')}</span>
+                                <h2>{t('AboutUs.maintext.bigTitle')}</h2>
                             </div>
-                            <p>{t('AboutUsText.p1')}</p>
-                            <p>{t('AboutUsText.p2')}</p>
-                            <p>{t('AboutUsText.p3')}  </p>
+                            <p>{t('AboutUs.maintext.p1')}</p>
+                            <p>{t('AboutUs.maintext.p2')}</p>
+                            <p>{t('AboutUs.maintext.p3')}</p>
                             <div className={props.buttonClass}>
                                 <Link to="/aboutus">
-                                        <div  className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
+                                        <div  className="theme-btn" onClick={ClickHandler}>{t('main.elements.seeMore')}</div>
                                 </Link>
                             </div>
                         </div>
