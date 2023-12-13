@@ -31,18 +31,22 @@ function Header(props) {
                                 <ul>
                                     <li><Link to="/aboutus" title="">{t('main.header.navItems.AboutUs')}</Link>
                                         <ul className='submenu'>
-                                            <li><HashLink to="/aboutus#public" title="">Public</HashLink></li>
-                                            <li><HashLink to="/aboutus#historique" title="">Historique</HashLink></li>
-                                            <li><Link to="/CasePage" title="">Philosophie</Link></li>
+                                            <li><HashLink to="/aboutus#public" title="">{t('main.header.navItems.OurPublic')}</HashLink></li>
+                                            <li><HashLink to="/aboutus#historique" title="">{t('main.header.navItems.OurHistory')}</HashLink></li>
+                                            <li><Link to="/ourteam" title="">{t('main.header.navItems.OurTeam')}</Link>
+                                            <ul>
+                                                    <li><HashLink to="/ourteam#con" title="">{t('Services.board')}</HashLink></li>
+                                                    <li><HashLink to="/ourteam#dir" title="">{t('Services.dir')}</HashLink></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li><Link to="/services" title="">{t('main.header.navItems.OurServices')}</Link>
                                     <ul className='submenu'>
-                                            <li><Link to="/CasePage" title="">Service Social Général</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">Accueil DPI (convention Ciré-
-                                                Fédasil)</Link></li>
-                                            <li><Link to="/CasePage" title="">Tutelles MENA</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">Retour volontaire (REAB)</Link></li>
+                                            <li><Link to="/CasePage" title="">{t('Services.SSG')}</Link></li>
+                                            <li><Link to="/CaseSinglePage" title="">{t('Services.DPI')}</Link></li>
+                                            <li><Link to="/CasePage" title="">{t('Services.MENA')}</Link></li>
+                                            <li><Link to="/CaseSinglePage" title="">{t('Services.REAB')}</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to="/EventPage" title="">{t('main.header.navItems.OurProjects')}</Link>

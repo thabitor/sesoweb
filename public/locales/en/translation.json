@@ -1,22 +1,75 @@
 {
     "main":{
-        "header":{
+        "header":{          
             "navItems": {
                 "AboutUs":"About Us",
                 "OurServices": "Our Services",
                 "OurProjects":"Our Projects",
                 "OurPartners": "Our Partners",
+                "OurTeam": "Our Team",
                 "News":"News",
-                "Contact": "Contact"
+                "Contact": "Contact",
+                "Language": "English",
+                "OurPublic": "Our Public",
+                "OurHistory": "Our History"
             }
+        },
+        "elements": {
+            "seeMore":"More about it",
+            "heroSlogan":"Solidarity for a Better Future" 
         }
     },
-
-    "AboutUsText" : {
-        "smallTitle": "About us",
-        "bigTitle":"At the Service of Refugees : Solidarity Without Borders",
-        "p1" : "Our Social Solidarity Service, heir to the solidarity of the international brigades returning to Belgium after the Spanish Civil War, draws its roots from a rich history, dedicated to helping refugees. From setting up camps for Spanish families fleeing their country to evolving into a comprehensive support system, our journey spans key moments: from welcoming Hungarian, Czechoslovakian, Chilean, Vietnamese refugees and others.",
-        "p2" : "Today, our reach extends to a diversity of nationalities, reflecting the changing dynamics of asylum seekers in Belgium. With an increase in demand from conflict regions such as Iraq, Syria and Afghanistan, our services have adapted to accommodate these new populations. While our focus remains on asylum seekers, our work extends beyond, assisting individuals from Ecuador, Tibet, Morocco and beyond, reflecting a global mosaic of assistance.",
-        "p3" : "At the heart of our mission are unwavering values: tolerance, respect for fundamental rights, social justice and emancipation. Our philosophy promotes autonomy, fundamental rights, cross-cultural exchange and individualized help, fostering a caring environment that respects the diverse needs and backgrounds of those we help."
+    "AboutUs" : {
+        "maintext": {
+            "smallTitle": "About us",
+            "bigTitle":"At the Service of Refugees : Solidarity Without Borders",
+            "p1" : "Our Social Solidarity Service, heir to the solidarity of the international brigades returning to Belgium after the Spanish Civil War, draws its roots from a rich history, dedicated to helping refugees. From setting up camps for Spanish families fleeing their country to evolving into a comprehensive support system, our journey spans key moments: from welcoming Hungarian, Czechoslovakian, Chilean, Vietnamese refugees and others.",
+            "p2" : "Today, our reach extends to a diversity of nationalities, reflecting the changing dynamics of asylum seekers in Belgium. With an increase in demand from conflict regions such as Iraq, Syria and Afghanistan, our services have adapted to accommodate these new populations. While our focus remains on asylum seekers, our work extends beyond, assisting individuals from Ecuador, Tibet, Morocco and beyond, reflecting a global mosaic of assistance.",
+            "p3" : "At the heart of our mission are unwavering values: tolerance, respect for fundamental rights, social justice and emancipation. Our philosophy promotes autonomy, fundamental rights, cross-cultural exchange and individualized help, fostering a caring environment that respects the diverse needs and backgrounds of those we help."
+        }
+    },
+    "Services" : {
+        "SSG": "General Social Services",
+        "MENA": "Service for Unaccompanied Foreign Minors",
+        "DPI" : "Services for asylum seekers",
+        "REAB" : "Voluntary repatriation",
+        "STECH" : "Technical services",
+        "serviceteam" : "Service team",
+        "dir":"Direction",
+        "board":"Management Board"   
+    },
+    "Team" : {
+        "RolesF" : {
+            "President":"President",
+            "Vice-President":"Vice-President",
+            "Treasurer":"Treasury",
+            "Director":"Director",
+            "Coordinator":"Coordinator",
+            "SocialAssistant":"Social Assistant",
+            "SocialWorker":"Social Worker",
+            "Educater":"Educator",
+            "MaintenanceIT":"IT Maintenance",
+            "TechnicalServiceLead":"Technical Services Lead",
+            "WorksService":"Works services",
+            "AccommodationLead":"Accomodation Team Lead",
+            "AccomodationService":"Accomodation Services",
+            "IOMReferent":"IOM Referent"
+        },
+        "RolesM" : {
+            "President":"President",
+            "Vice-President":"Vice-President",
+            "Treasurer":"Trésorier",
+            "Director":"Directeur",
+            "Coordinator":"Coordinator",
+            "SocialAssistant":"Assistant social",
+            "SocialWorker":"Travailleur social",
+            "Educater":"Educateur",
+            "MaintenanceIT":"Maintenance informatique",
+            "TechnicalServiceLead":"Responsable service technique et chef équipe travaux",
+            "WorksService":"Service travaux",
+            "AccommodationLead":"Chef équipe logements",
+            "AccomodationService":"Service logements",
+            "IOMReferent":"Référent OIM"
+        }
     }
 }

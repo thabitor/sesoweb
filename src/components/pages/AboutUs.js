@@ -4,15 +4,19 @@ import AboutSection from '../AboutSection'
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
 import Timeline from '../Timeline';
-import Team from '../Team';
+import AllTeamSection from '../AllTeamSection';
+import { useTranslation } from 'react-i18next';
 
 function AboutUs() {
+
+    const { t } = useTranslation();    
+    
     return(
         <Fragment>
-            <PageTitle pageTitle={'Qui sommes-nous?'} pagesub={'About'}/> 
+            <PageTitle pageTitle={t('main.header.navItems.AboutUs')} pagesub={'About'}/> 
             <AboutSection buttonClass={'hidden'} subclass={'grey-bg'}/>
             <Timeline />
-            <Team subclass={'grey-bg'} />
+            <AllTeamSection subclass={'grey-bg'} />
             <Footer/>
             <Scrollbar/>
         </Fragment>
