@@ -6,6 +6,7 @@ import Scrollbar from '../Scrollbar'
 import Timeline from '../Timeline';
 import AllTeamSection from '../AllTeamSection';
 import { useTranslation } from 'react-i18next';
+import AboutPublic from '../AboutPublic';
 
 function AboutUs() {
 
@@ -15,6 +16,7 @@ function AboutUs() {
         <Fragment>
             <PageTitle pageTitle={t('main.header.navItems.AboutUs')} pagesub={'About'}/> 
             <AboutSection buttonClass={'hidden'} subclass={'grey-bg'}/>
+            {/* <AboutPublic buttonClass={'hidden'} subclass={'white-bg'}/> */}
             <Timeline />
             <AllTeamSection subclass={'grey-bg'} />
             <Footer/>

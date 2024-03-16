@@ -24,7 +24,7 @@ function ServicePieces(props) {
                                 <p>Depuis de longues années, notre Service Social Général a développé une expertise en matière du droit des étrangers, c’est pourquoi nous sommes consultés principalement par un public d’origine allochtone. Nous soutenons les intéressés, entre autres, en matière de séjour, sécurité sociale, droit au travail, formation et études, logement, endettement et santé.</p>
                                 <p>Notre accompagnement vise à favoriser le développement du lien social et un meilleur accès de la personne aux équipements collectifs et à ses droits fondamentaux.</p>
                                 <div className="btns">
-                                    <Link to="/DonatePage">
+                                    <Link to="/ssg">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                     </Link>
                                 </div>
