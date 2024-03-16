@@ -2,11 +2,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-class Casesection extends Component {
-    render() {
-        const ClickHandler = () =>{
-            window.scrollTo(10, 0);
-         }
+function Ssgeneral()  {
+
+    const ClickHandler = () =>{
+        window.scrollTo(10, 0);
+     } 
         return (
           <div className="wpo-case-area-2 section-padding">
               <div className="container">
@@ -213,9 +213,8 @@ class Casesection extends Component {
           </div>
             );
         }
-    }
     
-    export default Casesection;
+    export default Ssgeneral;
           
           
           

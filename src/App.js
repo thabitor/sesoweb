@@ -16,6 +16,7 @@ import AboutUs from './components/pages/AboutUs';
 import OurTeam from './components/pages/OurTeam';
 import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import Ssgeneral from './components/pages/Ssgeneral';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
         <Route path="/services" element={<Services />}></Route>
-        <Route path="/ourteam" element={<OurTeam />}></Route>  
+        <Route path="/ourteam" element={<OurTeam />}></Route>
+        <Route path="/ssg" element={<Ssgeneral/>}></Route>    
       </Routes>
     </Router>
   </> 
