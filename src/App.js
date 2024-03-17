@@ -17,6 +17,9 @@ import OurTeam from './components/pages/OurTeam';
 import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import Ssgeneral from './components/pages/Ssgeneral';
+import Sdpi from './components/pages/Sdpi';
+import Smena from './components/pages/Smena';
+import Sreab from './components/pages/Sreab';
 
 
 function App() {
@@ -32,7 +35,10 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/ourteam" element={<OurTeam />}></Route>
-        <Route path="/ssg" element={<Ssgeneral/>}></Route>    
+        <Route path="/ssg" element={<Ssgeneral/>}></Route> 
+        <Route path="/sdpi" element={<Sdpi/>}></Route> 
+        <Route path="/smena" element={<Smena/>}></Route>
+        <Route path="/sreab" element={<Sreab/>}></Route>          
       </Routes>
     </Router>
   </> 

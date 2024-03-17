@@ -6,7 +6,7 @@ import Scrollbar from '../Scrollbar'
 import Timeline from '../Timeline';
 import AllTeamSection from '../AllTeamSection';
 import { useTranslation } from 'react-i18next';
-import AboutPublic from '../AboutPublic';
+
 
 function AboutUs() {
 

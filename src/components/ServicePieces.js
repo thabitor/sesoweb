@@ -67,7 +67,7 @@ function ServicePieces(props) {
                                 Depuis 2014, nous accueillons principalement des demandeurs d’asile ayant un profil spécifique. En particulier, il s’agit d’une part de demandeurs d’asile confrontés des besoins médicaux sérieux et d’autre part, des mineurs non-accompagnés (MENA).
                                 </p>
                                 <div className="btns">
-                                    <Link to="/DonatePage">
+                                    <Link to="/sdpi">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                     </Link>
                                 </div>
@@ -104,7 +104,7 @@ function ServicePieces(props) {
                                     </li>
                                 </ul>
                                 <div className="btns">
-                                    <Link to="/DonatePage">
+                                    <Link to="/smena">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                     </Link>
                                 </div>
@@ -136,7 +136,7 @@ function ServicePieces(props) {
                                 <p>
                                 Ces fonds pourront être destinés à l'enseignement régulier, à des formations spécifiques, à la création de micro-entreprises, aux frais de logement, au frais de marchandises, à la traduction de documents, de l'aide à la recherche d'emploi, etc.                                </p>
                                 <div className="btns">
-                                    <Link to="/DonatePage">
+                                    <Link to="/sreab">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
                                     </Link>
                                 </div>

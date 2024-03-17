@@ -44,9 +44,9 @@ function Header(props) {
                                     <li><Link to="/services" title="">{t('main.header.navItems.OurServices')}</Link>
                                     <ul className='submenu'>
                                             <li><Link to="/ssg" title="">{t('Services.SSG')}</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">{t('Services.DPI')}</Link></li>
-                                            <li><Link to="/CasePage" title="">{t('Services.MENA')}</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">{t('Services.REAB')}</Link></li>
+                                            <li><Link to="/sdpi" title="">{t('Services.DPI')}</Link></li>
+                                            <li><Link to="/smena" title="">{t('Services.MENA')}</Link></li>
+                                            <li><Link to="/sreab" title="">{t('Services.REAB')}</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to="/EventPage" title="">{t('main.header.navItems.OurProjects')}</Link>
