@@ -1,13 +1,13 @@
 
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+// import { Link } from 'react-router-dom'
 import Footer from '../Footer';
 
 function Sreab()  {
 
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     } 
+    // const ClickHandler = () =>{
+    //     window.scrollTo(10, 0);
+    //  } 
         return (
 
             <>

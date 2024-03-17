@@ -16,10 +16,10 @@ const allPartners = [
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
         description: 'La Coordination et Initiatives pour Réfugiés et Étrangers en abrégé Ciré est une association sans but lucratif qui regroupe et coordonne les associations engagées en Belgique se préoccupant de fournir des services en matière d\'accueil, de l’installation et de l’intégration des demandeurs d’asile, des réfugiés et des étrangers en général.',
+        contact: {
         address: 'rue du Vivier, 80/82\
         B-1050 Bruxelles\
         Belgique',
-        contact: {
         tel1: '+32 2 629 77 10',
         tel2: '+32 2 629 77 38',
         tel3: '+32 2 629 77 29',

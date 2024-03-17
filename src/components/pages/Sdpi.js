@@ -1,14 +1,13 @@
 
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import Footer from '../Footer';
 import TeamDPI from '../TeamDPI';
 
 function Sdpi()  {
 
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     } 
+    // const ClickHandler = () =>{
+    //     window.scrollTo(10, 0);
+    //  } 
         return (
 
             <>

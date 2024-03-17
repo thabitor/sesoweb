@@ -1,14 +1,14 @@
 
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+// import { Link } from 'react-router-dom'
 import TeamMENA from '../TeamMENA';
 import Footer from '../Footer';
 
 function Smena()  {
 
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     } 
+    // const ClickHandler = () =>{
+    //     window.scrollTo(10, 0);
+    //  } 
         return (
           <>
             <div className="wpo-servicepage-area white-bg service-padding">

@@ -1,14 +1,14 @@
 
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+// import { Link } from 'react-router-dom'
 import TeamSSG from '../TeamSSG';
 import Footer from '../Footer';
 
 function Ssgeneral()  {
 
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     } 
+    // const ClickHandler = () =>{
+    //     window.scrollTo(10, 0);
+    //  } 
         return (
 
             <>
