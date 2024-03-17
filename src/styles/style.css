@@ -1124,7 +1124,7 @@ header.fixed .header-content {
 
 .wpo-about-text {
 
-text-align: justify;
+text-align: left;
 
 }
 
@@ -2067,12 +2067,11 @@ hero-style3
     top: 0;
 }
 
-.wpo-service-img {
-  width: 120%;
+.wpo-service-img .ssg {
+  width: 10%;
   position: relative;
-  right: auto;
-  left: auto;
-  top: 120px;
+
+  top: 0;
 }
 
 @media(max-width: 1200px) {
@@ -7273,6 +7272,16 @@ case-style-2
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
+}
+
+
+.mask1 {
+  -webkit-mask-image: url(/public/images/logo/238.png);
+  mask-image: url(/public/images/logo/238.png);
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: 40%;
 }
 
 

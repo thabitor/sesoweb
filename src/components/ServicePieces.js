@@ -31,21 +31,24 @@ function ServicePieces(props) {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
+                            <div className="wpo-service-img mask1">
                                 <img src='images/gallery/ssg.jpg' alt="" />
                             </div>
-                        </div>
+                        </div> 
                     </div>
+                    
                 </div>
             </div>
             <div className='wpo-servicepage-area grey-bg service-padding'>
                 <div className="container">
                     <div className="row">
+                    
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
-                                <img src='images/gallery/ssg.jpg' alt="" />
+                            <div className="wpo-service-img mask1">
+                                <img src='images/gallery/img-serv-2.jpg' alt="" />
                             </div>
-                        </div>
+                            
+                    </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="wpo-about-text">
                                 <div className="wpo-service-title">
@@ -60,12 +63,8 @@ function ServicePieces(props) {
                                 <p>
                                 Sur le plan pratique, ce type d'accueil est réalisé par le biais d’habitations individuelles (maisons, appartements, studios, chambres), et est bien sûr soumis à un éventail de normes de qualité, concertées avec d'autres partenaires. Nous avons des logements à Bruxelles, en Flandre (Gand, Alost, Menin, Koksijde) et à Charleroi.                                
                                 </p>
-                                <p>
-                                Les assistants sociaux organisent un accompagnement social, administratif, juridique, psychologique, médical et logistique. Ce soutien s’exerce tout au long de leur procédure d’asile et pendant le temps de leur droit à l’aide matérielle.  
-                                </p>
-                                <p>
-                                Depuis 2014, nous accueillons principalement des demandeurs d’asile ayant un profil spécifique. En particulier, il s’agit d’une part de demandeurs d’asile confrontés des besoins médicaux sérieux et d’autre part, des mineurs non-accompagnés (MENA).
-                                </p>
+                            
+                               
                                 <div className="btns">
                                     <Link to="/sdpi">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
@@ -88,21 +87,8 @@ function ServicePieces(props) {
                                 Ce service s'occupe de la situation des Mineurs Etrangers Non Accompagnés (Mena). Notre asbl, consciente de l'urgence sociale de ce public, a inauguré en juin 2007 ce service composé de trois travailleurs sociaux « tuteurs ».                                
                                 </p>
                                 <p>
-                                Notre objectif est : la recherche de la solution durable en collaboration avec le jeune. Nous l'accompagnons tout au long de son parcours jusqu'à sa majorité et ou jusqu'à la fin de sa procédure. Nous offrons le service suivant:                                </p>
-                                <ul className='customlist-1'>
-                                     <li>
-                                    Mise en 'oeuvre des moyens juridiques, sociaux, culturels, éducatifs en collaboration avec le Service des Tutelles (Ministère de la Justice) et sous la supervision d'un Juge de Paix
-                                    </li>
-                                    <li>
-                                    Assister le mineur dans tous les stades de sa procédure d'asile ou, à défaut, dans l'ensemble des démarches lui garantissant son droit au séjour, à l'aide et à l'éducation   
-                                    </li>
-                                    <li>
-                                    Veiller à ce que le jeune bénéficie d'une scolarité, du soutien psychologique nécessaire, de l'hébergement adéquat et de l'aide médicale
-                                    </li>
-                                    <li>
-                                    Agir en concertation avec le mineur et les personnes d'accueil et d'hébergement (famille, centres communautaires fédéraux ou de l'Aide à la Jeunesse')
-                                    </li>
-                                </ul>
+                                Notre objectif est : la recherche de la solution durable en collaboration avec le jeune. Nous l'accompagnons tout au long de son parcours jusqu'à sa majorité et ou jusqu'à la fin de sa procédure.  </p>
+                                
                                 <div className="btns">
                                     <Link to="/smena">
                                         <div className="theme-btn" onClick={ClickHandler}>En savoir plus</div>
@@ -111,8 +97,8 @@ function ServicePieces(props) {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
-                                <img src='images/gallery/ssg.jpg' alt="" />
+                            <div className="wpo-service-img mask1">
+                                <img src='images/gallery/img-serv-3.jpg' alt="" />
                             </div>
                         </div>
                     </div>
@@ -122,8 +108,8 @@ function ServicePieces(props) {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
-                                <img src='images/gallery/ssg.jpg' alt="" />
+                            <div className="wpo-service-img mask1">
+                                <img src='images/gallery/img-serv-4.jpg' alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
