@@ -2067,11 +2067,11 @@ hero-style3
     top: 0;
 }
 
-.wpo-service-img .ssg {
-  width: 10%;
-  position: relative;
 
-  top: 0;
+
+.inservicepage-section {
+ display: flex;
+ justify-content: center;
 }
 
 @media(max-width: 1200px) {
@@ -7274,6 +7274,11 @@ case-style-2
   }
 }
 
+.wpo-service-img {
+  width: 100%;
+  position: relative;
+  
+}
 
 .mask1 {
   -webkit-mask-image: url(/public/images/logo/238.png);
@@ -7281,7 +7286,57 @@ case-style-2
   mask-size: 70%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-  mask-position: 40%;
+  mask-position: 40% -5% ;
+}
+
+.mask2  {
+  -webkit-mask-image: url(/public/images/logo/238.png);
+  mask-image: url(/public/images/logo/238.png);
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: 40% 0% ; 
+}
+
+.top-10 {
+  top:10px;
+}
+.top-20 {
+  top:20px;
+}
+.top-30 {
+  top:30px;
+}
+.top-40 {
+  top:40px;
+}
+.top-50 {
+  top:50px;
+}
+.top-60 {
+  top:60px;
+}
+.top-70 {
+  top:70px;
+}
+.top-80 {
+  top:80px;
+}
+.top-90 {
+  top:90px;
+}
+.top-100 {
+  top:100px;
+}
+.top-110 {
+  top:110px;
+}
+.top-120 {
+  top:120px;
+}
+
+.top-150 {
+  top:150px;
 }
 
 

@@ -52,8 +52,8 @@ découlent.</p>
                                
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
+                        <div className="col-lg-6 col-md-12 col-sm-12 inservicepage-section">
+                            <div className="wpo-service-img mask1 top-120">
                                 <img src='images/gallery/ssg.jpg' alt="" />
                             </div>
                         </div>

@@ -34,8 +34,8 @@ function Sreab()  {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img">
-                                <img src='images/gallery/ssg.jpg' alt="" />
+                            <div className="wpo-service-img mask1 top-120">
+                                <img src='images/gallery/img-serv-4.jpg' alt="" />
                             </div>
                         </div>
                     </div>
