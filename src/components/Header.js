@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import HeaderTop from '../components/HeaderTop'
 import MobileMenu from '../components/MobileMenu'
+import { useTranslation } from "react-i18next";
 
-function Header() {
+function Header(props) {
+
+    const { t } = useTranslation();
     
     const SubmitHandler = (e) => {
         e.preventDefault()
@@ -12,7 +15,7 @@ function Header() {
 
     return (
         <div className="middle-header header-style-3">
-            <HeaderTop />
+            <HeaderTop Lang={props.Lang}/>
             <div className="container">
                 <div className="header-content">
                     <div className="row">
@@ -26,31 +29,35 @@ function Header() {
                         <div className="col-lg-8 d-lg-block d-none">
                             <nav>
                                 <ul>
-                                    <li><Link to="/aboutus" title="">Qui sommes-nous ?</Link>
+                                    <li><Link to="/aboutus" title="">{t('main.header.navItems.AboutUs')}</Link>
                                         <ul className='submenu'>
-                                            <li><HashLink to="/aboutus#public" title="">Public</HashLink></li>
-                                            <li><HashLink to="/aboutus#historique" title="">Historique</HashLink></li>
-                                            <li><Link to="/CasePage" title="">Philosophie</Link></li>
+                                            <li><HashLink to="/aboutus#public" title="">{t('main.header.navItems.OurPublic')}</HashLink></li>
+                                            <li><HashLink to="/aboutus#historique" title="">{t('main.header.navItems.OurHistory')}</HashLink></li>
+                                            <li><Link to="/ourteam" title="">{t('main.header.navItems.OurTeam')}</Link>
+                                            <ul>
+                                                    <li><HashLink to="/ourteam#con" title="">{t('Services.board')}</HashLink></li>
+                                                    <li><HashLink to="/ourteam#dir" title="">{t('Services.dir')}</HashLink></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/services" title="">Nos services</Link>
+                                    <li><Link to="/services" title="">{t('main.header.navItems.OurServices')}</Link>
                                     <ul className='submenu'>
-                                            <li><Link to="/CasePage" title="">Service Social Général</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">Accueil DPI (convention Ciré-
-                                                Fédasil)</Link></li>
-                                            <li><Link to="/CasePage" title="">Tutelles MENA</Link></li>
-                                            <li><Link to="/CaseSinglePage" title="">Retour volontaire (REAB)</Link></li>
+                                            <li><Link to="/ssg" title="">{t('Services.SSG')}</Link></li>
+                                            <li><Link to="/sdpi" title="">{t('Services.DPI')}</Link></li>
+                                            <li><Link to="/smena" title="">{t('Services.MENA')}</Link></li>
+                                            <li><Link to="/sreab" title="">{t('Services.REAB')}</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/EventPage" title="">Nos projets</Link>
+                                    <li><Link to="/EventPage" title="">{t('main.header.navItems.OurProjects')}</Link>
                                     <ul className='submenu'>
                                             <li><Link to="/EventPage" title="">Culture</Link></li>
                                             <li><Link to="/EventPageSingle" title="">Logement</Link></li>
                                             <li><Link to="/EventPageSingle" title="">Communautaire</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/" title="">Nos partenaires</Link></li>
-                                    <li><Link to="/BlogPage">Actualités</Link>
+                                    <li><Link to="/" title="">{t('main.header.navItems.OurPartners')}</Link></li>
+                                    <li><Link to="/BlogPage">{t('main.header.navItems.News')}</Link>
                                     <ul className='submenu'>
                                             <li><Link to="/BlogPage">Blog</Link></li>
                                             <li><Link to="/BlogPageLeft">Blog Left sidebar</Link></li>
@@ -64,7 +71,7 @@ function Header() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/ContactPage" title="">Contact</Link></li>
+                                    <li><Link to="/ContactPage" title="">{t('main.header.navItems.Contact')}</Link></li>
                                 </ul>
                             </nav>
                         </div>

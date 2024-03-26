@@ -60,10 +60,10 @@ function Footer (props) {
                             </div>
                             <ul>
                                 <li><Link onClick={ClickHandler} to="/aboutus">Qui sommes-nous?</Link></li>
-                                <li><Link onClick={ClickHandler} to="/CasePage">Nos services</Link></li>
-                                <li><Link onClick={ClickHandler} to="/CasePage">Nos projets</Link></li>
-                                <li><Link onClick={ClickHandler} to="/ContactPage">Nos partenaires</Link></li>
-                                <li><Link onClick={ClickHandler} to="/EventPage">Contact</Link></li>
+                                <li><Link onClick={ClickHandler} to="/services">Nos services</Link></li>
+                                <li><Link onClick={ClickHandler} to="/">Nos projets</Link></li>
+                                <li><Link onClick={ClickHandler} to="/">Nos partenaires</Link></li>
+                                <li><Link onClick={ClickHandler} to="/">Contact</Link></li>
                             </ul>
                         </div>
                     </div>

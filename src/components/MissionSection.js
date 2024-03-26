@@ -1,14 +1,17 @@
 import { Link }  from 'react-router-dom';
-
+import { useTranslation } from "react-i18next";
 
 function MissionSection (props) {
+
+    const {t} = useTranslation();
+
     return (
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Nos services</span>
+                            <span>{t('main.header.navItems.OurServices')}</span>
                             <h2>assistance humanitaire aux populations vulnérables</h2>
                         </div>
                     </div>
@@ -20,8 +23,8 @@ function MissionSection (props) {
                                 <div className="wpo-mission-icon-5">
                                     <img src='images/mission/icon1.png' alt="" />
                                 </div>
-                                <Link to='/' className="wpo-mission-content">
-                                    <h2>Service Social Général</h2>
+                                <Link to='/ssg' className="wpo-mission-content">
+                                    <h2>{t('Services.SSG')}</h2>
                                     <p>Notre Service Social Général offre une aide sociale généraliste de première ligne aux personnes en difficulté.</p>
                                 </Link>
                             </div>
@@ -31,8 +34,8 @@ function MissionSection (props) {
                                 <div className="wpo-mission-icon-6">
                                     <img src='images/mission/icon2.png' alt="" />
                                 </div>
-                                <Link to='/' className="wpo-mission-content">
-                                    <h2>Accueil DPI (convention Ciré-Fédasil)</h2>
+                                <Link to='/sdpi' className="wpo-mission-content">
+                                    <h2>{t('Services.DPI')}</h2>
                                     <p>SESO a mis en place une structure d'accueil destinée aux demandeurs d'asile, dans le cadre d'une convention conclue avec Fedasil.</p>
                                 </Link>
                             </div>
@@ -42,8 +45,8 @@ function MissionSection (props) {
                                 <div className="wpo-mission-icon-7">
                                     <img src='images/mission/icon3.png' alt="" />
                                 </div>
-                                <Link to='/' className="wpo-mission-content">
-                                    <h2>Tutelles MENA</h2>
+                                <Link to='/smena' className="wpo-mission-content">
+                                    <h2>{t('Services.MENA')}</h2>
                                     <p>Ce service s'occupe de la situation des Mineurs Etrangers Non Accompagnés (Mena).</p>
                                 </Link>
                             </div>
@@ -53,8 +56,8 @@ function MissionSection (props) {
                                 <div className="wpo-mission-icon-8">
                                     <img src='images/mission/icon4.png' alt="" />
                                 </div>
-                                <Link to='/' className="wpo-mission-content">
-                                    <h2>Retour volontaire (REAB)</h2>
+                                <Link to='/sreab' className="wpo-mission-content">
+                                    <h2>{t('Services.REAB')}</h2>
                                     <p>Notre Service Social travaille en partenariat avec l'OIM et aide son public à ouvrir un dossier de retour.</p>
                                 </Link>
                             </div>
