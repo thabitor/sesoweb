@@ -7340,3 +7340,82 @@ case-style-2
 }
 
 
+/* Brand Blocks */
+.brandrow {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.brandblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 260px;
+  height: 260px;
+  margin-top: 34px;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.brandblock a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.brandblock a:hover {
+  opacity: .65;
+}
+
+.brandblock span {
+  text-align: center;
+  width: 100%;
+}
+
+.gold {
+  background: #af9775;
+}
+
+.gold a {
+  color: #fff;
+}
+
+.lightgold {
+  background: #C3B197;
+}
+
+.lightgold a {
+  color: #fff;
+}
+
+.grey {
+  background: #e5e5e5;
+}
+
+.grey a {
+    color: #363636;
+}
+
+.warmgrey {
+  background: #E8E7E1;
+}
+
+.warmgrey a {
+   color: #363636;
+}
+  
+  @media only screen and (max-width: 767px) {
+    .brandblock {
+    width: 80%;
+    height: 130px;
+    margin-top: 15px;
+    }
+  }

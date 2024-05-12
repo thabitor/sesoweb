@@ -49,28 +49,8 @@ function Header(props) {
                                             <li><Link to="/sreab" title="">{t('Services.REAB')}</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/EventPage" title="">{t('main.header.navItems.OurProjects')}</Link>
-                                    <ul className='submenu'>
-                                            <li><Link to="/EventPage" title="">Culture</Link></li>
-                                            <li><Link to="/EventPageSingle" title="">Logement</Link></li>
-                                            <li><Link to="/EventPageSingle" title="">Communautaire</Link></li>
-                                        </ul>
-                                    </li>
                                     <li><Link to="/" title="">{t('main.header.navItems.OurPartners')}</Link></li>
-                                    <li><Link to="/BlogPage">{t('main.header.navItems.News')}</Link>
-                                    <ul className='submenu'>
-                                            <li><Link to="/BlogPage">Blog</Link></li>
-                                            <li><Link to="/BlogPageLeft">Blog Left sidebar</Link></li>
-                                            <li><Link to="/BlogPageFullwidth">Blog full width</Link></li>
-                                            <li><i className="fa fa-angle-right"></i><Link to="/BlogDetails" title="">Blog Details</Link>
-                                                <ul>
-                                                    <li><Link to="/BlogDetails" title="">Blog single</Link></li>
-                                                    <li><Link to="/BlogDetailsLeftSiide" title="">Blog single Left sidebar</Link></li>
-                                                    <li><Link to="/BlogDetailsFull" title="">Blog single full width</Link></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                     <li><Link to="/ContactPage" title="">{t('main.header.navItems.Contact')}</Link></li>
                                 </ul>
                             </nav>
