@@ -1910,11 +1910,27 @@ hero-style3
 /*=========================================================
  #0.3 wpo-mission-section
  =========================================================*/
-
  .partners-item-box {
   display: flex;
  }
 
+ .grid-container {
+  margin-right:200px;
+  margin-left:200px;
+  display: flex;
+  justify-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+ 
  .center {
   margin:auto;
  }

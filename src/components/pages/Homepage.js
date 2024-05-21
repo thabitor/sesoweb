@@ -7,7 +7,7 @@ import AboutSection from '../AboutSection'
 // import PartnersSection from '../PartnersSection'
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
-import PartnersSection from '../PartnersSection';
+import SponsorsSection from '../SponsorsSection';
 // import BlogSection from '../BlogSection';
 // import Head from 'next/head'
 // import { BrowserRouter } from 'react-router-dom'
@@ -19,7 +19,7 @@ function Homepage() {
             <Hero />
             <MissionSection subclass={'section-padding'} />
             <AboutSection buttonClass='btns'/>
-            <PartnersSection />
+            <SponsorsSection subclass={'white-bg'} />
             <Footer />
             <Scrollbar />
         </Fragment>
