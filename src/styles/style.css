@@ -1915,10 +1915,11 @@ hero-style3
  }
 
  .grid-container {
-  margin-right:200px;
-  margin-left:200px;
+  margin-right:10%;
+  margin-left:10%;
   display: flex;
-  justify-items: center;
+  flex-wrap:wrap;
+  justify-content: center;
   gap: 50px;
   padding: 20px;
 }

@@ -49,7 +49,7 @@ function Header(props) {
                                             <li><Link to="/sreab" title="">{t('Services.REAB')}</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/" title="">{t('main.header.navItems.OurPartners')}</Link></li>
+                                    <li><Link to="/ourpartners" title="">{t('main.header.navItems.OurPartners')}</Link></li>
                                     
                                     <li><Link to="/ContactPage" title="">{t('main.header.navItems.Contact')}</Link></li>
                                 </ul>

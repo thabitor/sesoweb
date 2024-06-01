@@ -14,8 +14,6 @@ function TeamMember(props) {
                                     <ul>
                                         <li><Link to="/volunteerPage"><i className="ti-facebook"></i></Link></li>
                                         <li><Link to="/volunteerPage"><i className="ti-twitter"></i></Link></li>
-                                        <li><Link to="/volunteerPage"><i className="ti-google"></i></Link></li>
-                                        <li><Link to="/volunteerPage"><i className="ti-instagram"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>

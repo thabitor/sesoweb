@@ -20,6 +20,7 @@ import Ssgeneral from './components/pages/Ssgeneral';
 import Sdpi from './components/pages/Sdpi';
 import Smena from './components/pages/Smena';
 import Sreab from './components/pages/Sreab';
+import OurPartners from './components/pages/OurPartners';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
+        <Route path="/ourpartners" element={<OurPartners/>}></Route> 
         <Route path="/services" element={<Services />}></Route>
         <Route path="/ourteam" element={<OurTeam />}></Route>
         <Route path="/ssg" element={<Ssgeneral/>}></Route> 
