@@ -1,5 +1,5 @@
 
-const allPartners = [
+const partners = [
 
     {
         id: 1,
@@ -13,7 +13,7 @@ const allPartners = [
         codename: 'vivalis',
         name: 'Vivalis.Brussels',
         type: 'sponsor',
-        img: ''
+        img: 'images/partners/logo-vivalis.svg'
         
     },
     {
@@ -21,7 +21,7 @@ const allPartners = [
         codename: 'fedasil',
         name: 'Agence federale Pour L\'accueil des demandeurs d\'asil',
         type: 'sponsor',
-        img: ''
+        img: 'images/partners/fedasil_fr_0.png'
             
     },
     {
@@ -29,137 +29,137 @@ const allPartners = [
         codename: 'SPFJ',
         name: 'Service Public Federale Justice',
         type: 'sponsor',
-        img: ''        
+        img: 'images/partners/SPFJustice-fr.png'        
     },
     {
         id: 5,
         codename: 'bxlacc',
         name: 'Bruxelles Accueil',
         type: 'sponsor',
-        img: ''
+        img: 'images/partners/BaBo.svg'
     },
     {
         id: 6,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'febi',
+        name: 'Fonds de formation et Fonds Maribel',
         type: 'sponsor',
-        img: ''
+        img: 'images/partners/febi_rgb-asbl-300x135.png'
     },
     {
         id: 7,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
         id: 8,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
         id: 9,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
         id: 10,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
         id: 11,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
         id: 12,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
        
     },
     {
         id: 13,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
        
     },
     {
         id: 14,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 15,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 16,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 17,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 18,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 19,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 20,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 21,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     },
     {
-        id: 1,
+        id: 22,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'sponsor',
-        img: ''
+        type: 'partner',
+        img: 'images/partners/cocom-new-fr.svg'
     }
 
 ]
     
-export default allPartners;
+export default partners;

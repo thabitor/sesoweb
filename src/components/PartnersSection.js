@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
-import allPartners from '../data/allPartners';
+import partners from '../data/allPartners';
 import PartnerUnit from './PartnerUnit';
 
-function PartnersSection(props) {
+function PartnersSection() {
+
+
+
   return (
     <>
     <div className="wpo-case-area section-padding">
@@ -12,16 +14,21 @@ function PartnersSection(props) {
             <div className="wpo-section-title">
               <span>Nos partenaires</span>
               <h2>Dans l'aide aux réfugiés</h2>
+              <div className="grid-container">
+
+
+              {partners.map((partner) => {
+                    return (
+                    <PartnerUnit 
+                    img={partner.img} />
+                  )
+                  })}
             </div>
           </div>
         </div>
-      </div>
-<PartnerUnit 
-name={props.name}
-img={props.img}
-/>
+        </div>
 
-        
+      </div>
       </div>
   </>
   );

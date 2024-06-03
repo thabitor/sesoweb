@@ -1912,14 +1912,13 @@ hero-style3
  =========================================================*/
  .partners-item-box {
   display: flex;
+
  }
 
  .grid-container {
-  margin-right:10%;
-  margin-left:10%;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
+  
+  flex-wrap: wrap;
+  display: grid;
   gap: 50px;
   padding: 20px;
 }
