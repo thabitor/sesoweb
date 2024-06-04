@@ -47,117 +47,201 @@ const partners = [
     },
     {
         id: 7,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        codename: 'P&V',
+        name: 'P&V',
+        type: 'reseau',
+        img: 'images/partners/PnV.svg'
     },
     {
         id: 8,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        codename: 'Solidaris',
+        name: 'Solidaris',
+        type: 'reseau',
+        img: 'images/partners/solidarisvg.svg'
     },
     {
         id: 9,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        codename: 'SolSoc',
+        name: 'SolSoc',
+        type: 'reseau',
+        img: 'images/partners/logo_solsoc.png'
     },
     {
         id: 10,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        codename: 'Fos nog',
+        name: 'Fos nog',
+        type: 'reseau',
+        img: 'images/partners/FOS ngo.png'
     },
     {
         id: 11,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        type: 'coupole',
+        img: 'images/partners/logo_cire_rvb2.svg'
     },
     {
         id: 12,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
-        type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        codename: 'Federation des Services Sociaux',
+        name: 'FDSS',
+        type: 'coupole',
+        img: 'images/partners/fdss_fr.svg'
        
     },
     {
         id: 13,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'Bruzelle',
+        name: 'Bruzelle',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/logo-bruzelle.png'
        
     },
     {
         id: 14,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'baj',
+        name: 'Bureau d’aide juridique',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/cajbaj_logo23.png'
     },
     {
         id: 15,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'carry',
+        name: 'Carry-services',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/Carry-Services.png'
     },
     {
         id: 16,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'CARITAS',
+        name: 'CARITAS INTERNATIONAL',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/caritas-int-logo.png'
     },
     {
         id: 17,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'CSD',
+        name: 'CSD',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/logo_csd-1-768x275.webp'
     },
     {
         id: 18,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'Fairwork',
+        name: 'Fairwork Belgium',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/logo-Fairwork-Belgium.webp'
     },
     {
         id: 19,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'CPAS',
+        name: 'CPAS St Gilles',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/cpas-stgilles.png'
     },
     {
         id: 20,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'Hispano-belga',
+        name: 'Hispano-belga',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/Hispano-Belga logo.png'
     },
     {
         id: 21,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'capucines',
+        name: 'L’épicerie des capucines',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/Capucines.svg'
     },
     {
         id: 22,
-        codename: 'CIRE',
-        name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
         type: 'partner',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 23,
+        codename: 'CRB',
+        name: 'Croix-Rouge de Belgique',
+        type: 'partner',
+        img: 'images/partners/CRB.png'
+    },
+    {
+        id: 24,
+        codename: 'Free Clinic',
+        name: 'Free Clinic',
+        type: 'partner',
+        img: 'images/partners/Free clinic.png'
+    },
+    {
+        id: 25,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 26,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 27,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 28,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 29,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 30,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 31,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 32,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 33,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
+    },
+    {
+        id: 34,
+        codename: 'EPI',
+        name: 'EPI Saint-Gilles',
+        type: 'partner',
+        img: 'images/partners/EPI Saint-Gilles.png'
     }
 
 ]

@@ -1911,14 +1911,15 @@ hero-style3
  #0.3 wpo-mission-section
  =========================================================*/
  .partners-item-box {
-  display: flex;
+  place-self: center;
 
  }
 
  .grid-container {
-  
+  width: 100%;
   flex-wrap: wrap;
   display: grid;
+  grid-template-columns:repeat(3, 1fr);
   gap: 50px;
   padding: 20px;
 }

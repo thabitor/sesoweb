@@ -13,6 +13,7 @@ function SponsorsSection(props) {
               <div className="wpo-section-title">
                 <span>Nos pouvoirs subsidiants</span>
                 <h2>Dans l'aide aux réfugiés</h2>
+              </div>
                 <div className="grid-container">
 
                   {Sponsors.map((sponsor) => {
@@ -22,7 +23,7 @@ function SponsorsSection(props) {
                   )
                   })}
                 </div>
-              </div>
+              
             </div>
           </div>
         </div>
