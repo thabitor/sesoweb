@@ -50,7 +50,7 @@ const partners = [
         codename: 'P&V',
         name: 'P&V',
         type: 'reseau',
-        img: 'images/partners/PnV.svg'
+        img: 'images/partners/PnV.png'
     },
     {
         id: 8,
@@ -78,7 +78,7 @@ const partners = [
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',
         type: 'coupole',
-        img: 'images/partners/logo_cire_rvb2.svg'
+        img: 'images/partners/logo_cire_rvb3.svg'
     },
     {
         id: 12,
@@ -150,7 +150,7 @@ const partners = [
         codename: 'capucines',
         name: 'L’épicerie des capucines',
         type: 'partner',
-        img: 'images/partners/Capucines.svg'
+        img: 'images/partners/Capucines.webp'
     },
     {
         id: 22,
@@ -171,78 +171,79 @@ const partners = [
         codename: 'Free Clinic',
         name: 'Free Clinic',
         type: 'partner',
-        img: 'images/partners/Free clinic.png'
+        img: 'images/partners/Free clinic.jpg'
     },
     {
         id: 25,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'PLN',
+        name: 'Progress Lawyers Network',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/Progresse Lawyers Network.jpg'
     },
     {
         id: 26,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'SSM',
+        name: 'Le centre Exil SSM',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/Exil.png'
     },
     {
         id: 27,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'Gams',
+        name: 'Le Gams',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/Gams-Logo-47.png'
     },
     {
         id: 28,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'LMM',
+        name: 'Le maitre mot',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/LMM.jpg'
     },
     {
         id: 29,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'SSJ',
+        name: 'Service Social Juif',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/SSJ.jpg'
     },
     {
         id: 30,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'SETIS',
+        name: 'SETIS BXL',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
-    },
-    {
-        id: 31,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
-        type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
-    },
-    {
-        id: 32,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
-        type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
-    },
-    {
-        id: 33,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
-        type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/SETIS BXL.jpg'
     },
     {
         id: 34,
-        codename: 'EPI',
-        name: 'EPI Saint-Gilles',
+        codename: 'RRC',
+        name: 'Rainbow Refugee comitee ',
         type: 'partner',
-        img: 'images/partners/EPI Saint-Gilles.png'
+        img: 'images/partners/logo_rrc_rgb.png'
+    },
+    {
+        id: 31,
+        codename: 'MES',
+        name: 'Mentor Escale',
+        type: 'partner',
+        img: 'images/partners/LOGO_ME__RVB_TRANSPA.png'
+    },
+    {
+        id: 32,
+        codename: 'MEJ',
+        name: 'Mentor Jeunes',
+        type: 'partner',
+        img: 'images/partners/LOGO_MJ_RVB_TRANSPA.png'
+    },
+    {
+        id: 33,
+        codename: 'Pleegzorg',
+        name: 'Pleegzorg',
+        type: 'partner',
+        img: 'images/partners/Pleegzorg.svg'
     }
+    
 
 ]
     

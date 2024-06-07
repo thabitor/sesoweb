@@ -1,9 +1,9 @@
-import partners from '../data/allPartners';
+import Partners from '../data/allPartners';
 import PartnerUnit from './PartnerUnit';
 
-function PartnersSection() {
+function ReseauxSection() {
 
-  const Partners = partners.filter((partner) => partner.type === 'partner');
+  const Reseaux = Partners.filter((reseau) => reseau.type === 'reseau');
 
   return (
     <>
@@ -11,15 +11,15 @@ function PartnersSection() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="wpo-section-title ">
+            <div className="wpo-section-title">
               <span></span>
-              <h2>Nos partenaires</h2>
+              <h2>Notre reseau</h2>
               </div>
-              <div className="grid-container prt-display-grid-6">
-              {Partners.map((partner) => {
+              <div className="grid-container prt-display-grid-4">
+              {Reseaux.map((reseau) => {
                     return (
                     <PartnerUnit 
-                    img={partner.img} />
+                    img={reseau.img} />
                   )
                   })}
             
@@ -33,4 +33,4 @@ function PartnersSection() {
   );
 }
 
-export default PartnersSection;
+export default ReseauxSection;

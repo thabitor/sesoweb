@@ -1,25 +1,25 @@
 import partners from "../data/allPartners";
 import PartnerUnit from "./PartnerUnit";
 
-const Sponsors = partners.filter((sponsor) => sponsor.type === 'sponsor');
+const Coupoles = partners.filter((Coupole) => Coupole.type === 'coupole');
 
-function SponsorsSection(props) {
+function CoupolesSection(props) {
   return (
     <>
-      <div className={`wpo-case-area section-padding white-bg partners`}>
+      <div className={`wpo-case-area partners section-padding`}>
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="wpo-section-title">
-                <span>Nos pouvoirs subsidiants</span>
-                <h2>Dans l'aide aux réfugiés</h2>
+                <span></span>
+                <h2>Nos coupoles</h2>
               </div>
-                <div className="grid-container prt-display-flex">
+                <div className="grid-container prt-display-grid-2">
 
-                  {Sponsors.map((sponsor) => {
+                  {Coupoles.map((Coupole) => {
                     return (
                     <PartnerUnit 
-                    img={sponsor.img} />
+                    img={Coupole.img} />
                   )
                   })}
                 </div>
@@ -33,4 +33,4 @@ function SponsorsSection(props) {
   );
 }
 
-export default SponsorsSection;
+export default CoupolesSection;

@@ -6,6 +6,9 @@ import Hero from '../Hero';
 import Footer from '../Footer'
 import Scrollbar from '../Scrollbar'
 import PartnersSection from '../PartnersSection';
+import CoupolesSection from '../CoupolesSection';
+import ReseauxSection from '../ReseauxSection';
+import SponsorsSection from '../SponsorsSection';
 // import BlogSection from '../BlogSection';
 // import Head from 'next/head'
 // import { BrowserRouter } from 'react-router-dom'
@@ -15,7 +18,10 @@ function OurPartners() {
     return (
         <Fragment>
             <Hero />
-            <PartnersSection subclass={'section-padding'} />
+            <SponsorsSection className={'white-bg'}/>
+            <ReseauxSection className={'white-bg'}/>
+            <CoupolesSection className={'white-bg'} />
+            <PartnersSection className={'white-bg'} />
             <Footer />
             <Scrollbar />
         </Fragment>

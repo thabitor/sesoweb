@@ -1918,11 +1918,38 @@ hero-style3
  .grid-container {
   width: 100%;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
   gap: 50px;
-  padding: 20px;
+  padding: 20px; 
 }
+
+.prt-display-flex {
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.prt-display-grid-2 {
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+.prt-display-grid-3 {
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+.prt-display-grid-4 {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+}
+
+.prt-display-grid-6 {
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+ 
+}
+
+
 
 .grid-container > div {
   
@@ -2149,8 +2176,19 @@ hero-style3
 ==========================================*/
 
 .wpo-case-area {
-    background: #f7fbfe;
-  }
+  background: linear-gradient( 
+    #f7fbfe, white);
+}
+
+.partners h2 {
+  
+    font-size: 50px;
+    line-height: 35px;
+    margin-top: 0;
+    font-weight: 800;
+    color: #d82d33 ;
+
+}
   
   .progress-section {
     padding-top: 35px;
@@ -4044,9 +4082,7 @@ page-title
 /*=================================================
 case-style-2 
 =================================================*/
-.wpo-case-area {
-    background: #f7fbfe;
-  }
+
   
   .progress-section {
     padding-top: 10px;
