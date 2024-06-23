@@ -28,6 +28,15 @@
             "p3" : "At the heart of our mission are unwavering values: tolerance, respect for fundamental rights, social justice and emancipation. Our philosophy promotes autonomy, fundamental rights, cross-cultural exchange and individualized help, fostering a caring environment that respects the diverse needs and backgrounds of those we help."
         }
     },
+    "OurPartners" : {
+        "Maintext": {
+            "OurSponsors": "Our Sponsors",
+            "OurPartners":"Our sponsors",
+            "OurCoupoles" : "Our coupoles",
+            "OurNetwork" : "Our Network",
+            "Subtext" : "In support of refugees"
+        }
+    },
     "Services" : {
         "SSG": "General Social Services",
         "MENA": "Service for Unaccompanied Foreign Minors",

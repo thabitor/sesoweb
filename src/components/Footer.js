@@ -28,7 +28,7 @@ function Footer (props) {
                             </ul>
                         </div>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                  {/*   <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget resource-widget">
                             <div className="widget-title">
                                 <h3>Actualités</h3>
@@ -52,7 +52,7 @@ function Footer (props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget">
                             <div className="widget-title">
@@ -61,9 +61,8 @@ function Footer (props) {
                             <ul>
                                 <li><Link onClick={ClickHandler} to="/aboutus">Qui sommes-nous?</Link></li>
                                 <li><Link onClick={ClickHandler} to="/services">Nos services</Link></li>
-                                <li><Link onClick={ClickHandler} to="/">Nos projets</Link></li>
-                                <li><Link onClick={ClickHandler} to="/">Nos partenaires</Link></li>
-                                <li><Link onClick={ClickHandler} to="/">Contact</Link></li>
+                                <li><Link onClick={ClickHandler} to="/ourpartners">Nos partenaires</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -75,7 +74,7 @@ function Footer (props) {
                             {/* <p>online store with lots of cool and exclusive wpo-features</p> */}
                             <div className="contact-ft">
                                 <ul>
-                                    <li><i className="fi flaticon-pin"></i>Rue de Parme 26, 1060 Bruxelles</li>
+                                    <li><Link onClick={ClickHandler} to="/contact"><i className="fi flaticon-pin"></i>Rue de Parme 26, 1060 Bruxelles</Link></li>
                                     <li><i className="fi flaticon-call"></i>02 533 39 84</li>
                                     <li><i className="fi flaticon-envelope"></i>info@seso.be</li>
                                 </ul>

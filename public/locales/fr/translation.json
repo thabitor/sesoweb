@@ -28,6 +28,15 @@
         "p3" : "Au cœur de notre mission se trouvent des valeurs inébranlables : la tolérance, le respect des droits fondamentaux, la justice sociale et l'émancipation. Notre philosophie promeut l'autonomie, les droits fondamentaux, les échanges interculturels et une aide individualisée, favorisant un environnement bienveillant qui respecte les besoins et les antécédents diversifiés de ceux que nous aidons."
         }
     },
+    "OurPartners" : {
+        "Maintext": {
+            "OurSponsors": "Nos pouvoirs subsidiants",
+            "OurPartners":"Nos partneraires",
+            "OurCoupoles" : "Nos coupoles",
+            "OurNetwork" : "Notre reseau",
+            "Subtext" : "Dans l'aide aux réfugiés"
+        }
+    },
     "Services" : {
         "SSG": "Service Social Général",
         "MENA": "Tutelle MENA",

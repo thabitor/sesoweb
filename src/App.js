@@ -21,6 +21,8 @@ import Sdpi from './components/pages/Sdpi';
 import Smena from './components/pages/Smena';
 import Sreab from './components/pages/Sreab';
 import OurPartners from './components/pages/OurPartners';
+import Contactpage from './components/pages/Contactpage';
+import Contactform from './components/Contactform';
 
 
 function App() {
@@ -36,11 +38,14 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />}></Route>
         <Route path="/ourpartners" element={<OurPartners/>}></Route> 
         <Route path="/services" element={<Services />}></Route>
+        <Route path="/contact" element={<Contactpage />}></Route>
+        <Route path="/contactform" element={<Contactform/>}></Route>
         <Route path="/ourteam" element={<OurTeam />}></Route>
         <Route path="/ssg" element={<Ssgeneral/>}></Route> 
         <Route path="/sdpi" element={<Sdpi/>}></Route> 
         <Route path="/smena" element={<Smena/>}></Route>
-        <Route path="/sreab" element={<Sreab/>}></Route>          
+        <Route path="/sreab" element={<Sreab/>}></Route>
+
       </Routes>
     </Router>
   </> 

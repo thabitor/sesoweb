@@ -31,7 +31,7 @@ function Header(props) {
                                 <ul>
                                     <li><Link to="/aboutus" title="">{t('main.header.navItems.AboutUs')}</Link>
                                         <ul className='submenu'>
-                                            <li><HashLink to="/aboutus#public" title="">{t('main.header.navItems.OurPublic')}</HashLink></li>
+                                            {/*<li><HashLink to="/aboutus#public" title="">{t('main.header.navItems.OurPublic')}</HashLink></li>*/}
                                             <li><HashLink to="/aboutus#historique" title="">{t('main.header.navItems.OurHistory')}</HashLink></li>
                                             <li><Link to="/ourteam" title="">{t('main.header.navItems.OurTeam')}</Link>
                                             <ul>
@@ -51,7 +51,7 @@ function Header(props) {
                                     </li>
                                     <li><Link to="/ourpartners" title="">{t('main.header.navItems.OurPartners')}</Link></li>
                                     
-                                    <li><Link to="/ContactPage" title="">{t('main.header.navItems.Contact')}</Link></li>
+                                    <li><Link to="/contact" title="">{t('main.header.navItems.Contact')}</Link></li>
                                 </ul>
                             </nav>
                         </div>
