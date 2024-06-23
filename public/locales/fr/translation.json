@@ -1,0 +1,84 @@
+{
+    "main":{
+        "header":{
+            "navItems": {
+                "AboutUs":"Qui sommes-nous ?",
+                "OurServices": "Nos services",
+                "OurProjects":"Nos projets",
+                "OurPartners": "Nos partenaires",
+                "OurTeam": "Notre équipe",
+                "News":"Actualités",
+                "Contact": "Contact",
+                "Language": "Français",
+                "OurPublic": "Public",
+                "OurHistory": "Historique"
+            }
+        },
+        "elements": {
+            "heroSlogan":"Solidaires pour un Avenir Meilleur",
+            "seeMore":"En savoir plus"           
+        }
+    },
+    "AboutUs" : {
+        "maintext": {
+        "smallTitle": "Qui sommes-nous ?",
+        "bigTitle":"Au Service des Réfugiés : Solidarité sans Frontières",
+        "p1" : "Notre Service Social des Solidarités, héritier de la solidarité des brigades internationales de retour en Belgique après la guerre civile espagnole, tire ses racines d'une histoire riche, dédiée à l'aide aux réfugiés. Depuis la mise en place de camps pour les familles espagnoles fuyant leur pays jusqu'à son évolution en un système de soutien complet, notre parcours s'étend à travers des moments clés : de l'accueil des réfugiés hongrois, tchécoslovaques, chiliens, vietnamiens et d'autres.",
+        "p2" : "Aujourd'hui, notre portée s'étend à une diversité de nationalités, reflétant les dynamiques changeantes des demandeurs d'asile en Belgique. Avec une hausse de la demande en provenance de régions en conflit comme l'Irak, la Syrie et l'Afghanistan, nos services se sont adaptés pour accueillir ces nouvelles populations. Bien que notre focalisation demeure sur les demandeurs d'asile, notre action s'étend au-delà, venant en aide à des individus venant de l'Équateur, du Tibet, du Maroc et au-delà, reflétant une mosaïque mondiale d'assistance.",
+        "p3" : "Au cœur de notre mission se trouvent des valeurs inébranlables : la tolérance, le respect des droits fondamentaux, la justice sociale et l'émancipation. Notre philosophie promeut l'autonomie, les droits fondamentaux, les échanges interculturels et une aide individualisée, favorisant un environnement bienveillant qui respecte les besoins et les antécédents diversifiés de ceux que nous aidons."
+        }
+    },
+    "OurPartners" : {
+        "Maintext": {
+            "OurSponsors": "Nos pouvoirs subsidiants",
+            "OurPartners":"Nos partneraires",
+            "OurCoupoles" : "Nos coupoles",
+            "OurNetwork" : "Notre reseau",
+            "Subtext" : "Dans l'aide aux réfugiés"
+        }
+    },
+    "Services" : {
+        "SSG": "Service Social Général",
+        "MENA": "Tutelle MENA",
+        "DPI" : "Accueil DPI / Convention Ciré-Fédasil",
+        "REAB" : "Retour volontaire REAB",
+        "STECH" : "Service technique",
+        "serviceteam" : "Équipe de service",
+        "dir":"Direction",
+        "board":"Conseil d’administration"   
+    },
+    "Team" : {
+        "RolesF" : {
+            "President":"Presidente",
+            "Vice-President":"Vice-Presidente",
+            "Treasurer":"Trésorière",
+            "Director":"Directrice",
+            "Coordinator":"Coordinatrice",
+            "SocialAssistant":"Assistante sociale",
+            "SocialWorker":"Travailleuse sociale",
+            "Educater":"Educatrice",
+            "MaintenanceIT":"Maintenance informatique",
+            "TechnicalServiceLead":"Responsable service technique et chef équipe travaux",
+            "WorksService":"Service travaux",
+            "AccommodationLead":"Chef équipe logements",
+            "AccomodationService":"Service logements",
+            "IOMReferent":"Référente OIM"
+        },
+        "RolesM" : {
+            "President":"President",
+            "Vice-President":"Vice-President",
+            "Treasurer":"Trésorier",
+            "Director":"Directeur",
+            "Coordinator":"Coordinator",
+            "SocialAssistant":"Assistant social",
+            "SocialWorker":"Travailleur social",
+            "Educater":"Educateur",
+            "MaintenanceIT":"Maintenance informatique",
+            "TechnicalServiceLead":"Responsable service technique et chef équipe travaux",
+            "WorksService":"Service travaux",
+            "AccommodationLead":"Chef équipe logements",
+            "AccomodationService":"Service logements",
+            "IOMReferent":"Référent OIM"
+        }
+    }
+}

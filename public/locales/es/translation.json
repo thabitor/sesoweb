@@ -1,0 +1,14 @@
+{
+    "main":{
+        "header":{
+            "navItems": {
+                "AboutUs":"About Us",
+                "OurServices": "Our Services",
+                "OurProjects":"Our Projects",
+                "OurPartners": "OurPartners",
+                "News":"News",
+                "Contact": "Contact"
+            }
+        }
+    }
+}
