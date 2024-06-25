@@ -2636,9 +2636,12 @@ hero-style3
 }
 
 .wpo-team-wrap {
-    position: relative;
-    transition: all .3s;
+  position: relative; 
+  transition: all .3s;
     margin-bottom: 70px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+
 }
 
 .wpo-team-content {
@@ -2694,6 +2697,11 @@ hero-style3
 
     .wpo-team-area {
         padding-bottom: 30px;
+    }
+
+    .wpo-team-area {
+      display: flex;
+      justify-items: center;
     }
 }
 
@@ -3169,7 +3177,8 @@ hero-style3
 @media(max-width: 767px) {
     .custom-grid {
         width: 50%;
-        float: left;
+        float:none;
+        
     }
 
     .wpo-event-text h2 {
@@ -4019,6 +4028,8 @@ page-title
 
 .wpo-team-area-2 {
     padding-bottom: 170px;
+    display: flex;
+    justify-content: center;
 }
 
 @media(max-width: 1200px) {

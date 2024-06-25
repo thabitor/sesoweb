@@ -4,9 +4,9 @@ function TeamMember(props) {
     return (
 <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap" >
-                            <div className="wpo-team-img">
+                            {/* <div className="wpo-team-img">
                                 <img src={props.img} alt="" />
-                            </div>
+                            </div> */}
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h2><Link to="/volunteerPage">{props.name}</Link> </h2>
