@@ -9,11 +9,10 @@ function TeamMember(props) {
                             </div> */}
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link to="/volunteerPage">{props.name}</Link> </h2>
+                                    <h2>{props.name}</h2>
                                     <span>{props.role}</span>
                                     <ul>
-                                        <li><Link to="/volunteerPage"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link to="/volunteerPage"><i className="ti-twitter"></i></Link></li>
+                                        <li>{props.desc}</li>
                                     </ul>
                                 </div>
                             </div>

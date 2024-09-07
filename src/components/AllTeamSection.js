@@ -23,9 +23,11 @@ function TeamSection (props) {
                     return (
 
                         <TeamMember 
-                     name={teamMember.name}
-                     role={teamMember.role}
-                     img={teamMember.img}
+                        name={teamMember.name}
+                        role={teamMember.role}
+                        img={teamMember.img}
+                        desc={teamMember.desc}
+                        Key={teamMember.id}
                      />
 
                     )

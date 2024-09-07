@@ -29,6 +29,7 @@ function TeamDPI (props) {
                      name={teamMember.name}
                      role={teamMember.role}
                      img={teamMember.img}
+                     desc={teamMember.desc}
                      Key={teamMember.id}
                      />
 
