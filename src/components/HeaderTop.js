@@ -5,11 +5,11 @@ import classNames from 'classnames';
 
 const locales = [
   {
-    code: 'fr',
+    code: 'fr-FR',
     name: 'Français'
   },
   {
-    code: 'en',
+    code: 'en-US',
     name: 'English'
   }
 ];
@@ -18,9 +18,8 @@ function HeaderTop() {
   
   
   const { i18n } = useTranslation();
-  const currentLanguageCode = localStorage.i18nextLng || 'fr'
-  const currentLanguage = locales.find((l) => l.code === currentLanguageCode)
-  const currentLanguageName = currentLanguage.name
+  const currentLanguageCode = localStorage.i18nextLng || 'fr-FR'
+  const currentLanguageName = locales.find((l) => l.code === currentLanguageCode).name
 
   return (
     <div className="topbar">
