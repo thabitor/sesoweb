@@ -3,22 +3,24 @@ import { useTranslation } from "react-i18next";
 import classNames from 'classnames';
 // import cookies from 'js-cookie'
 
+const locales = [
+  {
+    code: 'fr',
+    name: 'Français'
+  },
+  {
+    code: 'en',
+    name: 'English'
+  }
+];
+
 function HeaderTop() {
   
-  const locales = [
-    {
-      code: 'fr',
-      name: 'Français'
-    },
-    {
-      code: 'en',
-      name: 'English'
-    }
-  ];
   
   const { i18n } = useTranslation();
   const currentLanguageCode = localStorage.i18nextLng || 'fr'
-  const currentLanguageName = locales.find((l) => l.code === currentLanguageCode).name
+  const currentLanguage = locales.find((l) => l.code === currentLanguageCode)
+  const currentLanguageName = currentLanguage.name
 
   return (
     <div className="topbar">
