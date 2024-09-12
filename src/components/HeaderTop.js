@@ -11,6 +11,14 @@ const locales = [
   {
     code: 'en-US',
     name: 'English'
+  },
+  {
+    code: 'nl-BE',
+    name: 'Nederlands'
+  },
+  {
+    code: 'es-ES',
+    name: 'Español'
   }
 ];
 
