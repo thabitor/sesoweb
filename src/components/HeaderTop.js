@@ -22,7 +22,7 @@ const locales = [
   }
 ];
 
-function HeaderTop(props) {
+function HeaderTop() {
  
 
   const { i18n } = useTranslation();
