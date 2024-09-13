@@ -35,7 +35,7 @@ const partners = [
         id: 5,
         codename: 'bxlacc',
         name: 'Bruxelles Accueil',
-        type: 'sponsor',
+        type: 'partner',
         img: 'images/partners/BaBo.svg'
     },
     {
@@ -242,6 +242,13 @@ const partners = [
         name: 'Pleegzorg',
         type: 'partner',
         img: 'images/partners/Pleegzorg.svg'
+    },
+    {
+        id: 34,
+        codename: 'actiris',
+        name: 'actiris',
+        type: 'partner',
+        img: 'images/partners/actiris_logo.png'
     }
     
 

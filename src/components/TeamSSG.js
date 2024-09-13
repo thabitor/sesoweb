@@ -10,7 +10,7 @@ function TeamSSG (props) {
     const Deptssg = teamMembers.filter((member) => member.dept === 'ssg')
     
     return (
-        <div className={`wpo-team-area ${props.subclass} section-padding`}>
+        <div className={`wpo-team-area ${props.subclass} section-padding`} id="ssg">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

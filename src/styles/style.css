@@ -3856,13 +3856,20 @@ page-title
 =============================================*/
 
 .wpo-breadcumb-area {
-    background: url('../../public/images/allteam.jpg') no-repeat 10% 9% / cover;
     min-height: 350px;
  position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
+  }
+
+  .bg-team {
+    background: url('../../public/images/allteam.jpg') no-repeat 10% 9% / cover;
+  }
+
+  .bg-partners {
+    background: url('../../public/images/partpic.jpg') no-repeat 20% 50% / cover;
   }
   
   .wpo-breadcumb-area:before {

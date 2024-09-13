@@ -2,7 +2,7 @@
 
 function PageTitle (props) {
     return(
-        <div className="wpo-breadcumb-area">
+        <div className= {`wpo-breadcumb-area ${props.pageTitlebg}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
