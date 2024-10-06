@@ -16,10 +16,10 @@ function Hero(props) {
                                 <div className="slide-title">
                                     <h2>{t('main.elements.heroSlogan')}</h2>
                                 </div>
-                                <div className="slide-subtitle">
+                                {/* <div className="slide-subtitle">
                                     <p>...la tolérance, le respect des droits fondamentaux,</p>
                                     <p>le libre examen, la justice sociale et l'émancipation.</p>
-                                </div>
+                                </div> */}
                                 {/* <div className="btns">
                                     <Link to="/DonatePage"><div className="theme-btn">Donate Now</div></Link>
                                 </div> */}

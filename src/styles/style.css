@@ -3928,6 +3928,10 @@ page-title
   .wpo-breadcumb-wrap ul li:last-child {
     color: #d82d33;
   }
+
+  .redColor>h2 {
+    color: #d82d33;
+  }
   
   .wpo-breadcumb-wrap ul li:after {
     content: "";
