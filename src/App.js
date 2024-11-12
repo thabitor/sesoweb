@@ -23,6 +23,7 @@ import Sreab from './components/pages/Sreab';
 import OurPartners from './components/pages/OurPartners';
 import Contactpage from './components/pages/Contactpage';
 import Contactform from './components/Contactform';
+import ListMena from './components/ListMena';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
   return (
     <>
     <Router >
-      <Header Lang={i18n.language}/>
+    <Header Lang={i18n.language}/>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/aboutus" element={<AboutUs />}></Route>
@@ -45,7 +46,7 @@ function App() {
         <Route path="/sdpi" element={<Sdpi/>}></Route> 
         <Route path="/smena" element={<Smena/>}></Route>
         <Route path="/sreab" element={<Sreab/>}></Route>
-
+        <Route path="/smena/menabase" element={<ListMena/>}></Route>
       </Routes>
     </Router>
   </> 
