@@ -15,7 +15,7 @@ function OurTeam() {
 
     return(
         <Fragment>
-            <PageTitle pageTitle={t('main.header.navItems.OurTeam')} pagesub={'About'}/>
+            <PageTitle pageTitle={t('main.header.navItems.OurTeam')} pageTitlebg={'bg-team'} pagesub={'About'}/>
             <TeamCON subclass={'grey-bg'} />
             <TeamDir subclass={'white-bg'} />
             <TeamSSG subclass={'grey-bg'} />

@@ -11,7 +11,7 @@ function TeamMENA (props) {
     const DeptMENA = teamMembers.filter((member) => member.dept === 'mena')
 
     return (
-        <div className={`wpo-team-area ${props.subclass} section-padding`}>
+        <div className={`wpo-team-area ${props.subclass} section-padding`} id="mena">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

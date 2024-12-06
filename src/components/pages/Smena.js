@@ -3,6 +3,7 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 import TeamMENA from '../TeamMENA';
 import Footer from '../Footer';
+import ListMena from '../ListMena';
 
 function Smena()  {
 
@@ -69,7 +70,6 @@ function Smena()  {
             </div>
 
             <TeamMENA />
-            
             <Footer />
           </>
         );

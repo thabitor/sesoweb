@@ -9,12 +9,12 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    whitelist: ['fr', 'en', 'nl', 'es'],
+    whitelist: ['fr', 'en', 'nl', 'es', 'fr-BE', 'en-US', 'fr-FR', 'en-GB'],
     returnEmptyString: false,
     nonExplicitWhitelist: true,
   load: 'languageOnly',
     debug: true,
-    fallbackLng: 'fr',
+    fallbackLng: ['fr', 'en', 'fr-BE', 'en-US']
   });
 
   export default i18n;

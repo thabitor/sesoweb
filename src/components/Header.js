@@ -29,14 +29,17 @@ function Header(props) {
                         <div className="col-lg-8 d-lg-block d-none">
                             <nav>
                                 <ul>
-                                    <li><Link to="/aboutus" title="">{t('main.header.navItems.AboutUs')}</Link>
+                                    <li><Link to="/" title="">SESO</Link>
                                         <ul className='submenu'>
-                                            {/*<li><HashLink to="/aboutus#public" title="">{t('main.header.navItems.OurPublic')}</HashLink></li>*/}
+                                            <li><HashLink to="/aboutus" title="">{t('main.header.navItems.AboutUs')}</HashLink></li>
                                             <li><HashLink to="/aboutus#historique" title="">{t('main.header.navItems.OurHistory')}</HashLink></li>
                                             <li><Link to="/ourteam" title="">{t('main.header.navItems.OurTeam')}</Link>
                                             <ul>
                                                     <li><HashLink to="/ourteam#con" title="">{t('Services.board')}</HashLink></li>
                                                     <li><HashLink to="/ourteam#dir" title="">{t('Services.dir')}</HashLink></li>
+                                                    <li><HashLink to="/ourteam#ssg" title="">{t('Services.SSG')}</HashLink></li>
+                                                    <li><HashLink to="/ourteam#dpi" title="">{t('Services.DPI')}</HashLink></li>
+                                                    <li><HashLink to="/ourteam#mena" title="">{t('Services.MENA')}</HashLink></li>
                                                 </ul>
                                             </li>
                                         </ul>

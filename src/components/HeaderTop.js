@@ -5,12 +5,20 @@ import classNames from 'classnames';
 
 const locales = [
   {
-    code: 'fr-FR',
+    code: 'fr',
     name: 'Français'
   },
   {
     code: 'en-US',
     name: 'English'
+  },
+  {
+    code: 'nl-BE',
+    name: 'Nederlands'
+  },
+  {
+    code: 'es-ES',
+    name: 'Español'
   }
 ];
 
@@ -18,7 +26,7 @@ function HeaderTop() {
   
   
   const { i18n } = useTranslation();
-  const currentLanguageCode = localStorage.i18nextLng || 'fr-FR'
+  const currentLanguageCode = localStorage.i18nextLng || 'fr'
   const currentLanguageName = locales.find((l) => l.code === currentLanguageCode).name
 
   return (

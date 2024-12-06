@@ -16,7 +16,7 @@
         },
         "elements": {
             "seeMore":"More about it",
-            "heroSlogan":"Solidarity for a Better Future" 
+            "heroSlogan":"Solidarity, our cause" 
         }
     },
     "AboutUs" : {
@@ -39,6 +39,7 @@
     },
     "Services" : {
         "SSG": "General Social Services",
+        "SSG+":" ",
         "MENA": "Service for Unaccompanied Foreign Minors",
         "DPI" : "Services for asylum seekers",
         "REAB" : "Voluntary repatriation",

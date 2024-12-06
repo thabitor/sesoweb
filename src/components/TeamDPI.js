@@ -11,7 +11,7 @@ function TeamDPI (props) {
     const DeptDPI = teamMembers.filter((member) => member.dept === 'dpi')
 
     return (
-        <div className={`wpo-team-area ${props.subclass} section-padding`}>
+        <div className={`wpo-team-area ${props.subclass} section-padding`} id="dpi">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

@@ -15,7 +15,7 @@
             }
         },
         "elements": {
-            "heroSlogan":"Solidaires pour un Avenir Meilleur",
+            "heroSlogan":"La Solidarité, notre combat",
             "seeMore":"En savoir plus"           
         }
     },
@@ -39,8 +39,9 @@
     },
     "Services" : {
         "SSG": "Service Social Général",
-        "MENA": "Tutelle MENA",
-        "DPI" : "Accueil DPI / Convention Ciré-Fédasil",
+        "SSG+":"/ Centre d’Aide aux Personnes",
+        "MENA": "Tutelles MENA",
+        "DPI" : "Structure d’accueil DPI",
         "REAB" : "Retour volontaire REAB",
         "STECH" : "Service technique",
         "serviceteam" : "Équipe",

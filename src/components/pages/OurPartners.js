@@ -21,7 +21,7 @@ function OurPartners() {
 
     return (
         <Fragment>
-            <PageTitle pageTitle={t('main.header.navItems.OurPartners')} pagesub={'Partners'}/> 
+            <PageTitle pageTitle={t('main.header.navItems.OurPartners')} pageTitlebg ={'bg-partners'} pagesub={'Partners'}/> 
             <ReseauxSection className={'white-bg'}/>
             <SponsorsSection className={'white-bg'}/>
             <CoupolesSection className={'white-bg'} />
