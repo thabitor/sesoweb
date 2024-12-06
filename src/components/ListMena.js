@@ -1,12 +1,15 @@
 import React, {useEffect, useState} from 'react'
 import { listMena } from '../Services/MenaService';
 
+
 function ListMena() {
 
    const[mena, setMena] = useState([])
+
    useEffect(() => {
     listMena().then((response) => {
         setMena(response.data);
+
     }).catch(error => {
         console.error(error);
     })
@@ -39,7 +42,7 @@ function ListMena() {
                             <td>{mena.nationality}</td>
                             <td>{mena.dateOfBirth}</td>
                             <td>{mena.status}</td>
-                            <td>{mena.guardian}</td>
+                            {/* <td>{mena.guardian}</td> */}
                         </tr>
                     )
                 }
