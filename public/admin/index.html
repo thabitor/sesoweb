@@ -11,6 +11,30 @@
         window.location.replace("/admin/");
       }
     </script>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      fetch("/admin/config.yml")
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Could not load CMS config");
+          }
+          return response.text();
+        })
+        .then(function (text) {
+          const config = jsyaml.load(text);
+          config.load_config_file = false;
+          config.backend = config.backend || {};
+          config.backend.base_url = window.location.origin;
+          config.backend.auth_endpoint = "api/oauth";
+          window.initCMS({ config: config });
+        })
+        .catch(function (error) {
+          document.body.innerHTML = "<p>Could not load CMS configuration.</p><pre>" + error.message + "</pre>";
+        });
+    </script>
   </body>
 </html>

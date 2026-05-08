@@ -2,8 +2,8 @@ backend:
   name: github
   repo: thabitor/sesoweb
   branch: main
-  base_url: /api
-  auth_endpoint: oauth
+  base_url: https://example.com
+  auth_endpoint: api/oauth
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
