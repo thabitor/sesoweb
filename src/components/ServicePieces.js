@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import ServiceImage from './ServiceImage';
 
 function ServicePieces() {
     const { t } = useTranslation();
@@ -59,9 +60,7 @@ function ServicePieces() {
 
     const renderImage = (service) => (
         <div className="col-lg-6 col-md-12 col-sm-12 servicepieces-section">
-            <div className="wpo-service-img mask2 top-30">
-                <img src={service.image} alt="" />
-            </div>
+            <ServiceImage serviceKey={service.key} src={service.image} maskClass="mask2" extraClass="top-30" />
         </div>
     );
 

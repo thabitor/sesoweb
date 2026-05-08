@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import TeamMENA from '../TeamMENA';
 import Footer from '../Footer';
+import ServiceImage from '../ServiceImage';
 
 function Smena() {
     const { t } = useTranslation();
@@ -29,9 +30,7 @@ function Smena() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 inservicepage-section">
-                            <div className="wpo-service-img mask1 top-60">
-                                <img src="images/gallery/img-serv-3.jpg" alt="" />
-                            </div>
+                            <ServiceImage serviceKey="mena" src="images/gallery/img-serv-3.jpg" maskClass="mask1" extraClass="top-60" />
                         </div>
                     </div>
                 </div>

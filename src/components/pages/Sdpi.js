@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import Footer from '../Footer';
 import TeamDPI from '../TeamDPI';
+import ServiceImage from '../ServiceImage';
 
 function Sdpi() {
     const { t } = useTranslation();
@@ -30,9 +31,7 @@ function Sdpi() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img mask1 top-150">
-                                <img src="images/gallery/img-serv-2.jpg" alt="" />
-                            </div>
+                            <ServiceImage serviceKey="dpi" src="images/gallery/img-serv-2.jpg" maskClass="mask1" extraClass="top-150" />
                         </div>
                     </div>
                 </div>

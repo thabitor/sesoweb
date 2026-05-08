@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import TeamREAB from '../TeamREAB';
 import Footer from '../Footer';
+import ServiceImage from '../ServiceImage';
 
 function Sreab() {
     const { t } = useTranslation();
@@ -31,9 +32,7 @@ function Sreab() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">
-                            <div className="wpo-service-img mask1 top-120">
-                                <img src="images/gallery/img-serv-4.jpg" alt="" />
-                            </div>
+                            <ServiceImage serviceKey="reab" src="images/gallery/img-serv-4.jpg" maskClass="mask1" extraClass="top-120" />
                         </div>
                     </div>
                 </div>

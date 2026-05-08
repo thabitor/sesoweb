@@ -3969,6 +3969,37 @@ page-title
   .wpo-breadcumb-wrap {
     text-align: center;
   }
+
+  .page-title-credit {
+    position: absolute;
+    left: var(--credit-x, 50%);
+    top: var(--credit-y, 50%);
+    z-index: 2;
+    width: max-content;
+    max-width: min(320px, calc(100% - 24px));
+    padding: 5px 9px;
+    color: #fff;
+    background: #111;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.2;
+    text-align: center;
+    opacity: 0;
+    transform: translate(12px, 8px);
+    transition: opacity 180ms ease;
+    pointer-events: none;
+  }
+
+  .wpo-breadcumb-area:hover .page-title-credit,
+  .wpo-breadcumb-area:focus-within .page-title-credit {
+    opacity: 1;
+  }
+
+  .page-title-credit a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
   
   @media(max-width: 767px) {
     .wpo-breadcumb-area {
@@ -7447,25 +7478,71 @@ case-style-2
 .wpo-service-img {
   width: 100%;
   position: relative;
-  
+  overflow: hidden;
+}
+
+.wpo-service-img img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+}
+
+.service-image-frame {
+  margin: 0;
+  position: relative;
+}
+
+.service-image-credit {
+  position: absolute;
+  left: var(--credit-x, 50%);
+  top: var(--credit-y, 50%);
+  z-index: 2;
+  width: max-content;
+  max-width: min(320px, calc(100% - 24px));
+  padding: 5px 9px;
+  color: #fff;
+  background: #111;
+  border-radius: 3px;
+  box-shadow: none;
+  font-size: 11px;
+  line-height: 1.2;
+  text-align: center;
+  opacity: 0;
+  transform: translate(12px, 12px);
+  transition: opacity 180ms ease, transform 180ms ease;
+  pointer-events: none;
+}
+
+.service-image-frame:hover .service-image-credit,
+.service-image-frame:focus-within .service-image-credit {
+  opacity: 1;
+  transform: translate(12px, 8px);
+  pointer-events: auto;
+}
+
+.service-image-credit a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .mask1 {
-  -webkit-mask-image: url(/public/images/logo/238.png);
-  mask-image: url(/public/images/logo/238.png);
-  mask-size: 70%;
+  -webkit-mask-image: url(/public/images/logo/seso-circle-mask.svg);
+  mask-image: url(/public/images/logo/seso-circle-mask.svg);
+  mask-size: 82%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-  mask-position: 40% -5% ;
+  mask-position: center 12%;
 }
 
 .mask2  {
-  -webkit-mask-image: url(/public/images/logo/238.png);
-  mask-image: url(/public/images/logo/238.png);
-  mask-size: 70%;
+  -webkit-mask-image: url(/public/images/logo/seso-circle-mask.svg);
+  mask-image: url(/public/images/logo/seso-circle-mask.svg);
+  mask-size: 82%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
-  mask-position: 40% 0% ; 
+  mask-position: center 12%; 
 }
 
 .top-10 {

@@ -11,7 +11,14 @@ function Services() {
 
     return(
         <Fragment>
-            <PageTitle pageTitle={t('main.header.navItems.OurServices')} pageTitlebg={'bg-services'}/> 
+            <PageTitle
+                pageTitle={t('main.header.navItems.OurServices')}
+                pageTitlebg={'bg-services'}
+                photoCredit={{
+                    author: 'Mario Gogh',
+                    authorUrl: 'https://unsplash.com/@mariogogh?utm_source=sesoweb&utm_medium=referral',
+                }}
+            /> 
             <ServicePieces />
             <Footer/>
             <Scrollbar/>

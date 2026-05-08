@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import TeamSSG from '../TeamSSG';
 import Footer from '../Footer';
+import ServiceImage from '../ServiceImage';
 
 const permanences = [
     {
@@ -129,9 +130,7 @@ function Ssgeneral() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 inservicepage-section">
-                            <div className="wpo-service-img mask1 top-120">
-                                <img src="images/gallery/ssg.jpg" alt="" />
-                            </div>
+                            <ServiceImage serviceKey="ssg" src="images/gallery/ssg.jpg" maskClass="mask1" extraClass="top-60" />
                         </div>
                     </div>
                 </div>
