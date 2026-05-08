@@ -11,16 +11,16 @@ function Hero() {
                     <div className="container">
                         <div className="row">
                             <div className="col col-lg-9 slide-caption">
-                                <div className="slide-kicker">Service Social des Solidarités</div>
+                                <div className="slide-kicker">{t('main.elements.heroKicker')}</div>
                                 <div className="slide-title">
                                     <h2>{t('main.elements.heroSlogan')}</h2>
                                 </div>
                                 <div className="slide-subtitle">
-                                    <p>Accueil, accompagnement social et défense des droits des personnes réfugiées, demandeuses de protection internationale et exilées à Bruxelles.</p>
+                                    <p>{t('main.elements.heroSubtitle')}</p>
                                 </div>
                                 <div className="btns hero-actions">
                                     <Link to="/services" className="theme-btn">{t('main.header.navItems.OurServices')}</Link>
-                                    <Link to="/contact" className="theme-btn-s2">Nous contacter</Link>
+                                    <Link to="/contact" className="theme-btn-s2">{t('main.elements.contactUs')}</Link>
                                 </div>
                                 <div className="hero-proof">
                                     <div>

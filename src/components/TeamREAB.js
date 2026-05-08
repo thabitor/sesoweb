@@ -1,7 +1,9 @@
 import teamMembers from '../data/allTeam';
 import TeamMember from './TeamMember';
+import { useTranslation } from "react-i18next";
 
 function TeamREAB(props) {
+    const { t } = useTranslation();
     const members = teamMembers.filter((member) => member.dept === 'reab');
 
     return (
@@ -10,8 +12,8 @@ function TeamREAB(props) {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Équipe</span>
-                            <h2>Retour volontaire REAB</h2>
+                            <span>{t('Services.serviceteam')}</span>
+                            <h2>{t('Services.REAB')}</h2>
                         </div>
                     </div>
                 </div>

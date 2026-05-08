@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import classNames from 'classnames';
 
@@ -46,11 +46,32 @@ function getSavedLanguage() {
   }
 }
 
+function saveLanguage(code) {
+  try {
+    window.localStorage.setItem('i18nextLng', code);
+  } catch (error) {
+    // Ignore storage failures in strict privacy modes.
+  }
+}
+
 function HeaderTop() {
   const { i18n } = useTranslation();
   const savedLanguage = getSavedLanguage();
   const currentLanguageCode = normalizeLanguageCode(i18n.resolvedLanguage || i18n.language || savedLanguage);
   const currentLanguage = locales.find((locale) => locale.code === currentLanguageCode) || locales[0];
+
+  useEffect(() => {
+    document.documentElement.lang = currentLanguage.code;
+  }, [currentLanguage.code]);
+
+  const handleLanguageChange = (code) => {
+    if (code === currentLanguageCode) {
+      return;
+    }
+
+    saveLanguage(code);
+    i18n.changeLanguage(code);
+  };
 
   return (
     <div className="topbar">
@@ -86,8 +107,10 @@ function HeaderTop() {
                         className={classNames('dropdown-item', {
                           disabled: currentLanguageCode === code,
                         })}
+                        type="button"
+                        aria-current={currentLanguageCode === code ? 'true' : undefined}
                         onClick={() => {
-                          i18n.changeLanguage(code);
+                          handleLanguageChange(code);
                         }}
                       >
                         {name}

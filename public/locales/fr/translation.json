@@ -1,85 +1,104 @@
 {
-    "main":{
-        "header":{
-            "navItems": {
-                "AboutUs":"Qui sommes-nous ?",
-                "OurServices": "Nos services",
-                "OurProjects":"Nos projets",
-                "OurPartners": "Nos partenaires",
-                "OurTeam": "Notre équipe",
-                "News":"Actualités",
-                "Contact": "Contact",
-                "Language": "Français",
-                "OurPublic": "Public",
-                "OurHistory": "Historique"
-            }
-        },
-        "elements": {
-            "heroSlogan":"La Solidarité, notre combat",
-            "seeMore":"En savoir plus"           
-        }
+  "main": {
+    "header": {
+      "navItems": {
+        "AboutUs": "Qui sommes-nous ?",
+        "OurServices": "Nos services",
+        "OurProjects": "Nos projets",
+        "OurPartners": "Nos partenaires",
+        "OurTeam": "Notre équipe",
+        "News": "Actualités",
+        "Contact": "Contact",
+        "Language": "Français",
+        "OurPublic": "Public",
+        "OurHistory": "Historique"
+      }
     },
-    "AboutUs" : {
-        "maintext": {
-        "smallTitle": "Qui sommes-nous ?",
-        "bigTitle":"Au Service des Réfugiés : Solidarité sans Frontières",
-        "p1" : "Fondée en 1937 afin de venir en aide aux réfugié.e.s de la guerre civile espagnole, l’asbl SESO est active dans les champs du social et de la migration. Nous offrons une aide individualisée et personnalisée au public qui fréquente nos services, en particulier aux personnes migrantes et réfugiées, dans le respect de leur autonomie et de leurs droits fondamentaux, du droit à la vie familiale et à l’intimité. Nous promouvons la tolérance, le respect des droits, la lutte contre tout type de discrimination, le libre examen, la justice sociale et l’émancipation.",
-        "p2" : "",
-        "p3" : ""
-        }
-    },
-    "OurPartners" : {
-        "Maintext": {
-            "OurSponsors": "Nos pouvoirs subsidiants",
-            "OurPartners":"Nos partneraires",
-            "OurCoupoles" : "Nos coupoles",
-            "OurNetwork" : "Notre reseau",
-            "Subtext" : "Dans l'aide aux réfugiés"
-        }
-    },
-    "Services" : {
-        "SSG": "Service Social Général",
-        "SSG+":"/ Centre d’Aide aux Personnes",
-        "MENA": "Tutelles MENA",
-        "DPI" : "Structure d’accueil DPI",
-        "REAB" : "Retour volontaire REAB",
-        "STECH" : "Service technique",
-        "serviceteam" : "Équipe",
-        "dir":"Direction",
-        "board":"Conseil d’administration"   
-    },
-    "Team" : {
-        "RolesF" : {
-            "President":"Presidente",
-            "Vice-President":"Vice-Presidente",
-            "Treasurer":"Trésorière",
-            "Director":"Directrice",
-            "Coordinator":"Coordinatrice",
-            "SocialAssistant":"Assistante sociale",
-            "SocialWorker":"Travailleuse sociale",
-            "Educater":"Educatrice",
-            "MaintenanceIT":"Maintenance informatique",
-            "TechnicalServiceLead":"Responsable service technique et chef équipe travaux",
-            "WorksService":"Service travaux",
-            "AccommodationLead":"Chef équipe logements",
-            "AccomodationService":"Service logements",
-            "IOMReferent":"Référente OIM"
-        },
-        "RolesM" : {
-            "President":"President",
-            "Vice-President":"Vice-President",
-            "Treasurer":"Trésorier",
-            "Director":"Directeur",
-            "Coordinator":"Coordinator",
-            "SocialAssistant":"Assistant social",
-            "SocialWorker":"Travailleur social",
-            "Educater":"Educateur",
-            "MaintenanceIT":"Maintenance informatique",
-            "TechnicalServiceLead":"Responsable service technique et chef équipe travaux",
-            "WorksService":"Service travaux",
-            "AccommodationLead":"Chef équipe logements",
-            "AccomodationService":"Service logements",
-            "IOMReferent":"Référent OIM"
-        }
+    "elements": {
+      "heroKicker": "Service Social des Solidarités",
+      "heroSlogan": "La Solidarité, notre combat",
+      "heroSubtitle": "Accueil, accompagnement social et défense des droits des personnes réfugiées, demandeuses de protection internationale et exilées à Bruxelles.",
+      "contactUs": "Nous contacter",
+      "seeMore": "En savoir plus"
     }
+  },
+  "AboutUs": {
+    "maintext": {
+      "smallTitle": "Qui sommes-nous ?",
+      "bigTitle": "Au service des réfugiés : solidarité sans frontières",
+      "p1": "Fondée en 1937 afin de venir en aide aux réfugié.e.s de la guerre civile espagnole, l’asbl SESO est active dans les champs du social et de la migration. Nous offrons une aide individualisée et personnalisée au public qui fréquente nos services, en particulier aux personnes migrantes et réfugiées, dans le respect de leur autonomie et de leurs droits fondamentaux, du droit à la vie familiale et à l’intimité. Nous promouvons la tolérance, le respect des droits, la lutte contre tout type de discrimination, le libre examen, la justice sociale et l’émancipation.",
+      "p2": "",
+      "p3": ""
+    }
+  },
+  "OurPartners": {
+    "Maintext": {
+      "OurSponsors": "Nos pouvoirs subsidiants",
+      "OurPartners": "Nos partenaires",
+      "OurCoupoles": "Nos coupoles",
+      "OurNetwork": "Notre réseau",
+      "Subtext": "Dans l'aide aux réfugiés"
+    }
+  },
+  "Services": {
+    "SSG": "Service Social Général",
+    "SSG+": "/ Centre d’Aide aux Personnes",
+    "MENA": "Tutelles MENA",
+    "DPI": "Structure d’accueil DPI",
+    "REAB": "Retour volontaire REAB",
+    "STECH": "Service technique",
+    "serviceteam": "Équipe",
+    "dir": "Direction",
+    "board": "Conseil d’administration",
+    "discover": "Découvrir le service",
+    "descriptions": {
+      "SSG": "Aide sociale généraliste de première ligne pour les personnes et familles en difficulté.",
+      "DPI": "Près de 100 places d’accueil en logement individuel, en partenariat avec le CIRÉ et Fedasil.",
+      "MENA": "Accompagnement et tutelles pour mineurs étrangers non accompagnés, mandatés par le SPF Justice.",
+      "REAB": "Information et soutien dans l’ouverture de dossiers de retour volontaire avec l’OIM."
+    }
+  },
+  "Team": {
+    "RolesF": {
+      "President": "Présidente",
+      "Vice-President": "Vice-Présidente",
+      "Treasurer": "Trésorière",
+      "Director": "Directrice",
+      "Coordinator": "Coordinatrice",
+      "SocialAssistant": "Assistante sociale",
+      "SocialWorker": "Travailleuse sociale",
+      "Educater": "Éducatrice",
+      "MaintenanceIT": "Maintenance informatique",
+      "TechnicalServiceLead": "Responsable service technique et chef équipe travaux",
+      "WorksService": "Service travaux",
+      "AccommodationLead": "Chef équipe logements",
+      "AccomodationService": "Service logements",
+      "IOMReferent": "Référente OIM"
+    },
+    "RolesM": {
+      "President": "Président",
+      "Vice-President": "Vice-Président",
+      "Treasurer": "Trésorier",
+      "Director": "Directeur",
+      "Coordinator": "Coordinateur",
+      "SocialAssistant": "Assistant social",
+      "SocialWorker": "Travailleur social",
+      "Educater": "Éducateur",
+      "MaintenanceIT": "Maintenance informatique",
+      "TechnicalServiceLead": "Responsable service technique et chef équipe travaux",
+      "WorksService": "Service travaux",
+      "AccommodationLead": "Chef équipe logements",
+      "AccomodationService": "Service logements",
+      "IOMReferent": "Référent OIM"
+    }
+  },
+  "Footer": {
+    "UsefulLinks": "Liens utiles",
+    "AboutUs": "Qui sommes-nous ?",
+    "Services": "Nos services",
+    "Partners": "Nos partenaires",
+    "Contact": "Contact",
+    "FacebookLabel": "SESO sur Facebook",
+    "LinkedInLabel": "SESO sur LinkedIn"
+  }
 }

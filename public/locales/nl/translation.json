@@ -1,14 +1,104 @@
 {
-    "main":{
-        "header":{
-            "navItems": {
-                "AboutUs":"About Us",
-                "OurServices": "Our Services",
-                "OurProjects":"Our Projects",
-                "OurPartners": "OurPartners",
-                "News":"News",
-                "Contact": "Contact"
-            }
-        }
+  "main": {
+    "header": {
+      "navItems": {
+        "AboutUs": "Wie zijn wij?",
+        "OurServices": "Onze diensten",
+        "OurProjects": "Onze projecten",
+        "OurPartners": "Onze partners",
+        "OurTeam": "Ons team",
+        "News": "Nieuws",
+        "Contact": "Contact",
+        "Language": "Nederlands",
+        "OurPublic": "Publiek",
+        "OurHistory": "Geschiedenis"
+      }
+    },
+    "elements": {
+      "heroKicker": "Sociale Dienst voor Solidariteit",
+      "heroSlogan": "Solidariteit is onze strijd",
+      "heroSubtitle": "Onthaal, sociale begeleiding en verdediging van de rechten van vluchtelingen, personen die internationale bescherming aanvragen en mensen in ballingschap in Brussel.",
+      "contactUs": "Neem contact op",
+      "seeMore": "Meer weten"
     }
+  },
+  "AboutUs": {
+    "maintext": {
+      "smallTitle": "Wie zijn wij?",
+      "bigTitle": "Ten dienste van vluchtelingen: solidariteit zonder grenzen",
+      "p1": "SESO werd opgericht in 1937 om vluchtelingen van de Spaanse Burgeroorlog te helpen en is actief op het vlak van sociaal werk en migratie. Wij bieden individuele en persoonlijke hulp aan het publiek dat gebruikmaakt van onze diensten, in het bijzonder aan migranten en vluchtelingen, met respect voor hun autonomie en fundamentele rechten, het recht op gezinsleven en privacy. Wij bevorderen tolerantie, respect voor rechten, de strijd tegen elke vorm van discriminatie, vrij onderzoek, sociale rechtvaardigheid en emancipatie.",
+      "p2": "",
+      "p3": ""
+    }
+  },
+  "OurPartners": {
+    "Maintext": {
+      "OurSponsors": "Onze subsidiërende overheden",
+      "OurPartners": "Onze partners",
+      "OurCoupoles": "Onze koepels",
+      "OurNetwork": "Ons netwerk",
+      "Subtext": "Ter ondersteuning van vluchtelingen"
+    }
+  },
+  "Services": {
+    "SSG": "Algemene Sociale Dienst",
+    "SSG+": "/ Centrum voor Personenhulp",
+    "MENA": "Voogdijen MENA",
+    "DPI": "Onthaalstructuur voor aanvragers van internationale bescherming",
+    "REAB": "Vrijwillige terugkeer REAB",
+    "STECH": "Technische dienst",
+    "serviceteam": "Team",
+    "dir": "Directie",
+    "board": "Raad van bestuur",
+    "discover": "Ontdek de dienst",
+    "descriptions": {
+      "SSG": "Algemene eerstelijns sociale hulp voor personen en gezinnen in moeilijkheden.",
+      "DPI": "Bijna 100 opvangplaatsen in individuele huisvesting, in samenwerking met CIRÉ en Fedasil.",
+      "MENA": "Begeleiding en voogdijen voor niet-begeleide buitenlandse minderjarigen, gemandateerd door de FOD Justitie.",
+      "REAB": "Informatie en ondersteuning bij het openen van dossiers voor vrijwillige terugkeer met de IOM."
+    }
+  },
+  "Team": {
+    "RolesF": {
+      "President": "Voorzitter",
+      "Vice-President": "Ondervoorzitter",
+      "Treasurer": "Penningmeester",
+      "Director": "Directeur",
+      "Coordinator": "Coördinator",
+      "SocialAssistant": "Maatschappelijk werker",
+      "SocialWorker": "Maatschappelijk werker",
+      "Educater": "Opvoeder",
+      "MaintenanceIT": "IT-onderhoud",
+      "TechnicalServiceLead": "Verantwoordelijke technische dienst en teamleider werken",
+      "WorksService": "Dienst werken",
+      "AccommodationLead": "Teamleider huisvesting",
+      "AccomodationService": "Dienst huisvesting",
+      "IOMReferent": "IOM-referent"
+    },
+    "RolesM": {
+      "President": "Voorzitter",
+      "Vice-President": "Ondervoorzitter",
+      "Treasurer": "Penningmeester",
+      "Director": "Directeur",
+      "Coordinator": "Coördinator",
+      "SocialAssistant": "Maatschappelijk werker",
+      "SocialWorker": "Maatschappelijk werker",
+      "Educater": "Opvoeder",
+      "MaintenanceIT": "IT-onderhoud",
+      "TechnicalServiceLead": "Verantwoordelijke technische dienst en teamleider werken",
+      "WorksService": "Dienst werken",
+      "AccommodationLead": "Teamleider huisvesting",
+      "AccomodationService": "Dienst huisvesting",
+      "IOMReferent": "IOM-referent"
+    }
+  },
+  "Footer": {
+    "UsefulLinks": "Nuttige links",
+    "AboutUs": "Wie zijn wij?",
+    "Services": "Onze diensten",
+    "Partners": "Onze partners",
+    "Contact": "Contact",
+    "FacebookLabel": "SESO op Facebook",
+    "LinkedInLabel": "SESO op LinkedIn"
+  }
 }

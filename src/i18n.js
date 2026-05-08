@@ -15,6 +15,11 @@ i18n
     load: 'languageOnly',
     debug: false,
     fallbackLng: 'fr',
+    detection: {
+      order: ['localStorage', 'navigator', 'htmlTag'],
+      caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng',
+    },
     interpolation: {
       escapeValue: false,
     },

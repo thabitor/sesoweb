@@ -1,7 +1,9 @@
 import teamMembers from '../data/allTeam';
 import TeamMember from './TeamMember';
+import { useTranslation } from "react-i18next";
 
 function TeamTechnical(props) {
+    const { t } = useTranslation();
     const members = teamMembers.filter((member) => member.dept === 'tech');
 
     return (
@@ -10,8 +12,8 @@ function TeamTechnical(props) {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Équipe</span>
-                            <h2>Service Technique</h2>
+                            <span>{t('Services.serviceteam')}</span>
+                            <h2>{t('Services.STECH')}</h2>
                         </div>
                     </div>
                 </div>

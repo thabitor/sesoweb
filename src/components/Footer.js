@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from "react-i18next";
 
 
 function Footer (props) {
+    const { t } = useTranslation();
 
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
@@ -22,12 +24,12 @@ function Footer (props) {
                             {/* <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p> */}
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/SETM.asbl" target="_blank" rel="noreferrer" aria-label="SESO sur Facebook">
+                                    <a href="https://www.facebook.com/SETM.asbl" target="_blank" rel="noreferrer" aria-label={t('Footer.FacebookLabel')}>
                                         <i className="ti-facebook" aria-hidden="true" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/seso-asbl" target="_blank" rel="noreferrer" aria-label="SESO sur LinkedIn">
+                                    <a href="https://www.linkedin.com/company/seso-asbl" target="_blank" rel="noreferrer" aria-label={t('Footer.LinkedInLabel')}>
                                         <i className="ti-linkedin" aria-hidden="true" />
                                     </a>
                                 </li>
@@ -62,20 +64,20 @@ function Footer (props) {
                     <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget">
                             <div className="widget-title">
-                                <h3>Liens utiles</h3>
+                                <h3>{t('Footer.UsefulLinks')}</h3>
                             </div>
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/aboutus">Qui sommes-nous?</Link></li>
-                                <li><Link onClick={ClickHandler} to="/services">Nos services</Link></li>
-                                <li><Link onClick={ClickHandler} to="/ourpartners">Nos partenaires</Link></li>
-                                <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                <li><Link onClick={ClickHandler} to="/aboutus">{t('Footer.AboutUs')}</Link></li>
+                                <li><Link onClick={ClickHandler} to="/services">{t('Footer.Services')}</Link></li>
+                                <li><Link onClick={ClickHandler} to="/ourpartners">{t('Footer.Partners')}</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">{t('Footer.Contact')}</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col col-lg-3 offset-lg-1 col-md-6 col-sm-12 col-12">
                         <div className="widget market-widget wpo-service-link-widget">
                             <div className="widget-title">
-                                <h3>Contact </h3>
+                                <h3>{t('Footer.Contact')}</h3>
                             </div>
                             {/* <p>online store with lots of cool and exclusive wpo-features</p> */}
                             <div className="contact-ft">

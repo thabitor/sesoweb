@@ -1,14 +1,104 @@
 {
-    "main":{
-        "header":{
-            "navItems": {
-                "AboutUs":"About Us",
-                "OurServices": "Our Services",
-                "OurProjects":"Our Projects",
-                "OurPartners": "OurPartners",
-                "News":"News",
-                "Contact": "Contact"
-            }
-        }
+  "main": {
+    "header": {
+      "navItems": {
+        "AboutUs": "¿Quiénes somos?",
+        "OurServices": "Nuestros servicios",
+        "OurProjects": "Nuestros proyectos",
+        "OurPartners": "Nuestros socios",
+        "OurTeam": "Nuestro equipo",
+        "News": "Noticias",
+        "Contact": "Contacto",
+        "Language": "Español",
+        "OurPublic": "Público",
+        "OurHistory": "Historia"
+      }
+    },
+    "elements": {
+      "heroKicker": "Servicio Social de Solidaridad",
+      "heroSlogan": "La solidaridad, nuestra lucha",
+      "heroSubtitle": "Acogida, acompañamiento social y defensa de los derechos de las personas refugiadas, solicitantes de protección internacional y exiliadas en Bruselas.",
+      "contactUs": "Contactarnos",
+      "seeMore": "Saber más"
     }
+  },
+  "AboutUs": {
+    "maintext": {
+      "smallTitle": "¿Quiénes somos?",
+      "bigTitle": "Al servicio de las personas refugiadas: solidaridad sin fronteras",
+      "p1": "Fundada en 1937 para ayudar a las personas refugiadas de la guerra civil española, la asbl SESO trabaja en los ámbitos social y migratorio. Ofrecemos una ayuda individualizada y personalizada al público que acude a nuestros servicios, en particular a las personas migrantes y refugiadas, respetando su autonomía y sus derechos fundamentales, el derecho a la vida familiar y a la intimidad. Promovemos la tolerancia, el respeto de los derechos, la lucha contra todo tipo de discriminación, el libre examen, la justicia social y la emancipación.",
+      "p2": "",
+      "p3": ""
+    }
+  },
+  "OurPartners": {
+    "Maintext": {
+      "OurSponsors": "Nuestros poderes subsidiantes",
+      "OurPartners": "Nuestros socios",
+      "OurCoupoles": "Nuestras federaciones",
+      "OurNetwork": "Nuestra red",
+      "Subtext": "En apoyo a las personas refugiadas"
+    }
+  },
+  "Services": {
+    "SSG": "Servicio Social General",
+    "SSG+": "/ Centro de Ayuda a las Personas",
+    "MENA": "Tutelas MENA",
+    "DPI": "Estructura de acogida para solicitantes de protección internacional",
+    "REAB": "Retorno voluntario REAB",
+    "STECH": "Servicio técnico",
+    "serviceteam": "Equipo",
+    "dir": "Dirección",
+    "board": "Consejo de administración",
+    "discover": "Descubrir el servicio",
+    "descriptions": {
+      "SSG": "Ayuda social generalista de primera línea para personas y familias en dificultad.",
+      "DPI": "Casi 100 plazas de acogida en vivienda individual, en colaboración con CIRÉ y Fedasil.",
+      "MENA": "Acompañamiento y tutelas para menores extranjeros no acompañados, por mandato del SPF Justicia.",
+      "REAB": "Información y apoyo para abrir expedientes de retorno voluntario con la OIM."
+    }
+  },
+  "Team": {
+    "RolesF": {
+      "President": "Presidenta",
+      "Vice-President": "Vicepresidenta",
+      "Treasurer": "Tesorera",
+      "Director": "Directora",
+      "Coordinator": "Coordinadora",
+      "SocialAssistant": "Trabajadora social",
+      "SocialWorker": "Trabajadora social",
+      "Educater": "Educadora",
+      "MaintenanceIT": "Mantenimiento informático",
+      "TechnicalServiceLead": "Responsable del servicio técnico y jefa del equipo de obras",
+      "WorksService": "Servicio de obras",
+      "AccommodationLead": "Jefa del equipo de vivienda",
+      "AccomodationService": "Servicio de vivienda",
+      "IOMReferent": "Referente OIM"
+    },
+    "RolesM": {
+      "President": "Presidente",
+      "Vice-President": "Vicepresidente",
+      "Treasurer": "Tesorero",
+      "Director": "Director",
+      "Coordinator": "Coordinador",
+      "SocialAssistant": "Trabajador social",
+      "SocialWorker": "Trabajador social",
+      "Educater": "Educador",
+      "MaintenanceIT": "Mantenimiento informático",
+      "TechnicalServiceLead": "Responsable del servicio técnico y jefe del equipo de obras",
+      "WorksService": "Servicio de obras",
+      "AccommodationLead": "Jefe del equipo de vivienda",
+      "AccomodationService": "Servicio de vivienda",
+      "IOMReferent": "Referente OIM"
+    }
+  },
+  "Footer": {
+    "UsefulLinks": "Enlaces útiles",
+    "AboutUs": "¿Quiénes somos?",
+    "Services": "Nuestros servicios",
+    "Partners": "Nuestros socios",
+    "Contact": "Contacto",
+    "FacebookLabel": "SESO en Facebook",
+    "LinkedInLabel": "SESO en LinkedIn"
+  }
 }

@@ -8,25 +8,25 @@ function MissionSection(props) {
             path: '/ssg',
             iconClass: 'wpo-mission-icon-5',
             title: `${t('Services.SSG')} ${t('Services.SSG+')}`,
-            description: 'Aide sociale généraliste de première ligne pour les personnes et familles en difficulté.'
+            description: t('Services.descriptions.SSG')
         },
         {
             path: '/sdpi',
             iconClass: 'wpo-mission-icon-6',
             title: t('Services.DPI'),
-            description: 'Près de 100 places d’accueil en logement individuel, en partenariat avec le CIRÉ et Fedasil.'
+            description: t('Services.descriptions.DPI')
         },
         {
             path: '/smena',
             iconClass: 'wpo-mission-icon-7',
             title: t('Services.MENA'),
-            description: 'Accompagnement et tutelles pour mineurs étrangers non accompagnés, mandatés par le SPF Justice.'
+            description: t('Services.descriptions.MENA')
         },
         {
             path: '/sreab',
             iconClass: 'wpo-mission-icon-8',
             title: t('Services.REAB'),
-            description: 'Information et soutien dans l’ouverture de dossiers de retour volontaire avec l’OIM.'
+            description: t('Services.descriptions.REAB')
         }
     ];
 
@@ -52,7 +52,7 @@ function MissionSection(props) {
                                     <Link to={service.path} className="wpo-mission-content">
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
-                                        <span className="service-link-label">Découvrir le service</span>
+                                        <span className="service-link-label">{t('Services.discover')}</span>
                                     </Link>
                                 </div>
                             </div>
