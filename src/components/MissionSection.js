@@ -31,7 +31,7 @@ function MissionSection(props) {
     ];
 
     return (
-        <div className={`wpo-mission-area ${props.subclass}`}>
+        <div className={`wpo-mission-area ${props.subclass}`} id="services">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

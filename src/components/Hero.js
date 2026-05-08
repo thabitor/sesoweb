@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { useTranslation } from "react-i18next";
 
 function Hero() {
@@ -19,7 +20,7 @@ function Hero() {
                                     <p>{t('main.elements.heroSubtitle')}</p>
                                 </div>
                                 <div className="btns hero-actions">
-                                    <Link to="/services" className="theme-btn">{t('main.header.navItems.OurServices')}</Link>
+                                    <HashLink smooth to="/#services" className="theme-btn">{t('main.header.navItems.OurServices')}</HashLink>
                                     <Link to="/contact" className="theme-btn-s2">{t('main.elements.contactUs')}</Link>
                                 </div>
                                 <div className="hero-proof">
