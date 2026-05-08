@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import classNames from 'classnames';
-// import cookies from 'js-cookie'
 
 const locales = [
   {
@@ -9,25 +8,49 @@ const locales = [
     name: 'Français'
   },
   {
-    code: 'en-US',
+    code: 'en',
     name: 'English'
   },
   {
-    code: 'nl-BE',
+    code: 'nl',
     name: 'Nederlands'
   },
   {
-    code: 'es-ES',
+    code: 'es',
     name: 'Español'
   }
 ];
 
+const languageAliases = {
+  'fr-BE': 'fr',
+  'fr-FR': 'fr',
+  'en-US': 'en',
+  'en-GB': 'en',
+  'nl-BE': 'nl',
+  'es-ES': 'es',
+};
+
+function normalizeLanguageCode(code) {
+  if (!code) {
+    return 'fr';
+  }
+
+  return languageAliases[code] || code.split('-')[0] || 'fr';
+}
+
+function getSavedLanguage() {
+  try {
+    return typeof window !== 'undefined' ? window.localStorage.getItem('i18nextLng') : null;
+  } catch (error) {
+    return null;
+  }
+}
+
 function HeaderTop() {
-  
-  
   const { i18n } = useTranslation();
-  const currentLanguageCode = localStorage.i18nextLng || 'fr'
-  const currentLanguageName = locales.find((l) => l.code === currentLanguageCode).name
+  const savedLanguage = getSavedLanguage();
+  const currentLanguageCode = normalizeLanguageCode(i18n.resolvedLanguage || i18n.language || savedLanguage);
+  const currentLanguage = locales.find((locale) => locale.code === currentLanguageCode) || locales[0];
 
   return (
     <div className="topbar">
@@ -46,34 +69,32 @@ function HeaderTop() {
             </div>
           </div>
           <div className="col col-md-6 col-sm-12 col-12">
-          <div className="select-lang">
+            <div className="select-lang">
               <div className="dropdown">
                 <button
                   className="btn dropdown-toggle"
                   type="button"
-                 
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  {currentLanguageName}
+                  {currentLanguage.name}
                 </button>
-                <ul className="dropdown-menu" >
-              {locales.map(({ code, name }) => (
-                <li key={code}>
-                  <button
-                    
-                    className={classNames('dropdown-item', {
-                      disabled: currentLanguageCode === code,
-                    })}
-                    onClick={() => {
-                      i18n.changeLanguage(code)
-                    }}
-                  >
-                    {name}
-                  </button>
-                </li>
-              ))}
-            </ul>
+                <ul className="dropdown-menu">
+                  {locales.map(({ code, name }) => (
+                    <li key={code}>
+                      <button
+                        className={classNames('dropdown-item', {
+                          disabled: currentLanguageCode === code,
+                        })}
+                        onClick={() => {
+                          i18n.changeLanguage(code);
+                        }}
+                      >
+                        {name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

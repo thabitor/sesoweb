@@ -9,12 +9,15 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    whitelist: ['fr', 'en', 'nl', 'es', 'fr-BE', 'en-US', 'fr-FR', 'en-GB'],
+    supportedLngs: ['fr', 'en', 'nl', 'es'],
     returnEmptyString: false,
-    nonExplicitWhitelist: true,
-  load: 'languageOnly',
-    debug: true,
-    fallbackLng: ['fr', 'en', 'fr-BE', 'en-US']
+    nonExplicitSupportedLngs: true,
+    load: 'languageOnly',
+    debug: false,
+    fallbackLng: 'fr',
+    interpolation: {
+      escapeValue: false,
+    },
   });
 
   export default i18n;
