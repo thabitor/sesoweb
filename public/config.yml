@@ -1,0 +1,112 @@
+backend:
+  name: github
+  repo: thabitor/sesoweb
+  branch: main
+  base_url: /api
+  auth_endpoint: oauth
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: settings
+    label: Site content
+    files:
+      - name: contact
+        label: Contact info
+        file: src/content/contact.json
+        fields:
+          - { label: Address, name: address, widget: string }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Email, name: email, widget: string }
+
+      - name: permanences
+        label: SSG drop-in hours
+        file: src/content/permanences.json
+        fields:
+          - label: Time rows
+            name: rows
+            widget: list
+            summary: "{{fields.time}}"
+            fields:
+              - { label: Time, name: time, widget: string }
+              - label: Slots
+                name: slots
+                widget: list
+                summary: "{{fields.name}}"
+                min: 5
+                max: 5
+                fields:
+                  - { label: Assistant name, name: name, widget: string, required: false }
+                  - label: Languages
+                    name: languages
+                    widget: select
+                    multiple: true
+                    required: false
+                    options:
+                      - { label: French, value: FR }
+                      - { label: Dutch, value: NL }
+                      - { label: English, value: EN }
+                      - { label: Spanish, value: ES }
+
+      - name: team
+        label: Team members
+        file: src/content/team.json
+        fields:
+          - label: Members
+            name: members
+            widget: list
+            summary: "{{fields.name}} - {{fields.dept}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - label: Department
+                name: dept
+                widget: select
+                options:
+                  - { label: Conseil d'administration, value: con }
+                  - { label: Direction, value: dir }
+                  - { label: Service Social Général, value: ssg }
+                  - { label: Accueil DPI, value: dpi }
+                  - { label: Tutelles MENA, value: mena }
+                  - { label: Retour volontaire REAB, value: reab }
+                  - { label: Service Technique, value: tech }
+              - { label: Description, name: desc, widget: string, required: false }
+              - { label: Avatar image, name: img, widget: image, required: false }
+
+      - name: history
+        label: History timeline
+        file: src/content/history.json
+        fields:
+          - label: Section kicker
+            name: kicker
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: string }
+              - { label: English, name: en, widget: string }
+              - { label: Dutch, name: nl, widget: string }
+              - { label: Spanish, name: es, widget: string }
+          - label: Timeline items
+            name: items
+            widget: list
+            summary: "{{fields.year}}"
+            fields:
+              - { label: Year, name: year, widget: string }
+              - { label: FontAwesome icon class, name: icon, widget: string, default: fa-running }
+              - label: Title
+                name: title
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Text
+                name: text
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: text }
+                  - { label: English, name: en, widget: text, required: false }
+                  - { label: Dutch, name: nl, widget: text, required: false }
+                  - { label: Spanish, name: es, widget: text, required: false }
