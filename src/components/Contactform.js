@@ -1,18 +1,21 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Contactform() {
+  const { t } = useTranslation();
   const [emailForm, setEmailForm] = useState({
     name: "",
     email: "",
+    tel: "",
     message: "",
   });
   //Result of message
   const [result, setResult] = useState("");
   //Status of sending message
-  const [status, setStatus] = useState("Submit");
+  const [isSending, setIsSending] = useState(false);
 
   function resetEmailForm() {
-    setEmailForm({ name: "", email: "", message: "" });
+    setEmailForm({ name: "", email: "", tel: "", message: "" });
   }
 
   function handleEmailFormChange(event) {
@@ -31,13 +34,14 @@ function Contactform() {
   const handleSubmit = async (e) => {
     setResult("");
     e.preventDefault();
-    setStatus("Sending...");
+    setIsSending(true);
 
-    const { name, email, message } = e.target.elements;
+    const { name, email, tel, message } = e.target.elements;
 
     let details = {
       name: name.value,
       email: email.value,
+      tel: tel.value,
       message: message.value,
     };
 
@@ -49,65 +53,80 @@ function Contactform() {
         },
         body: JSON.stringify(details),
       });
-      setStatus("Submit");
+      setIsSending(false);
       let result = await response.json();
 
       if (result.status === "success") {
-        setResult("Message Sent!");
+        setResult(t("Contact.form.success"));
         resetEmailForm();
       } else if (result.status === "fail") {
-        alert("Uh oh! Message failed to send.");
+        alert(t("Contact.form.error"));
       }
     } catch (error) {
       console.error(error);
-      setStatus("Submit");
-      setResult("Uh oh! Issues with submitting message.");
+      setIsSending(false);
+      setResult(t("Contact.form.error"));
     }
   };
 
   return (
     <div className="contactform-container">
-      <h1>Nous contacter</h1>
+      <span className="contact-form-kicker">{t("Contact.form.kicker")}</span>
+      <h1>{t("Contact.form.title")}</h1>
       <form
         id="contact-form"
         onSubmit={handleSubmit}
         method="POST"
         className="contact-form"
       >
-        <input
-          placeholder="name*"
-          type="text"
-          name="name"
-          required={true}
-          value={emailForm.name}
-          onChange={handleEmailFormChange}
-        />
-        <input
-          placeholder="email address*"
-          type="email"
-          name="email"
-          required={true}
-          value={emailForm.email}
-          onChange={handleEmailFormChange}
-        />
-        <input
-          placeholder="Phone number*"
-          type="Tel"
-          name="Tel"
-          required={true}
-          value={emailForm.tel}
-          onChange={handleEmailFormChange}
-        />
-        <textarea
-          maxLength={300}
-          placeholder="message (max 300 characters)*"
-          name="message"
-          required={true}
-          value={emailForm.message}
-          onChange={handleEmailFormChange}
-        />
-        <button type="submit">{status}</button>
-        <h3>{result}</h3>
+        <label>
+          {t("Contact.form.nameLabel")}
+          <input
+            placeholder={t("Contact.form.namePlaceholder")}
+            type="text"
+            name="name"
+            required={true}
+            value={emailForm.name}
+            onChange={handleEmailFormChange}
+          />
+        </label>
+        <label>
+          {t("Contact.form.emailLabel")}
+          <input
+            placeholder={t("Contact.form.emailPlaceholder")}
+            type="email"
+            name="email"
+            required={true}
+            value={emailForm.email}
+            onChange={handleEmailFormChange}
+          />
+        </label>
+        <label>
+          {t("Contact.form.phoneLabel")}
+          <input
+            placeholder={t("Contact.form.phonePlaceholder")}
+            type="tel"
+            name="tel"
+            required={true}
+            value={emailForm.tel}
+            onChange={handleEmailFormChange}
+          />
+        </label>
+        <label>
+          {t("Contact.form.messageLabel")}
+          <textarea
+            maxLength={300}
+            placeholder={t("Contact.form.messagePlaceholder")}
+            name="message"
+            required={true}
+            value={emailForm.message}
+            onChange={handleEmailFormChange}
+          />
+        </label>
+        <button type="submit" disabled={isSending}>
+          {isSending ? t("Contact.form.sending") : t("Contact.form.submit")}
+        </button>
+        {result && <p className="contact-form-result">{result}</p>}
       </form>
     </div>
   );

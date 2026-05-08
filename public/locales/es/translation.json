@@ -40,6 +40,33 @@
       "Subtext": "En apoyo a las personas refugiadas"
     }
   },
+  "Contact": {
+    "kicker": "Contacto",
+    "title": "¿Una pregunta, una solicitud o una primera cita?",
+    "intro": "Nuestro equipo le acoge en Saint-Gilles y le orienta hacia el servicio más adecuado para su situación.",
+    "addressLabel": "Dirección",
+    "address": "Rue de Parme 26, 1060 Bruselas",
+    "phoneLabel": "Teléfono",
+    "phone": "02 533 39 84",
+    "emailLabel": "Email",
+    "email": "info@seso.be",
+    "form": {
+      "kicker": "Formulario",
+      "title": "Contactarnos",
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Su nombre",
+      "emailLabel": "Dirección de email",
+      "emailPlaceholder": "su@email.be",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "Su número de teléfono",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Explique brevemente su solicitud",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "Mensaje enviado.",
+      "error": "No se pudo enviar el mensaje."
+    }
+  },
   "Services": {
     "SSG": "Servicio Social General",
     "SSG+": "/ Centro de Ayuda a las Personas",

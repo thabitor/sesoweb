@@ -8,7 +8,7 @@ function SponsorsSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="wpo-case-area section-padding white-bg partners">
+    <div className="wpo-case-area section-padding partners">
       <div className="container">
         <div className="row">
           <div className="col-12">

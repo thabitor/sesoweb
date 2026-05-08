@@ -40,6 +40,33 @@
       "Subtext": "Dans l'aide aux réfugiés"
     }
   },
+  "Contact": {
+    "kicker": "Contact",
+    "title": "Une question, une demande ou un premier rendez-vous ?",
+    "intro": "Notre équipe vous accueille à Saint-Gilles et vous oriente vers le service le plus adapté à votre situation.",
+    "addressLabel": "Adresse",
+    "address": "Rue de Parme 26, 1060 Bruxelles",
+    "phoneLabel": "Téléphone",
+    "phone": "02 533 39 84",
+    "emailLabel": "Email",
+    "email": "info@seso.be",
+    "form": {
+      "kicker": "Formulaire",
+      "title": "Nous contacter",
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Adresse email",
+      "emailPlaceholder": "votre@email.be",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "Votre numéro de téléphone",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Expliquez brièvement votre demande",
+      "submit": "Envoyer",
+      "sending": "Envoi...",
+      "success": "Message envoyé.",
+      "error": "Le message n'a pas pu être envoyé."
+    }
+  },
   "Services": {
     "SSG": "Service Social Général",
     "SSG+": "/ Centre d’Aide aux Personnes",

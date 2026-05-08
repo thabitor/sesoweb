@@ -14,16 +14,44 @@ function Contactpage() {
         pageTitle={t("main.header.navItems.Contact")}
         pagesub={"Contact"}
       />
-      <div className="topbottom-padding">
+      <div className="contact-page-refresh section-padding">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12">
-              <Location />
+          <div className="contact-intro-panel">
+            <span>{t("Contact.kicker")}</span>
+            <h2>{t("Contact.title")}</h2>
+            <p>{t("Contact.intro")}</p>
+          </div>
+          <div className="row align-items-stretch">
+            <div className="col-lg-5 col-md-12 col-sm-12">
+              <div className="contact-details-panel">
+                <div className="contact-detail-item">
+                  <i className="fi flaticon-pin"></i>
+                  <div>
+                    <h3>{t("Contact.addressLabel")}</h3>
+                    <p>{t("Contact.address")}</p>
+                  </div>
+                </div>
+                <div className="contact-detail-item">
+                  <i className="fi flaticon-call"></i>
+                  <div>
+                    <h3>{t("Contact.phoneLabel")}</h3>
+                    <p>{t("Contact.phone")}</p>
+                  </div>
+                </div>
+                <div className="contact-detail-item">
+                  <i className="fi flaticon-envelope"></i>
+                  <div>
+                    <h3>{t("Contact.emailLabel")}</h3>
+                    <p>{t("Contact.email")}</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div className="col-lg-7 col-md-12 col-sm-12">
               <Contactform />
             </div>
           </div>
+          <Location />
         </div>
       </div>
       <Footer />

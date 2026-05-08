@@ -40,6 +40,33 @@
       "Subtext": "Ter ondersteuning van vluchtelingen"
     }
   },
+  "Contact": {
+    "kicker": "Contact",
+    "title": "Een vraag, een verzoek of een eerste afspraak?",
+    "intro": "Ons team ontvangt u in Sint-Gillis en verwijst u naar de dienst die het best bij uw situatie past.",
+    "addressLabel": "Adres",
+    "address": "Parmastraat 26, 1060 Brussel",
+    "phoneLabel": "Telefoon",
+    "phone": "02 533 39 84",
+    "emailLabel": "E-mail",
+    "email": "info@seso.be",
+    "form": {
+      "kicker": "Formulier",
+      "title": "Contacteer ons",
+      "nameLabel": "Volledige naam",
+      "namePlaceholder": "Uw naam",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "uw@email.be",
+      "phoneLabel": "Telefoon",
+      "phonePlaceholder": "Uw telefoonnummer",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Beschrijf kort uw vraag",
+      "submit": "Versturen",
+      "sending": "Bezig met verzenden...",
+      "success": "Bericht verzonden.",
+      "error": "Het bericht kon niet worden verzonden."
+    }
+  },
   "Services": {
     "SSG": "Algemene Sociale Dienst",
     "SSG+": "/ Centrum voor Personenhulp",
