@@ -3,11 +3,26 @@ function renderAuthMessage(type, payload) {
 <html>
   <body>
     <script>
-      const message = ${JSON.stringify(`authorization:github:${type}:${JSON.stringify(payload)}`)};
-      if (window.opener) {
-        window.opener.postMessage(message, "*");
+      const payload = ${JSON.stringify(payload)};
+      const type = ${JSON.stringify(type)};
+      const message = "authorization:github:" + type + ":" + JSON.stringify(payload);
+
+      function sendAuthorization() {
+        if (window.opener) {
+          window.opener.postMessage(message, "*");
+        }
+        window.setTimeout(function () {
+          window.close();
+        }, 500);
       }
-      window.close();
+
+      if (window.opener) {
+        window.opener.postMessage("authorizing:github", "*");
+        window.addEventListener("message", sendAuthorization, false);
+        window.setTimeout(sendAuthorization, 1000);
+      } else {
+        document.body.innerText = "Authentication complete. You can close this window.";
+      }
     </script>
   </body>
 </html>`;
