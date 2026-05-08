@@ -119,16 +119,80 @@
       "partners": "Bekijk de subsidiërende overheden, koepels, het netwerk en de partners van SESO."
     },
     "keywords": {
-      "home": ["onthaal", "solidariteit", "vluchtelingen", "migratie", "Brussel", "SESO"],
-      "about": ["geschiedenis", "vereniging", "vzw", "fundamentele rechten", "vluchtelingen"],
-      "services": ["sociale dienst", "hulp", "begeleiding", "DPI", "MENA", "REAB"],
-      "team": ["team", "directie", "raad", "maatschappelijk werker", "coördinator"],
-      "partners": ["partners", "subsidies", "netwerk", "koepels", "Fedasil", "IOM"],
-      "contact": ["contact", "adres", "telefoon", "email", "afspraak", "Sint-Gillis"],
-      "ssg": ["algemene sociale dienst", "CAP", "permanenties", "sociale rechten", "verblijf"],
-      "dpi": ["asielzoekers", "opvang", "Fedasil", "huisvesting", "internationale bescherming"],
-      "mena": ["MENA", "minderjarigen", "voogdijen", "jongeren", "FOD Justitie"],
-      "reab": ["vrijwillige terugkeer", "REAB", "IOM", "re-integratie", "terugkeer"]
+      "home": [
+        "onthaal",
+        "solidariteit",
+        "vluchtelingen",
+        "migratie",
+        "Brussel",
+        "SESO"
+      ],
+      "about": [
+        "geschiedenis",
+        "vereniging",
+        "vzw",
+        "fundamentele rechten",
+        "vluchtelingen"
+      ],
+      "services": [
+        "sociale dienst",
+        "hulp",
+        "begeleiding",
+        "DPI",
+        "MENA",
+        "REAB"
+      ],
+      "team": [
+        "team",
+        "directie",
+        "raad",
+        "maatschappelijk werker",
+        "coördinator"
+      ],
+      "partners": [
+        "partners",
+        "subsidies",
+        "netwerk",
+        "koepels",
+        "Fedasil",
+        "IOM"
+      ],
+      "contact": [
+        "contact",
+        "adres",
+        "telefoon",
+        "email",
+        "afspraak",
+        "Sint-Gillis"
+      ],
+      "ssg": [
+        "algemene sociale dienst",
+        "CAP",
+        "permanenties",
+        "sociale rechten",
+        "verblijf"
+      ],
+      "dpi": [
+        "asielzoekers",
+        "opvang",
+        "Fedasil",
+        "huisvesting",
+        "internationale bescherming"
+      ],
+      "mena": [
+        "MENA",
+        "minderjarigen",
+        "voogdijen",
+        "jongeren",
+        "FOD Justitie"
+      ],
+      "reab": [
+        "vrijwillige terugkeer",
+        "REAB",
+        "IOM",
+        "re-integratie",
+        "terugkeer"
+      ]
     }
   },
   "ServiceDetails": {
@@ -182,9 +246,18 @@
         "Dit humanitaire programma helpt migranten in nood die vrijwillig willen terugkeren en zich opnieuw willen integreren in hun land van herkomst. Het richt zich tot drie categorieën migranten in België:"
       ],
       "categories": [
-        { "label": "Asielzoekers: ", "text": "migranten die een asielaanvraag hebben ingediend en wachten op een definitieve beslissing." },
-        { "label": "Uitgeprocedeerde asielzoekers: ", "text": "migranten die een asielaanvraag hebben ingediend en een negatieve beslissing hebben ontvangen." },
-        { "label": "Migranten in onregelmatig verblijf: ", "text": "personen zonder geldige verblijfstitel." }
+        {
+          "label": "Asielzoekers: ",
+          "text": "migranten die een asielaanvraag hebben ingediend en wachten op een definitieve beslissing."
+        },
+        {
+          "label": "Uitgeprocedeerde asielzoekers: ",
+          "text": "migranten die een asielaanvraag hebben ingediend en een negatieve beslissing hebben ontvangen."
+        },
+        {
+          "label": "Migranten in onregelmatig verblijf: ",
+          "text": "personen zonder geldige verblijfstitel."
+        }
       ]
     }
   },
@@ -192,7 +265,13 @@
     "kicker": "Onthaal SSG",
     "title": "Permanenties",
     "schedule": "Uurrooster",
-    "days": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag"],
+    "days": [
+      "Maandag",
+      "Dinsdag",
+      "Woensdag",
+      "Donderdag",
+      "Vrijdag"
+    ],
     "note": "De talen worden weergegeven volgens de beschikbare informatie in de permanentietabel.",
     "languages": {
       "FR": "Frans",
@@ -261,5 +340,58 @@
     "Contact": "Contact",
     "FacebookLabel": "SESO op Facebook",
     "LinkedInLabel": "SESO op LinkedIn"
+  },
+  "History": {
+    "kicker": "SESO sinds 1937",
+    "items": [
+      {
+        "year": "1937",
+        "icon": "fa-home",
+        "title": "Kinderen en gezinnen opvangen die Spanje ontvluchten",
+        "text": "De Sociale Dienst voor Solidariteit vindt zijn oorsprong bij kameraden van de Internationale Brigades die na de Spaanse Burgeroorlog naar Belgi? terugkeren."
+      },
+      {
+        "year": "1945",
+        "icon": "fa-running",
+        "title": "De opvang van vluchtelingen voortzetten",
+        "text": "Na de Tweede Wereldoorlog gaat het werk verder met de opvang van vluchtelingen."
+      },
+      {
+        "year": "1956",
+        "icon": "fa-running",
+        "title": "Opvang van Hongaarse vluchtelingen",
+        "text": "Organisatie van de opvang van Hongaarse vluchtelingen."
+      },
+      {
+        "year": "1969",
+        "icon": "fa-running",
+        "title": "Opvang van Tsjechoslowaakse vluchtelingen",
+        "text": "Organisatie van de opvang van Tsjechoslowaakse vluchtelingen."
+      },
+      {
+        "year": "1973",
+        "icon": "fa-running",
+        "title": "Opvang van vluchtelingen",
+        "text": "Organisatie van de opvang van Chileense vluchtelingen, Vietnamezen, Boat People en anderen."
+      },
+      {
+        "year": "1986",
+        "icon": "fa-certificate",
+        "title": "Vestiging van de SESO-dienst",
+        "text": "De dienst vestigt zich in de Parmastraat in Sint-Gillis en breidt zijn werkterrein uit door zich open te stellen voor de wijk en ondersteuning te bieden aan asielzoekers en vluchtelingen uit de hele wereld."
+      },
+      {
+        "year": "1999",
+        "icon": "fa-running",
+        "title": "Eerste opvang van asielzoekers",
+        "text": "De sociale dienst engageert zich voor eerstelijns opvangwerk voor asielzoekers binnen een specifieke kleinschalige opvangstructuur."
+      },
+      {
+        "year": "2003",
+        "icon": "fa-baby",
+        "title": "Kinderopvang en onthaalruimte voor moeder en baby",
+        "text": "In samenwerking met de schepen bevoegd voor Jonge Kinderen van de Gemeente Sint-Gillis opent de sociale dienst een kinderopvang en een onthaalruimte voor moeder en baby, voor kinderen van asielzoekers en mensen die in de Sint-Gilliswijk wonen."
+      }
+    ]
   }
 }

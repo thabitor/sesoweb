@@ -3,33 +3,7 @@ import { useTranslation } from "react-i18next";
 import TeamSSG from '../TeamSSG';
 import Footer from '../Footer';
 import ServiceImage from '../ServiceImage';
-
-const permanences = [
-    {
-        time: '09h00 -> 12h00',
-        slots: [
-            null,
-            { name: 'Sandra', languages: ['FR', 'NL', 'EN'] },
-            null,
-            { name: 'Nicolas', languages: ['ES', 'FR'] },
-            { name: 'Giuliana', languages: ['ES', 'FR'] },
-        ],
-    },
-    {
-        time: '12h00 -> 14h00',
-        slots: [null, null, null, null, null],
-    },
-    {
-        time: '14h00 -> 17h00',
-        slots: [
-            null,
-            { name: 'Gabriel', languages: ['ES', 'FR'] },
-            null,
-            null,
-            { name: 'Lilian', languages: ['ES', 'FR'] },
-        ],
-    },
-];
+import permanencesContent from '../../content/permanences.json';
 
 const languageFlags = {
     FR: '🇫🇷',
@@ -84,15 +58,15 @@ function PermanencesSection() {
                             </tr>
                         </thead>
                         <tbody>
-                            {permanences.map((row) => (
+                            {permanencesContent.rows.map((row) => (
                                 <tr key={row.time}>
                                     <th scope="row">{row.time}</th>
                                     {row.slots.map((slot, index) => (
                                         <td key={`${row.time}-${days[index]}`} data-label={days[index]}>
-                                            {slot ? (
+                                            {slot?.name ? (
                                                 <div className="permanence-person">
                                                     <strong>{slot.name}</strong>
-                                                    <LanguageBadges languages={slot.languages} />
+                                                    <LanguageBadges languages={slot.languages || []} />
                                                 </div>
                                             ) : (
                                                 <span className="permanence-empty">-</span>

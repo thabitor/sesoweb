@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "time": "09h00 -> 12h00",
+      "slots": [
+        { "name": "", "languages": [] },
+        { "name": "Sandra", "languages": ["FR", "NL", "EN"] },
+        { "name": "", "languages": [] },
+        { "name": "Nicolas", "languages": ["ES", "FR"] },
+        { "name": "Giuliana", "languages": ["ES", "FR"] }
+      ]
+    },
+    {
+      "time": "12h00 -> 14h00",
+      "slots": [
+        { "name": "", "languages": [] },
+        { "name": "", "languages": [] },
+        { "name": "", "languages": [] },
+        { "name": "", "languages": [] },
+        { "name": "", "languages": [] }
+      ]
+    },
+    {
+      "time": "14h00 -> 17h00",
+      "slots": [
+        { "name": "", "languages": [] },
+        { "name": "Gabriel", "languages": ["ES", "FR"] },
+        { "name": "", "languages": [] },
+        { "name": "", "languages": [] },
+        { "name": "Lilian", "languages": ["ES", "FR"] }
+      ]
+    }
+  ]
+}

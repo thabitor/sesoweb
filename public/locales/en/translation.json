@@ -119,16 +119,80 @@
       "partners": "View SESO's funding authorities, federations, network and partners."
     },
     "keywords": {
-      "home": ["reception", "solidarity", "refugees", "migration", "Brussels", "SESO"],
-      "about": ["history", "association", "non-profit", "fundamental rights", "refugees"],
-      "services": ["social service", "support", "guidance", "DPI", "MENA", "REAB"],
-      "team": ["team", "management", "board", "social worker", "coordinator"],
-      "partners": ["partners", "funding", "network", "federations", "Fedasil", "IOM"],
-      "contact": ["contact", "address", "phone", "email", "appointment", "Saint-Gilles"],
-      "ssg": ["general social service", "CAP", "drop-in hours", "social rights", "residence"],
-      "dpi": ["asylum seekers", "reception", "Fedasil", "housing", "international protection"],
-      "mena": ["MENA", "minors", "guardianships", "young people", "FPS Justice"],
-      "reab": ["voluntary return", "REAB", "IOM", "reintegration", "return"]
+      "home": [
+        "reception",
+        "solidarity",
+        "refugees",
+        "migration",
+        "Brussels",
+        "SESO"
+      ],
+      "about": [
+        "history",
+        "association",
+        "non-profit",
+        "fundamental rights",
+        "refugees"
+      ],
+      "services": [
+        "social service",
+        "support",
+        "guidance",
+        "DPI",
+        "MENA",
+        "REAB"
+      ],
+      "team": [
+        "team",
+        "management",
+        "board",
+        "social worker",
+        "coordinator"
+      ],
+      "partners": [
+        "partners",
+        "funding",
+        "network",
+        "federations",
+        "Fedasil",
+        "IOM"
+      ],
+      "contact": [
+        "contact",
+        "address",
+        "phone",
+        "email",
+        "appointment",
+        "Saint-Gilles"
+      ],
+      "ssg": [
+        "general social service",
+        "CAP",
+        "drop-in hours",
+        "social rights",
+        "residence"
+      ],
+      "dpi": [
+        "asylum seekers",
+        "reception",
+        "Fedasil",
+        "housing",
+        "international protection"
+      ],
+      "mena": [
+        "MENA",
+        "minors",
+        "guardianships",
+        "young people",
+        "FPS Justice"
+      ],
+      "reab": [
+        "voluntary return",
+        "REAB",
+        "IOM",
+        "reintegration",
+        "return"
+      ]
     }
   },
   "ServiceDetails": {
@@ -182,9 +246,18 @@
         "This humanitarian programme assists migrants in need who wish to return voluntarily and reintegrate in their country of origin. It is intended for three categories of migrants in Belgium:"
       ],
       "categories": [
-        { "label": "Asylum seekers: ", "text": "migrants who have applied for asylum and are waiting for a final decision." },
-        { "label": "Rejected asylum seekers: ", "text": "migrants who have applied for asylum and received a negative decision." },
-        { "label": "Migrants in an irregular situation: ", "text": "people without a valid residence permit." }
+        {
+          "label": "Asylum seekers: ",
+          "text": "migrants who have applied for asylum and are waiting for a final decision."
+        },
+        {
+          "label": "Rejected asylum seekers: ",
+          "text": "migrants who have applied for asylum and received a negative decision."
+        },
+        {
+          "label": "Migrants in an irregular situation: ",
+          "text": "people without a valid residence permit."
+        }
       ]
     }
   },
@@ -192,7 +265,13 @@
     "kicker": "SSG reception",
     "title": "Drop-in Hours",
     "schedule": "Hours",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
     "note": "Languages are shown according to the information available in the drop-in hours table.",
     "languages": {
       "FR": "French",
@@ -261,5 +340,58 @@
     "Contact": "Contact",
     "FacebookLabel": "SESO on Facebook",
     "LinkedInLabel": "SESO on LinkedIn"
+  },
+  "History": {
+    "kicker": "SESO since 1937",
+    "items": [
+      {
+        "year": "1937",
+        "icon": "fa-home",
+        "title": "Welcoming children and families fleeing Spain",
+        "text": "The Social Service for Solidarity has its roots in the comrades of the International Brigades who returned to Belgium after the Spanish Civil War."
+      },
+      {
+        "year": "1945",
+        "icon": "fa-running",
+        "title": "Continuing refugee reception",
+        "text": "After the Second World War, the work continues with the reception of refugees."
+      },
+      {
+        "year": "1956",
+        "icon": "fa-running",
+        "title": "Reception of Hungarian refugees",
+        "text": "Organisation of the reception of Hungarian refugees."
+      },
+      {
+        "year": "1969",
+        "icon": "fa-running",
+        "title": "Reception of Czechoslovak refugees",
+        "text": "Organisation of the reception of Czechoslovak refugees."
+      },
+      {
+        "year": "1973",
+        "icon": "fa-running",
+        "title": "Reception of refugees",
+        "text": "Organisation of the reception of Chilean refugees, Vietnamese refugees, Boat People and others."
+      },
+      {
+        "year": "1986",
+        "icon": "fa-certificate",
+        "title": "SESO service settles in",
+        "text": "The service moves to Rue de Parme in Saint-Gilles and broadens its field of work by opening up to the neighbourhood and supporting asylum seekers and refugees from around the world."
+      },
+      {
+        "year": "1999",
+        "icon": "fa-running",
+        "title": "First-line reception for asylum seekers",
+        "text": "The social service commits to first-line reception work for asylum seekers within a specific small-scale reception structure."
+      },
+      {
+        "year": "2003",
+        "icon": "fa-baby",
+        "title": "Day nursery and mother-baby reception space",
+        "text": "In partnership with the Early Childhood department of the Municipality of Saint-Gilles, the social service opens a day nursery and a mother-baby reception space for children of asylum seekers and people living in the Saint-Gilles neighbourhood."
+      }
+    ]
   }
 }

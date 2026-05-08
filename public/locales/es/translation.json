@@ -119,16 +119,80 @@
       "partners": "Consulte los poderes subsidiantes, federaciones, red y socios de SESO."
     },
     "keywords": {
-      "home": ["acogida", "solidaridad", "refugiados", "migración", "Bruselas", "SESO"],
-      "about": ["historia", "asociación", "asbl", "derechos fundamentales", "refugiados"],
-      "services": ["servicio social", "ayuda", "acompañamiento", "DPI", "MENA", "REAB"],
-      "team": ["equipo", "dirección", "consejo", "trabajador social", "coordinador"],
-      "partners": ["socios", "subsidios", "red", "federaciones", "Fedasil", "OIM"],
-      "contact": ["contacto", "dirección", "teléfono", "email", "cita", "Saint-Gilles"],
-      "ssg": ["servicio social general", "CAP", "permanencias", "derechos sociales", "residencia"],
-      "dpi": ["solicitantes de asilo", "acogida", "Fedasil", "vivienda", "protección internacional"],
-      "mena": ["MENA", "menores", "tutelas", "jóvenes", "SPF Justicia"],
-      "reab": ["retorno voluntario", "REAB", "OIM", "reintegración", "retorno"]
+      "home": [
+        "acogida",
+        "solidaridad",
+        "refugiados",
+        "migración",
+        "Bruselas",
+        "SESO"
+      ],
+      "about": [
+        "historia",
+        "asociación",
+        "asbl",
+        "derechos fundamentales",
+        "refugiados"
+      ],
+      "services": [
+        "servicio social",
+        "ayuda",
+        "acompañamiento",
+        "DPI",
+        "MENA",
+        "REAB"
+      ],
+      "team": [
+        "equipo",
+        "dirección",
+        "consejo",
+        "trabajador social",
+        "coordinador"
+      ],
+      "partners": [
+        "socios",
+        "subsidios",
+        "red",
+        "federaciones",
+        "Fedasil",
+        "OIM"
+      ],
+      "contact": [
+        "contacto",
+        "dirección",
+        "teléfono",
+        "email",
+        "cita",
+        "Saint-Gilles"
+      ],
+      "ssg": [
+        "servicio social general",
+        "CAP",
+        "permanencias",
+        "derechos sociales",
+        "residencia"
+      ],
+      "dpi": [
+        "solicitantes de asilo",
+        "acogida",
+        "Fedasil",
+        "vivienda",
+        "protección internacional"
+      ],
+      "mena": [
+        "MENA",
+        "menores",
+        "tutelas",
+        "jóvenes",
+        "SPF Justicia"
+      ],
+      "reab": [
+        "retorno voluntario",
+        "REAB",
+        "OIM",
+        "reintegración",
+        "retorno"
+      ]
     }
   },
   "ServiceDetails": {
@@ -182,9 +246,18 @@
         "Este programa humanitario asiste a migrantes en situación de necesidad que desean regresar voluntariamente y reintegrarse en su país de origen. Está dirigido a tres categorías de migrantes en Bélgica:"
       ],
       "categories": [
-        { "label": "Solicitantes de asilo: ", "text": "migrantes que han presentado una solicitud de asilo y esperan una respuesta definitiva." },
-        { "label": "Solicitantes de asilo rechazados: ", "text": "migrantes que han presentado una solicitud de asilo y han recibido una respuesta negativa." },
-        { "label": "Migrantes en situación irregular: ", "text": "personas sin permiso de residencia válido." }
+        {
+          "label": "Solicitantes de asilo: ",
+          "text": "migrantes que han presentado una solicitud de asilo y esperan una respuesta definitiva."
+        },
+        {
+          "label": "Solicitantes de asilo rechazados: ",
+          "text": "migrantes que han presentado una solicitud de asilo y han recibido una respuesta negativa."
+        },
+        {
+          "label": "Migrantes en situación irregular: ",
+          "text": "personas sin permiso de residencia válido."
+        }
       ]
     }
   },
@@ -192,7 +265,13 @@
     "kicker": "Acogida SSG",
     "title": "Permanencias",
     "schedule": "Horario",
-    "days": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+    "days": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ],
     "note": "Los idiomas se indican según la información disponible en la tabla de permanencias.",
     "languages": {
       "FR": "Francés",
@@ -261,5 +340,58 @@
     "Contact": "Contacto",
     "FacebookLabel": "SESO en Facebook",
     "LinkedInLabel": "SESO en LinkedIn"
+  },
+  "History": {
+    "kicker": "SESO desde 1937",
+    "items": [
+      {
+        "year": "1937",
+        "icon": "fa-home",
+        "title": "Acoger a ni?os y familias que huyen de Espa?a",
+        "text": "El Servicio Social de Solidaridad tiene sus or?genes en los compa?eros de las Brigadas Internacionales que regresan a B?lgica despu?s de la guerra civil espa?ola."
+      },
+      {
+        "year": "1945",
+        "icon": "fa-running",
+        "title": "Continuar la acogida de personas refugiadas",
+        "text": "Despu?s de la Segunda Guerra Mundial, el trabajo contin?a con la acogida de personas refugiadas."
+      },
+      {
+        "year": "1956",
+        "icon": "fa-running",
+        "title": "Acogida de personas refugiadas h?ngaras",
+        "text": "Organizaci?n de la acogida de personas refugiadas h?ngaras."
+      },
+      {
+        "year": "1969",
+        "icon": "fa-running",
+        "title": "Acogida de personas refugiadas checoslovacas",
+        "text": "Organizaci?n de la acogida de personas refugiadas checoslovacas."
+      },
+      {
+        "year": "1973",
+        "icon": "fa-running",
+        "title": "Acogida de personas refugiadas",
+        "text": "Organizaci?n de la acogida de personas refugiadas chilenas, vietnamitas, Boat People y otras."
+      },
+      {
+        "year": "1986",
+        "icon": "fa-certificate",
+        "title": "Instalaci?n del servicio SESO",
+        "text": "El servicio se instala en la rue de Parme en Saint-Gilles y ampl?a su campo de trabajo abri?ndose al barrio y participando en el acompa?amiento de solicitantes de asilo y personas refugiadas de todo el mundo."
+      },
+      {
+        "year": "1999",
+        "icon": "fa-running",
+        "title": "Primera acogida de solicitantes de asilo",
+        "text": "El servicio social se compromete con un trabajo de primera acogida para solicitantes de asilo en el marco espec?fico de una estructura de acogida a peque?a escala."
+      },
+      {
+        "year": "2003",
+        "icon": "fa-baby",
+        "title": "Guarder?a y espacio de acogida madre-beb?",
+        "text": "En colaboraci?n con la concejal?a de Primera Infancia del Municipio de Saint-Gilles, el servicio social abre una guarder?a y un espacio de acogida madre-beb? para hijos de solicitantes de asilo y personas residentes en el barrio de Saint-Gilles."
+      }
+    ]
   }
 }

@@ -78,6 +78,26 @@ The contact form posts to `/api/contact` by default. In production, configure th
 
 For local API testing, run `npm run mailstart` and start the React app with `REACT_APP_CONTACT_ENDPOINT=http://localhost:3001/api/contact`.
 
+### CMS setup on Vercel
+
+The CMS is available at `/admin` and uses Decap CMS with the GitHub backend. Editable content lives in:
+
+- `src/content/permanences.json`
+- `src/content/team.json`
+- `src/content/contact.json`
+- `src/content/history.json`
+
+To enable GitHub login on Vercel:
+
+1. Create a GitHub OAuth App.
+2. Set the homepage URL to the production site URL.
+3. Set the authorization callback URL to `https://YOUR_VERCEL_DOMAIN/api/oauth/callback`.
+4. Add these environment variables in Vercel:
+   - `OAUTH_GITHUB_CLIENT_ID`
+   - `OAUTH_GITHUB_CLIENT_SECRET`
+
+CMS users must have write access to `thabitor/sesoweb`. Published CMS changes commit to `main`, then Vercel redeploys the site.
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

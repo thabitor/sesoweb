@@ -1,0 +1,138 @@
+{
+  "kicker": {
+    "fr": "SESO depuis 1937",
+    "en": "SESO since 1937",
+    "nl": "SESO sinds 1937",
+    "es": "SESO desde 1937"
+  },
+  "items": [
+    {
+      "year": "1937",
+      "icon": "fa-home",
+      "title": {
+        "fr": "Accueillir des enfants et leur famille qui fuient l'Espagne",
+        "en": "Welcoming children and families fleeing Spain",
+        "nl": "Kinderen en gezinnen opvangen die Spanje ontvluchten",
+        "es": "Acoger a niños y familias que huyen de España"
+      },
+      "text": {
+        "fr": "Le Service Social des Solidarités trouve ses origines dans les camarades des brigades internationales qui rentrent en Belgique après la guerre civile en Espagne.",
+        "en": "The Social Service for Solidarity has its roots in the comrades of the International Brigades who returned to Belgium after the Spanish Civil War.",
+        "nl": "De Sociale Dienst voor Solidariteit vindt zijn oorsprong bij kameraden van de Internationale Brigades die na de Spaanse Burgeroorlog naar België terugkeren.",
+        "es": "El Servicio Social de Solidaridad tiene sus orígenes en los compañeros de las Brigadas Internacionales que regresan a Bélgica después de la guerra civil española."
+      }
+    },
+    {
+      "year": "1945",
+      "icon": "fa-running",
+      "title": {
+        "fr": "Continuer l'accueil des réfugiés",
+        "en": "Continuing refugee reception",
+        "nl": "De opvang van vluchtelingen voortzetten",
+        "es": "Continuar la acogida de personas refugiadas"
+      },
+      "text": {
+        "fr": "Après la deuxième guerre, le travail continue avec l'accueil des réfugiés.",
+        "en": "After the Second World War, the work continues with the reception of refugees.",
+        "nl": "Na de Tweede Wereldoorlog gaat het werk verder met de opvang van vluchtelingen.",
+        "es": "Después de la Segunda Guerra Mundial, el trabajo continúa con la acogida de personas refugiadas."
+      }
+    },
+    {
+      "year": "1956",
+      "icon": "fa-running",
+      "title": {
+        "fr": "Accueil des réfugiés hongrois",
+        "en": "Reception of Hungarian refugees",
+        "nl": "Opvang van Hongaarse vluchtelingen",
+        "es": "Acogida de personas refugiadas húngaras"
+      },
+      "text": {
+        "fr": "Organisation de l'accueil des réfugiés hongrois.",
+        "en": "Organisation of the reception of Hungarian refugees.",
+        "nl": "Organisatie van de opvang van Hongaarse vluchtelingen.",
+        "es": "Organización de la acogida de personas refugiadas húngaras."
+      }
+    },
+    {
+      "year": "1969",
+      "icon": "fa-running",
+      "title": {
+        "fr": "Accueil des réfugiés tchécoslovaques",
+        "en": "Reception of Czechoslovak refugees",
+        "nl": "Opvang van Tsjechoslowaakse vluchtelingen",
+        "es": "Acogida de personas refugiadas checoslovacas"
+      },
+      "text": {
+        "fr": "Organisation de l'accueil des réfugiés tchécoslovaques.",
+        "en": "Organisation of the reception of Czechoslovak refugees.",
+        "nl": "Organisatie van de opvang van Tsjechoslowaakse vluchtelingen.",
+        "es": "Organización de la acogida de personas refugiadas checoslovacas."
+      }
+    },
+    {
+      "year": "1973",
+      "icon": "fa-running",
+      "title": {
+        "fr": "Accueil des réfugiés",
+        "en": "Reception of refugees",
+        "nl": "Opvang van vluchtelingen",
+        "es": "Acogida de personas refugiadas"
+      },
+      "text": {
+        "fr": "Organisation de l'accueil des réfugiés chiliens, des Vietnamiens, des Boat People, et autres.",
+        "en": "Organisation of the reception of Chilean refugees, Vietnamese refugees, Boat People and others.",
+        "nl": "Organisatie van de opvang van Chileense vluchtelingen, Vietnamezen, Boat People en anderen.",
+        "es": "Organización de la acogida de personas refugiadas chilenas, vietnamitas, Boat People y otras."
+      }
+    },
+    {
+      "year": "1986",
+      "icon": "fa-certificate",
+      "title": {
+        "fr": "Installation du service SESO",
+        "en": "SESO service settles in",
+        "nl": "Vestiging van de SESO-dienst",
+        "es": "Instalación del servicio SESO"
+      },
+      "text": {
+        "fr": "Le service s'installe à la rue de Parme à Saint-Gilles et élargit son champ de travail en s'ouvrant sur le quartier et en s'inscrivant dans l'encadrement des demandeurs d'asile et des réfugiés du monde entier.",
+        "en": "The service moves to Rue de Parme in Saint-Gilles and broadens its field of work by opening up to the neighbourhood and supporting asylum seekers and refugees from around the world.",
+        "nl": "De dienst vestigt zich in de Parmastraat in Sint-Gillis en breidt zijn werkterrein uit door zich open te stellen voor de wijk en ondersteuning te bieden aan asielzoekers en vluchtelingen uit de hele wereld.",
+        "es": "El servicio se instala en la rue de Parme en Saint-Gilles y amplía su campo de trabajo abriéndose al barrio y participando en el acompañamiento de solicitantes de asilo y personas refugiadas de todo el mundo."
+      }
+    },
+    {
+      "year": "1999",
+      "icon": "fa-running",
+      "title": {
+        "fr": "Premier accueil des demandeurs d'asile",
+        "en": "First-line reception for asylum seekers",
+        "nl": "Eerste opvang van asielzoekers",
+        "es": "Primera acogida de solicitantes de asilo"
+      },
+      "text": {
+        "fr": "Le service social s'engage dans un travail de premier accueil des demandeurs d'asile dans le cadre spécifique d'une structure d'accueil à petite échelle.",
+        "en": "The social service commits to first-line reception work for asylum seekers within a specific small-scale reception structure.",
+        "nl": "De sociale dienst engageert zich voor eerstelijns opvangwerk voor asielzoekers binnen een specifieke kleinschalige opvangstructuur.",
+        "es": "El servicio social se compromete con un trabajo de primera acogida para solicitantes de asilo en el marco específico de una estructura de acogida a pequeña escala."
+      }
+    },
+    {
+      "year": "2003",
+      "icon": "fa-baby",
+      "title": {
+        "fr": "Halte-garderie et espace d'accueil maman-bébé",
+        "en": "Day nursery and mother-baby reception space",
+        "nl": "Kinderopvang en onthaalruimte voor moeder en baby",
+        "es": "Guardería y espacio de acogida madre-bebé"
+      },
+      "text": {
+        "fr": "Le service social ouvre, en partenariat avec l'échevinat de la Petite Enfance de la Commune de Saint-Gilles, une halte-garderie et un espace d'accueil maman-bébé pour enfants de demandeurs d'asile et personnes résidant dans le quartier saint-gillois.",
+        "en": "In partnership with the Early Childhood department of the Municipality of Saint-Gilles, the social service opens a day nursery and a mother-baby reception space for children of asylum seekers and people living in the Saint-Gilles neighbourhood.",
+        "nl": "In samenwerking met de schepen bevoegd voor Jonge Kinderen van de Gemeente Sint-Gillis opent de sociale dienst een kinderopvang en een onthaalruimte voor moeder en baby, voor kinderen van asielzoekers en mensen die in de Sint-Gilliswijk wonen.",
+        "es": "En colaboración con la concejalía de Primera Infancia del Municipio de Saint-Gilles, el servicio social abre una guardería y un espacio de acogida madre-bebé para hijos de solicitantes de asilo y personas residentes en el barrio de Saint-Gilles."
+      }
+    }
+  ]
+}

@@ -119,16 +119,80 @@
       "partners": "Consultez les pouvoirs subsidiants, les coupoles, le réseau et les partenaires de SESO."
     },
     "keywords": {
-      "home": ["accueil", "solidarité", "réfugiés", "migration", "Bruxelles", "SESO"],
-      "about": ["historique", "association", "asbl", "droits fondamentaux", "réfugiés"],
-      "services": ["service social", "aide", "accompagnement", "DPI", "MENA", "REAB"],
-      "team": ["équipe", "direction", "conseil", "assistant social", "coordinateur"],
-      "partners": ["partenaires", "subsides", "réseau", "coupoles", "Fedasil", "OIM"],
-      "contact": ["contact", "adresse", "téléphone", "email", "rendez-vous", "Saint-Gilles"],
-      "ssg": ["service social général", "CAP", "permanences", "droits sociaux", "séjour"],
-      "dpi": ["demandeurs d'asile", "accueil", "Fedasil", "logement", "protection internationale"],
-      "mena": ["MENA", "mineurs", "tutelles", "jeunes", "SPF Justice"],
-      "reab": ["retour volontaire", "REAB", "OIM", "réintégration", "retour"]
+      "home": [
+        "accueil",
+        "solidarité",
+        "réfugiés",
+        "migration",
+        "Bruxelles",
+        "SESO"
+      ],
+      "about": [
+        "historique",
+        "association",
+        "asbl",
+        "droits fondamentaux",
+        "réfugiés"
+      ],
+      "services": [
+        "service social",
+        "aide",
+        "accompagnement",
+        "DPI",
+        "MENA",
+        "REAB"
+      ],
+      "team": [
+        "équipe",
+        "direction",
+        "conseil",
+        "assistant social",
+        "coordinateur"
+      ],
+      "partners": [
+        "partenaires",
+        "subsides",
+        "réseau",
+        "coupoles",
+        "Fedasil",
+        "OIM"
+      ],
+      "contact": [
+        "contact",
+        "adresse",
+        "téléphone",
+        "email",
+        "rendez-vous",
+        "Saint-Gilles"
+      ],
+      "ssg": [
+        "service social général",
+        "CAP",
+        "permanences",
+        "droits sociaux",
+        "séjour"
+      ],
+      "dpi": [
+        "demandeurs d'asile",
+        "accueil",
+        "Fedasil",
+        "logement",
+        "protection internationale"
+      ],
+      "mena": [
+        "MENA",
+        "mineurs",
+        "tutelles",
+        "jeunes",
+        "SPF Justice"
+      ],
+      "reab": [
+        "retour volontaire",
+        "REAB",
+        "OIM",
+        "réintégration",
+        "retour"
+      ]
     }
   },
   "ServiceDetails": {
@@ -182,9 +246,18 @@
         "Ce programme humanitaire assiste les migrants dans le besoin qui souhaitent rentrer volontairement et se réintégrer dans leur pays d'origine. Il s'adresse à trois catégories de migrants en Belgique :"
       ],
       "categories": [
-        { "label": "Demandeurs d'asile : ", "text": "migrants ayant introduit une demande d'asile et attendant une réponse définitive." },
-        { "label": "Demandeurs d'asile déboutés : ", "text": "migrants ayant introduit une demande d'asile et ayant reçu une réponse négative." },
-        { "label": "Migrants en situation irrégulière : ", "text": "personnes sans titre de séjour valable." }
+        {
+          "label": "Demandeurs d'asile : ",
+          "text": "migrants ayant introduit une demande d'asile et attendant une réponse définitive."
+        },
+        {
+          "label": "Demandeurs d'asile déboutés : ",
+          "text": "migrants ayant introduit une demande d'asile et ayant reçu une réponse négative."
+        },
+        {
+          "label": "Migrants en situation irrégulière : ",
+          "text": "personnes sans titre de séjour valable."
+        }
       ]
     }
   },
@@ -192,7 +265,13 @@
     "kicker": "Accueil SSG",
     "title": "Permanences",
     "schedule": "Horaire",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi"
+    ],
     "note": "Les langues sont indiquées selon les informations disponibles dans le tableau des permanences.",
     "languages": {
       "FR": "Français",
@@ -261,5 +340,58 @@
     "Contact": "Contact",
     "FacebookLabel": "SESO sur Facebook",
     "LinkedInLabel": "SESO sur LinkedIn"
+  },
+  "History": {
+    "kicker": "SESO depuis 1937",
+    "items": [
+      {
+        "year": "1937",
+        "icon": "fa-home",
+        "title": "Accueillir des enfants et leur famille qui fuient l'Espagne",
+        "text": "Le Service Social des Solidarit?s trouve ses origines dans les camarades des brigades internationales qui rentrent en Belgique apr?s la guerre civile en Espagne."
+      },
+      {
+        "year": "1945",
+        "icon": "fa-running",
+        "title": "Continuer l'accueil des r?fugi?s",
+        "text": "Apr?s la deuxi?me guerre, le travail continue avec l'accueil des r?fugi?s."
+      },
+      {
+        "year": "1956",
+        "icon": "fa-running",
+        "title": "Accueil des r?fugi?s hongrois",
+        "text": "Organisation de l'accueil des r?fugi?s hongrois."
+      },
+      {
+        "year": "1969",
+        "icon": "fa-running",
+        "title": "Accueil des r?fugi?s tch?coslovaques",
+        "text": "Organisation de l'accueil des r?fugi?s tch?coslovaques."
+      },
+      {
+        "year": "1973",
+        "icon": "fa-running",
+        "title": "Accueil des r?fugi?s",
+        "text": "Organisation de l'accueil des r?fugi?s chiliens, des Vietnamiens, des Boat People, et autres."
+      },
+      {
+        "year": "1986",
+        "icon": "fa-certificate",
+        "title": "Installation du service SESO",
+        "text": "Le service s'installe ? la rue de Parme ? Saint-Gilles et ?largit son champ de travail en s'ouvrant sur le quartier et en s'inscrivant dans l'encadrement des demandeurs d'asile et des r?fugi?s du monde entier."
+      },
+      {
+        "year": "1999",
+        "icon": "fa-running",
+        "title": "Premier accueil des demandeurs d'asile",
+        "text": "Le service social s'engage dans un travail de premier accueil des demandeurs d'asile dans le cadre sp?cifique d'une structure d'accueil ? petite ?chelle."
+      },
+      {
+        "year": "2003",
+        "icon": "fa-baby",
+        "title": "Halte-garderie et espace d'accueil maman-b?b?",
+        "text": "Le service social ouvre, en partenariat avec l'?chevinat de la Petite Enfance de la Commune de Saint-Gilles, une halte-garderie et un espace d'accueil maman-b?b? pour enfants de demandeurs d'asile et personnes r?sidant dans le quartier saint-gillois."
+      }
+    ]
   }
 }

@@ -1,100 +1,45 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import historyContent from "../content/history.json";
+
+function getLocalizedValue(value, language) {
+    if (!value || typeof value !== 'object') {
+        return value;
+    }
+
+    const normalizedLanguage = language?.split('-')[0] || 'fr';
+    return value[normalizedLanguage] || value.fr || '';
+}
 
 function Timeline() {
+    const { t, i18n } = useTranslation();
+    const language = i18n.resolvedLanguage || i18n.language;
 
-    const {t} = useTranslation();
     return (
         <div className='wpo-mission-area section-padding white-bg history-section' id="historique">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>SESO depuis 1937</span>
+                            <span>{getLocalizedValue(historyContent.kicker, language)}</span>
                             <h2>{t('main.header.navItems.OurHistory')}</h2>
                         </div>
                     </div>
                     <div className="timeline">
-                        <div className="containerTimeline left">
-                            <div className="date"> 1937 </div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Accueillir des enfants et leur famille qui fuient l'Espagne</h2>
-                                <p>
-                                Le Service Social des Solidarités  trouve ses origines dans les camarades des brigades internationales qui rentrent en Belgique, après la guerre civile en Espagne.                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline right">
-                            <div className="date">1945</div>
-                            <i className="icon fa fa-running"></i>
-                            <div className="content">
-                                <h2>Accueillir des enfants et leur famille qui fuient l'Espagne</h2>
-                                <p>
-                                Après la deuxième guerre, le travail continue avec l'accueil des réfugiés.                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline left">
-                            <div className="date">1956</div>
-                            <i className="icon fa fa-running"></i>
-                            <div className="content">
-                                <h2>Accueil des réfugiés hongrois</h2>
-                                <p>
-                                Organisation de l'accueil des réfugiés hongrois.                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline right">
-                            <div className="date">1969</div>
-                            <i className="icon fa fa-running"></i>
-                            <div className="content">
-                                <h2>Accueil des réfugiés tchécoslovaques</h2>
-                                <p>
-                                Organisation de l'accueil des réfugiés tchécoslovaques                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline left">
-                            <div className="date">1973</div>
-                            <i className="icon fa fa-running"></i>
-                            <div className="content">
-                                <h2>Accueil des réfugiés</h2>
-                                <p>
-                                Organisation de l'accueil des réfugiés chiliens, des Vietnamiens, des Boat People, et autres.                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline right">
-                            <div className="date">1986</div>
-                            <i className="icon fa fa-certificate"></i>
-                            <div className="content">
-                                <h2>L'installation de service SESO</h2>
-                                <p>
-                                le service s'installe à la rue de Parme à Saint-Gilles et élargit son champ de travail en s'ouvrant sur le quartier et en s'inscrivant dans l'encadrement des demandeurs d'asile et des réfugiés du monde entier.                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline left">
-                            <div className="date">1999</div>
-                            <i className="icon fa fa-running"></i>
-                            <div className="content">
-                                <h2>Travail de premier accueil des demandeurs d'asile</h2>
-                                <p>
-                                le service social s'engage dans un travail de premier accueil des demandeurs d'asile dans le cadre spécifique d'une structure d'accueil à petite échelle.                                
-                                </p>
-                            </div>
-                        </div>
-                        <div className="containerTimeline right">
-                            <div className="date">2003</div>
-                            <i className="icon fa fa-baby"></i>
-                            <div className="content">
-                                <h2>Une halte-garderie et un espace d'accueil maman-bébé</h2>
-                                <p>
-                                le service social ouvre, en partenariat avec l'échevinat de la Petite Enfance de la Commune de Saint-Gilles, une halte-garderie et un espace d'accueil maman-bébé pour enfants de demandeurs d'asile et personnes résidant dans le quartier st-gillois 
-                                </p>                           
+                        {historyContent.items.map((item, index) => (
+                            <div className={`containerTimeline ${index % 2 === 0 ? 'left' : 'right'}`} key={item.year}>
+                                <div className="date">{item.year}</div>
+                                <i className={`icon fa ${item.icon}`}></i>
+                                <div className="content">
+                                    <h2>{getLocalizedValue(item.title, language)}</h2>
+                                    <p>{getLocalizedValue(item.text, language)}</p>
                                 </div>
-                        </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
         </div>
-
-
     )
 }
 

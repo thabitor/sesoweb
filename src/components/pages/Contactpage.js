@@ -5,6 +5,7 @@ import Scrollbar from "../Scrollbar";
 import Location from "../Location";
 import { useTranslation } from "react-i18next";
 import Contactform from "../Contactform";
+import contactContent from "../../content/contact.json";
 
 function Contactpage() {
   const { t } = useTranslation();
@@ -29,21 +30,21 @@ function Contactpage() {
                   <i className="fi flaticon-pin"></i>
                   <div>
                     <h3>{t("Contact.addressLabel")}</h3>
-                    <p>{t("Contact.address")}</p>
+                    <p>{contactContent.address}</p>
                   </div>
                 </div>
                 <div className="contact-detail-item">
                   <i className="fi flaticon-call"></i>
                   <div>
                     <h3>{t("Contact.phoneLabel")}</h3>
-                    <p>{t("Contact.phone")}</p>
+                    <p>{contactContent.phone}</p>
                   </div>
                 </div>
                 <div className="contact-detail-item">
                   <i className="fi flaticon-envelope"></i>
                   <div>
                     <h3>{t("Contact.emailLabel")}</h3>
-                    <p>{t("Contact.email")}</p>
+                    <p>{contactContent.email}</p>
                   </div>
                 </div>
               </div>
