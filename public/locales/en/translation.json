@@ -101,6 +101,36 @@
       "error": "The message could not be sent."
     }
   },
+  "Search": {
+    "title": "Search",
+    "kicker": "Search",
+    "placeholder": "Search...",
+    "submit": "Run search",
+    "openSearch": "Open search",
+    "description": "Search the main pages, services, partners and contact information on the site.",
+    "resultsFor": "Results for \"{{query}}\"",
+    "emptyTitle": "What would you like to search for?",
+    "openResult": "Open page",
+    "noResultsTitle": "No results found",
+    "noResultsText": "Try another keyword, such as social service, MENA, voluntary return, partners or contact.",
+    "excerpts": {
+      "services": "Discover SESO's services: general social service, DPI reception, MENA guardianships and voluntary return.",
+      "team": "Find SESO's teams, management, board of directors and services.",
+      "partners": "View SESO's funding authorities, federations, network and partners."
+    },
+    "keywords": {
+      "home": ["reception", "solidarity", "refugees", "migration", "Brussels", "SESO"],
+      "about": ["history", "association", "non-profit", "fundamental rights", "refugees"],
+      "services": ["social service", "support", "guidance", "DPI", "MENA", "REAB"],
+      "team": ["team", "management", "board", "social worker", "coordinator"],
+      "partners": ["partners", "funding", "network", "federations", "Fedasil", "IOM"],
+      "contact": ["contact", "address", "phone", "email", "appointment", "Saint-Gilles"],
+      "ssg": ["general social service", "CAP", "drop-in hours", "social rights", "residence"],
+      "dpi": ["asylum seekers", "reception", "Fedasil", "housing", "international protection"],
+      "mena": ["MENA", "minors", "guardianships", "young people", "FPS Justice"],
+      "reab": ["voluntary return", "REAB", "IOM", "reintegration", "return"]
+    }
+  },
   "Services": {
     "SSG": "General Social Service",
     "SSG+": "/ Personal Assistance Centre",

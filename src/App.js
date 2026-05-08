@@ -24,6 +24,7 @@ import OurPartners from './components/pages/OurPartners';
 import Contactpage from './components/pages/Contactpage';
 import Contactform from './components/Contactform';
 import ListMena from './components/ListMena';
+import SearchPage from './components/pages/SearchPage';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/sdpi" element={<Sdpi/>}></Route> 
         <Route path="/smena" element={<Smena/>}></Route>
         <Route path="/sreab" element={<Sreab/>}></Route>
+        <Route path="/search" element={<SearchPage/>}></Route>
         <Route path="/smena/menabase" element={<ListMena/>}></Route>
       </Routes>
     </Router>

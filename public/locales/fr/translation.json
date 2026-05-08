@@ -101,6 +101,36 @@
       "error": "Le message n'a pas pu être envoyé."
     }
   },
+  "Search": {
+    "title": "Recherche",
+    "kicker": "Recherche",
+    "placeholder": "Rechercher...",
+    "submit": "Lancer la recherche",
+    "openSearch": "Ouvrir la recherche",
+    "description": "Recherchez dans les principales pages, services, partenaires et informations de contact du site.",
+    "resultsFor": "Résultats pour \"{{query}}\"",
+    "emptyTitle": "Que souhaitez-vous rechercher ?",
+    "openResult": "Ouvrir la page",
+    "noResultsTitle": "Aucun résultat trouvé",
+    "noResultsText": "Essayez un autre mot-clé, par exemple service social, MENA, retour volontaire, partenaires ou contact.",
+    "excerpts": {
+      "services": "Découvrez les services de SESO : service social général, accueil DPI, tutelles MENA et retour volontaire.",
+      "team": "Retrouvez les équipes de SESO, la direction, le conseil d'administration et les services.",
+      "partners": "Consultez les pouvoirs subsidiants, les coupoles, le réseau et les partenaires de SESO."
+    },
+    "keywords": {
+      "home": ["accueil", "solidarité", "réfugiés", "migration", "Bruxelles", "SESO"],
+      "about": ["historique", "association", "asbl", "droits fondamentaux", "réfugiés"],
+      "services": ["service social", "aide", "accompagnement", "DPI", "MENA", "REAB"],
+      "team": ["équipe", "direction", "conseil", "assistant social", "coordinateur"],
+      "partners": ["partenaires", "subsides", "réseau", "coupoles", "Fedasil", "OIM"],
+      "contact": ["contact", "adresse", "téléphone", "email", "rendez-vous", "Saint-Gilles"],
+      "ssg": ["service social général", "CAP", "permanences", "droits sociaux", "séjour"],
+      "dpi": ["demandeurs d'asile", "accueil", "Fedasil", "logement", "protection internationale"],
+      "mena": ["MENA", "mineurs", "tutelles", "jeunes", "SPF Justice"],
+      "reab": ["retour volontaire", "REAB", "OIM", "réintégration", "retour"]
+    }
+  },
   "Services": {
     "SSG": "Service Social Général",
     "SSG+": "/ Centre d’Aide aux Personnes",

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 import HeaderTop from '../components/HeaderTop'
 import MobileMenu from '../components/MobileMenu'
@@ -8,9 +8,17 @@ import { useTranslation } from "react-i18next";
 function Header(props) {
 
     const { t } = useTranslation();
+    const navigate = useNavigate();
+    const [searchQuery, setSearchQuery] = useState("");
     
     const SubmitHandler = (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        const query = searchQuery.trim();
+
+        if (query) {
+            navigate(`/search?q=${encodeURIComponent(query)}`);
+            setSearchQuery("");
+        }
     }
 
     return (
@@ -62,12 +70,19 @@ function Header(props) {
                             <div className="contact">
                                 <div className="cart-search-contact">
                                     <div className="header-search-form-wrapper">
-                                        <button className="search-toggle-btn"><i className="fi flaticon-magnifying-glass"></i></button>
+                                        <button type="button" className="search-toggle-btn" aria-label={t('Search.openSearch')}><i className="fi flaticon-magnifying-glass"></i></button>
                                         <div className="header-search-form">
                                             <form onSubmit={SubmitHandler}>
                                                 <div>
-                                                    <input type="text" className="form-control" placeholder="Search here..." />
-                                                    <button type="submit"><i className="ti-search"></i></button>
+                                                    <input
+                                                        type="search"
+                                                        className="form-control"
+                                                        placeholder={t('Search.placeholder')}
+                                                        value={searchQuery}
+                                                        onChange={(event) => setSearchQuery(event.target.value)}
+                                                        aria-label={t('Search.placeholder')}
+                                                    />
+                                                    <button type="submit" aria-label={t('Search.submit')}><i className="ti-search"></i></button>
                                                 </div>
                                             </form>
                                         </div>

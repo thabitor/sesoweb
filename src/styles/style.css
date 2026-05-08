@@ -7853,6 +7853,107 @@ textarea::placeholder {
   filter: grayscale(35%);
 }
 
+.search-page {
+  background: var(--seso-surface);
+}
+
+.search-page-intro {
+  max-width: 760px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.search-page-intro span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--seso-red);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.search-page-intro h2 {
+  color: var(--seso-ink);
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.search-page-intro p {
+  color: var(--seso-muted);
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.search-results-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.search-result-card,
+.search-empty-state {
+  border: 1px solid var(--seso-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(20, 33, 61, 0.08);
+}
+
+.search-result-card {
+  display: block;
+  padding: 28px;
+  color: var(--seso-ink);
+}
+
+.search-result-card:hover {
+  color: var(--seso-ink);
+  transform: translateY(-2px);
+}
+
+.search-result-card span {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--seso-red);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.search-result-card h3 {
+  color: var(--seso-ink);
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.search-result-card p {
+  color: var(--seso-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.search-result-card strong {
+  color: var(--seso-red);
+  font-size: 14px;
+}
+
+.search-empty-state {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 34px;
+  text-align: center;
+}
+
+.search-empty-state h3 {
+  color: var(--seso-ink);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-empty-state p {
+  color: var(--seso-muted);
+  margin: 0;
+}
+
 /* Homepage refresh */
 :root {
   --seso-blue: #062265;
@@ -8127,6 +8228,10 @@ textarea::placeholder {
   .partners .prt-display-grid-4 .partners-item-box,
   .partners .prt-display-grid-6 .partners-item-box {
     flex-basis: calc(33.333% - 10px);
+  }
+
+  .search-results-list {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -101,6 +101,36 @@
       "error": "No se pudo enviar el mensaje."
     }
   },
+  "Search": {
+    "title": "Búsqueda",
+    "kicker": "Búsqueda",
+    "placeholder": "Buscar...",
+    "submit": "Buscar",
+    "openSearch": "Abrir búsqueda",
+    "description": "Busque en las páginas principales, servicios, socios e información de contacto del sitio.",
+    "resultsFor": "Resultados para \"{{query}}\"",
+    "emptyTitle": "¿Qué desea buscar?",
+    "openResult": "Abrir página",
+    "noResultsTitle": "No se encontraron resultados",
+    "noResultsText": "Pruebe con otra palabra clave, por ejemplo servicio social, MENA, retorno voluntario, socios o contacto.",
+    "excerpts": {
+      "services": "Descubra los servicios de SESO: servicio social general, acogida DPI, tutelas MENA y retorno voluntario.",
+      "team": "Encuentre los equipos de SESO, la dirección, el consejo de administración y los servicios.",
+      "partners": "Consulte los poderes subsidiantes, federaciones, red y socios de SESO."
+    },
+    "keywords": {
+      "home": ["acogida", "solidaridad", "refugiados", "migración", "Bruselas", "SESO"],
+      "about": ["historia", "asociación", "asbl", "derechos fundamentales", "refugiados"],
+      "services": ["servicio social", "ayuda", "acompañamiento", "DPI", "MENA", "REAB"],
+      "team": ["equipo", "dirección", "consejo", "trabajador social", "coordinador"],
+      "partners": ["socios", "subsidios", "red", "federaciones", "Fedasil", "OIM"],
+      "contact": ["contacto", "dirección", "teléfono", "email", "cita", "Saint-Gilles"],
+      "ssg": ["servicio social general", "CAP", "permanencias", "derechos sociales", "residencia"],
+      "dpi": ["solicitantes de asilo", "acogida", "Fedasil", "vivienda", "protección internacional"],
+      "mena": ["MENA", "menores", "tutelas", "jóvenes", "SPF Justicia"],
+      "reab": ["retorno voluntario", "REAB", "OIM", "reintegración", "retorno"]
+    }
+  },
   "Services": {
     "SSG": "Servicio Social General",
     "SSG+": "/ Centro de Ayuda a las Personas",

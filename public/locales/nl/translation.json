@@ -101,6 +101,36 @@
       "error": "Het bericht kon niet worden verzonden."
     }
   },
+  "Search": {
+    "title": "Zoeken",
+    "kicker": "Zoeken",
+    "placeholder": "Zoeken...",
+    "submit": "Zoeken",
+    "openSearch": "Zoeken openen",
+    "description": "Zoek in de belangrijkste pagina's, diensten, partners en contactinformatie van de site.",
+    "resultsFor": "Resultaten voor \"{{query}}\"",
+    "emptyTitle": "Waar wilt u naar zoeken?",
+    "openResult": "Pagina openen",
+    "noResultsTitle": "Geen resultaten gevonden",
+    "noResultsText": "Probeer een ander trefwoord, zoals sociale dienst, MENA, vrijwillige terugkeer, partners of contact.",
+    "excerpts": {
+      "services": "Ontdek de diensten van SESO: algemene sociale dienst, DPI-opvang, MENA-voogdijen en vrijwillige terugkeer.",
+      "team": "Vind de teams van SESO, de directie, de raad van bestuur en de diensten.",
+      "partners": "Bekijk de subsidiërende overheden, koepels, het netwerk en de partners van SESO."
+    },
+    "keywords": {
+      "home": ["onthaal", "solidariteit", "vluchtelingen", "migratie", "Brussel", "SESO"],
+      "about": ["geschiedenis", "vereniging", "vzw", "fundamentele rechten", "vluchtelingen"],
+      "services": ["sociale dienst", "hulp", "begeleiding", "DPI", "MENA", "REAB"],
+      "team": ["team", "directie", "raad", "maatschappelijk werker", "coördinator"],
+      "partners": ["partners", "subsidies", "netwerk", "koepels", "Fedasil", "IOM"],
+      "contact": ["contact", "adres", "telefoon", "email", "afspraak", "Sint-Gillis"],
+      "ssg": ["algemene sociale dienst", "CAP", "permanenties", "sociale rechten", "verblijf"],
+      "dpi": ["asielzoekers", "opvang", "Fedasil", "huisvesting", "internationale bescherming"],
+      "mena": ["MENA", "minderjarigen", "voogdijen", "jongeren", "FOD Justitie"],
+      "reab": ["vrijwillige terugkeer", "REAB", "IOM", "re-integratie", "terugkeer"]
+    }
+  },
   "Services": {
     "SSG": "Algemene Sociale Dienst",
     "SSG+": "/ Centrum voor Personenhulp",
