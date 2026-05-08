@@ -3946,6 +3946,14 @@ page-title
   .bg-partners {
     background: url('../../public/images/partpic.jpg') no-repeat 20% 50% / cover;
   }
+
+  .bg-services {
+    background: url('../../public/images/services-hero-unsplash.jpg') no-repeat center 48% / cover;
+  }
+
+  .bg-contact {
+    background: url('../../public/images/contact-hero-unsplash.jpg') no-repeat center 50% / cover;
+  }
   
   .wpo-breadcumb-area:before {
     position: absolute;

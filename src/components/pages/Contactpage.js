@@ -12,6 +12,7 @@ function Contactpage() {
     <Fragment>
       <PageTitle
         pageTitle={t("main.header.navItems.Contact")}
+        pageTitlebg={"bg-contact"}
         pagesub={"Contact"}
       />
       <div className="contact-page-refresh section-padding">

@@ -40,6 +40,40 @@
       "Subtext": "Ter ondersteuning van vluchtelingen"
     }
   },
+  "ServicePage": {
+    "learnMore": "Meer weten",
+    "ssg": {
+      "title": "Algemene Sociale Dienst",
+      "paragraphs": [
+        "Onze Algemene Sociale Dienst biedt algemene eerstelijns sociale hulp aan personen in moeilijkheden. We zorgen voor een eerste onthaal tijdens een individueel gesprek in het Frans, Nederlands, Engels en Spaans. We analyseren de situatie van de persoon, organiseren sociale begeleiding en opvolging en verwijzen indien nodig door naar een gespecialiseerde dienst.",
+        "Doorheen de jaren heeft onze Algemene Sociale Dienst expertise opgebouwd in vreemdelingenrecht. We ondersteunen mensen onder meer rond verblijf, sociale zekerheid, recht op werk, opleiding en studies, huisvesting, schulden en gezondheid.",
+        "Onze begeleiding wil de sociale band versterken en de toegang tot collectieve voorzieningen en fundamentele rechten verbeteren."
+      ]
+    },
+    "dpi": {
+      "title": "Onthaal en begeleiding voor asielzoekers",
+      "paragraphs": [
+        "SESO heeft een opvangstructuur voor asielzoekers opgezet in het kader van een overeenkomst met Fedasil.",
+        "Deze opvang is gebaseerd op de wet van 12 januari 2007 betreffende de opvang van asielzoekers en bepaalde andere categorieën vreemdelingen.",
+        "In de praktijk gebeurt deze opvang via individuele woningen en volgens kwaliteitsnormen die met onze partners zijn afgestemd. We beschikken over woningen in Brussel, Vlaanderen en Charleroi."
+      ]
+    },
+    "mena": {
+      "title": "Niet-begeleide buitenlandse minderjarigen (MENA)",
+      "paragraphs": [
+        "Deze dienst houdt zich bezig met de situatie van niet-begeleide buitenlandse minderjarigen. Onze vzw, zich bewust van de sociale urgentie voor dit publiek, startte deze dienst in juni 2007 met maatschappelijk werkers die als voogden optreden.",
+        "Ons doel is samen met de jongere een duurzame oplossing te zoeken. We begeleiden de jongere tijdens zijn of haar traject tot de meerderjarigheid of tot het einde van de procedure."
+      ]
+    },
+    "reab": {
+      "title": "Vrijwillige terugkeer (REAB)",
+      "paragraphs": [
+        "Hulp bij vrijwillige terugkeer bestaat uit een terugkeerticket, eventueel aangevuld met een premie en ondersteuning bij re-integratie. De toegang tot deze vormen van hulp hangt af van het administratieve profiel van de aanvrager.",
+        "De persoon opent een dossier bij onze REAB-dienst en krijgt daar een eerste gesprek om geïnformeerd te worden over de verschillende mogelijkheden.",
+        "Deze middelen kunnen worden gebruikt voor regulier onderwijs, specifieke opleidingen, de oprichting van micro-ondernemingen, huisvestingskosten, goederen, vertaling van documenten of hulp bij het zoeken naar werk."
+      ]
+    }
+  },
   "Contact": {
     "kicker": "Contact",
     "title": "Een vraag, een verzoek of een eerste afspraak?",

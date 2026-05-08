@@ -40,6 +40,40 @@
       "Subtext": "Dans l'aide aux réfugiés"
     }
   },
+  "ServicePage": {
+    "learnMore": "En savoir plus",
+    "ssg": {
+      "title": "Service Social Général",
+      "paragraphs": [
+        "Notre Service Social Général offre une aide sociale généraliste de première ligne aux personnes en difficulté. Nous assurons un premier accueil lors d'un entretien individuel en français, néerlandais, anglais et espagnol. Nous analysons la situation de la personne, mettons en place un accompagnement social et un suivi et, si nécessaire, nous orientons les personnes vers un service spécialisé en fonction de la problématique.",
+        "Depuis de longues années, notre Service Social Général a développé une expertise en matière du droit des étrangers. Nous soutenons les personnes notamment en matière de séjour, sécurité sociale, droit au travail, formation et études, logement, endettement et santé.",
+        "Notre accompagnement vise à favoriser le développement du lien social et un meilleur accès de la personne aux équipements collectifs et à ses droits fondamentaux."
+      ]
+    },
+    "dpi": {
+      "title": "Accueil et accompagnement pour demandeurs d'asile",
+      "paragraphs": [
+        "SESO a mis en place une structure d'accueil destinée aux demandeurs d'asile, dans le cadre d'une convention conclue avec Fedasil.",
+        "Cet accueil a pour base la loi du 12 janvier 2007 sur l'accueil des demandeurs d'asile et certaines autres catégories d'étrangers.",
+        "Sur le plan pratique, cet accueil est réalisé par le biais d'habitations individuelles et soumis à des normes de qualité concertées avec nos partenaires. Nous avons des logements à Bruxelles, en Flandre et à Charleroi."
+      ]
+    },
+    "mena": {
+      "title": "Mineurs Étrangers Non Accompagnés (MENA)",
+      "paragraphs": [
+        "Ce service s'occupe de la situation des mineurs étrangers non accompagnés. Notre asbl, consciente de l'urgence sociale de ce public, a inauguré en juin 2007 ce service composé de travailleurs sociaux tuteurs.",
+        "Notre objectif est la recherche d'une solution durable en collaboration avec le jeune. Nous l'accompagnons tout au long de son parcours jusqu'à sa majorité ou jusqu'à la fin de sa procédure."
+      ]
+    },
+    "reab": {
+      "title": "Retour volontaire (REAB)",
+      "paragraphs": [
+        "L'aide au retour volontaire consiste en un ticket de retour, pouvant être accompagné d'une prime, ainsi que d'une aide à la réintégration. L'obtention de ces aides dépend du profil administratif de la personne demandeuse.",
+        "La personne introduit son dossier auprès de notre service REAB, où elle passe un premier entretien afin d'être informée des différentes possibilités qui pourraient lui être proposées.",
+        "Ces fonds peuvent être destinés à l'enseignement régulier, à des formations spécifiques, à la création de micro-entreprises, aux frais de logement, aux frais de marchandises, à la traduction de documents ou à l'aide à la recherche d'emploi."
+      ]
+    }
+  },
   "Contact": {
     "kicker": "Contact",
     "title": "Une question, une demande ou un premier rendez-vous ?",

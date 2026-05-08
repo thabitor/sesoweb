@@ -40,6 +40,40 @@
       "Subtext": "En apoyo a las personas refugiadas"
     }
   },
+  "ServicePage": {
+    "learnMore": "Saber más",
+    "ssg": {
+      "title": "Servicio Social General",
+      "paragraphs": [
+        "Nuestro Servicio Social General ofrece ayuda social generalista de primera línea a personas en dificultad. Realizamos una primera acogida en una entrevista individual en francés, neerlandés, inglés y español. Analizamos la situación de la persona, establecemos un acompañamiento social y un seguimiento y, si es necesario, orientamos hacia un servicio especializado.",
+        "Desde hace muchos años, nuestro Servicio Social General ha desarrollado experiencia en derecho de extranjería. Apoyamos a las personas en temas como residencia, seguridad social, derecho al trabajo, formación y estudios, vivienda, endeudamiento y salud.",
+        "Nuestro acompañamiento busca favorecer el vínculo social y mejorar el acceso de la persona a los servicios colectivos y a sus derechos fundamentales."
+      ]
+    },
+    "dpi": {
+      "title": "Acogida y acompañamiento para solicitantes de asilo",
+      "paragraphs": [
+        "SESO ha establecido una estructura de acogida destinada a solicitantes de asilo en el marco de un convenio con Fedasil.",
+        "Esta acogida se basa en la ley del 12 de enero de 2007 sobre la acogida de solicitantes de asilo y otras categorías de personas extranjeras.",
+        "En la práctica, esta acogida se realiza mediante viviendas individuales y está sujeta a normas de calidad acordadas con nuestros socios. Contamos con viviendas en Bruselas, Flandes y Charleroi."
+      ]
+    },
+    "mena": {
+      "title": "Menores Extranjeros No Acompañados (MENA)",
+      "paragraphs": [
+        "Este servicio se ocupa de la situación de los menores extranjeros no acompañados. Consciente de la urgencia social de este público, nuestra asociación inauguró este servicio en junio de 2007 con trabajadores sociales que actúan como tutores.",
+        "Nuestro objetivo es buscar una solución duradera junto con la persona joven. La acompañamos durante todo su recorrido hasta la mayoría de edad o hasta el final de su procedimiento."
+      ]
+    },
+    "reab": {
+      "title": "Retorno voluntario (REAB)",
+      "paragraphs": [
+        "La ayuda al retorno voluntario consiste en un billete de regreso, que puede ir acompañado de una prima y de apoyo a la reintegración. El acceso a estas ayudas depende del perfil administrativo de la persona solicitante.",
+        "La persona abre su expediente con nuestro servicio REAB, donde tiene una primera entrevista para informarse sobre las diferentes posibilidades disponibles.",
+        "Estos fondos pueden destinarse a la enseñanza regular, formaciones específicas, creación de microempresas, gastos de vivienda, mercancías, traducción de documentos o apoyo en la búsqueda de empleo."
+      ]
+    }
+  },
   "Contact": {
     "kicker": "Contacto",
     "title": "¿Una pregunta, una solicitud o una primera cita?",

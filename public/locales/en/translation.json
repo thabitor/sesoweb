@@ -40,6 +40,40 @@
       "Subtext": "Supporting refugees"
     }
   },
+  "ServicePage": {
+    "learnMore": "Learn more",
+    "ssg": {
+      "title": "General Social Service",
+      "paragraphs": [
+        "Our General Social Service provides first-line general social assistance to people facing difficulties. We offer an initial welcome during an individual interview in French, Dutch, English and Spanish. We analyse the person's situation, set up social support and follow-up, and, where necessary, refer people to a specialised service according to the issue.",
+        "Over many years, our General Social Service has developed expertise in foreigners' law. We support people in areas such as residence, social security, the right to work, training and studies, housing, debt and health.",
+        "Our support aims to strengthen social connection and improve access to collective facilities and fundamental rights."
+      ]
+    },
+    "dpi": {
+      "title": "Reception and support for asylum seekers",
+      "paragraphs": [
+        "SESO has set up a reception structure for asylum seekers under an agreement with Fedasil.",
+        "This reception is based on the law of 12 January 2007 on the reception of asylum seekers and certain other categories of foreign nationals.",
+        "In practical terms, this reception is organised through individual housing and is subject to quality standards agreed with our partners. We have housing in Brussels, Flanders and Charleroi."
+      ]
+    },
+    "mena": {
+      "title": "Unaccompanied Foreign Minors (MENA)",
+      "paragraphs": [
+        "This service deals with the situation of unaccompanied foreign minors. Aware of the social urgency facing this public, our association launched this service in June 2007 with social workers acting as guardians.",
+        "Our objective is to find a durable solution together with the young person. We support them throughout their journey until they reach adulthood or until the end of their procedure."
+      ]
+    },
+    "reab": {
+      "title": "Voluntary return (REAB)",
+      "paragraphs": [
+        "Voluntary return assistance consists of a return ticket, which may be accompanied by a grant and reintegration support. Access to these forms of support depends on the applicant's administrative profile.",
+        "The person opens their file with our REAB service, where they have an initial interview to learn about the different options that may be available to them.",
+        "These funds may be used for regular education, specific training, the creation of micro-enterprises, housing costs, goods, document translation or job-search support."
+      ]
+    }
+  },
   "Contact": {
     "kicker": "Contact",
     "title": "A question, a request or a first appointment?",
