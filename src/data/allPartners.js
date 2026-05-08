@@ -46,6 +46,13 @@ const partners = [
         img: 'images/partners/febi_rgb-asbl-300x135.png'
     },
     {
+        id: 35,
+        codename: 'oim',
+        name: 'Organisation Internationale pour les Migrations',
+        type: 'sponsor',
+        img: 'images/partners/iom-logo.png'
+    },
+    {
         id: 7,
         codename: 'P&V',
         name: 'P&V',

@@ -1,6 +1,7 @@
 
 import React from 'react'
 // import { Link } from 'react-router-dom'
+import TeamREAB from '../TeamREAB';
 import Footer from '../Footer';
 
 function Sreab()  {
@@ -42,6 +43,7 @@ function Sreab()  {
                 </div>
             </div>
 
+            <TeamREAB />
             <Footer/>
      
           

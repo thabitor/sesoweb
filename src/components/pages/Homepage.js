@@ -17,8 +17,8 @@ function Homepage() {
     return (
         <Fragment>
             <Hero />
-            <MissionSection subclass={'section-padding'} />
             <AboutSection buttonClass='btns'/>
+            <MissionSection subclass={'section-padding'} />
             <SponsorsSection subclass={'white-bg'} />
             <Footer />
             <Scrollbar />

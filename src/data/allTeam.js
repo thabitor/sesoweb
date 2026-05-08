@@ -1,193 +1,238 @@
-// import { useTranslation } from "react-i18next";
-
-
-// function allTeam() {
-
-//     const { t } = useTranslation();
-
-
-// }
-
-
 const teamMembers = [
-
     {
         id: 1,
-        name: 'Baudhuin Joachim-Emmanuel',
-        role: 'Coordinateur',
-        img: '/images/team/male1.jpg',
-        dept: 'ssg',
-        desc: 'Assistant social de formation, Joachim a rejoint le SESO en 2020'
-    }, 
+        name: 'Olivier Plasman',
+        role: 'Président',
+        dept: 'con',
+    },
     {
         id: 2,
-        name: 'Garcia Rodriguez Sofia',
-        role: 'Assistante sociale',
-        img: '/images/team/male1.jpg',
-        dept: 'ssg',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Frédéric Nguyen',
+        role: 'Vice-Président',
+        dept: 'con',
     },
     {
         id: 3,
-        name: 'Goossens Dimitri',
-        role: 'Travailleur social',
-        img: '/images/team/male1.jpg',
-        dept: 'ssg',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Mario de Mattei',
+        role: 'Trésorier',
+        dept: 'con',
     },
     {
         id: 4,
-        name: 'Scheerlinck Sandra',
-        role: 'Assistante sociale',
-        img: '/images/team/female1.jpg',
-        dept: 'ssg',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Clément Bogaerts',
+        role: 'Direction',
+        dept: 'dir',
     },
     {
         id: 5,
-        name: 'Kandida-Umutesi Kabayiza',
-        role: 'Coordinatrice',
-        img: '/images/team/female1.jpg',
-        dept: 'mena',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Antoine Collard',
+        role: 'Direction',
+        dept: 'dir',
     },
     {
         id: 6,
-        name: 'Clément Bogaerts',
-        role: 'Directeur',
-        img: '/images/team/male1.jpg',
-        dept: 'dir',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Joachim-Emmanuel Baudhuin',
+        role: 'Coordination',
+        dept: 'ssg',
     },
     {
         id: 7,
-        name: 'Olivier Plasman',
-        role: 'Président',
-        img: '/images/team/male1.jpg',
-        dept: 'con',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Sofía García Rodríguez',
+        role: 'Équipe sociale',
+        dept: 'ssg',
     },
     {
         id: 8,
-        name: 'Frédéric Nguyen',
-        role: 'Vice-Président',
-        img: '/images/team/male1.jpg',
-        dept: 'con',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Dimitri Goossens',
+        role: 'Équipe sociale',
+        dept: 'ssg',
     },
     {
         id: 9,
-        name: 'Mario de Mattei',
-        role: 'Trésorier',
-        img: '/images/team/male1.jpg',
-        dept: 'con',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Sandra Scheerlinck',
+        role: 'Équipe sociale',
+        dept: 'ssg',
     },
     {
         id: 10,
-        name: 'Latifa Rafié',
-        role: 'Coordinatrice',
-        img: '/images/team/female1.jpg',
-        dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
-    }, 
+        name: 'Nicolas Rodriguez-Velozo',
+        role: 'Équipe sociale',
+        dept: 'ssg',
+    },
     {
         id: 11,
-        name: 'Bibiane Kanamugire',
-        role: 'Assistant social',
-        img: '/images/team/male1.jpg',
+        name: 'Latifa Rafié',
+        role: 'Coordination',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 12,
-        name: 'Brenda Mulunda',
-        role: 'Assistante sociale',
-        img: '/images/team/female1.jpg',
+        name: 'Salima Balghouzal',
+        role: 'Coordination',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 13,
-        name: 'Paola Mujinga Kajika',
-        role: 'Assistante sociale',
-        img: '/images/team/male1.jpg',
+        name: 'Rahim Abdul',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 14,
-        name: 'Lionel Tanghe',
-        role: 'Assistant social',
-        img: '/images/team/male1.jpg',
+        name: 'Clemencia Alban Achinte',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 15,
-        name: 'Heidi De Nys',
-        role: 'Educatrice',
-        img: '/images/team/female1.jpg',
+        name: 'Adler Cruz Murada Mirada',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 16,
-        name: 'Rabiatou Diallo',
-        role: 'Educatrice   ',
-        img: '/images/team/male1.jpg',
+        name: 'Mohamed El Amraoui',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 17,
-        name: 'Brahim Miloud',
-        role: 'Educateur',
-        img: '/images/team/male1.jpg',
-        dept: 'mena',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
+        name: 'Bibiane Kanamugire',
+        role: 'Équipe sociale',
+        dept: 'dpi',
     },
     {
         id: 18,
-        name: 'Rahim Abdul',
-        role: 'Assistant administratif',
-        img: '/images/team/male1.jpg',
+        name: 'Brenda Kowa Muyombo Mulunda',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 19,
-        name: 'Jacob Bitsadze',
-        role: 'Travailleur social',
-        img: '/images/team/male1.jpg',
+        name: 'Paola Mujinga-Kajika',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
-    }, 
+    },
     {
         id: 20,
-        name: 'Adler Murada',
-        role: 'Travailleur social',
-        img: '/images/team/male1.jpg',
+        name: 'Lionel Tanghe',
+        role: 'Équipe sociale',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 21,
-        name: 'Mohamed El Amraoui',
-        role: 'Maintenance informatique',
-        img: '/images/team/male1.jpg',
+        name: 'Koba Bitsadze',
+        role: 'Équipe éducative',
         dept: 'dpi',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
     },
     {
         id: 22,
-        name: 'Nicolas Rodriguez',
-        role: 'Travailleur sociaux',
-        img: '/images/team/male1.jpg',
-        dept: 'ssg',
-        desc: 'Lorem ipsum kokul awesome friendly cracks. Lorem krypto currency 1988'
-    }
+        name: 'Heidi De Nys',
+        role: 'Équipe éducative',
+        dept: 'dpi',
+    },
+    {
+        id: 23,
+        name: 'Rabiatou Diallo',
+        role: 'Équipe éducative',
+        dept: 'dpi',
+    },
+    {
+        id: 24,
+        name: 'Kandida Kabayiza Umutesi',
+        role: 'Coordination',
+        dept: 'mena',
+    },
+    {
+        id: 25,
+        name: 'Lucille Colpaert',
+        role: 'Tuteur.rice (SETM)',
+        dept: 'mena',
+    },
+    {
+        id: 26,
+        name: 'Brahim Miloud',
+        role: 'Tuteur.rice (SETM)',
+        dept: 'mena',
+    },
+    {
+        id: 27,
+        name: 'Abdellah Naji',
+        role: 'Tuteur.rice (SETM)',
+        dept: 'mena',
+    },
+    {
+        id: 28,
+        name: 'Salwa Moustarih',
+        role: 'Tuteur.rice (SETM)',
+        dept: 'mena',
+    },
+    {
+        id: 29,
+        name: 'Kévin Ingabire',
+        role: 'Assistant administratif / référent scolaire',
+        dept: 'mena',
+    },
+    {
+        id: 30,
+        name: 'Abdul Rahim',
+        role: 'Retour volontaire REAB',
+        dept: 'reab',
+    },
+    {
+        id: 31,
+        name: 'Arman Vardanyan',
+        role: 'Responsable / Chef d’équipe travaux',
+        dept: 'tech',
+    },
+    {
+        id: 32,
+        name: 'Lahcen Boutgga',
+        role: 'Équipe logement / Chef d’équipe',
+        dept: 'tech',
+    },
+    {
+        id: 33,
+        name: 'Hamid Arouadei',
+        role: 'Équipe logement (SETM)',
+        dept: 'tech',
+    },
+    {
+        id: 34,
+        name: 'Fatima Zahra Laarissi',
+        role: 'Équipe logement',
+        dept: 'tech',
+    },
+    {
+        id: 35,
+        name: 'Abdelghani Maach',
+        role: 'Équipe logement',
+        dept: 'tech',
+    },
+    {
+        id: 36,
+        name: 'Armond Baghumyan',
+        role: 'Équipe travaux',
+        dept: 'tech',
+    },
+    {
+        id: 37,
+        name: 'Arshak Baghumyan',
+        role: 'Équipe travaux',
+        dept: 'tech',
+    },
+    {
+        id: 38,
+        name: 'Julio Cesar Figueroa Campo',
+        role: 'Équipe travaux',
+        dept: 'tech',
+    },
+    {
+        id: 39,
+        name: 'Jaime Londono Molina',
+        role: 'Équipe travaux (SETM)',
+        dept: 'tech',
+    },
+];
 
-]
-    
 export default teamMembers;

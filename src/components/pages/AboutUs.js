@@ -13,7 +13,7 @@ function AboutUs() {
     
     return(
         <Fragment>
-            <PageTitle pageTitle={t('main.header.navItems.AboutUs')} pagesub={'About'} pageTitlebg={'bg-team'}/> 
+            <PageTitle pageTitle={t('main.header.navItems.AboutUs')} pagesub={'About'} pageTitlebg={'bg-about'}/> 
             <AboutSection buttonClass={'hidden'} subclass={'grey-bg'}/>
             <Timeline />
             <Footer/>

@@ -27,7 +27,7 @@ function TeamSection (props) {
                         role={teamMember.role}
                         img={teamMember.img}
                         desc={teamMember.desc}
-                        Key={teamMember.id}
+                        key={teamMember.id}
                      />
 
                     )

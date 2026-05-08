@@ -7,6 +7,8 @@ import TeamMENA from '../TeamMENA';
 import TeamDir from '../TeamDir';
 import TeamDPI from '../TeamDPI';
 import TeamCON from '../TeamCON';
+import TeamREAB from '../TeamREAB';
+import TeamTechnical from '../TeamTechnical';
 import { useTranslation } from 'react-i18next';
 
 function OurTeam() {
@@ -15,12 +17,14 @@ function OurTeam() {
 
     return(
         <Fragment>
-            <PageTitle pageTitle={t('main.header.navItems.OurTeam')} pageTitlebg={'bg-team'} pagesub={'About'}/>
+            <PageTitle pageTitle={t('main.header.navItems.OurTeam')} pageTitlebg={'bg-about'} pagesub={'About'}/>
             <TeamCON subclass={'grey-bg'} />
             <TeamDir subclass={'white-bg'} />
             <TeamSSG subclass={'grey-bg'} />
             <TeamMENA subclass={'white-bg'} />
             <TeamDPI subclass={'grey-bg'} />
+            <TeamREAB subclass={'white-bg'} />
+            <TeamTechnical subclass={'grey-bg'} />
             <Footer/>
             <Scrollbar/>
         </Fragment>

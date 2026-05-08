@@ -21,8 +21,6 @@ function AboutSection(props) {
                                 <h2>{t('AboutUs.maintext.bigTitle')}</h2>
                             </div>
                             <p>{t('AboutUs.maintext.p1')}</p>
-                            <p>{t('AboutUs.maintext.p2')}</p>
-                            <p>{t('AboutUs.maintext.p3')}</p>
                             <div className={props.buttonClass}>
                                 <Link to="/aboutus">
                                         <div  className="theme-btn" onClick={ClickHandler}>{t('main.elements.seeMore')}</div>

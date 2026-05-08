@@ -1,9 +1,34 @@
-import { Link }  from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 
-function MissionSection (props) {
-
-    const {t} = useTranslation();
+function MissionSection(props) {
+    const { t } = useTranslation();
+    const services = [
+        {
+            path: '/ssg',
+            iconClass: 'wpo-mission-icon-5',
+            title: `${t('Services.SSG')} ${t('Services.SSG+')}`,
+            description: 'Aide sociale généraliste de première ligne pour les personnes et familles en difficulté.'
+        },
+        {
+            path: '/sdpi',
+            iconClass: 'wpo-mission-icon-6',
+            title: t('Services.DPI'),
+            description: 'Près de 100 places d’accueil en logement individuel, en partenariat avec le CIRÉ et Fedasil.'
+        },
+        {
+            path: '/smena',
+            iconClass: 'wpo-mission-icon-7',
+            title: t('Services.MENA'),
+            description: 'Accompagnement et tutelles pour mineurs étrangers non accompagnés, mandatés par le SPF Justice.'
+        },
+        {
+            path: '/sreab',
+            iconClass: 'wpo-mission-icon-8',
+            title: t('Services.REAB'),
+            description: 'Information et soutien dans l’ouverture de dossiers de retour volontaire avec l’OIM.'
+        }
+    ];
 
     return (
         <div className={`wpo-mission-area ${props.subclass}`}>
@@ -18,55 +43,25 @@ function MissionSection (props) {
                 </div>
                 <div className="wpo-mission-wrap">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item services-item-box">
-                                <div className="wpo-mission-icon-5">
-                                    <img src='images\gallery\icons\friends.png' alt="" />
+                        {services.map((service) => (
+                            <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid" key={service.path}>
+                                <div className="wpo-mission-item services-item-box">
+                                    <div className={service.iconClass}>
+                                        <img src='images/gallery/icons/friends.png' alt="" />
+                                    </div>
+                                    <Link to={service.path} className="wpo-mission-content">
+                                        <h2>{service.title}</h2>
+                                        <p>{service.description}</p>
+                                        <span className="service-link-label">Découvrir le service</span>
+                                    </Link>
                                 </div>
-                                <Link to='/ssg' className="wpo-mission-content">
-                                    <h2>{t('Services.SSG')} {t('Services.SSG+')}</h2>
-                                    <p>Notre Service Social Général offre une aide sociale généraliste de première ligne aux personnes en difficulté.</p>
-                                </Link>
                             </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item services-item-box">
-                                <div className="wpo-mission-icon-6">
-                                    <img src='images\gallery\icons\friends.png' alt="" />
-                                </div>
-                                <Link to='/sdpi' className="wpo-mission-content">
-                                    <h2>{t('Services.DPI')}</h2>
-                                    <p>SESO propose près de 100 places d’accueil en logement individuel pour des demandeur·euses de protection internationale en partenariat avec le Ciré et Fédasil</p>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item services-item-box">
-                                <div className="wpo-mission-icon-7">
-                                    <img src='images\gallery\icons\friends.png' alt="" />
-                                </div>
-                                <Link to='/smena' className="wpo-mission-content">
-                                    <h2>{t('Services.MENA')}</h2>
-                                    <p>SESO est chargé par le SPF Justice d’exercer plus de 100 tutelles pour MENA (Mineurs Etrangers Non Accompagnés).</p>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item services-item-box">
-                                <div className="wpo-mission-icon-8">
-                                    <img src='images\gallery\icons\friends.png' alt="" />
-                                </div> 
-                                <Link to='/sreab' className="wpo-mission-content">
-                                    <h2>{t('Services.REAB')}</h2>
-                                    <p>Notre Service Social travaille en partenariat avec l'OIM et aide son public à ouvrir un dossier de retour.</p>
-                                </Link>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default MissionSection;

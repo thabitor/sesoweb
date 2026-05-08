@@ -5,15 +5,14 @@ function Timeline() {
 
     const {t} = useTranslation();
     return (
-
-        <div className='wpo-mission-area section-padding white-bg' id="historique">
+        <div className='wpo-mission-area section-padding white-bg history-section' id="historique">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                    <div className="wpo-section-title">
-                        <span></span>
-                    <h2>{t('main.header.navItems.OurHistory')}</h2>
-                    </div>
+                        <div className="wpo-section-title">
+                            <span>SESO depuis 1937</span>
+                            <h2>{t('main.header.navItems.OurHistory')}</h2>
+                        </div>
                     </div>
                     <div className="timeline">
                         <div className="containerTimeline left">

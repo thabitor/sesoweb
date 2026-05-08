@@ -29,7 +29,7 @@ function TeamSSG (props) {
                      role={teamMember.role}
                      desc={teamMember.desc}
                      img={teamMember.img}
-                     Key={teamMember.id}
+                     key={teamMember.id}
                      />
 
                     )

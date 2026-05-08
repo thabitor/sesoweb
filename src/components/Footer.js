@@ -21,10 +21,16 @@ function Footer (props) {
                             </div>
                             {/* <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p> */}
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter-alt"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-instagram"/></Link></li>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-google"/></Link></li>
+                                <li>
+                                    <a href="https://www.facebook.com/SETM.asbl" target="_blank" rel="noreferrer" aria-label="SESO sur Facebook">
+                                        <i className="ti-facebook" aria-hidden="true" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/seso-asbl" target="_blank" rel="noreferrer" aria-label="SESO sur LinkedIn">
+                                        <i className="ti-linkedin" aria-hidden="true" />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -56,7 +62,7 @@ function Footer (props) {
                     <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget">
                             <div className="widget-title">
-                                <h3>Liens utils</h3>
+                                <h3>Liens utiles</h3>
                             </div>
                             <ul>
                                 <li><Link onClick={ClickHandler} to="/aboutus">Qui sommes-nous?</Link></li>
