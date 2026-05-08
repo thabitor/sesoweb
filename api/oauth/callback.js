@@ -1,27 +1,38 @@
 function renderAuthMessage(type, payload) {
   return `<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SESO CMS Login</title>
+  </head>
   <body>
+    <p id="status">Completing GitHub login...</p>
     <script>
       const payload = ${JSON.stringify(payload)};
       const type = ${JSON.stringify(type)};
       const message = "authorization:github:" + type + ":" + JSON.stringify(payload);
+      const status = document.getElementById("status");
 
-      function sendAuthorization() {
+      function sendAuthorization(event) {
         if (window.opener) {
-          window.opener.postMessage(message, "*");
+          window.opener.postMessage(message, event.origin);
+          status.innerText = "Login complete. Returning to CMS...";
+          window.setTimeout(function () {
+            window.close();
+          }, 500);
+        } else {
+          status.innerText = "Login complete, but the CMS window could not be found. Please close this window and try again from /admin/.";
         }
-        window.setTimeout(function () {
-          window.close();
-        }, 500);
       }
 
       if (window.opener) {
-        window.opener.postMessage("authorizing:github", "*");
         window.addEventListener("message", sendAuthorization, false);
-        window.setTimeout(sendAuthorization, 1000);
+        window.opener.postMessage("authorizing:github", "*");
+        window.setTimeout(function () {
+          status.innerText = "Still waiting for the CMS window. If this stays here, close this popup and retry from /admin/.";
+        }, 3000);
       } else {
-        document.body.innerText = "Authentication complete. You can close this window.";
+        status.innerText = "Login complete, but this window was not opened by the CMS. Please start again from /admin/.";
       }
     </script>
   </body>
