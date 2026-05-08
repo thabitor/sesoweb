@@ -131,6 +131,76 @@
       "reab": ["retour volontaire", "REAB", "OIM", "réintégration", "retour"]
     }
   },
+  "ServiceDetails": {
+    "ssg": {
+      "title": "Service Social Général",
+      "paragraphs": [
+        "Le Service Social des Solidarités (SESO) a pour but l'aide individualisée et personnalisée à toute personne et, en particulier, aux personnes en migration, dans le respect de l'autonomie de la personne, des droits fondamentaux, du droit à la vie familiale et à l'intimité. Nous promouvons la tolérance, le respect des droits, la lutte contre tout type de discrimination, le libre examen, la justice sociale et l'émancipation.",
+        "Notre Service Social Général (SSG) offre une aide sociale généraliste de première ligne aux personnes en difficulté. Nous assurons un premier accueil lors d'entretiens individuels ou de nos permanences en français, néerlandais, anglais ou espagnol. En cas de besoin, nous travaillons également avec des interprètes. Nous analysons la situation de la personne, mettons en place un suivi social et administratif. Si nécessaire, nous orientons les personnes vers un service spécialisé en fonction de la problématique.",
+        "Depuis de longues années, notre Service Social Général a développé une expertise en matière de droit des étrangers. Nous soutenons les intéressé.e.s en matière d'asile, de regroupement familial, de demande de permis unique, de régularisation de séjour ou d'accès à la nationalité."
+      ]
+    },
+    "dpi": {
+      "title": "Service social pour demandeurs d'asile dans le cadre de la Convention Fedasil",
+      "paragraphs": [
+        "SESO a mis en place une structure d'accueil destinée aux demandeurs d'asile, dans le cadre d'une convention conclue avec Fedasil.",
+        "Cet accueil a pour base la loi du 12 janvier 2007 sur l'accueil des demandeurs d'asile et certaines autres catégories d'étrangers.",
+        "Sur le plan pratique, ce type d'accueil est réalisé par le biais d'habitations individuelles et soumis à des normes de qualité concertées avec d'autres partenaires. Nous avons des logements à Bruxelles, en Flandre et à Charleroi.",
+        "Les assistants sociaux organisent un accompagnement social, administratif, juridique, psychologique, médical et logistique tout au long de la procédure d'asile et pendant le temps du droit à l'aide matérielle.",
+        "Depuis 2014, nous accueillons principalement des demandeurs d'asile ayant un profil spécifique, notamment des personnes confrontées à des besoins médicaux sérieux et des mineurs non accompagnés."
+      ],
+      "objectivesTitle": "Les objectifs principaux de notre accueil sont pour l'essentiel :",
+      "objectives": [
+        "garantir aux demandeurs d'asile la préservation de leur vie de famille et de leur intimité",
+        "assurer l'autonomie et la responsabilisation des personnes",
+        "préserver le développement personnel et psychique des personnes",
+        "favoriser le contact entre citoyens autochtones et allochtones",
+        "contribuer à sensibiliser la population à la problématique des demandeurs d'asile",
+        "envisager l'accueil des demandeurs d'asile comme une composante du tissu social",
+        "permettre une flexibilité dans la création de nouvelles places d'accueil"
+      ]
+    },
+    "mena": {
+      "title": "Mineurs Non Accompagnés",
+      "paragraphs": [
+        "Ce service s'occupe de la situation des mineurs étrangers non accompagnés. Notre asbl, consciente de l'urgence sociale de ce public, a inauguré en juin 2007 ce service composé de travailleurs sociaux tuteurs.",
+        "Notre objectif est la recherche d'une solution durable en collaboration avec le jeune. Nous l'accompagnons tout au long de son parcours jusqu'à sa majorité ou jusqu'à la fin de sa procédure."
+      ],
+      "services": [
+        "Mettre en oeuvre des moyens juridiques, sociaux, culturels et éducatifs en collaboration avec le Service des Tutelles et sous la supervision d'un juge de paix",
+        "Assister le mineur dans tous les stades de sa procédure d'asile ou dans les démarches lui garantissant son droit au séjour, à l'aide et à l'éducation",
+        "Veiller à ce que le jeune bénéficie d'une scolarité, d'un soutien psychologique, d'un hébergement adéquat et d'une aide médicale",
+        "Agir en concertation avec le mineur et les personnes d'accueil et d'hébergement"
+      ]
+    },
+    "reab": {
+      "title": "Retour et réintégration des demandeurs d'asile à partir de la Belgique",
+      "paragraphs": [
+        "Depuis 1984, l'État belge a confié à l'OIM le programme REAB. Notre Service Social travaille en partenariat avec l'OIM et aide son public à ouvrir un dossier de retour.",
+        "L'aide au retour volontaire consiste en un ticket de retour, pouvant être accompagné d'une prime, ainsi que d'une aide à la réintégration. L'obtention de ces aides dépend du profil administratif de la personne demandeuse.",
+        "Ces fonds peuvent être destinés à l'enseignement régulier, à des formations spécifiques, à la création de micro-entreprises, aux frais de logement, aux frais de marchandises, à la traduction de documents ou à l'aide à la recherche d'emploi.",
+        "Ce programme humanitaire assiste les migrants dans le besoin qui souhaitent rentrer volontairement et se réintégrer dans leur pays d'origine. Il s'adresse à trois catégories de migrants en Belgique :"
+      ],
+      "categories": [
+        { "label": "Demandeurs d'asile : ", "text": "migrants ayant introduit une demande d'asile et attendant une réponse définitive." },
+        { "label": "Demandeurs d'asile déboutés : ", "text": "migrants ayant introduit une demande d'asile et ayant reçu une réponse négative." },
+        { "label": "Migrants en situation irrégulière : ", "text": "personnes sans titre de séjour valable." }
+      ]
+    }
+  },
+  "Permanences": {
+    "kicker": "Accueil SSG",
+    "title": "Permanences",
+    "schedule": "Horaire",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+    "note": "Les langues sont indiquées selon les informations disponibles dans le tableau des permanences.",
+    "languages": {
+      "FR": "Français",
+      "NL": "Néerlandais",
+      "EN": "Anglais",
+      "ES": "Espagnol"
+    }
+  },
   "Services": {
     "SSG": "Service Social Général",
     "SSG+": "/ Centre d’Aide aux Personnes",

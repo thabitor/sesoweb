@@ -131,6 +131,76 @@
       "reab": ["voluntary return", "REAB", "IOM", "reintegration", "return"]
     }
   },
+  "ServiceDetails": {
+    "ssg": {
+      "title": "General Social Service",
+      "paragraphs": [
+        "The Social Service for Solidarity (SESO) aims to provide individual and personalised help to every person, especially people in migration, while respecting their autonomy, fundamental rights, right to family life and privacy. We promote tolerance, respect for rights, the fight against all forms of discrimination, free inquiry, social justice and emancipation.",
+        "Our General Social Service provides first-line general social assistance to people facing difficulties. We offer an initial welcome during individual interviews or drop-in hours in French, Dutch, English or Spanish. When needed, we also work with interpreters. We analyse the person's situation and set up social and administrative follow-up.",
+        "Over many years, our General Social Service has developed expertise in foreigners' law. We support people with asylum, family reunification, single permit applications, residence regularisation and access to nationality."
+      ]
+    },
+    "dpi": {
+      "title": "Social service for asylum seekers under the Fedasil agreement",
+      "paragraphs": [
+        "SESO has set up a reception structure for asylum seekers under an agreement with Fedasil.",
+        "This reception is based on the law of 12 January 2007 on the reception of asylum seekers and certain other categories of foreign nationals.",
+        "In practical terms, this reception is organised through individual housing and is subject to quality standards agreed with other partners. We have housing in Brussels, Flanders and Charleroi.",
+        "Social workers provide social, administrative, legal, psychological, medical and logistical support throughout the asylum procedure and during the period of entitlement to material assistance.",
+        "Since 2014, we have mainly received asylum seekers with a specific profile, including people with serious medical needs and unaccompanied minors."
+      ],
+      "objectivesTitle": "The main objectives of our reception are:",
+      "objectives": [
+        "to guarantee asylum seekers the preservation of their family life and privacy",
+        "to support people's autonomy and responsibility",
+        "to preserve people's personal and psychological development",
+        "to encourage contact between local and migrant residents",
+        "to help raise public awareness of asylum-related issues",
+        "to view reception for asylum seekers as part of the social fabric",
+        "to allow flexibility in creating new reception places"
+      ]
+    },
+    "mena": {
+      "title": "Unaccompanied Minors",
+      "paragraphs": [
+        "This service deals with the situation of unaccompanied foreign minors. Aware of the social urgency facing this public, our association launched this service in June 2007 with social workers acting as guardians.",
+        "Our objective is to find a durable solution together with the young person. We support them throughout their journey until they reach adulthood or until the end of their procedure."
+      ],
+      "services": [
+        "Implement legal, social, cultural and educational means in collaboration with the Guardianship Service and under the supervision of a justice of the peace",
+        "Assist the minor at every stage of the asylum procedure or with the steps guaranteeing the right to residence, assistance and education",
+        "Ensure that the young person has access to schooling, psychological support, suitable accommodation and medical help",
+        "Act in consultation with the minor and the people or services providing reception and accommodation"
+      ]
+    },
+    "reab": {
+      "title": "Return and reintegration of asylum seekers from Belgium",
+      "paragraphs": [
+        "Since 1984, the Belgian State has entrusted the REAB programme to the IOM. Our Social Service works in partnership with the IOM and helps people open a return file.",
+        "Voluntary return assistance consists of a return ticket, which may be accompanied by a grant and reintegration support. Access to these forms of support depends on the applicant's administrative profile.",
+        "These funds may be used for regular education, specific training, the creation of micro-enterprises, housing costs, goods, document translation or job-search support.",
+        "This humanitarian programme assists migrants in need who wish to return voluntarily and reintegrate in their country of origin. It is intended for three categories of migrants in Belgium:"
+      ],
+      "categories": [
+        { "label": "Asylum seekers: ", "text": "migrants who have applied for asylum and are waiting for a final decision." },
+        { "label": "Rejected asylum seekers: ", "text": "migrants who have applied for asylum and received a negative decision." },
+        { "label": "Migrants in an irregular situation: ", "text": "people without a valid residence permit." }
+      ]
+    }
+  },
+  "Permanences": {
+    "kicker": "SSG reception",
+    "title": "Drop-in Hours",
+    "schedule": "Hours",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "note": "Languages are shown according to the information available in the drop-in hours table.",
+    "languages": {
+      "FR": "French",
+      "NL": "Dutch",
+      "EN": "English",
+      "ES": "Spanish"
+    }
+  },
   "Services": {
     "SSG": "General Social Service",
     "SSG+": "/ Personal Assistance Centre",

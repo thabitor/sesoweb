@@ -131,6 +131,76 @@
       "reab": ["vrijwillige terugkeer", "REAB", "IOM", "re-integratie", "terugkeer"]
     }
   },
+  "ServiceDetails": {
+    "ssg": {
+      "title": "Algemene Sociale Dienst",
+      "paragraphs": [
+        "De Sociale Dienst voor Solidariteit (SESO) wil individuele en persoonlijke hulp bieden aan elke persoon, in het bijzonder aan mensen in migratie, met respect voor hun autonomie, fundamentele rechten, recht op gezinsleven en privacy. Wij bevorderen tolerantie, respect voor rechten, strijd tegen discriminatie, vrij onderzoek, sociale rechtvaardigheid en emancipatie.",
+        "Onze Algemene Sociale Dienst biedt algemene eerstelijns sociale hulp aan personen in moeilijkheden. We zorgen voor een eerste onthaal tijdens individuele gesprekken of permanenties in het Frans, Nederlands, Engels of Spaans. Indien nodig werken we ook met tolken. We analyseren de situatie van de persoon en organiseren sociale en administratieve opvolging.",
+        "Doorheen de jaren heeft onze Algemene Sociale Dienst expertise opgebouwd in vreemdelingenrecht. We ondersteunen mensen rond asiel, gezinshereniging, aanvragen voor een gecombineerde vergunning, regularisatie van verblijf en toegang tot nationaliteit."
+      ]
+    },
+    "dpi": {
+      "title": "Sociale dienst voor asielzoekers in het kader van de Fedasil-overeenkomst",
+      "paragraphs": [
+        "SESO heeft een opvangstructuur voor asielzoekers opgezet in het kader van een overeenkomst met Fedasil.",
+        "Deze opvang is gebaseerd op de wet van 12 januari 2007 betreffende de opvang van asielzoekers en bepaalde andere categorieën vreemdelingen.",
+        "In de praktijk gebeurt deze opvang via individuele woningen en volgens kwaliteitsnormen die met andere partners zijn afgestemd. We beschikken over woningen in Brussel, Vlaanderen en Charleroi.",
+        "Maatschappelijk werkers organiseren sociale, administratieve, juridische, psychologische, medische en logistieke begeleiding gedurende de asielprocedure en tijdens de periode van recht op materiële hulp.",
+        "Sinds 2014 vangen we vooral asielzoekers met een specifiek profiel op, waaronder mensen met ernstige medische noden en niet-begeleide minderjarigen."
+      ],
+      "objectivesTitle": "De belangrijkste doelstellingen van onze opvang zijn:",
+      "objectives": [
+        "het gezinsleven en de privacy van asielzoekers waarborgen",
+        "de autonomie en verantwoordelijkheid van personen ondersteunen",
+        "de persoonlijke en psychische ontwikkeling van personen beschermen",
+        "contact tussen lokale en migrantenbewoners bevorderen",
+        "bijdragen aan bewustmaking rond de problematiek van asielzoekers",
+        "opvang van asielzoekers beschouwen als onderdeel van het sociale weefsel",
+        "flexibiliteit mogelijk maken bij de creatie van nieuwe opvangplaatsen"
+      ]
+    },
+    "mena": {
+      "title": "Niet-begeleide Minderjarigen",
+      "paragraphs": [
+        "Deze dienst houdt zich bezig met de situatie van niet-begeleide buitenlandse minderjarigen. Onze vzw, zich bewust van de sociale urgentie voor dit publiek, startte deze dienst in juni 2007 met maatschappelijk werkers die als voogden optreden.",
+        "Ons doel is samen met de jongere een duurzame oplossing te zoeken. We begeleiden de jongere tijdens het volledige traject tot de meerderjarigheid of tot het einde van de procedure."
+      ],
+      "services": [
+        "Juridische, sociale, culturele en educatieve middelen inzetten in samenwerking met de Dienst Voogdij en onder toezicht van een vrederechter",
+        "De minderjarige bijstaan in alle fasen van de asielprocedure of in de stappen die het recht op verblijf, hulp en onderwijs waarborgen",
+        "Erop toezien dat de jongere toegang heeft tot onderwijs, psychologische ondersteuning, geschikte huisvesting en medische hulp",
+        "Handelen in overleg met de minderjarige en de personen of diensten die instaan voor opvang en huisvesting"
+      ]
+    },
+    "reab": {
+      "title": "Terugkeer en re-integratie van asielzoekers vanuit België",
+      "paragraphs": [
+        "Sinds 1984 heeft de Belgische Staat het REAB-programma toevertrouwd aan de IOM. Onze Sociale Dienst werkt samen met de IOM en helpt mensen een terugkeerdossier te openen.",
+        "Hulp bij vrijwillige terugkeer bestaat uit een terugkeerticket, eventueel aangevuld met een premie en ondersteuning bij re-integratie. De toegang tot deze vormen van hulp hangt af van het administratieve profiel van de aanvrager.",
+        "Deze middelen kunnen worden gebruikt voor regulier onderwijs, specifieke opleidingen, de oprichting van micro-ondernemingen, huisvestingskosten, goederen, vertaling van documenten of hulp bij het zoeken naar werk.",
+        "Dit humanitaire programma helpt migranten in nood die vrijwillig willen terugkeren en zich opnieuw willen integreren in hun land van herkomst. Het richt zich tot drie categorieën migranten in België:"
+      ],
+      "categories": [
+        { "label": "Asielzoekers: ", "text": "migranten die een asielaanvraag hebben ingediend en wachten op een definitieve beslissing." },
+        { "label": "Uitgeprocedeerde asielzoekers: ", "text": "migranten die een asielaanvraag hebben ingediend en een negatieve beslissing hebben ontvangen." },
+        { "label": "Migranten in onregelmatig verblijf: ", "text": "personen zonder geldige verblijfstitel." }
+      ]
+    }
+  },
+  "Permanences": {
+    "kicker": "Onthaal SSG",
+    "title": "Permanenties",
+    "schedule": "Uurrooster",
+    "days": ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag"],
+    "note": "De talen worden weergegeven volgens de beschikbare informatie in de permanentietabel.",
+    "languages": {
+      "FR": "Frans",
+      "NL": "Nederlands",
+      "EN": "Engels",
+      "ES": "Spaans"
+    }
+  },
   "Services": {
     "SSG": "Algemene Sociale Dienst",
     "SSG+": "/ Centrum voor Personenhulp",

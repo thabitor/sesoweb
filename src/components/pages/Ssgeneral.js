@@ -1,28 +1,7 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import TeamSSG from '../TeamSSG';
 import Footer from '../Footer';
-
-const languageLabels = {
-    FR: 'Français',
-    NL: 'Néerlandais',
-    EN: 'Anglais',
-    ES: 'Espagnol',
-};
-
-const languageFlags = {
-    FR: '🇫🇷',
-    NL: '🇳🇱',
-    EN: '🇬🇧',
-    ES: '🇪🇸',
-};
-
-const days = [
-    'LUNDI MAANDAG LUNES MONDAY',
-    'MARDI DINSDAG MARTES TUESDAY',
-    'MERCREDI WOENSDAG MIERCOLES WEDNESDAY',
-    'JEUDI DONDERDAG JUEVES THURSDAY',
-    'VENDREDI VRIJDAG VIERNES FRIDAY',
-];
 
 const permanences = [
     {
@@ -51,7 +30,16 @@ const permanences = [
     },
 ];
 
+const languageFlags = {
+    FR: '🇫🇷',
+    NL: '🇳🇱',
+    EN: '🇬🇧',
+    ES: '🇪🇸',
+};
+
 function LanguageBadges({ languages }) {
+    const { t } = useTranslation();
+
     if (!languages.length) {
         return null;
     }
@@ -62,8 +50,8 @@ function LanguageBadges({ languages }) {
                 <span
                     className="language-flag"
                     key={language}
-                    title={languageLabels[language]}
-                    aria-label={languageLabels[language]}
+                    title={t(`Permanences.languages.${language}`)}
+                    aria-label={t(`Permanences.languages.${language}`)}
                 >
                     <span aria-hidden="true">{languageFlags[language]}</span>
                     <span>{language}</span>
@@ -74,18 +62,21 @@ function LanguageBadges({ languages }) {
 }
 
 function PermanencesSection() {
+    const { t } = useTranslation();
+    const days = t('Permanences.days', { returnObjects: true });
+
     return (
         <section className="ssg-permanences section-padding">
             <div className="container">
                 <div className="wpo-section-title">
-                    <span>Accueil SSG</span>
-                    <h2>Permanences</h2>
+                    <span>{t('Permanences.kicker')}</span>
+                    <h2>{t('Permanences.title')}</h2>
                 </div>
                 <div className="permanence-table-wrap">
                     <table className="permanence-table">
                         <thead>
                             <tr>
-                                <th>Horaire</th>
+                                <th>{t('Permanences.schedule')}</th>
                                 {days.map((day) => (
                                     <th key={day}>{day}</th>
                                 ))}
@@ -112,15 +103,16 @@ function PermanencesSection() {
                         </tbody>
                     </table>
                 </div>
-                <p className="permanence-note">
-                    Les langues sont indiquées selon les informations disponibles dans le tableau des permanences.
-                </p>
+                <p className="permanence-note">{t('Permanences.note')}</p>
             </div>
         </section>
     );
 }
 
 function Ssgeneral() {
+    const { t } = useTranslation();
+    const paragraphs = t('ServiceDetails.ssg.paragraphs', { returnObjects: true });
+
     return (
         <>
             <div className="wpo-servicepage-area white-bg service-padding">
@@ -129,17 +121,11 @@ function Ssgeneral() {
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="wpo-about-text">
                                 <div className="wpo-service-title">
-                                    <h2>Service Social Général</h2>
+                                    <h2>{t('ServiceDetails.ssg.title')}</h2>
                                 </div>
-                                <p>
-                                    Le Service Social des Solidarités (SESO) a pour but l'aide individualisée et personnalisée à toute personne et, en particulier, aux personnes en migration, dans le respect de l'autonomie de la personne, des droits fondamentaux, du droit à la vie familiale et à l'intimité. Nous promouvons la tolérance, le respect des droits, la lutte contre tout type de discrimination, le libre examen, la justice sociale et l'émancipation.
-                                </p>
-                                <p>
-                                    Notre Service Social Général (SSG) offre une aide sociale généraliste de première ligne aux personnes en difficulté. Nous assurons un premier accueil lors d'entretiens individuels ou de nos permanences en français, néerlandais, anglais ou espagnol. En cas de besoin, nous travaillons également avec des interprètes. Nous analysons la situation de la personne, mettons en place un suivi social et administratif. Si nécessaire, nous orientons les personnes vers un service spécialisé en fonction de la problématique (logement, médiation de dettes, avocats, ...). Notre accompagnement vise à promouvoir l'accès de notre public à ses droits fondamentaux : droits sociaux, administratifs et droits de séjour.
-                                </p>
-                                <p>
-                                    Depuis de longues années, notre Service Social Général a développé une expertise en matière de droit des étrangers, c'est pourquoi nous sommes consultés principalement par un public d'origine allochtone. Nous soutenons les intéressé.e.s, en matière, entre autres d'asile, de regroupement familial, de demande de permis unique, de régularisation de séjour ou d'accès à la nationalité. Nous informons largement notre public sur la législation en vigueur en termes d'accès au droit de séjour et aux droits et devoirs qui en découlent.
-                                </p>
+                                {paragraphs.map((paragraph) => (
+                                    <p key={paragraph}>{paragraph}</p>
+                                ))}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 inservicepage-section">

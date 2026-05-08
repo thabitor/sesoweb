@@ -131,6 +131,76 @@
       "reab": ["retorno voluntario", "REAB", "OIM", "reintegración", "retorno"]
     }
   },
+  "ServiceDetails": {
+    "ssg": {
+      "title": "Servicio Social General",
+      "paragraphs": [
+        "El Servicio Social de Solidaridad (SESO) tiene como objetivo ofrecer ayuda individualizada y personalizada a toda persona, en particular a las personas migrantes, respetando su autonomía, sus derechos fundamentales, el derecho a la vida familiar y a la intimidad. Promovemos la tolerancia, el respeto de los derechos, la lucha contra toda discriminación, el libre examen, la justicia social y la emancipación.",
+        "Nuestro Servicio Social General ofrece ayuda social generalista de primera línea a personas en dificultad. Realizamos una primera acogida durante entrevistas individuales o permanencias en francés, neerlandés, inglés o español. Si es necesario, trabajamos también con intérpretes. Analizamos la situación de la persona y establecemos un seguimiento social y administrativo.",
+        "Desde hace muchos años, nuestro Servicio Social General ha desarrollado experiencia en derecho de extranjería. Apoyamos a las personas en materia de asilo, reagrupación familiar, solicitud de permiso único, regularización de estancia y acceso a la nacionalidad."
+      ]
+    },
+    "dpi": {
+      "title": "Servicio social para solicitantes de asilo en el marco del convenio Fedasil",
+      "paragraphs": [
+        "SESO ha establecido una estructura de acogida destinada a solicitantes de asilo en el marco de un convenio con Fedasil.",
+        "Esta acogida se basa en la ley del 12 de enero de 2007 sobre la acogida de solicitantes de asilo y otras categorías de personas extranjeras.",
+        "En la práctica, esta acogida se realiza mediante viviendas individuales y está sujeta a normas de calidad acordadas con otros socios. Contamos con viviendas en Bruselas, Flandes y Charleroi.",
+        "Los trabajadores sociales organizan acompañamiento social, administrativo, jurídico, psicológico, médico y logístico durante todo el procedimiento de asilo y durante el periodo de derecho a la ayuda material.",
+        "Desde 2014 acogemos principalmente a solicitantes de asilo con un perfil específico, entre ellos personas con necesidades médicas importantes y menores no acompañados."
+      ],
+      "objectivesTitle": "Los principales objetivos de nuestra acogida son:",
+      "objectives": [
+        "garantizar a los solicitantes de asilo la preservación de su vida familiar e intimidad",
+        "favorecer la autonomía y la responsabilización de las personas",
+        "preservar el desarrollo personal y psíquico de las personas",
+        "favorecer el contacto entre ciudadanos locales y personas migrantes",
+        "contribuir a sensibilizar a la población sobre la problemática de los solicitantes de asilo",
+        "considerar la acogida de solicitantes de asilo como parte del tejido social",
+        "permitir flexibilidad en la creación de nuevas plazas de acogida"
+      ]
+    },
+    "mena": {
+      "title": "Menores No Acompañados",
+      "paragraphs": [
+        "Este servicio se ocupa de la situación de los menores extranjeros no acompañados. Consciente de la urgencia social de este público, nuestra asociación inauguró este servicio en junio de 2007 con trabajadores sociales que actúan como tutores.",
+        "Nuestro objetivo es buscar una solución duradera junto con la persona joven. La acompañamos durante todo su recorrido hasta la mayoría de edad o hasta el final de su procedimiento."
+      ],
+      "services": [
+        "Poner en marcha medios jurídicos, sociales, culturales y educativos en colaboración con el Servicio de Tutelas y bajo la supervisión de un juez de paz",
+        "Asistir al menor en todas las etapas de su procedimiento de asilo o en las gestiones que garanticen su derecho a la residencia, a la ayuda y a la educación",
+        "Velar por que la persona joven tenga acceso a escolaridad, apoyo psicológico, alojamiento adecuado y ayuda médica",
+        "Actuar en concertación con el menor y con las personas o servicios de acogida y alojamiento"
+      ]
+    },
+    "reab": {
+      "title": "Retorno y reintegración de solicitantes de asilo desde Bélgica",
+      "paragraphs": [
+        "Desde 1984, el Estado belga confió a la OIM el programa REAB. Nuestro Servicio Social trabaja en colaboración con la OIM y ayuda a su público a abrir un expediente de retorno.",
+        "La ayuda al retorno voluntario consiste en un billete de regreso, que puede ir acompañado de una prima y de apoyo a la reintegración. El acceso a estas ayudas depende del perfil administrativo de la persona solicitante.",
+        "Estos fondos pueden destinarse a la enseñanza regular, formaciones específicas, creación de microempresas, gastos de vivienda, mercancías, traducción de documentos o apoyo en la búsqueda de empleo.",
+        "Este programa humanitario asiste a migrantes en situación de necesidad que desean regresar voluntariamente y reintegrarse en su país de origen. Está dirigido a tres categorías de migrantes en Bélgica:"
+      ],
+      "categories": [
+        { "label": "Solicitantes de asilo: ", "text": "migrantes que han presentado una solicitud de asilo y esperan una respuesta definitiva." },
+        { "label": "Solicitantes de asilo rechazados: ", "text": "migrantes que han presentado una solicitud de asilo y han recibido una respuesta negativa." },
+        { "label": "Migrantes en situación irregular: ", "text": "personas sin permiso de residencia válido." }
+      ]
+    }
+  },
+  "Permanences": {
+    "kicker": "Acogida SSG",
+    "title": "Permanencias",
+    "schedule": "Horario",
+    "days": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+    "note": "Los idiomas se indican según la información disponible en la tabla de permanencias.",
+    "languages": {
+      "FR": "Francés",
+      "NL": "Neerlandés",
+      "EN": "Inglés",
+      "ES": "Español"
+    }
+  },
   "Services": {
     "SSG": "Servicio Social General",
     "SSG+": "/ Centro de Ayuda a las Personas",
