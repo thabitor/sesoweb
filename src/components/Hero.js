@@ -23,20 +23,6 @@ function Hero() {
                                     <HashLink smooth to="/#services" className="theme-btn">{t('main.header.navItems.OurServices')}</HashLink>
                                     <Link to="/contact" className="theme-btn-s2">{t('main.elements.contactUs')}</Link>
                                 </div>
-                                <div className="hero-proof">
-                                    <div>
-                                        <strong>4</strong>
-                                        <span>services spécialisés</span>
-                                    </div>
-                                    <div>
-                                        <strong>100+</strong>
-                                        <span>tutelles MENA</span>
-                                    </div>
-                                    <div>
-                                        <strong>Bruxelles</strong>
-                                        <span>ancrage local</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

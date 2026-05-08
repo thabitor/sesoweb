@@ -8036,7 +8036,13 @@ textarea::placeholder {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  justify-content: flex-start;
   margin-top: 34px;
+  text-align: left;
+}
+
+.hero-style-3 .slide-caption .hero-actions {
+  justify-content: flex-start;
 }
 
 .hero-actions .theme-btn,
