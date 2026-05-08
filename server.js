@@ -1,18 +1,19 @@
-
-
-import express, { json } from 'express';
-import cors from 'cors';
-
-var express = require('express');
-var router = express.Router();
-var cors = require('cors');
-const creds = require('./config');
+const express = require("express");
+const cors = require("cors");
+const contactHandler = require("./api/contact");
 
 const app = express();
-app.use(cors());
-app.use(json());
-app.use('/app', router);
+const port = process.env.PORT || 3001;
 
-app.get('/app', (req, res) => {
-    res.json('hi');
+app.use(cors());
+app.use(express.json());
+
+app.post("/api/contact", contactHandler);
+
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
+
+app.listen(port, () => {
+  console.log(`Contact API running on port ${port}`);
 });

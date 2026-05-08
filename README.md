@@ -65,6 +65,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### Contact form email setup
+
+The contact form posts to `/api/contact` by default. In production, configure these environment variables on the hosting platform:
+
+- `SMTP_HOST`: SMTP server host.
+- `SMTP_PORT`: SMTP server port, usually `587` or `465`.
+- `SMTP_USER`: SMTP username.
+- `SMTP_PASS`: SMTP password or app password.
+- `CONTACT_TO`: destination mailbox. Use `info@seso.be` in production.
+- `CONTACT_FROM`: optional sender address. Defaults to `SMTP_USER`.
+
+For local API testing, run `npm run mailstart` and start the React app with `REACT_APP_CONTACT_ENDPOINT=http://localhost:3001/api/contact`.
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

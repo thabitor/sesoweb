@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 
 function Contactform() {
   const { t } = useTranslation();
+  const contactEndpoint =
+    process.env.REACT_APP_CONTACT_ENDPOINT || "/api/contact";
   const [emailForm, setEmailForm] = useState({
     name: "",
     email: "",
@@ -46,7 +48,7 @@ function Contactform() {
     };
 
     try {
-      let response = await fetch("https://localhost:3000/send", {
+      let response = await fetch(contactEndpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
