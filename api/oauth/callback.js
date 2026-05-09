@@ -15,11 +15,14 @@ function renderAuthMessage(type, payload) {
 
       function sendAuthorization(event) {
         if (window.opener) {
-          window.opener.postMessage(message, event.origin);
+          const targetOrigin = event.origin || window.location.origin;
+          window.opener.postMessage(message, targetOrigin);
+          window.setTimeout(function () { window.opener.postMessage(message, targetOrigin); }, 250);
+          window.setTimeout(function () { window.opener.postMessage(message, targetOrigin); }, 750);
           status.innerText = "Login complete. Returning to CMS...";
           window.setTimeout(function () {
             window.close();
-          }, 500);
+          }, 1200);
         } else {
           status.innerText = "Login complete, but the CMS window could not be found. Please close this window and try again from /admin/.";
         }
