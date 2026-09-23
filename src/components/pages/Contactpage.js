@@ -47,6 +47,13 @@ function Contactpage() {
                     <p>{contactContent.email}</p>
                   </div>
                 </div>
+                <div className="contact-detail-item">
+                  <i className="fa fa-fax" aria-hidden="true"></i>
+                  <div>
+                    <h3>{t("Contact.faxLabel")}</h3>
+                    <p>{contactContent.fax}</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col-lg-7 col-md-12 col-sm-12">

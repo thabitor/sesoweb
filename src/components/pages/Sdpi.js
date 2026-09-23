@@ -22,12 +22,13 @@ function Sdpi() {
                                 {paragraphs.map((paragraph) => (
                                     <p key={paragraph}>{paragraph}</p>
                                 ))}
-                                <p><b>{t('ServiceDetails.dpi.objectivesTitle')}</b></p>
-                                <ul className="customlist-1">
-                                    {objectives.map((objective) => (
-                                        <li key={objective}>{objective}</li>
-                                    ))}
-                                </ul>
+                                {objectives.length > 0 && (
+                                    <ul className="customlist-1">
+                                        {objectives.map((objective) => (
+                                            <li key={objective}>{objective}</li>
+                                        ))}
+                                    </ul>
+                                )}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12">

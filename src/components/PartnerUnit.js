@@ -5,7 +5,7 @@ return (
   
   <div className="partners-item-box">
       <Link to="/" className="partner-item">
-        <img src={props.img} alt="" />
+        {props.img ? <img src={props.img} alt={props.name || ""} /> : <span>{props.name}</span>}
       </Link>
     </div>
 )

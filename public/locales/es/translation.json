@@ -7,11 +7,12 @@
         "OurProjects": "Nuestros proyectos",
         "OurPartners": "Nuestros socios",
         "OurTeam": "Nuestro equipo",
-        "News": "Noticias",
+        "News": "Actualidad",
         "Contact": "Contacto",
         "Language": "Español",
         "OurPublic": "Público",
-        "OurHistory": "Historia"
+        "OurHistory": "Historia",
+        "Publications": "Publicaciones / recursos"
       }
     },
     "elements": {
@@ -25,7 +26,7 @@
   "AboutUs": {
     "maintext": {
       "smallTitle": "¿Quiénes somos?",
-      "bigTitle": "Al servicio de las personas refugiadas: solidaridad sin fronteras",
+      "bigTitle": "",
       "p1": "Fundada en 1937 para ayudar a las personas refugiadas de la guerra civil española, la asbl SESO trabaja en los ámbitos social y migratorio. Ofrecemos una ayuda individualizada y personalizada al público que acude a nuestros servicios, en particular a las personas migrantes y refugiadas, respetando su autonomía y sus derechos fundamentales, el derecho a la vida familiar y a la intimidad. Promovemos la tolerancia, el respeto de los derechos, la lucha contra todo tipo de discriminación, el libre examen, la justicia social y la emancipación.",
       "p2": "",
       "p3": ""
@@ -45,7 +46,7 @@
     "ssg": {
       "title": "Servicio Social General",
       "paragraphs": [
-        "Nuestro Servicio Social General ofrece ayuda social generalista de primera línea a personas en dificultad. Realizamos una primera acogida en una entrevista individual en francés, neerlandés, inglés y español. Analizamos la situación de la persona, establecemos un acompañamiento social y un seguimiento y, si es necesario, orientamos hacia un servicio especializado.",
+        "Nuestro Servicio Social General ofrece ayuda social generalista de primera línea para toda persona, con o sin permiso de residencia.",
         "Desde hace muchos años, nuestro Servicio Social General ha desarrollado experiencia en derecho de extranjería. Apoyamos a las personas en temas como residencia, seguridad social, derecho al trabajo, formación y estudios, vivienda, endeudamiento y salud.",
         "Nuestro acompañamiento busca favorecer el vínculo social y mejorar el acceso de la persona a los servicios colectivos y a sus derechos fundamentales."
       ]
@@ -98,8 +99,19 @@
       "submit": "Enviar",
       "sending": "Enviando...",
       "success": "Mensaje enviado.",
-      "error": "No se pudo enviar el mensaje."
-    }
+      "error": "No se pudo enviar el mensaje.",
+      "serviceLabel": "Servicio",
+      "servicePlaceholder": "Elegir un servicio",
+      "serviceOptions": [
+        "Servicio Social General",
+        "Estructura de acogida DPI",
+        "Tutelas MENA",
+        "Retorno voluntario REAB",
+        "Servicio técnico",
+        "Otra solicitud"
+      ]
+    },
+    "faxLabel": "Fax"
   },
   "Search": {
     "title": "Búsqueda",
@@ -205,36 +217,38 @@
       ]
     },
     "dpi": {
-      "title": "Servicio social para solicitantes de asilo en el marco del convenio Fedasil",
+      "title": "Estructura de acogida para personas solicitantes de protección internacional",
       "paragraphs": [
-        "SESO ha establecido una estructura de acogida destinada a solicitantes de asilo en el marco de un convenio con Fedasil.",
-        "Esta acogida se basa en la ley del 12 de enero de 2007 sobre la acogida de solicitantes de asilo y otras categorías de personas extranjeras.",
-        "En la práctica, esta acogida se realiza mediante viviendas individuales y está sujeta a normas de calidad acordadas con otros socios. Contamos con viviendas en Bruselas, Flandes y Charleroi.",
-        "Los trabajadores sociales organizan acompañamiento social, administrativo, jurídico, psicológico, médico y logístico durante todo el procedimiento de asilo y durante el periodo de derecho a la ayuda material.",
-        "Desde 2014 acogemos principalmente a solicitantes de asilo con un perfil específico, entre ellos personas con necesidades médicas importantes y menores no acompañados."
+        "Fruto de convenios con Ciré asbl y FEDASIL, la estructura de acogida DPI de SESO asbl tiene como objetivo acoger y acompañar a personas solicitantes de protección internacional en situación de vulnerabilidad, con necesidades específicas médicas, sociales, psicológicas y/o educativas.",
+        "El servicio acoge de media entre 150 y 180 personas al mes, con perfiles y niveles de vulnerabilidad variados. El acompañamiento propuesto es individualizado, coordinado y adaptado a las necesidades de cada persona, con el objetivo de estabilizar la situación, garantizar el acceso a derechos y cuidados, mejorar las condiciones de vida y desarrollar progresivamente la autonomía.",
+        "El público acompañado incluye, entre otros, adultos con necesidades médicas importantes, incluidas personas con patologías graves o crónicas que requieren seguimiento médico regular y coordinación de cuidados; un público “High-Care”, confrontado a problemas médicos graves y/o vulnerabilidades complejas que requieren acompañamiento reforzado; menores extranjeros no acompañados (MENA), que necesitan un acompañamiento social, educativo, administrativo y médico adaptado a su edad y trayectoria; y personas que necesitan un entorno de vida en vivienda individual, especialmente personas LGBTQI+ confrontadas a discriminación, ruptura familiar o precariedad, así como familias monoparentales con niños pequeños.",
+        "La estructura de acogida DPI se basa en un enfoque global y multidisciplinar que articula acompañamiento social, seguimiento educativo, apoyo psicosocial, acceso a cuidados y orientación hacia servicios especializados. Se presta especial atención a la coordinación entre los distintos intervinientes y socios para garantizar la continuidad y coherencia de los recorridos.",
+        "Así, este servicio constituye dentro de SESO un dispositivo de acompañamiento adaptado a situaciones de vulnerabilidad múltiples y complejas, con respuestas concretas, individualizadas y evolutivas a las necesidades de las personas acogidas."
       ],
-      "objectivesTitle": "Los principales objetivos de nuestra acogida son:",
-      "objectives": [
-        "garantizar a los solicitantes de asilo la preservación de su vida familiar e intimidad",
-        "favorecer la autonomía y la responsabilización de las personas",
-        "preservar el desarrollo personal y psíquico de las personas",
-        "favorecer el contacto entre ciudadanos locales y personas migrantes",
-        "contribuir a sensibilizar a la población sobre la problemática de los solicitantes de asilo",
-        "considerar la acogida de solicitantes de asilo como parte del tejido social",
-        "permitir flexibilidad en la creación de nuevas plazas de acogida"
-      ]
+      "objectivesTitle": "",
+      "objectives": []
     },
     "mena": {
       "title": "Menores No Acompañados",
       "paragraphs": [
-        "Este servicio se ocupa de la situación de los menores extranjeros no acompañados. Consciente de la urgencia social de este público, nuestra asociación inauguró este servicio en junio de 2007 con trabajadores sociales que actúan como tutores.",
-        "Nuestro objetivo es buscar una solución duradera junto con la persona joven. La acompañamos durante todo su recorrido hasta la mayoría de edad o hasta el final de su procedimiento."
+        "El servicio de tutela MENA fue creado en 2007 con la contratación de dos tutores. Actualmente el equipo está compuesto por ocho tutores/tutoras, un asistente administrativo/referente escolar y una coordinadora.",
+        "Los tutores están acreditados por el Servicio de Tutelas del SPF Justicia. Cada tutor está vinculado individualmente a los jóvenes que se le confían.",
+        "El Servicio de Tutelas aumentó las subvenciones concedidas a las asociaciones que emplean tutores. El objetivo es profesionalizar al máximo esta función.",
+        "Desde el 1 de junio de 2026, cuatro tutores/tutoras han sido contratados en el marco de la entrada en vigor del pacto migratorio europeo. Su misión consiste en acompañar a los jóvenes desde su llegada al centro de registro hasta su traslado a un centro de segunda fase.",
+        "Hay tutores francófonos y neerlandófonos. El Servicio de Tutelas tiene como objetivo profesionalizar la tutela a través de las asociaciones.",
+        "El tutor es el representante legal del menor extranjero no acompañado. Como tal, vela por el respeto de sus derechos y por su bienestar global.",
+        "El cumplimiento de estas misiones implica una estrecha colaboración con abogados especializados en derecho de extranjería, diversos servicios sociales, centros escolares, centros de acogida, servicios de salud y muchos otros socios.",
+        "El tutor está acreditado y supervisado por el Servicio de Tutelas. La supervisión del Servicio de Tutelas se refuerza con la del Juez de Paz, que interviene en caso de litigios entre tutores y pupilos."
       ],
       "services": [
-        "Poner en marcha medios jurídicos, sociales, culturales y educativos en colaboración con el Servicio de Tutelas y bajo la supervisión de un juez de paz",
-        "Asistir al menor en todas las etapas de su procedimiento de asilo o en las gestiones que garanticen su derecho a la residencia, a la ayuda y a la educación",
-        "Velar por que la persona joven tenga acceso a escolaridad, apoyo psicológico, alojamiento adecuado y ayuda médica",
-        "Actuar en concertación con el menor y con las personas o servicios de acogida y alojamiento"
+        "garantizar el acceso a un alojamiento adaptado, en centro de acogida o en familia",
+        "velar por el acceso a la atención sanitaria",
+        "asegurar la escolarización del joven",
+        "acompañar en todos los trámites administrativos y jurídicos",
+        "apoyar al joven en la búsqueda de la solución duradera más conforme a su interés superior",
+        "acompañar las solicitudes de protección internacional (DPI)",
+        "acompañar las solicitudes de residencia sobre la base del artículo 61/15 de la ley del 15 de diciembre de 1980, procedimiento de solución duradera",
+        "acompañar las solicitudes de protección temporal para determinados públicos específicos, especialmente jóvenes ucranianos"
       ]
     },
     "reab": {
@@ -262,7 +276,7 @@
     }
   },
   "Permanences": {
-    "kicker": "Acogida SSG",
+    "kicker": "",
     "title": "Permanencias",
     "schedule": "Horario",
     "days": [
@@ -272,7 +286,7 @@
       "Jueves",
       "Viernes"
     ],
-    "note": "Los idiomas se indican según la información disponible en la tabla de permanencias.",
+    "note": "",
     "languages": {
       "FR": "Francés",
       "NL": "Neerlandés",
@@ -330,6 +344,14 @@
       "AccommodationLead": "Jefe del equipo de vivienda",
       "AccomodationService": "Servicio de vivienda",
       "IOMReferent": "Referente OIM"
+    },
+    "Groups": {
+      "coordination": "Coordinación",
+      "admin": "Coordinación administrativa",
+      "social": "Equipo social",
+      "mena": "Equipo MENA",
+      "tutors": "Tutores/as",
+      "assistant": "Asistente administrativo / referente escolar"
     }
   },
   "Footer": {
@@ -393,5 +415,17 @@
         "text": "En colaboraci?n con la concejal?a de Primera Infancia del Municipio de Saint-Gilles, el servicio social abre una guarder?a y un espacio de acogida madre-beb? para hijos de solicitantes de asilo y personas residentes en el barrio de Saint-Gilles."
       }
     ]
+  },
+  "PlaceholderPages": {
+    "publications": {
+      "title": "Publicaciones / recursos",
+      "kicker": "Publicaciones / recursos",
+      "text": "Contenido próximamente."
+    },
+    "news": {
+      "title": "Actualidad",
+      "kicker": "Actualidad",
+      "text": "Contenido próximamente."
+    }
   }
 }

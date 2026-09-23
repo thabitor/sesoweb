@@ -81,6 +81,13 @@ const partners = [
         img: 'images/partners/FOS ngo.png'
     },
     {
+        id: 36,
+        codename: 'SETM',
+        name: 'SETM',
+        type: 'reseau',
+        img: ''
+    },
+    {
         id: 11,
         codename: 'CIRE',
         name: 'Coordination et initiatives pour réfugiés et étrangers (CIRE)',

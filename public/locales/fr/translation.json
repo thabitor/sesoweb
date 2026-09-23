@@ -11,7 +11,8 @@
         "Contact": "Contact",
         "Language": "Français",
         "OurPublic": "Public",
-        "OurHistory": "Historique"
+        "OurHistory": "Historique",
+        "Publications": "Publications / ressources"
       }
     },
     "elements": {
@@ -25,7 +26,7 @@
   "AboutUs": {
     "maintext": {
       "smallTitle": "Qui sommes-nous ?",
-      "bigTitle": "Au service des réfugiés : solidarité sans frontières",
+      "bigTitle": "",
       "p1": "Fondée en 1937 afin de venir en aide aux réfugié.e.s de la guerre civile espagnole, l’asbl SESO est active dans les champs du social et de la migration. Nous offrons une aide individualisée et personnalisée au public qui fréquente nos services, en particulier aux personnes migrantes et réfugiées, dans le respect de leur autonomie et de leurs droits fondamentaux, du droit à la vie familiale et à l’intimité. Nous promouvons la tolérance, le respect des droits, la lutte contre tout type de discrimination, le libre examen, la justice sociale et l’émancipation.",
       "p2": "",
       "p3": ""
@@ -45,7 +46,7 @@
     "ssg": {
       "title": "Service Social Général",
       "paragraphs": [
-        "Notre Service Social Général offre une aide sociale généraliste de première ligne aux personnes en difficulté. Nous assurons un premier accueil lors d'un entretien individuel en français, néerlandais, anglais et espagnol. Nous analysons la situation de la personne, mettons en place un accompagnement social et un suivi et, si nécessaire, nous orientons les personnes vers un service spécialisé en fonction de la problématique.",
+        "Notre Service Social Général offre une aide sociale généraliste de première ligne pour toute personne avec ou sans titre de séjour.",
         "Depuis de longues années, notre Service Social Général a développé une expertise en matière du droit des étrangers. Nous soutenons les personnes notamment en matière de séjour, sécurité sociale, droit au travail, formation et études, logement, endettement et santé.",
         "Notre accompagnement vise à favoriser le développement du lien social et un meilleur accès de la personne aux équipements collectifs et à ses droits fondamentaux."
       ]
@@ -98,8 +99,19 @@
       "submit": "Envoyer",
       "sending": "Envoi...",
       "success": "Message envoyé.",
-      "error": "Le message n'a pas pu être envoyé."
-    }
+      "error": "Le message n'a pas pu être envoyé.",
+      "serviceLabel": "Service",
+      "servicePlaceholder": "Choisir un service",
+      "serviceOptions": [
+        "Service Social Général",
+        "Structure d’accueil DPI",
+        "Tutelles MENA",
+        "Retour volontaire REAB",
+        "Service technique",
+        "Autre demande"
+      ]
+    },
+    "faxLabel": "Fax"
   },
   "Search": {
     "title": "Recherche",
@@ -205,36 +217,38 @@
       ]
     },
     "dpi": {
-      "title": "Service social pour demandeurs d'asile dans le cadre de la Convention Fedasil",
+      "title": "Structure d'accueil pour personnes en demande de protection internationale",
       "paragraphs": [
-        "SESO a mis en place une structure d'accueil destinée aux demandeurs d'asile, dans le cadre d'une convention conclue avec Fedasil.",
-        "Cet accueil a pour base la loi du 12 janvier 2007 sur l'accueil des demandeurs d'asile et certaines autres catégories d'étrangers.",
-        "Sur le plan pratique, ce type d'accueil est réalisé par le biais d'habitations individuelles et soumis à des normes de qualité concertées avec d'autres partenaires. Nous avons des logements à Bruxelles, en Flandre et à Charleroi.",
-        "Les assistants sociaux organisent un accompagnement social, administratif, juridique, psychologique, médical et logistique tout au long de la procédure d'asile et pendant le temps du droit à l'aide matérielle.",
-        "Depuis 2014, nous accueillons principalement des demandeurs d'asile ayant un profil spécifique, notamment des personnes confrontées à des besoins médicaux sérieux et des mineurs non accompagnés."
+        "Fruit de conventions avec le Ciré asbl et FEDASIL, la structure d’accueil DPI de SESO asbl a pour objectif d’assurer l’accueil et l’accompagnement de personnes en demande de protection internationale en situation de vulnérabilité, présentant des besoins spécifiques sur les plans médical, social, psychologique et/ou éducatif.",
+        "Le service accueille en moyenne 150 à 180 personnes par mois, avec des profils et des niveaux de vulnérabilité variés. L’accompagnement proposé est individualisé, coordonné et adapté aux besoins de chaque personne, avec pour objectifs la stabilisation de la situation, l’accès aux droits et aux soins, l’amélioration des conditions de vie et le développement progressif de l’autonomie.",
+        "Le public accompagné comprend notamment des adultes ayant des besoins médicaux importants, notamment les personnes souffrant de pathologies graves ou chroniques nécessitant un suivi médical régulier et une coordination des soins ; un public « High-Care », confronté à des problématiques médicales lourdes et/ou à des situations de vulnérabilité complexes nécessitant un accompagnement renforcé ; des mineurs étrangers non accompagnés (MENA), nécessitant un encadrement social, éducatif, administratif et médical adapté à leur âge et à leur parcours ; des personnes nécessitant un cadre de vie en logement individuel, notamment les personnes LGBTQI+ confrontées à des situations de discrimination, de rupture familiale ou de précarité, ainsi que les familles monoparentales avec de jeunes enfants.",
+        "La structure d’accueil DPI repose sur une approche globale et pluridisciplinaire, articulant accompagnement social, suivi éducatif, soutien psychosocial, accès aux soins et orientation vers les services spécialisés. Une attention particulière est accordée à la coordination entre les différents intervenants et partenaires afin de garantir la continuité et la cohérence des parcours.",
+        "Ainsi, ce service constitue au sein de SESO un dispositif d’accompagnement adapté aux situations de vulnérabilité multiples et complexes, visant à apporter des réponses concrètes, individualisées et évolutives aux besoins des personnes accueillies."
       ],
-      "objectivesTitle": "Les objectifs principaux de notre accueil sont pour l'essentiel :",
-      "objectives": [
-        "garantir aux demandeurs d'asile la préservation de leur vie de famille et de leur intimité",
-        "assurer l'autonomie et la responsabilisation des personnes",
-        "préserver le développement personnel et psychique des personnes",
-        "favoriser le contact entre citoyens autochtones et allochtones",
-        "contribuer à sensibiliser la population à la problématique des demandeurs d'asile",
-        "envisager l'accueil des demandeurs d'asile comme une composante du tissu social",
-        "permettre une flexibilité dans la création de nouvelles places d'accueil"
-      ]
+      "objectivesTitle": "",
+      "objectives": []
     },
     "mena": {
       "title": "Mineurs Non Accompagnés",
       "paragraphs": [
-        "Ce service s'occupe de la situation des mineurs étrangers non accompagnés. Notre asbl, consciente de l'urgence sociale de ce public, a inauguré en juin 2007 ce service composé de travailleurs sociaux tuteurs.",
-        "Notre objectif est la recherche d'une solution durable en collaboration avec le jeune. Nous l'accompagnons tout au long de son parcours jusqu'à sa majorité ou jusqu'à la fin de sa procédure."
+        "Le service tutelle MENA a été créé en 2007 avec l’engagement de deux tuteurs. Actuellement l’équipe est constituée de huit tuteurs/tutrices, un assistant administratif/référent scolaire et une coordinatrice.",
+        "Les tuteurs sont agréés par le Service des Tutelles du SPF Justice. Les tuteurs sont liés individuellement aux jeunes qui leur sont confiés.",
+        "Le Service des Tutelles a augmenté les subsides alloués aux associations engageant des tuteurs/employés. L’objectif est de professionnaliser au maximum cette fonction.",
+        "Depuis le 1er juin 2026, quatre tuteurs/tutrices ont été engagés dans le cadre de l’entrée en vigueur du pacte migratoire européen. Leur mission consiste à accompagner les jeunes dès leur arrivée au centre d’enregistrement jusqu’à leur transfert en centre de deuxième phase.",
+        "Il y a des tuteurs francophones et néerlandophones. Le Service des Tutelles a pour objectif de professionnaliser la tutelle via les associations.",
+        "Le tuteur est le représentant légal du mineur étranger non accompagné. À ce titre, il veille au respect de ses droits et à son bien-être global.",
+        "L’accomplissement de ces missions implique une collaboration étroite avec les avocats spécialisés en droit des étrangers, divers services sociaux, les établissements scolaires, les centres d’accueil, les services de santé et de nombreux autres partenaires.",
+        "Le tuteur est agréé et supervisé par le Service des Tutelles. La supervision du Service des Tutelles est renforcée par celle du Juge de Paix qui intervient en cas de litiges entre les tuteurs et leurs pupilles."
       ],
       "services": [
-        "Mettre en oeuvre des moyens juridiques, sociaux, culturels et éducatifs en collaboration avec le Service des Tutelles et sous la supervision d'un juge de paix",
-        "Assister le mineur dans tous les stades de sa procédure d'asile ou dans les démarches lui garantissant son droit au séjour, à l'aide et à l'éducation",
-        "Veiller à ce que le jeune bénéficie d'une scolarité, d'un soutien psychologique, d'un hébergement adéquat et d'une aide médicale",
-        "Agir en concertation avec le mineur et les personnes d'accueil et d'hébergement"
+        "garantir l’accès à un hébergement adapté, en centre d’accueil ou en famille",
+        "veiller à l’accès aux soins de santé",
+        "assurer la scolarisation du jeune",
+        "accompagner dans l’ensemble des démarches administratives et juridiques",
+        "soutenir le jeune dans la recherche de la solution durable la plus conforme à son intérêt supérieur",
+        "accompagner les demandes de protection internationale (DPI)",
+        "accompagner les demandes de séjour sur la base de l’article 61/15 de la loi du 15 décembre 1980, dite procédure solution durable",
+        "accompagner les demandes de protection temporaire pour certains publics spécifiques, notamment les jeunes ukrainiens"
       ]
     },
     "reab": {
@@ -262,7 +276,7 @@
     }
   },
   "Permanences": {
-    "kicker": "Accueil SSG",
+    "kicker": "",
     "title": "Permanences",
     "schedule": "Horaire",
     "days": [
@@ -272,7 +286,7 @@
       "Jeudi",
       "Vendredi"
     ],
-    "note": "Les langues sont indiquées selon les informations disponibles dans le tableau des permanences.",
+    "note": "",
     "languages": {
       "FR": "Français",
       "NL": "Néerlandais",
@@ -330,6 +344,14 @@
       "AccommodationLead": "Chef équipe logements",
       "AccomodationService": "Service logements",
       "IOMReferent": "Référent OIM"
+    },
+    "Groups": {
+      "coordination": "Coordination",
+      "admin": "Coordination administrative",
+      "social": "Équipe sociale",
+      "mena": "Équipe MENA",
+      "tutors": "Tuteurs.rices",
+      "assistant": "Assistant administratif / référent scolaire"
     }
   },
   "Footer": {
@@ -393,5 +415,17 @@
         "text": "Le service social ouvre, en partenariat avec l'?chevinat de la Petite Enfance de la Commune de Saint-Gilles, une halte-garderie et un espace d'accueil maman-b?b? pour enfants de demandeurs d'asile et personnes r?sidant dans le quartier saint-gillois."
       }
     ]
+  },
+  "PlaceholderPages": {
+    "publications": {
+      "title": "Publications / ressources",
+      "kicker": "Publications / ressources",
+      "text": "Contenu à venir."
+    },
+    "news": {
+      "title": "Actualités",
+      "kicker": "Actualités",
+      "text": "Contenu à venir."
+    }
   }
 }

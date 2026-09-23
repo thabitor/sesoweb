@@ -1,0 +1,106 @@
+{
+  "kicker": {
+    "fr": "Actualités",
+    "en": "News",
+    "nl": "Nieuws",
+    "es": "Actualidad"
+  },
+  "title": {
+    "fr": "Actualités",
+    "en": "News",
+    "nl": "Nieuws",
+    "es": "Actualidad"
+  },
+  "intro": {
+    "fr": "Un aperçu de la future rubrique actualités, pensée comme un blog clair et facile à parcourir.",
+    "en": "A preview of the future news section, designed as a clear, easy-to-browse blog.",
+    "nl": "Een preview van de toekomstige nieuwsrubriek, opgezet als een heldere blog.",
+    "es": "Vista previa de la futura sección de actualidad, pensada como un blog claro y fácil de recorrer."
+  },
+  "posts": [
+    {
+      "category": {
+        "fr": "Événement",
+        "en": "Event",
+        "nl": "Evenement",
+        "es": "Evento"
+      },
+      "date": {
+        "fr": "13 mai 2026",
+        "en": "13 May 2026",
+        "nl": "13 mei 2026",
+        "es": "13 mayo 2026"
+      },
+      "title": {
+        "fr": "Migrantes Valientes : retour sur une journée de rencontres",
+        "en": "Migrantes Valientes: looking back on a day of encounters",
+        "nl": "Migrantes Valientes: terugblik op een ontmoetingsdag",
+        "es": "Migrantes Valientes: una jornada de encuentros"
+      },
+      "text": {
+        "fr": "SESO et ses partenaires ont réuni associations, collectifs et publics autour des migrations latino-américaines à Bruxelles.",
+        "en": "SESO and its partners brought together associations, collectives and communities around Latin American migration in Brussels.",
+        "nl": "SESO en partners brachten verenigingen, collectieven en publiek samen rond Latijns-Amerikaanse migratie in Brussel.",
+        "es": "SESO y sus socios reunieron asociaciones, colectivos y públicos en torno a las migraciones latinoamericanas en Bruselas."
+      },
+      "image": "images/blog/img-1.jpg",
+      "url": ""
+    },
+    {
+      "category": {
+        "fr": "Service",
+        "en": "Service",
+        "nl": "Dienst",
+        "es": "Servicio"
+      },
+      "date": {
+        "fr": "2 avril 2026",
+        "en": "2 April 2026",
+        "nl": "2 april 2026",
+        "es": "2 abril 2026"
+      },
+      "title": {
+        "fr": "Nouveaux horaires de permanence du Service Social Général",
+        "en": "New drop-in hours for the General Social Service",
+        "nl": "Nieuwe permanentie-uren van de Algemene Sociale Dienst",
+        "es": "Nuevos horarios de permanencia del Servicio Social General"
+      },
+      "text": {
+        "fr": "Les permanences évoluent afin de mieux accueillir les personnes selon les disponibilités de l’équipe sociale.",
+        "en": "Drop-in hours are evolving to better welcome people according to the team’s availability.",
+        "nl": "De permanenties evolueren om mensen beter te ontvangen volgens de beschikbaarheid van het team.",
+        "es": "Las permanencias evolucionan para acoger mejor según la disponibilidad del equipo."
+      },
+      "image": "images/blog/img-2.jpg",
+      "url": ""
+    },
+    {
+      "category": {
+        "fr": "Partenariat",
+        "en": "Partnership",
+        "nl": "Partnerschap",
+        "es": "Colaboración"
+      },
+      "date": {
+        "fr": "18 mars 2026",
+        "en": "18 March 2026",
+        "nl": "18 maart 2026",
+        "es": "18 marzo 2026"
+      },
+      "title": {
+        "fr": "Renforcer l’accompagnement des personnes vulnérables",
+        "en": "Strengthening support for vulnerable people",
+        "nl": "De begeleiding van kwetsbare personen versterken",
+        "es": "Reforzar el acompañamiento de personas vulnerables"
+      },
+      "text": {
+        "fr": "Un point sur les collaborations menées avec les partenaires sociaux, juridiques et médicaux de SESO.",
+        "en": "An update on collaborations with SESO’s social, legal and medical partners.",
+        "nl": "Een stand van zaken over samenwerkingen met sociale, juridische en medische partners.",
+        "es": "Una actualización sobre colaboraciones sociales, jurídicas y médicas de SESO."
+      },
+      "image": "images/blog/img-3.jpg",
+      "url": ""
+    }
+  ]
+}

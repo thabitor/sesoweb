@@ -25,6 +25,7 @@ import Contactpage from './components/pages/Contactpage';
 import Contactform from './components/Contactform';
 import ListMena from './components/ListMena';
 import SearchPage from './components/pages/SearchPage';
+import PlaceholderPage from './components/pages/PlaceholderPage';
 
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
         <Route path="/smena" element={<Smena/>}></Route>
         <Route path="/sreab" element={<Sreab/>}></Route>
         <Route path="/search" element={<SearchPage/>}></Route>
+        <Route path="/publications" element={<PlaceholderPage pageKey="publications" />}></Route>
+        <Route path="/actualites" element={<PlaceholderPage pageKey="news" />}></Route>
         <Route path="/smena/menabase" element={<ListMena/>}></Route>
       </Routes>
     </Router>

@@ -11,7 +11,8 @@
         "Contact": "Contact",
         "Language": "Nederlands",
         "OurPublic": "Publiek",
-        "OurHistory": "Geschiedenis"
+        "OurHistory": "Geschiedenis",
+        "Publications": "Publicaties / bronnen"
       }
     },
     "elements": {
@@ -25,7 +26,7 @@
   "AboutUs": {
     "maintext": {
       "smallTitle": "Wie zijn wij?",
-      "bigTitle": "Ten dienste van vluchtelingen: solidariteit zonder grenzen",
+      "bigTitle": "",
       "p1": "SESO werd opgericht in 1937 om vluchtelingen van de Spaanse Burgeroorlog te helpen en is actief op het vlak van sociaal werk en migratie. Wij bieden individuele en persoonlijke hulp aan het publiek dat gebruikmaakt van onze diensten, in het bijzonder aan migranten en vluchtelingen, met respect voor hun autonomie en fundamentele rechten, het recht op gezinsleven en privacy. Wij bevorderen tolerantie, respect voor rechten, de strijd tegen elke vorm van discriminatie, vrij onderzoek, sociale rechtvaardigheid en emancipatie.",
       "p2": "",
       "p3": ""
@@ -45,7 +46,7 @@
     "ssg": {
       "title": "Algemene Sociale Dienst",
       "paragraphs": [
-        "Onze Algemene Sociale Dienst biedt algemene eerstelijns sociale hulp aan personen in moeilijkheden. We zorgen voor een eerste onthaal tijdens een individueel gesprek in het Frans, Nederlands, Engels en Spaans. We analyseren de situatie van de persoon, organiseren sociale begeleiding en opvolging en verwijzen indien nodig door naar een gespecialiseerde dienst.",
+        "Onze Algemene Sociale Dienst biedt eerstelijns algemene sociale hulp aan iedereen, met of zonder verblijfsvergunning.",
         "Doorheen de jaren heeft onze Algemene Sociale Dienst expertise opgebouwd in vreemdelingenrecht. We ondersteunen mensen onder meer rond verblijf, sociale zekerheid, recht op werk, opleiding en studies, huisvesting, schulden en gezondheid.",
         "Onze begeleiding wil de sociale band versterken en de toegang tot collectieve voorzieningen en fundamentele rechten verbeteren."
       ]
@@ -98,8 +99,19 @@
       "submit": "Versturen",
       "sending": "Bezig met verzenden...",
       "success": "Bericht verzonden.",
-      "error": "Het bericht kon niet worden verzonden."
-    }
+      "error": "Het bericht kon niet worden verzonden.",
+      "serviceLabel": "Dienst",
+      "servicePlaceholder": "Kies een dienst",
+      "serviceOptions": [
+        "Algemene Sociale Dienst",
+        "DPI-opvangstructuur",
+        "MENA-voogdijen",
+        "Vrijwillige terugkeer REAB",
+        "Technische dienst",
+        "Andere vraag"
+      ]
+    },
+    "faxLabel": "Fax"
   },
   "Search": {
     "title": "Zoeken",
@@ -205,36 +217,38 @@
       ]
     },
     "dpi": {
-      "title": "Sociale dienst voor asielzoekers in het kader van de Fedasil-overeenkomst",
+      "title": "Opvangstructuur voor personen die internationale bescherming aanvragen",
       "paragraphs": [
-        "SESO heeft een opvangstructuur voor asielzoekers opgezet in het kader van een overeenkomst met Fedasil.",
-        "Deze opvang is gebaseerd op de wet van 12 januari 2007 betreffende de opvang van asielzoekers en bepaalde andere categorieën vreemdelingen.",
-        "In de praktijk gebeurt deze opvang via individuele woningen en volgens kwaliteitsnormen die met andere partners zijn afgestemd. We beschikken over woningen in Brussel, Vlaanderen en Charleroi.",
-        "Maatschappelijk werkers organiseren sociale, administratieve, juridische, psychologische, medische en logistieke begeleiding gedurende de asielprocedure en tijdens de periode van recht op materiële hulp.",
-        "Sinds 2014 vangen we vooral asielzoekers met een specifiek profiel op, waaronder mensen met ernstige medische noden en niet-begeleide minderjarigen."
+        "Als resultaat van overeenkomsten met Ciré vzw en FEDASIL heeft de DPI-opvangstructuur van SESO vzw tot doel personen die internationale bescherming aanvragen en zich in een kwetsbare situatie bevinden, met specifieke medische, sociale, psychologische en/of educatieve behoeften, op te vangen en te begeleiden.",
+        "De dienst begeleidt gemiddeld 150 tot 180 personen per maand, met uiteenlopende profielen en kwetsbaarheden. De begeleiding is individueel, gecoördineerd en aangepast aan de noden van elke persoon, met als doel de situatie te stabiliseren, toegang tot rechten en zorg te verzekeren, de levensomstandigheden te verbeteren en geleidelijk autonomie te ontwikkelen.",
+        "Het begeleide publiek omvat onder meer volwassenen met belangrijke medische noden, waaronder personen met ernstige of chronische aandoeningen die regelmatige medische opvolging en zorgcoördinatie nodig hebben; een “High-Care”-publiek met zware medische problemen en/of complexe kwetsbaarheden die versterkte begeleiding vereisen; niet-begeleide minderjarige vreemdelingen (MENA), die sociale, educatieve, administratieve en medische begeleiding nodig hebben aangepast aan hun leeftijd en traject; en personen die nood hebben aan individuele huisvesting, waaronder LGBTQI+-personen die geconfronteerd worden met discriminatie, familiale breuk of bestaansonzekerheid, evenals eenoudergezinnen met jonge kinderen.",
+        "De DPI-opvangstructuur steunt op een globale en multidisciplinaire aanpak die sociale begeleiding, educatieve opvolging, psychosociale ondersteuning, toegang tot zorg en doorverwijzing naar gespecialiseerde diensten combineert. Er wordt bijzondere aandacht besteed aan de coördinatie tussen de verschillende betrokkenen en partners om continuïteit en samenhang in de trajecten te garanderen.",
+        "Zo vormt deze dienst binnen SESO een begeleidingsinstrument aangepast aan meervoudige en complexe kwetsbaarheden, met concrete, geïndividualiseerde en evolutieve antwoorden op de noden van de opgevangen personen."
       ],
-      "objectivesTitle": "De belangrijkste doelstellingen van onze opvang zijn:",
-      "objectives": [
-        "het gezinsleven en de privacy van asielzoekers waarborgen",
-        "de autonomie en verantwoordelijkheid van personen ondersteunen",
-        "de persoonlijke en psychische ontwikkeling van personen beschermen",
-        "contact tussen lokale en migrantenbewoners bevorderen",
-        "bijdragen aan bewustmaking rond de problematiek van asielzoekers",
-        "opvang van asielzoekers beschouwen als onderdeel van het sociale weefsel",
-        "flexibiliteit mogelijk maken bij de creatie van nieuwe opvangplaatsen"
-      ]
+      "objectivesTitle": "",
+      "objectives": []
     },
     "mena": {
       "title": "Niet-begeleide Minderjarigen",
       "paragraphs": [
-        "Deze dienst houdt zich bezig met de situatie van niet-begeleide buitenlandse minderjarigen. Onze vzw, zich bewust van de sociale urgentie voor dit publiek, startte deze dienst in juni 2007 met maatschappelijk werkers die als voogden optreden.",
-        "Ons doel is samen met de jongere een duurzame oplossing te zoeken. We begeleiden de jongere tijdens het volledige traject tot de meerderjarigheid of tot het einde van de procedure."
+        "De MENA-voogdijdienst werd opgericht in 2007 met de aanwerving van twee voogden. Vandaag bestaat het team uit acht voogden, een administratief assistent/schoolreferent en een coördinator.",
+        "De voogden zijn erkend door de Dienst Voogdij van de FOD Justitie. Elke voogd is individueel verbonden aan de jongeren die aan hem of haar worden toevertrouwd.",
+        "De Dienst Voogdij heeft de subsidies verhoogd voor verenigingen die voogden in dienst nemen. Het doel is deze functie zo veel mogelijk te professionaliseren.",
+        "Sinds 1 juni 2026 zijn vier voogden aangeworven in het kader van de inwerkingtreding van het Europese migratiepact. Hun opdracht bestaat erin jongeren te begeleiden vanaf hun aankomst in het registratiecentrum tot hun transfer naar een centrum van tweede fase.",
+        "Er zijn Franstalige en Nederlandstalige voogden. De Dienst Voogdij wil de voogdij via verenigingen professionaliseren.",
+        "De voogd is de wettelijke vertegenwoordiger van de niet-begeleide minderjarige vreemdeling. In die hoedanigheid waakt hij of zij over de rechten en het algemeen welzijn van de jongere.",
+        "De uitvoering van deze opdrachten vereist nauwe samenwerking met advocaten gespecialiseerd in vreemdelingenrecht, diverse sociale diensten, scholen, opvangcentra, gezondheidsdiensten en vele andere partners.",
+        "De voogd is erkend en wordt opgevolgd door de Dienst Voogdij. Die opvolging wordt versterkt door de vrederechter, die tussenkomt bij geschillen tussen voogden en hun pupillen."
       ],
       "services": [
-        "Juridische, sociale, culturele en educatieve middelen inzetten in samenwerking met de Dienst Voogdij en onder toezicht van een vrederechter",
-        "De minderjarige bijstaan in alle fasen van de asielprocedure of in de stappen die het recht op verblijf, hulp en onderwijs waarborgen",
-        "Erop toezien dat de jongere toegang heeft tot onderwijs, psychologische ondersteuning, geschikte huisvesting en medische hulp",
-        "Handelen in overleg met de minderjarige en de personen of diensten die instaan voor opvang en huisvesting"
+        "toegang garanderen tot aangepaste huisvesting, in een opvangcentrum of bij een gezin",
+        "toegang tot gezondheidszorg bewaken",
+        "de schoolloopbaan van de jongere verzekeren",
+        "begeleiden bij alle administratieve en juridische stappen",
+        "de jongere ondersteunen bij het zoeken naar de duurzame oplossing die het best overeenstemt met zijn of haar hoger belang",
+        "aanvragen voor internationale bescherming (DPI) begeleiden",
+        "verblijfsaanvragen begeleiden op basis van artikel 61/15 van de wet van 15 december 1980, de procedure duurzame oplossing",
+        "aanvragen voor tijdelijke bescherming begeleiden voor specifieke doelgroepen, waaronder jonge Oekraïners"
       ]
     },
     "reab": {
@@ -262,7 +276,7 @@
     }
   },
   "Permanences": {
-    "kicker": "Onthaal SSG",
+    "kicker": "",
     "title": "Permanenties",
     "schedule": "Uurrooster",
     "days": [
@@ -272,7 +286,7 @@
       "Donderdag",
       "Vrijdag"
     ],
-    "note": "De talen worden weergegeven volgens de beschikbare informatie in de permanentietabel.",
+    "note": "",
     "languages": {
       "FR": "Frans",
       "NL": "Nederlands",
@@ -330,6 +344,14 @@
       "AccommodationLead": "Teamleider huisvesting",
       "AccomodationService": "Dienst huisvesting",
       "IOMReferent": "IOM-referent"
+    },
+    "Groups": {
+      "coordination": "Coördinatie",
+      "admin": "Administratieve coördinatie",
+      "social": "Sociaal team",
+      "mena": "MENA-team",
+      "tutors": "Voogden",
+      "assistant": "Administratief assistent / schoolreferent"
     }
   },
   "Footer": {
@@ -393,5 +415,17 @@
         "text": "In samenwerking met de schepen bevoegd voor Jonge Kinderen van de Gemeente Sint-Gillis opent de sociale dienst een kinderopvang en een onthaalruimte voor moeder en baby, voor kinderen van asielzoekers en mensen die in de Sint-Gilliswijk wonen."
       }
     ]
+  },
+  "PlaceholderPages": {
+    "publications": {
+      "title": "Publicaties / bronnen",
+      "kicker": "Publicaties / bronnen",
+      "text": "Inhoud volgt binnenkort."
+    },
+    "news": {
+      "title": "Nieuws",
+      "kicker": "Nieuws",
+      "text": "Inhoud volgt binnenkort."
+    }
   }
 }

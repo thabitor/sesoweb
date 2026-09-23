@@ -39,12 +39,14 @@ function LanguageBadges({ languages }) {
 function PermanencesSection() {
     const { t } = useTranslation();
     const days = t('Permanences.days', { returnObjects: true });
+    const kicker = t('Permanences.kicker', { returnEmptyString: true });
+    const note = t('Permanences.note', { returnEmptyString: true });
 
     return (
         <section className="ssg-permanences section-padding">
             <div className="container">
                 <div className="wpo-section-title">
-                    <span>{t('Permanences.kicker')}</span>
+                    {kicker && <span>{kicker}</span>}
                     <h2>{t('Permanences.title')}</h2>
                 </div>
                 <div className="permanence-table-wrap">
@@ -78,7 +80,7 @@ function PermanencesSection() {
                         </tbody>
                     </table>
                 </div>
-                <p className="permanence-note">{t('Permanences.note')}</p>
+                {note && <p className="permanence-note">{note}</p>}
             </div>
         </section>
     );
@@ -110,8 +112,8 @@ function Ssgeneral() {
                 </div>
             </div>
 
-            <PermanencesSection />
             <TeamSSG />
+            <PermanencesSection />
             <Footer />
         </>
     );

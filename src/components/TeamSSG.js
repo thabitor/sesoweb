@@ -16,7 +16,7 @@ function TeamSSG (props) {
                     <div className="col-12">
                         <div className="wpo-section-title">
                             <span>{t('Services.serviceteam')}</span>
-                            <h2>CAP / {t('Services.SSG')}</h2>
+                            <h2>{t('Services.SSG')}</h2>
                         </div>
                     </div>
                 </div>

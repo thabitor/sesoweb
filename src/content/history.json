@@ -133,6 +133,86 @@
         "nl": "In samenwerking met de schepen bevoegd voor Jonge Kinderen van de Gemeente Sint-Gillis opent de sociale dienst een kinderopvang en een onthaalruimte voor moeder en baby, voor kinderen van asielzoekers en mensen die in de Sint-Gilliswijk wonen.",
         "es": "En colaboración con la concejalía de Primera Infancia del Municipio de Saint-Gilles, el servicio social abre una guardería y un espacio de acogida madre-bebé para hijos de solicitantes de asilo y personas residentes en el barrio de Saint-Gilles."
       }
+    },
+    {
+      "year": "2007",
+      "icon": "fa-users",
+      "title": {
+        "fr": "Ouverture du Service Tutelles MENA",
+        "en": "Opening of the MENA Guardianship Service",
+        "nl": "Opening van de MENA-voogdijdienst",
+        "es": "Apertura del Servicio de Tutelas MENA"
+      },
+      "text": {
+        "fr": "SESO rejoint le dispositif MENA du Service des Tutelles du SPF Justice avec l’engagement de deux tuteurs agréés.",
+        "en": "SESO joins the MENA scheme of the Guardianship Service of the FPS Justice with the recruitment of two accredited guardians.",
+        "nl": "SESO sluit zich aan bij het MENA-systeem van de Dienst Voogdij van de FOD Justitie met de aanwerving van twee erkende voogden.",
+        "es": "SESO se incorpora al dispositivo MENA del Servicio de Tutelas del SPF Justicia con la contratación de dos tutores acreditados."
+      }
+    },
+    {
+      "year": "2017",
+      "icon": "fa-handshake-o",
+      "title": {
+        "fr": "Nouvelle convention avec le Ciré et Fedasil pour l’accueil DPI",
+        "en": "New agreement with Ciré and Fedasil for DPI reception",
+        "nl": "Nieuwe overeenkomst met Ciré en Fedasil voor DPI-opvang",
+        "es": "Nuevo convenio con Ciré y Fedasil para la acogida DPI"
+      },
+      "text": {
+        "fr": "SESO concentre désormais son accompagnement sur le public vulnérable, notamment les personnes malades et les MENA.",
+        "en": "SESO now focuses its support on vulnerable groups, including sick people and MENA.",
+        "nl": "SESO richt zijn begeleiding voortaan op kwetsbare doelgroepen, waaronder zieke personen en MENA.",
+        "es": "SESO centra desde entonces su acompañamiento en públicos vulnerables, especialmente personas enfermas y MENA."
+      }
+    },
+    {
+      "year": "2021",
+      "icon": "fa-briefcase",
+      "title": {
+        "fr": "Début du programme « Integra »",
+        "en": "Start of the “Integra” programme",
+        "nl": "Start van het programma “Integra”",
+        "es": "Inicio del programa « Integra »"
+      },
+      "text": {
+        "fr": "SESO entame sa collaboration avec la Fe-Bi dans le cadre du programme « Integra » pour l’engagement de travailleuses et travailleurs primo-arrivant.es.",
+        "en": "SESO begins collaborating with Fe-Bi through the “Integra” programme to hire recently arrived workers.",
+        "nl": "SESO start een samenwerking met Fe-Bi in het kader van het programma “Integra” voor de aanwerving van nieuwkomende werknemers.",
+        "es": "SESO inicia su colaboración con Fe-Bi en el marco del programa « Integra » para la contratación de trabajadoras y trabajadores recién llegados."
+      }
+    },
+    {
+      "year": "2022",
+      "icon": "fa-heart",
+      "title": {
+        "fr": "Projet Ukraine",
+        "en": "Ukraine project",
+        "nl": "Project Oekraïne",
+        "es": "Proyecto Ucrania"
+      },
+      "text": {
+        "fr": "En partenariat avec le Ciré, Caritas et le CSP, SESO met en place un premier accompagnement des réfugié.es en provenance d’Ukraine.",
+        "en": "In partnership with Ciré, Caritas and CSP, SESO sets up initial support for refugees arriving from Ukraine.",
+        "nl": "In samenwerking met Ciré, Caritas en CSP organiseert SESO een eerste begeleiding voor vluchtelingen uit Oekraïne.",
+        "es": "En colaboración con Ciré, Caritas y CSP, SESO pone en marcha un primer acompañamiento para personas refugiadas procedentes de Ucrania."
+      }
+    },
+    {
+      "year": "2024",
+      "icon": "fa-calendar",
+      "title": {
+        "fr": "Première édition de Migrantes Valientes",
+        "en": "First edition of Migrantes Valientes",
+        "nl": "Eerste editie van Migrantes Valientes",
+        "es": "Primera edición de Migrantes Valientes"
+      },
+      "text": {
+        "fr": "Le Service Social Général de SESO s’associe avec plusieurs partenaires et collectifs pour l’organisation d’un festival socio-culturel autour des migrations latino-américaines à Bruxelles.",
+        "en": "SESO’s General Social Service joins several partners and collectives to organise a socio-cultural festival around Latin American migration in Brussels.",
+        "nl": "De Algemene Sociale Dienst van SESO werkt samen met verschillende partners en collectieven aan een socio-cultureel festival rond Latijns-Amerikaanse migratie in Brussel.",
+        "es": "El Servicio Social General de SESO se asocia con varios socios y colectivos para organizar un festival sociocultural en torno a las migraciones latinoamericanas en Bruselas."
+      }
     }
   ]
 }

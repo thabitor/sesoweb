@@ -9,6 +9,7 @@ function Contactform() {
     name: "",
     email: "",
     tel: "",
+    service: "",
     message: "",
   });
   //Result of message
@@ -17,7 +18,7 @@ function Contactform() {
   const [isSending, setIsSending] = useState(false);
 
   function resetEmailForm() {
-    setEmailForm({ name: "", email: "", tel: "", message: "" });
+    setEmailForm({ name: "", email: "", tel: "", service: "", message: "" });
   }
 
   function handleEmailFormChange(event) {
@@ -38,12 +39,13 @@ function Contactform() {
     e.preventDefault();
     setIsSending(true);
 
-    const { name, email, tel, message } = e.target.elements;
+    const { name, email, tel, service, message } = e.target.elements;
 
     let details = {
       name: name.value,
       email: email.value,
       tel: tel.value,
+      service: service.value,
       message: message.value,
     };
 
@@ -113,6 +115,20 @@ function Contactform() {
             value={emailForm.tel}
             onChange={handleEmailFormChange}
           />
+        </label>
+        <label>
+          {t("Contact.form.serviceLabel")}
+          <select
+            name="service"
+            required={true}
+            value={emailForm.service}
+            onChange={handleEmailFormChange}
+          >
+            <option value="">{t("Contact.form.servicePlaceholder")}</option>
+            {t("Contact.form.serviceOptions", { returnObjects: true }).map((service) => (
+              <option key={service} value={service}>{service}</option>
+            ))}
+          </select>
         </label>
         <label>
           {t("Contact.form.messageLabel")}

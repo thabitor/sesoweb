@@ -1,0 +1,130 @@
+{
+  "kicker": {
+    "fr": "Documentation",
+    "en": "Documentation",
+    "nl": "Documentatie",
+    "es": "Documentación"
+  },
+  "title": {
+    "fr": "Publications / ressources",
+    "en": "Publications / resources",
+    "nl": "Publicaties / bronnen",
+    "es": "Publicaciones / recursos"
+  },
+  "intro": {
+    "fr": "Une sélection d’exemples pour prévisualiser l’espace ressources. Les documents réels seront ajoutés ultérieurement.",
+    "en": "Sample content to preview the resources area. Real documents will be added later.",
+    "nl": "Voorbeeldinhoud om de bronnenpagina te bekijken. De echte documenten worden later toegevoegd.",
+    "es": "Contenido de ejemplo para previsualizar el espacio de recursos. Los documentos reales se añadirán más adelante."
+  },
+  "resources": [
+    {
+      "type": {
+        "fr": "Rapport annuel",
+        "en": "Annual report",
+        "nl": "Jaarverslag",
+        "es": "Informe anual"
+      },
+      "title": {
+        "fr": "Rapport annuel SESO 2025",
+        "en": "SESO Annual Report 2025",
+        "nl": "SESO jaarverslag 2025",
+        "es": "Informe anual SESO 2025"
+      },
+      "meta": {
+        "fr": "PDF · 32 pages",
+        "en": "PDF · 32 pages",
+        "nl": "PDF · 32 pagina’s",
+        "es": "PDF · 32 páginas"
+      },
+      "text": {
+        "fr": "Synthèse des activités, chiffres clés, projets marquants et perspectives de l’association.",
+        "en": "Overview of activities, key figures, major projects and perspectives.",
+        "nl": "Overzicht van activiteiten, kerncijfers, belangrijke projecten en vooruitzichten.",
+        "es": "Resumen de actividades, cifras clave, proyectos destacados y perspectivas."
+      },
+      "url": ""
+    },
+    {
+      "type": {
+        "fr": "Outil d’information",
+        "en": "Information tool",
+        "nl": "Informatietool",
+        "es": "Herramienta informativa"
+      },
+      "title": {
+        "fr": "Guide d’orientation sociale",
+        "en": "Social guidance guide",
+        "nl": "Gids sociale oriëntatie",
+        "es": "Guía de orientación social"
+      },
+      "meta": {
+        "fr": "Fiche pratique · FR/NL",
+        "en": "Practical sheet · FR/NL",
+        "nl": "Praktische fiche · FR/NL",
+        "es": "Ficha práctica · FR/NL"
+      },
+      "text": {
+        "fr": "Repères utiles pour orienter une personne vers les services sociaux, juridiques et administratifs adaptés.",
+        "en": "Useful markers for referring people to appropriate social, legal and administrative services.",
+        "nl": "Nuttige aanknopingspunten voor doorverwijzing naar aangepaste sociale, juridische en administratieve diensten.",
+        "es": "Pautas útiles para orientar hacia servicios sociales, jurídicos y administrativos adecuados."
+      },
+      "url": ""
+    },
+    {
+      "type": {
+        "fr": "Dossier thématique",
+        "en": "Thematic file",
+        "nl": "Themadossier",
+        "es": "Dossier temático"
+      },
+      "title": {
+        "fr": "Accès aux droits des personnes migrantes",
+        "en": "Access to rights for migrants",
+        "nl": "Toegang tot rechten voor migranten",
+        "es": "Acceso a derechos de personas migrantes"
+      },
+      "meta": {
+        "fr": "Dossier · 2026",
+        "en": "File · 2026",
+        "nl": "Dossier · 2026",
+        "es": "Dossier · 2026"
+      },
+      "text": {
+        "fr": "Présentation pédagogique des enjeux liés au séjour, à l’aide sociale, à la santé et au logement.",
+        "en": "Educational overview of residence, social aid, health and housing issues.",
+        "nl": "Pedagogisch overzicht van verblijf, sociale hulp, gezondheid en huisvesting.",
+        "es": "Presentación pedagógica sobre residencia, ayuda social, salud y vivienda."
+      },
+      "url": ""
+    },
+    {
+      "type": {
+        "fr": "Rapport annuel",
+        "en": "Annual report",
+        "nl": "Jaarverslag",
+        "es": "Informe anual"
+      },
+      "title": {
+        "fr": "Rapport annuel SESO 2024",
+        "en": "SESO Annual Report 2024",
+        "nl": "SESO jaarverslag 2024",
+        "es": "Informe anual SESO 2024"
+      },
+      "meta": {
+        "fr": "Archive · PDF",
+        "en": "Archive · PDF",
+        "nl": "Archief · PDF",
+        "es": "Archivo · PDF"
+      },
+      "text": {
+        "fr": "Exemple d’archive permettant de tester l’organisation des rapports annuels dans la page.",
+        "en": "Sample archive item for testing annual report organisation.",
+        "nl": "Voorbeeldarchief om de organisatie van jaarverslagen te testen.",
+        "es": "Ejemplo de archivo para probar la organización de informes anuales."
+      },
+      "url": ""
+    }
+  ]
+}

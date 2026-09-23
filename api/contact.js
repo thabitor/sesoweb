@@ -37,7 +37,7 @@ module.exports = async function handler(req, res) {
     });
   }
 
-  const { name, email, tel, message } = req.body || {};
+  const { name, email, tel, service, message } = req.body || {};
   const missingFields = requiredFields.filter((field) => !req.body?.[field]);
 
   if (missingFields.length > 0 || !isValidEmail(email)) {
@@ -61,6 +61,7 @@ module.exports = async function handler(req, res) {
         `Nom: ${name}`,
         `Email: ${email}`,
         `Téléphone: ${tel || "Non renseigné"}`,
+        `Service: ${service || "Non renseigné"}`,
         "",
         "Message:",
         message,

@@ -18,6 +18,7 @@ collections:
         fields:
           - { label: Address, name: address, widget: string }
           - { label: Phone, name: phone, widget: string }
+          - { label: Fax, name: fax, widget: string, required: false }
           - { label: Email, name: email, widget: string }
 
       - name: permanences
@@ -110,3 +111,138 @@ collections:
                   - { label: English, name: en, widget: text, required: false }
                   - { label: Dutch, name: nl, widget: text, required: false }
                   - { label: Spanish, name: es, widget: text, required: false }
+
+      - name: publications
+        label: Publications / reports
+        file: src/content/publications.json
+        fields:
+          - label: Page kicker
+            name: kicker
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: string }
+              - { label: English, name: en, widget: string, required: false }
+              - { label: Dutch, name: nl, widget: string, required: false }
+              - { label: Spanish, name: es, widget: string, required: false }
+          - label: Page title
+            name: title
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: string }
+              - { label: English, name: en, widget: string, required: false }
+              - { label: Dutch, name: nl, widget: string, required: false }
+              - { label: Spanish, name: es, widget: string, required: false }
+          - label: Intro text
+            name: intro
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: text }
+              - { label: English, name: en, widget: text, required: false }
+              - { label: Dutch, name: nl, widget: text, required: false }
+              - { label: Spanish, name: es, widget: text, required: false }
+          - label: Publications and reports
+            name: resources
+            widget: list
+            summary: "{{fields.title.fr}}"
+            fields:
+              - label: Type
+                name: type
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Title
+                name: title
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Metadata
+                name: meta
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Text
+                name: text
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: text }
+                  - { label: English, name: en, widget: text, required: false }
+                  - { label: Dutch, name: nl, widget: text, required: false }
+                  - { label: Spanish, name: es, widget: text, required: false }
+              - { label: Link or file URL, name: url, widget: string, required: false }
+
+      - name: news
+        label: Actualités / news
+        file: src/content/news.json
+        fields:
+          - label: Page kicker
+            name: kicker
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: string }
+              - { label: English, name: en, widget: string, required: false }
+              - { label: Dutch, name: nl, widget: string, required: false }
+              - { label: Spanish, name: es, widget: string, required: false }
+          - label: Page title
+            name: title
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: string }
+              - { label: English, name: en, widget: string, required: false }
+              - { label: Dutch, name: nl, widget: string, required: false }
+              - { label: Spanish, name: es, widget: string, required: false }
+          - label: Intro text
+            name: intro
+            widget: object
+            fields:
+              - { label: French, name: fr, widget: text }
+              - { label: English, name: en, widget: text, required: false }
+              - { label: Dutch, name: nl, widget: text, required: false }
+              - { label: Spanish, name: es, widget: text, required: false }
+          - label: Posts
+            name: posts
+            widget: list
+            summary: "{{fields.title.fr}}"
+            fields:
+              - label: Category
+                name: category
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Date
+                name: date
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Title
+                name: title
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: string }
+                  - { label: English, name: en, widget: string, required: false }
+                  - { label: Dutch, name: nl, widget: string, required: false }
+                  - { label: Spanish, name: es, widget: string, required: false }
+              - label: Text
+                name: text
+                widget: object
+                fields:
+                  - { label: French, name: fr, widget: text }
+                  - { label: English, name: en, widget: text, required: false }
+                  - { label: Dutch, name: nl, widget: text, required: false }
+                  - { label: Spanish, name: es, widget: text, required: false }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Link, name: url, widget: string, required: false }

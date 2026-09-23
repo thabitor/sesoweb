@@ -1,7 +1,9 @@
 import Partners from '../data/allPartners';
 import PartnerUnit from './PartnerUnit';
+import { useTranslation } from "react-i18next";
 
 function ReseauxSection() {
+  const { t } = useTranslation();
 
   const Reseaux = Partners.filter((reseau) => reseau.type === 'reseau');
 
@@ -13,13 +15,14 @@ function ReseauxSection() {
           <div className="col-12">
             <div className="wpo-section-title">
               <span></span>
-              <h2>Notre reseau</h2>
+              <h2>{t('OurPartners.Maintext.OurNetwork')}</h2>
               </div>
               <div className="grid-container prt-display-grid-4">
               {Reseaux.map((reseau) => {
                     return (
                     <PartnerUnit 
-                    img={reseau.img} />
+                    img={reseau.img}
+                    name={reseau.name} />
                   )
                   })}
             

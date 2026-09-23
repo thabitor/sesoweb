@@ -11,7 +11,8 @@
         "Contact": "Contact",
         "Language": "English",
         "OurPublic": "Public",
-        "OurHistory": "History"
+        "OurHistory": "History",
+        "Publications": "Publications / resources"
       }
     },
     "elements": {
@@ -25,7 +26,7 @@
   "AboutUs": {
     "maintext": {
       "smallTitle": "About us",
-      "bigTitle": "Serving refugees: solidarity without borders",
+      "bigTitle": "",
       "p1": "Founded in 1937 to support refugees from the Spanish Civil War, SESO is active in the fields of social work and migration. We provide individual and personalised support to the people who use our services, especially migrants and refugees, while respecting their autonomy, fundamental rights, right to family life and privacy. We promote tolerance, respect for rights, the fight against all forms of discrimination, free inquiry, social justice and emancipation.",
       "p2": "",
       "p3": ""
@@ -45,7 +46,7 @@
     "ssg": {
       "title": "General Social Service",
       "paragraphs": [
-        "Our General Social Service provides first-line general social assistance to people facing difficulties. We offer an initial welcome during an individual interview in French, Dutch, English and Spanish. We analyse the person's situation, set up social support and follow-up, and, where necessary, refer people to a specialised service according to the issue.",
+        "Our General Social Service provides first-line general social assistance for anyone, with or without a residence permit.",
         "Over many years, our General Social Service has developed expertise in foreigners' law. We support people in areas such as residence, social security, the right to work, training and studies, housing, debt and health.",
         "Our support aims to strengthen social connection and improve access to collective facilities and fundamental rights."
       ]
@@ -98,8 +99,19 @@
       "submit": "Send",
       "sending": "Sending...",
       "success": "Message sent.",
-      "error": "The message could not be sent."
-    }
+      "error": "The message could not be sent.",
+      "serviceLabel": "Service",
+      "servicePlaceholder": "Choose a service",
+      "serviceOptions": [
+        "General Social Service",
+        "DPI reception structure",
+        "MENA guardianships",
+        "Voluntary return REAB",
+        "Technical service",
+        "Other request"
+      ]
+    },
+    "faxLabel": "Fax"
   },
   "Search": {
     "title": "Search",
@@ -205,36 +217,38 @@
       ]
     },
     "dpi": {
-      "title": "Social service for asylum seekers under the Fedasil agreement",
+      "title": "Reception structure for people seeking international protection",
       "paragraphs": [
-        "SESO has set up a reception structure for asylum seekers under an agreement with Fedasil.",
-        "This reception is based on the law of 12 January 2007 on the reception of asylum seekers and certain other categories of foreign nationals.",
-        "In practical terms, this reception is organised through individual housing and is subject to quality standards agreed with other partners. We have housing in Brussels, Flanders and Charleroi.",
-        "Social workers provide social, administrative, legal, psychological, medical and logistical support throughout the asylum procedure and during the period of entitlement to material assistance.",
-        "Since 2014, we have mainly received asylum seekers with a specific profile, including people with serious medical needs and unaccompanied minors."
+        "Created through agreements with Ciré asbl and FEDASIL, SESO asbl’s DPI reception structure aims to receive and support people seeking international protection who are in vulnerable situations and have specific medical, social, psychological and/or educational needs.",
+        "The service supports an average of 150 to 180 people per month, with varied profiles and levels of vulnerability. Support is individualised, coordinated and adapted to each person’s needs, with the goals of stabilising the situation, enabling access to rights and care, improving living conditions and gradually developing autonomy.",
+        "The people supported include adults with significant medical needs, including people with serious or chronic conditions requiring regular medical follow-up and care coordination; “High-Care” situations involving serious medical issues and/or complex vulnerabilities requiring reinforced support; unaccompanied foreign minors (MENA), requiring social, educational, administrative and medical support adapted to their age and journey; and people needing an individual housing environment, including LGBTQI+ people facing discrimination, family breakdown or precariousness, as well as single-parent families with young children.",
+        "The DPI reception structure is based on a global and multidisciplinary approach combining social support, educational follow-up, psychosocial support, access to care and referral to specialised services. Particular attention is paid to coordination between the different actors and partners to ensure continuity and coherence in each pathway.",
+        "Within SESO, this service therefore provides support adapted to multiple and complex vulnerabilities, with concrete, individualised and evolving responses to the needs of the people received."
       ],
-      "objectivesTitle": "The main objectives of our reception are:",
-      "objectives": [
-        "to guarantee asylum seekers the preservation of their family life and privacy",
-        "to support people's autonomy and responsibility",
-        "to preserve people's personal and psychological development",
-        "to encourage contact between local and migrant residents",
-        "to help raise public awareness of asylum-related issues",
-        "to view reception for asylum seekers as part of the social fabric",
-        "to allow flexibility in creating new reception places"
-      ]
+      "objectivesTitle": "",
+      "objectives": []
     },
     "mena": {
       "title": "Unaccompanied Minors",
       "paragraphs": [
-        "This service deals with the situation of unaccompanied foreign minors. Aware of the social urgency facing this public, our association launched this service in June 2007 with social workers acting as guardians.",
-        "Our objective is to find a durable solution together with the young person. We support them throughout their journey until they reach adulthood or until the end of their procedure."
+        "The MENA guardianship service was created in 2007 with the recruitment of two guardians. The team currently consists of eight guardians, an administrative assistant/school referent and a coordinator.",
+        "The guardians are accredited by the Guardianship Service of the FPS Justice. Each guardian is individually linked to the young people entrusted to them.",
+        "The Guardianship Service increased the subsidies allocated to associations employing guardians. The aim is to professionalise this role as much as possible.",
+        "Since 1 June 2026, four guardians have been hired as part of the entry into force of the European migration pact. Their mission is to support young people from their arrival at the registration centre until their transfer to a second-phase centre.",
+        "There are French-speaking and Dutch-speaking guardians. The Guardianship Service aims to professionalise guardianship through associations.",
+        "The guardian is the legal representative of the unaccompanied foreign minor. In this capacity, they ensure respect for the young person’s rights and overall well-being.",
+        "Carrying out these missions requires close collaboration with lawyers specialised in foreigners’ law, various social services, schools, reception centres, health services and many other partners.",
+        "The guardian is accredited and supervised by the Guardianship Service. This supervision is reinforced by the Justice of the Peace, who intervenes in case of disputes between guardians and their wards."
       ],
       "services": [
-        "Implement legal, social, cultural and educational means in collaboration with the Guardianship Service and under the supervision of a justice of the peace",
-        "Assist the minor at every stage of the asylum procedure or with the steps guaranteeing the right to residence, assistance and education",
-        "Ensure that the young person has access to schooling, psychological support, suitable accommodation and medical help",
-        "Act in consultation with the minor and the people or services providing reception and accommodation"
+        "ensure access to suitable accommodation, in a reception centre or with a family",
+        "ensure access to healthcare",
+        "ensure the young person’s schooling",
+        "support all administrative and legal procedures",
+        "support the young person in finding the durable solution most consistent with their best interests",
+        "support applications for international protection (DPI)",
+        "support residence applications based on Article 61/15 of the law of 15 December 1980, known as the durable solution procedure",
+        "support temporary protection applications for specific groups, including young Ukrainians"
       ]
     },
     "reab": {
@@ -262,7 +276,7 @@
     }
   },
   "Permanences": {
-    "kicker": "SSG reception",
+    "kicker": "",
     "title": "Drop-in Hours",
     "schedule": "Hours",
     "days": [
@@ -272,7 +286,7 @@
       "Thursday",
       "Friday"
     ],
-    "note": "Languages are shown according to the information available in the drop-in hours table.",
+    "note": "",
     "languages": {
       "FR": "French",
       "NL": "Dutch",
@@ -330,6 +344,14 @@
       "AccommodationLead": "Housing team lead",
       "AccomodationService": "Housing service",
       "IOMReferent": "IOM referent"
+    },
+    "Groups": {
+      "coordination": "Coordination",
+      "admin": "Administrative coordination",
+      "social": "Social team",
+      "mena": "MENA team",
+      "tutors": "Guardians",
+      "assistant": "Administrative assistant / school referent"
     }
   },
   "Footer": {
@@ -393,5 +415,17 @@
         "text": "In partnership with the Early Childhood department of the Municipality of Saint-Gilles, the social service opens a day nursery and a mother-baby reception space for children of asylum seekers and people living in the Saint-Gilles neighbourhood."
       }
     ]
+  },
+  "PlaceholderPages": {
+    "publications": {
+      "title": "Publications / resources",
+      "kicker": "Publications / resources",
+      "text": "Content coming soon."
+    },
+    "news": {
+      "title": "News",
+      "kicker": "News",
+      "text": "Content coming soon."
+    }
   }
 }

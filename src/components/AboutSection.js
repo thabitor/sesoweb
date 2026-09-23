@@ -18,7 +18,6 @@ function AboutSection(props) {
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
                                 <span>{t('AboutUs.maintext.smallTitle')}</span>
-                                <h2>{t('AboutUs.maintext.bigTitle')}</h2>
                             </div>
                             <p>{t('AboutUs.maintext.p1')}</p>
                             <div className={props.buttonClass}>

@@ -7857,6 +7857,7 @@ textarea::placeholder {
 }
 
 .contact-form > label input,
+.contact-form > label select,
 .contact-form > label textarea {
   width: 100%;
   margin-top: 8px;
@@ -7871,7 +7872,8 @@ textarea::placeholder {
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.contact-form > label input {
+.contact-form > label input,
+.contact-form > label select {
   height: 50px;
 }
 
@@ -7881,6 +7883,7 @@ textarea::placeholder {
 }
 
 .contact-form > label input:focus,
+.contact-form > label select:focus,
 .contact-form > label textarea:focus {
   border-color: rgba(216, 45, 51, 0.55);
   box-shadow: 0 0 0 4px rgba(216, 45, 51, 0.1);
@@ -7912,6 +7915,163 @@ textarea::placeholder {
   margin: 0;
   color: var(--seso-red);
   font-weight: 700;
+}
+
+.team-role-group {
+  margin-top: 34px;
+}
+
+.team-role-group:first-of-type {
+  margin-top: 0;
+}
+
+.team-role-group h3 {
+  margin-bottom: 22px;
+  color: var(--seso-blue);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.preview-page {
+  background: var(--seso-surface);
+}
+
+.preview-page-intro {
+  max-width: 780px;
+  margin: -18px auto 38px;
+  color: var(--seso-muted);
+  font-size: 18px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.resource-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.resource-card {
+  min-height: 100%;
+  display: flex;
+  gap: 18px;
+  padding: 26px;
+  border: 1px solid var(--seso-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(20, 33, 61, 0.08);
+}
+
+.resource-card.featured {
+  grid-column: span 3;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(216, 45, 51, 0.08), #fff 54%);
+}
+
+.resource-card-icon {
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(216, 45, 51, 0.1);
+  color: var(--seso-red);
+  font-size: 24px;
+}
+
+.resource-card-body span,
+.news-preview-image span {
+  color: var(--seso-red);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.resource-card-body h3,
+.news-preview-body h3 {
+  margin: 8px 0 12px;
+  color: var(--seso-blue);
+  font-size: 23px;
+  line-height: 1.25;
+}
+
+.resource-card-body p,
+.news-preview-body p {
+  margin-bottom: 16px;
+  color: var(--seso-muted);
+  line-height: 1.6;
+}
+
+.resource-card-meta,
+.news-preview-date {
+  color: var(--seso-ink);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.news-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.news-preview-card {
+  overflow: hidden;
+  border: 1px solid var(--seso-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(20, 33, 61, 0.08);
+}
+
+.news-preview-image {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.news-preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-preview-image span {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.news-preview-body {
+  padding: 24px;
+}
+
+@media (max-width: 991px) {
+  .resource-preview-grid,
+  .news-preview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resource-card.featured {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .resource-preview-grid,
+  .news-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card,
+  .resource-card.featured {
+    grid-column: auto;
+  }
 }
 
 .contact-map-panel {
@@ -8059,7 +8219,7 @@ textarea::placeholder {
 .hero-style-3 {
   min-height: 680px;
   background-image:
-    linear-gradient(90deg, rgba(6, 34, 101, 0.91) 0%, rgba(6, 34, 101, 0.77) 46%, rgba(6, 34, 101, 0.24) 100%),
+    linear-gradient(90deg, rgba(151, 22, 29, 0.92) 0%, rgba(178, 34, 43, 0.78) 46%, rgba(178, 34, 43, 0.26) 100%),
     url('../../public/images/slider/front-page.jpg');
   background-position: center;
   background-size: cover;
@@ -8285,6 +8445,13 @@ textarea::placeholder {
 .partners-item-box img {
   max-height: 66px;
   object-fit: contain;
+}
+
+.partners-item-box .partner-item span {
+  color: var(--seso-blue);
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0;
 }
 
 @media (max-width: 991px) {

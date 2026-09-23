@@ -61,7 +61,8 @@ function Header(props) {
                                         </ul>
                                     </li>
                                     <li><Link to="/ourpartners" title="">{t('main.header.navItems.OurPartners')}</Link></li>
-                                    
+                                    <li><Link to="/publications" title="">{t('main.header.navItems.Publications')}</Link></li>
+                                    <li><Link to="/actualites" title="">{t('main.header.navItems.News')}</Link></li>
                                     <li><Link to="/contact" title="">{t('main.header.navItems.Contact')}</Link></li>
                                 </ul>
                             </nav>

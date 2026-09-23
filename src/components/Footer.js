@@ -96,7 +96,7 @@ function Footer (props) {
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright">&copy; 2023 SESO</p>
+                        <p className="copyright">&copy; 2026 SESO</p>
                     </div>
                 </div>
             </div>
