@@ -37,10 +37,10 @@ function LanguageBadges({ languages }) {
 }
 
 function PermanencesSection() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const days = t('Permanences.days', { returnObjects: true });
-    const kicker = t('Permanences.kicker', { returnEmptyString: true });
-    const note = t('Permanences.note', { returnEmptyString: true });
+    const kicker = i18n.exists('Permanences.kicker') ? t('Permanences.kicker') : '';
+    const note = i18n.exists('Permanences.note') ? t('Permanences.note') : '';
 
     return (
         <section className="ssg-permanences section-padding">
@@ -98,7 +98,7 @@ function Ssgeneral() {
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="wpo-about-text">
                                 <div className="wpo-service-title">
-                                    <h2>{t('ServiceDetails.ssg.title')}</h2>
+                                    <h2>{t('ServiceDetails.ssg.title')} (CAP)</h2>
                                 </div>
                                 {paragraphs.map((paragraph) => (
                                     <p key={paragraph}>{paragraph}</p>

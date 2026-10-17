@@ -15,8 +15,7 @@ function TeamSSG (props) {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>{t('Services.serviceteam')}</span>
-                            <h2>{t('Services.SSG')}</h2>
+                            <h2>{t('Services.serviceteam')}</h2>
                         </div>
                     </div>
                 </div>

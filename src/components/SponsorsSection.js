@@ -17,7 +17,7 @@ function SponsorsSection() {
             </div>
             <div className="grid-container prt-display-flex">
               {Sponsors.map((sponsor) => (
-                <PartnerUnit img={sponsor.img} key={sponsor.img} />
+                <PartnerUnit img={sponsor.img} name={sponsor.name} key={sponsor.img} />
               ))}
             </div>
           </div>

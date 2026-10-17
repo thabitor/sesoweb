@@ -306,7 +306,7 @@
     "board": "Board of directors",
     "discover": "Discover the service",
     "descriptions": {
-      "SSG": "First-line general social assistance for people and families facing difficulties.",
+      "SSG": "First-line general social assistance for anyone, with or without a residence permit.",
       "DPI": "Nearly 100 reception places in individual housing, in partnership with CIRÉ and Fedasil.",
       "MENA": "Support and guardianships for unaccompanied foreign minors, mandated by the FPS Justice.",
       "REAB": "Information and support for opening voluntary return files with the IOM."
@@ -361,7 +361,8 @@
     "Partners": "Our partners",
     "Contact": "Contact",
     "FacebookLabel": "SESO on Facebook",
-    "LinkedInLabel": "SESO on LinkedIn"
+    "LinkedInLabel": "SESO on LinkedIn",
+    "InstagramLabel": "SESO on Instagram"
   },
   "History": {
     "kicker": "SESO since 1937",

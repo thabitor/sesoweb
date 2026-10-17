@@ -74,10 +74,10 @@
       "year": "1973",
       "icon": "fa-running",
       "title": {
-        "fr": "Accueil des réfugiés",
-        "en": "Reception of refugees",
-        "nl": "Opvang van vluchtelingen",
-        "es": "Acogida de personas refugiadas"
+        "fr": "Accueil des réfugiés chiliens, vietnamiens, ...",
+        "en": "Reception of Chilean, Vietnamese and other refugees",
+        "nl": "Opvang van Chileense, Vietnamese en andere vluchtelingen",
+        "es": "Acogida de personas refugiadas chilenas, vietnamitas, ..."
       },
       "text": {
         "fr": "Organisation de l'accueil des réfugiés chiliens, des Vietnamiens, des Boat People, et autres.",
@@ -90,10 +90,10 @@
       "year": "1986",
       "icon": "fa-certificate",
       "title": {
-        "fr": "Installation du service SESO",
-        "en": "SESO service settles in",
-        "nl": "Vestiging van de SESO-dienst",
-        "es": "Instalación del servicio SESO"
+        "fr": "Installation à la rue de Parme",
+        "en": "Move to Rue de Parme",
+        "nl": "Vestiging in de Parmastraat",
+        "es": "Instalación en la rue de Parme"
       },
       "text": {
         "fr": "Le service s'installe à la rue de Parme à Saint-Gilles et élargit son champ de travail en s'ouvrant sur le quartier et en s'inscrivant dans l'encadrement des demandeurs d'asile et des réfugiés du monde entier.",

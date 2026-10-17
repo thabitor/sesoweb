@@ -33,6 +33,11 @@ function Footer (props) {
                                         <i className="ti-linkedin" aria-hidden="true" />
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="https://www.instagram.com/seso.setm/" target="_blank" rel="noreferrer" aria-label={t('Footer.InstagramLabel')}>
+                                        <i className="ti-instagram" aria-hidden="true" />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

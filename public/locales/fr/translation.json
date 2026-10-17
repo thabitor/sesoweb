@@ -306,7 +306,7 @@
     "board": "Conseil d’administration",
     "discover": "Découvrir le service",
     "descriptions": {
-      "SSG": "Aide sociale généraliste de première ligne pour les personnes et familles en difficulté.",
+      "SSG": "Aide sociale généraliste de première ligne pour toute personne avec ou sans titre de séjour.",
       "DPI": "Près de 100 places d’accueil en logement individuel, en partenariat avec le CIRÉ et Fedasil.",
       "MENA": "Accompagnement et tutelles pour mineurs étrangers non accompagnés, mandatés par le SPF Justice.",
       "REAB": "Information et soutien dans l’ouverture de dossiers de retour volontaire avec l’OIM."
@@ -361,7 +361,8 @@
     "Partners": "Nos partenaires",
     "Contact": "Contact",
     "FacebookLabel": "SESO sur Facebook",
-    "LinkedInLabel": "SESO sur LinkedIn"
+    "LinkedInLabel": "SESO sur LinkedIn",
+    "InstagramLabel": "SESO sur Instagram"
   },
   "History": {
     "kicker": "SESO depuis 1937",

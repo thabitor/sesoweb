@@ -4,9 +4,9 @@ const partners = [
     {
         id: 1,
         codename: 'cocof',
-        name: 'Commission Communitaire Commune',
+        name: 'Commission communautaire commune / Gemeenschappelijke Gemeenschapscommissie',
         type: 'sponsor',
-        img: 'images/partners/cocom-new-fr.svg'
+        img: 'images/partners/cocom-nl-fr.png'
     }, 
     {
         id: 2,

@@ -10,7 +10,7 @@ i18n
   .use(initReactI18next)
   .init({
     supportedLngs: ['fr', 'en', 'nl', 'es'],
-    returnEmptyString: false,
+    returnEmptyString: true,
     nonExplicitSupportedLngs: true,
     load: 'languageOnly',
     debug: false,

@@ -306,7 +306,7 @@
     "board": "Raad van bestuur",
     "discover": "Ontdek de dienst",
     "descriptions": {
-      "SSG": "Algemene eerstelijns sociale hulp voor personen en gezinnen in moeilijkheden.",
+      "SSG": "Algemene eerstelijns sociale hulp voor iedereen, met of zonder verblijfsvergunning.",
       "DPI": "Bijna 100 opvangplaatsen in individuele huisvesting, in samenwerking met CIRÉ en Fedasil.",
       "MENA": "Begeleiding en voogdijen voor niet-begeleide buitenlandse minderjarigen, gemandateerd door de FOD Justitie.",
       "REAB": "Informatie en ondersteuning bij het openen van dossiers voor vrijwillige terugkeer met de IOM."
@@ -361,7 +361,8 @@
     "Partners": "Onze partners",
     "Contact": "Contact",
     "FacebookLabel": "SESO op Facebook",
-    "LinkedInLabel": "SESO op LinkedIn"
+    "LinkedInLabel": "SESO op LinkedIn",
+    "InstagramLabel": "SESO op Instagram"
   },
   "History": {
     "kicker": "SESO sinds 1937",
