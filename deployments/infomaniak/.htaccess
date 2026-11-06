@@ -7,6 +7,10 @@ RewriteBase /
 # Keep the CMS on Vercel until the backend migration.
 RewriteRule ^admin(?:/.*)?$ https://sesoweb.vercel.app/admin/ [R=302,L,NE]
 
+RewriteRule ^api/contact/?$ api/contact.php [L]
+RewriteRule ^api/oauth/callback/?$ api/callback.php [L]
+RewriteRule ^api/oauth/?$ api/oauth.php [L]
+
 # Serve real files normally and let React handle page routes.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

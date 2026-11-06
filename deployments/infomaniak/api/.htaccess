@@ -1,0 +1,14 @@
+Options -Indexes -MultiViews
+<FilesMatch "^(contact|oauth|callback)\.php$">
+    <IfModule mod_access_compat.c>
+        Order allow,deny
+        Allow from all
+    </IfModule>
+    Require all granted
+</FilesMatch>
+<Files "common.php">
+    Require all denied
+</Files>
+<Files "mail.php">
+    Require all denied
+</Files>

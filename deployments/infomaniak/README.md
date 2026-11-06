@@ -5,6 +5,9 @@ The contact form opens on https://sesoweb.vercel.app/contact and /admin
 redirects to the existing Vercel CMS. Keep the Vercel project running.
 No backend or OAuth configuration is migrated in this stage.
 
+The PHP backend for the next stage is now staged on the test host. See
+[BACKEND.md](BACKEND.md) for private configuration and cutover steps.
+
 ## Current test target
 
 - Website: https://test9.paidisk.be
