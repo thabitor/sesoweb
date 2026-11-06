@@ -73,6 +73,16 @@ function Contactform() {
     }
   };
 
+  if (process.env.REACT_APP_CONTACT_SITE) {
+    return (
+      <div className="contactform-container">
+        <a className="theme-btn" href={`${process.env.REACT_APP_CONTACT_SITE}/contact`}>
+          {t("Contact.form.title")}
+        </a>
+      </div>
+    );
+  }
+
   return (
     <div className="contactform-container">
       <span className="contact-form-kicker">{t("Contact.form.kicker")}</span>

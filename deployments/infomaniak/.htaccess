@@ -1,0 +1,14 @@
+DirectoryIndex index.html
+Options -MultiViews -Indexes
+
+RewriteEngine On
+RewriteBase /
+
+# Keep the CMS on Vercel until the backend migration.
+RewriteRule ^admin(?:/.*)?$ https://sesoweb.vercel.app/admin/ [R=302,L,NE]
+
+# Serve real files normally and let React handle page routes.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/api(?:/|$)
+RewriteRule ^ index.html [L]
